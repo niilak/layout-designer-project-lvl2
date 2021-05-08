@@ -8,28 +8,48 @@
     <link rel="stylesheet" href="scss/app.css" />
   </head>
   <body>
-    <section id="page-description" class="hero-section">
-      <div class="nav">
-        <a href=""><img src="images/logo.svg" alt="logotip" /></a>
-        <a href="#">Music Box</a>
-        <a href="">Главная</a>
-        <a href="">Каталог</a>
-        <a href="">Исполнители</a>
-        <a href="#">Контакты</a>
-        <input type="search" name="search" id="search-button" />
-      </div>
+    <section id="page-description" class="hero-section wrapper">
+      <nav>
+        <div>
+          <a href="#" class="mr-90"
+            ><img src="images/logo.svg" alt="logotip" class="mr-16" />Music
+            Box</a
+          >
+          <a href="#" class="mr-24">Главная</a>
+          <a href="#" class="mr-24">Каталог</a>
+          <a href="#" class="mr-24">Исполнители</a>
+          <a href="#">Контакты</a>
+        </div>
+        <input
+          class="search-input"
+          type="search"
+          name="search"
+          id="search-button"
+          placeholder="Поиск..."
+        />
+      </nav>
       <div class="banner">
-        <h1>Онлайн музыка где угодно</h1>
-        <h2>Без ограничений</h2>
-        <p>
+        <h1 class="desktop-h1 text-center">Онлайн музыка где угодно</h1>
+        <h2 class="desktop-h2 text-center">Без ограничений</h2>
+        <p class="text-center">
           Получите доступ всего за несколько шагов. Заполните форму ниже и
           откройте мир музыки
         </p>
-        <div>
-          <input type="text" name="name" placeholder="Имя" />
-          <input type="email" name="email" placeholder="Email" />
+        <div class="text-center">
+          <input
+            type="text"
+            name="name"
+            placeholder="Имя"
+            class="submit-style mr-24"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="submit-style"
+          />
         </div>
-        <button>Получить доступ</button>
+        <button class="green-btn text-center">Получить доступ</button>
       </div>
     </section>
   </body>

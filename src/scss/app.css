@@ -38,18 +38,29 @@
   text-transform: uppercase;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #cacaca;
+  color: #e0e0e0;
   background-color: #08020d;
   width: 100vw;
   height: 100vh;
   margin: 0;
 }
 
-.hero-section {
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   height: 100%;
 }
@@ -58,6 +69,7 @@ body {
   content: "";
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
   display: block;
@@ -67,8 +79,101 @@ body {
   right: 0;
 }
 
-.hero-section .nav a img {
+.hero-section nav {
+  position: absolute;
+  top: 25px;
+  padding: 0 120px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-section nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-section nav a img {
   width: 24px;
   height: 24px;
+  color: #fff;
+}
+
+.hero-section nav a {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-section nav input {
+  display: inline;
+  width: 248px;
+  height: 25px;
+  border-radius: 50px;
+  background: #cacaca;
+  border: 0;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.hero-section .banner {
+  padding: 200px 0;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mr-90 {
+  margin-right: 90px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.submit-style {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border-radius: 3px;
+  border: 2px solid #e0e0e0;
+  background: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.green-btn {
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: #fff;
+  background: #34c176;
+  border: 0;
+  font-size: 13px;
+  width: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=app.css.map */
