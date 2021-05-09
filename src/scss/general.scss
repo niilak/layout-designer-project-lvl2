@@ -1,29 +1,47 @@
-.desktop-h1 {
+@mixin desktop-h1 {
   font-size: 60px;
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.desktop-h2 {
+@mixin desktop-h2 {
   font-size: 38px;
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.mob-h1 {
+@mixin mob-h1 {
   font-size: 30px;
   line-height: 45px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.mob-h2 {
+@mixin mob-h2 {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
+@mixin bg-before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@mixin mr($mr) {
+  margin-right: $mr;
+}
+
 //   @include nameofmixin
+// @extend %no-margin

@@ -10,51 +10,18 @@
   font-weight: bold;
 }
 
-.desktop-h1 {
-  font-size: 60px;
-  line-height: 90px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.desktop-h2 {
-  font-size: 38px;
-  line-height: 57px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.mob-h1 {
-  font-size: 30px;
-  line-height: 45px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.mob-h2 {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 414px) {
-  body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-body {
+html {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 18px;
   line-height: 1.5;
+}
+
+body {
   color: #e0e0e0;
   background-color: #08020d;
   width: 100vw;
@@ -73,9 +40,9 @@ body {
   height: 100%;
 }
 
-.hero-section:before {
-  content: "";
+.main-section:before {
   background-image: url("../images/banner.png");
+  content: "";
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -87,7 +54,7 @@ body {
   right: 0;
 }
 
-.hero-section nav {
+.main-section nav {
   position: absolute;
   top: 25px;
   padding: 0 120px;
@@ -100,7 +67,7 @@ body {
           justify-content: space-between;
 }
 
-.hero-section nav div {
+.main-section nav div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,13 +76,18 @@ body {
           align-items: center;
 }
 
-.hero-section nav a img {
+.main-section nav .logo {
+  margin-right: 90px;
+}
+
+.main-section nav .logo img {
   width: 24px;
   height: 24px;
   color: #fff;
+  margin-right: 16px;
 }
 
-.hero-section nav a {
+.main-section nav a {
   font-size: 11px;
   font-weight: bold;
   text-decoration: none;
@@ -127,50 +99,50 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 24px;
 }
 
-.hero-section nav input {
+.main-section nav .search-input {
   display: inline;
   width: 248px;
   height: 25px;
   border-radius: 50px;
-  background: #cacaca;
+  background: #3c3b3d;
   border: 0;
   text-transform: uppercase;
   padding-left: 10px;
+  margin-right: 24px;
 }
 
-.hero-section .banner {
+.main-section .banner {
   padding: 200px 0;
 }
 
-.hero-section .banner p {
+.main-section .banner h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-section .banner h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-section .banner p {
   font-size: 16px;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
-.hero-section .banner button {
-  margin-top: 24px;
+.main-section .banner button {
+  width: 100%;
 }
 
-.no-margin {
-  margin: 0;
-}
-
-.mr-16 {
-  margin-right: 16px;
-}
-
-.mr-90 {
-  margin-right: 90px;
-}
-
-.mr-24 {
-  margin-right: 24px;
-}
-
-.submit-style {
+.submit-btn-style {
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
@@ -178,6 +150,10 @@ body {
   border-radius: 3px;
   border: 2px solid #e0e0e0;
   background: none;
+}
+
+.submit-name {
+  margin-right: 24px;
 }
 
 .text-center {
@@ -192,10 +168,72 @@ body {
   border: 0;
   font-size: 13px;
   width: 570px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: 0 auto;
   border-radius: 5px;
+  display: block;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .main-section nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px 20px;
+  }
+  .main-section nav .logo {
+    margin-bottom: 16px;
+  }
+  .main-section nav div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
+    margin-bottom: 23px;
+  }
+  .main-section nav div a {
+    text-align: start;
+  }
+  .main-section nav input {
+    width: 100%;
+  }
+  .main-section .banner {
+    padding: 278px 20px 0 20px;
+  }
+  .main-section .banner h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .main-section .banner h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .main-section .banner p {
+    margin: 16px 0;
+  }
+  .main-section .banner div input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=app.css.map */
