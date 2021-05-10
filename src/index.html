@@ -8,48 +8,90 @@
     <link rel="stylesheet" href="scss/app.css" />
   </head>
   <body>
-    <section id="page-description" class="main-section wrapper">
-      <nav>
+    <div class="big-container">
+      <section id="page-description" class="main-section wrapper">
+        <nav>
+          <div>
+            <a href="#" class="logo"
+              ><img src="images/logo.svg" alt="logotip" />Music Box</a
+            >
+            <a href="#">Главная</a>
+            <a href="#">Каталог</a>
+            <a href="#">Исполнители</a>
+            <a href="#">Контакты</a>
+          </div>
+          <input
+            class="search-input"
+            type="search"
+            name="search"
+            id="search-button"
+            placeholder="Поиск..."
+          />
+        </nav>
+        <div class="banner">
+          <h1 class="text-center no-margin">Онлайн музыка где угодно</h1>
+          <h2 class="text-center no-margin">Без ограничений</h2>
+          <p class="text-center no-margin">
+            Получите доступ всего за несколько шагов. Заполните форму ниже и
+            откройте мир музыки
+          </p>
+          <div class="text-center">
+            <input
+              type="text"
+              name="name"
+              placeholder="Имя"
+              class="submit-btn-style submit-name"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="submit-btn-style"
+            />
+          </div>
+          <button class="btn text-center">Получить доступ</button>
+        </div>
+      </section>
+
+      <section id="page-pricing" class="pricing-section">
+        <h2>Формы подписки</h2>
         <div>
-          <a href="#" class="logo"
-            ><img src="images/logo.svg" alt="logotip" />Music Box</a
-          >
-          <a href="#">Главная</a>
-          <a href="#">Каталог</a>
-          <a href="#">Исполнители</a>
-          <a href="#">Контакты</a>
+          <div class="pricing-item bg-free">
+            <h3>Бесплатная</h3>
+            <p class="pricing-value">0 <span>РУБ.</span></p>
+            <a href="#" class="btn">Оформить</a>
+            <p class="pricing-footer">
+              Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей
+              коллекции музыки. Присутствует реклама
+            </p>
+          </div>
+
+          <div class="pricing-item bg-free">
+            <h3>Бесплатная</h3>
+            <p class="pricing-value">0 <span>РУБ.</span></p>
+            <a href="#" class="btn">Оформить</a>
+            <p class="pricing-footer">
+              Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей
+              коллекции музыки. Присутствует реклама
+            </p>
+          </div>
+
+          <div class="pricing-item bg-free">
+            <h3>Бесплатная</h3>
+            <p class="pricing-value">0 <span>РУБ.</span></p>
+            <a href="#" class="btn">Оформить</a>
+            <p class="pricing-footer">
+              Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей
+              коллекции музыки. Присутствует реклама
+            </p>
+          </div>
         </div>
-        <input
-          class="search-input"
-          type="search"
-          name="search"
-          id="search-button"
-          placeholder="Поиск..."
-        />
-      </nav>
-      <div class="banner">
-        <h1 class="text-center no-margin">Онлайн музыка где угодно</h1>
-        <h2 class="text-center no-margin">Без ограничений</h2>
-        <p class="text-center no-margin">
-          Получите доступ всего за несколько шагов. Заполните форму ниже и
-          откройте мир музыки
-        </p>
-        <div class="text-center">
-          <input
-            type="text"
-            name="name"
-            placeholder="Имя"
-            class="submit-btn-style submit-name"
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            class="submit-btn-style"
-          />
-        </div>
-        <button class="green-btn text-center">Получить доступ</button>
-      </div>
-    </section>
+      </section>
+    </div>
+    <p>
+      На всех тарифах возможно прослушивание музыки с мобильных устройств. На
+      премиум тарифе вы можете скачать все композиции на ваше устройство и
+      слушать музыку без подключения к интернету
+    </p>
   </body>
 </html>

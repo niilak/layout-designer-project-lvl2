@@ -19,17 +19,22 @@ html {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  color: #e0e0e0;
+  background-color: #08020d;
 }
 
 body {
-  color: #e0e0e0;
-  background-color: #08020d;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   margin: 0;
 }
 
-.wrapper {
+body .big-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+body .big-container .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +45,7 @@ body {
   height: 100%;
 }
 
-.main-section:before {
+body .big-container .main-section:before {
   background-image: url("../images/banner.png");
   content: "";
   background-repeat: no-repeat;
@@ -54,7 +59,7 @@ body {
   right: 0;
 }
 
-.main-section nav {
+body .big-container .main-section nav {
   position: absolute;
   top: 25px;
   padding: 0 120px;
@@ -67,7 +72,7 @@ body {
           justify-content: space-between;
 }
 
-.main-section nav div {
+body .big-container .main-section nav div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,18 +81,18 @@ body {
           align-items: center;
 }
 
-.main-section nav .logo {
+body .big-container .main-section nav .logo {
   margin-right: 90px;
 }
 
-.main-section nav .logo img {
+body .big-container .main-section nav .logo img {
   width: 24px;
   height: 24px;
   color: #fff;
   margin-right: 16px;
 }
 
-.main-section nav a {
+body .big-container .main-section nav a {
   font-size: 11px;
   font-weight: bold;
   text-decoration: none;
@@ -102,7 +107,7 @@ body {
   margin-right: 24px;
 }
 
-.main-section nav .search-input {
+body .big-container .main-section nav .search-input {
   display: inline;
   width: 248px;
   height: 25px;
@@ -114,32 +119,100 @@ body {
   margin-right: 24px;
 }
 
-.main-section .banner {
+body .big-container .main-section .banner {
   padding: 200px 0;
 }
 
-.main-section .banner h1 {
+body .big-container .main-section .banner h1 {
   font-size: 60px;
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.main-section .banner h2 {
+body .big-container .main-section .banner h2 {
   font-size: 38px;
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.main-section .banner p {
+body .big-container .main-section .banner p {
   font-size: 16px;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
-.main-section .banner button {
+body .big-container .main-section .banner button {
+  width: 570px;
+  background: #34c176;
+  font-size: 13px;
+}
+
+body .big-container .pricing-section {
+  padding-top: 100px;
+}
+
+body .big-container .pricing-section h2 {
+  text-align: center;
+}
+
+body .big-container .pricing-section div .pricing-item {
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+  width: 367px;
+  height: 619px;
+  position: relative;
+}
+
+body .big-container .pricing-section div .pricing-item:before {
+  background-image: url("../images/subscribe_1.png");
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body .big-container .pricing-section div .pricing-item h3 {
+  padding: 21px 0 200px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+  font-size: 24px;
+}
+
+body .big-container .pricing-section div .pricing-item .pricing-value {
+  line-height: 1em;
+  font-size: 68px;
+  text-align: center;
+  margin: 0;
+}
+
+body .big-container .pricing-section div .pricing-item .pricing-value span {
+  font-size: 32px;
+}
+
+body .big-container .pricing-section div .pricing-item a {
+  background-color: none;
+  border: 1px solid #fff;
+  margin-bottom: 64px;
+  margin-top: 24px;
+}
+
+body .big-container .pricing-section div .pricing-item .pricing-footer {
+  font-size: 12.5px;
+  text-align: center;
+}
+
+body .big-container .pricing-section p {
+  text-align: center;
 }
 
 .submit-btn-style {
@@ -160,14 +233,13 @@ body {
   text-align: center;
 }
 
-.green-btn {
+.btn {
+  text-decoration: none;
+  text-align: center;
   padding: 20px 0;
   text-transform: uppercase;
   color: #fff;
-  background: #34c176;
   border: 0;
-  font-size: 13px;
-  width: 570px;
   margin: 0 auto;
   border-radius: 5px;
   display: block;
@@ -177,8 +249,17 @@ body {
   margin: 0;
 }
 
+.pricing-item {
+  margin-top: 100px;
+}
+
 @media screen and (max-width: 600px) {
-  .main-section nav {
+  .big-container {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+  }
+  .big-container .main-section nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -188,10 +269,10 @@ body {
             align-items: flex-start;
     padding: 0px 20px;
   }
-  .main-section nav .logo {
+  .big-container .main-section nav .logo {
     margin-bottom: 16px;
   }
-  .main-section nav div {
+  .big-container .main-section nav div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -201,31 +282,31 @@ body {
             align-items: inherit;
     margin-bottom: 23px;
   }
-  .main-section nav div a {
+  .big-container .main-section nav div a {
     text-align: start;
   }
-  .main-section nav input {
+  .big-container .main-section nav input {
     width: 100%;
   }
-  .main-section .banner {
+  .big-container .main-section .banner {
     padding: 278px 20px 0 20px;
   }
-  .main-section .banner h1 {
+  .big-container .main-section .banner h1 {
     font-size: 30px;
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
   }
-  .main-section .banner h2 {
+  .big-container .main-section .banner h2 {
     font-size: 18px;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
   }
-  .main-section .banner p {
+  .big-container .main-section .banner p {
     margin: 16px 0;
   }
-  .main-section .banner div input {
+  .big-container .main-section .banner div input {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
