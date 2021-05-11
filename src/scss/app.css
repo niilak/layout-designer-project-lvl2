@@ -28,13 +28,13 @@ body {
   margin: 0;
 }
 
-body .big-container {
+.big-container {
   width: 1200px;
   margin: 0 auto;
   height: 100%;
 }
 
-body .big-container .wrapper {
+.big-container .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,7 +45,7 @@ body .big-container .wrapper {
   height: 100%;
 }
 
-body .big-container .main-section:before {
+.big-container .main-section:before {
   background-image: url("../images/banner.png");
   content: "";
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body .big-container .main-section:before {
   right: 0;
 }
 
-body .big-container .main-section nav {
+.big-container .main-section nav {
   position: absolute;
   top: 25px;
   padding: 0 120px;
@@ -72,7 +72,7 @@ body .big-container .main-section nav {
           justify-content: space-between;
 }
 
-body .big-container .main-section nav div {
+.big-container .main-section nav .nav-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,18 +81,18 @@ body .big-container .main-section nav div {
           align-items: center;
 }
 
-body .big-container .main-section nav .logo {
+.big-container .main-section nav .logo {
   margin-right: 90px;
 }
 
-body .big-container .main-section nav .logo img {
+.big-container .main-section nav .logo img {
   width: 24px;
   height: 24px;
   color: #fff;
   margin-right: 16px;
 }
 
-body .big-container .main-section nav a {
+.big-container .main-section nav a {
   font-size: 11px;
   font-weight: bold;
   text-decoration: none;
@@ -107,7 +107,7 @@ body .big-container .main-section nav a {
   margin-right: 24px;
 }
 
-body .big-container .main-section nav .search-input {
+.big-container .main-section nav .search-input {
   display: inline;
   width: 248px;
   height: 25px;
@@ -119,54 +119,118 @@ body .big-container .main-section nav .search-input {
   margin-right: 24px;
 }
 
-body .big-container .main-section .banner {
+.big-container .main-section .banner {
   padding: 200px 0;
 }
 
-body .big-container .main-section .banner h1 {
+.big-container .main-section .banner .item-h1 {
   font-size: 60px;
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-body .big-container .main-section .banner h2 {
+.big-container .main-section .banner .item-h2 {
   font-size: 38px;
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-body .big-container .main-section .banner p {
+.big-container .main-section .banner .item-p {
   font-size: 16px;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
-body .big-container .main-section .banner button {
+.big-container .main-section .banner .green-btn {
   width: 570px;
   background: #34c176;
   font-size: 13px;
 }
 
-body .big-container .pricing-section {
+.big-container .pricing-section {
   padding-top: 100px;
 }
 
-body .big-container .pricing-section h2 {
+.big-container .pricing-section .item-h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
+  margin: 0;
 }
 
-body .big-container .pricing-section div .pricing-item {
+.big-container .pricing-section .pricing-items-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big-container .pricing-section .pricing-items-row .pricing-item {
   padding: 0 1.5rem;
   border-radius: 1rem;
   width: 367px;
   height: 619px;
   position: relative;
+  margin-top: 50px;
 }
 
-body .big-container .pricing-section div .pricing-item:before {
-  background-image: url("../images/subscribe_1.png");
+.big-container .pricing-section .pricing-items-row .pricing-item h3 {
+  padding: 21px 0 200px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+  font-size: 24px;
+}
+
+.big-container .pricing-section .pricing-items-row .pricing-item .price-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.big-container .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value {
+  line-height: 1em;
+  font-size: 68px;
+  text-align: center;
+  margin: 0;
+}
+
+.big-container .pricing-section .pricing-items-row .pricing-item .price-row .pricing-currency {
+  font-size: 32px;
+}
+
+.big-container .pricing-section .pricing-items-row .pricing-item a {
+  background-color: none;
+  border: 1px solid #fff;
+  margin-bottom: 64px;
+  margin-top: 24px;
+}
+
+.big-container .pricing-section .pricing-items-row .pricing-item .pricing-footer {
+  font-size: 12.5px;
+  text-align: center;
+}
+
+.big-container .pricing-section p {
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.bg-free::before {
   content: "";
   background-repeat: no-repeat;
   background-size: cover;
@@ -177,45 +241,38 @@ body .big-container .pricing-section div .pricing-item:before {
   position: absolute;
   top: 0;
   right: 0;
+  background-image: url("../images/subscribe_1.png");
 }
 
-body .big-container .pricing-section div .pricing-item h3 {
-  padding: 21px 0 200px 0;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 400;
-  margin: 0;
-  font-size: 24px;
+.bg-standard::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("../images/subscribe_2.png");
 }
 
-body .big-container .pricing-section div .pricing-item .pricing-value {
-  line-height: 1em;
-  font-size: 68px;
-  text-align: center;
-  margin: 0;
+.bg-premium::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("../images/subscribe_3.png");
 }
 
-body .big-container .pricing-section div .pricing-item .pricing-value span {
-  font-size: 32px;
-}
-
-body .big-container .pricing-section div .pricing-item a {
-  background-color: none;
-  border: 1px solid #fff;
-  margin-bottom: 64px;
-  margin-top: 24px;
-}
-
-body .big-container .pricing-section div .pricing-item .pricing-footer {
-  font-size: 12.5px;
-  text-align: center;
-}
-
-body .big-container .pricing-section p {
-  text-align: center;
-}
-
-.submit-btn-style {
+.submit-style {
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
@@ -249,10 +306,6 @@ body .big-container .pricing-section p {
   margin: 0;
 }
 
-.pricing-item {
-  margin-top: 100px;
-}
-
 @media screen and (max-width: 600px) {
   .big-container {
     width: 100%;
@@ -272,7 +325,7 @@ body .big-container .pricing-section p {
   .big-container .main-section nav .logo {
     margin-bottom: 16px;
   }
-  .big-container .main-section nav div {
+  .big-container .main-section nav .nav-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -282,31 +335,31 @@ body .big-container .pricing-section p {
             align-items: inherit;
     margin-bottom: 23px;
   }
-  .big-container .main-section nav div a {
+  .big-container .main-section nav .nav-div a {
     text-align: start;
   }
-  .big-container .main-section nav input {
+  .big-container .main-section nav .search-input {
     width: 100%;
   }
   .big-container .main-section .banner {
     padding: 278px 20px 0 20px;
   }
-  .big-container .main-section .banner h1 {
+  .big-container .main-section .banner .item-h1 {
     font-size: 30px;
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
   }
-  .big-container .main-section .banner h2 {
+  .big-container .main-section .banner .item-h2 {
     font-size: 18px;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
   }
-  .big-container .main-section .banner p {
+  .big-container .main-section .banner .item-p {
     margin: 16px 0;
   }
-  .big-container .main-section .banner div input {
+  .big-container .main-section .banner .submit-style {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -315,6 +368,45 @@ body .big-container .pricing-section p {
         -ms-flex-direction: row;
             flex-direction: row;
     width: 100%;
+  }
+  .big-container .main-section .banner .submit-name {
+    margin-right: 0;
+  }
+  .big-container .main-section .banner .btn {
+    width: 100%;
+  }
+  .pricing-section {
+    padding: 0 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .pricing-section .item-h2 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .pricing-section .pricing-items-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pricing-section .pricing-items-row .pricing-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=app.css.map */
