@@ -10,6 +10,10 @@
   font-weight: bold;
 }
 
+.big-container .main-section .banner .green-btn, .big-container .pricing-section .pricing-items-row .pricing-item .checkout-btn {
+  cursor: pointer;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -151,6 +155,15 @@ body {
   width: 570px;
   background: #34c176;
   font-size: 13px;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: block;
 }
 
 .big-container .pricing-section {
@@ -216,11 +229,19 @@ body {
   font-size: 32px;
 }
 
-.big-container .pricing-section .pricing-items-row .pricing-item a {
+.big-container .pricing-section .pricing-items-row .pricing-item .checkout-btn {
   background-color: none;
-  border: 1px solid #fff;
   margin-bottom: 64px;
   margin-top: 24px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: block;
 }
 
 .big-container .pricing-section .pricing-items-row .pricing-item .pricing-footer {
@@ -325,24 +346,8 @@ body {
   text-align: center;
 }
 
-.btn {
-  text-decoration: none;
-  text-align: center;
-  padding: 20px 0;
-  text-transform: uppercase;
-  color: #fff;
-  border: 0;
-  margin: 0 auto;
-  border-radius: 5px;
-  display: block;
-}
-
 .no-margin {
   margin: 0;
-}
-
-.pointer, .big-container .main-section .banner .green-btn, .big-container .pricing-section .pricing-items-row .pricing-item a {
-  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -411,7 +416,7 @@ body {
   .big-container .main-section .banner .submit-name {
     margin-right: 0;
   }
-  .big-container .main-section .banner .btn {
+  .big-container .main-section .banner .green-btn {
     width: 100%;
   }
   .pricing-section {

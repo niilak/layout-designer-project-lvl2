@@ -115,10 +115,13 @@ body {
         width: 570px;
         background: $green;
         font-size: 13px;
-        @extend .pointer;
+        border: 0;
+        @extend %pointer;
+        @include btn;
       }
     }
   }
+
   .pricing-section {
     padding-top: 100px;
 
@@ -166,12 +169,13 @@ body {
           }
         }
 
-        a {
+        .checkout-btn {
           background-color: none;
-          border: 1px solid $white;
           margin-bottom: 64px;
           margin-top: 24px;
-          @extend .pointer;
+          border: 1px solid $white;
+          @extend %pointer;
+          @include btn;
         }
 
         .pricing-footer {
@@ -231,25 +235,10 @@ body {
   text-align: center;
 }
 
-.btn {
-  text-decoration: none;
-  text-align: center;
-  padding: 20px 0;
-  text-transform: uppercase;
-  color: $white;
-  border: 0;
-  margin: 0 auto;
-  border-radius: 5px;
-  display: block;
-}
-
 .no-margin {
   margin: 0;
 }
 
-.pointer {
-  cursor: pointer;
-}
 @media screen and (max-width: 600px) {
   .big-container {
     width: 100%;
@@ -302,10 +291,10 @@ body {
           width: 100%;
         }
         .submit-name {
-          margin-right: 0;
+          @include mr(0);
         }
 
-        .btn {
+        .green-btn {
           width: 100%;
         }
       }
