@@ -121,9 +121,20 @@ body {
           width: 367px;
           height: 619px;
           position: relative;
-          &:before {
-            background-image: url("../images/subscribe_1.png");
+
+          .bg-free::before {
             @include bg-before;
+            background-image: url("../images/subscribe_1.png");
+          }
+
+          .bg-standard::before {
+            @include bg-before;
+            background-image: url("../images/subscribe_2.png");
+          }
+
+          .bg-premium::before {
+            @include bg-before;
+            background-image: url("../images/subscribe_3.png");
           }
 
           h3 {
