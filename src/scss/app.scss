@@ -309,7 +309,7 @@ body {
     }
 
     .pricing-items-row {
-      display: flex;
+      align-items: center;
       flex-direction: column;
 
       .pricing-item {
