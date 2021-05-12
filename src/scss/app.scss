@@ -112,6 +112,8 @@ body {
       }
 
       .green-btn {
+        padding: 20px 0;
+        margin: 0 auto;
         width: 570px;
         background: $green;
         font-size: 13px;
@@ -173,6 +175,7 @@ body {
           background-color: none;
           margin-bottom: 64px;
           margin-top: 24px;
+          padding: 20px 0;
           border: 1px solid $white;
           @extend %pointer;
           @include btn;
@@ -189,6 +192,61 @@ body {
       text-align: center;
       margin: 0;
       padding-top: 40px;
+    }
+  }
+
+  .news-section {
+    padding-top: 100px;
+
+    .news-header {
+      @include desktop-h2;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 50px;
+    }
+
+    .news-item {
+      display: flex;
+      margin-bottom: 65px;
+
+      .news-text-side {
+        .news-body {
+          h3 {
+            font-size: 30px;
+            line-height: 45px;
+            margin: 0;
+            font-weight: 400;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+        .news-footer {
+          .news-author {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 35px;
+
+            .avatar {
+              height: 16px;
+              width: 16px;
+              @include mr(16px);
+            }
+
+            .orange-p {
+              color: $orange;
+              @include mr(16px);
+            }
+          }
+          a {
+            margin: 0;
+            border: 1px solid $white;
+            padding: 16px 30px;
+            width: fit-content;
+            @include btn;
+          }
+        }
+      }
     }
   }
 }
@@ -209,6 +267,10 @@ body {
   @include bg-before;
   background-image: url("../images/subscribe_3.png");
   border-radius: 1rem;
+}
+
+.mr50 {
+  margin-right: 50px;
 }
 
 .submit-style {
@@ -295,6 +357,7 @@ body {
         }
 
         .green-btn {
+          padding: 20px 0;
           width: 100%;
         }
       }

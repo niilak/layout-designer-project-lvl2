@@ -59,11 +59,9 @@
 @mixin btn {
   text-decoration: none;
   text-align: center;
-  padding: 20px 0;
   text-transform: uppercase;
   color: $white;
-  // border: 0;
-  margin: 0 auto;
+  // margin: 0 auto;
   border-radius: 5px;
   display: block;
 }

@@ -152,16 +152,16 @@ body {
 }
 
 .big-container .main-section .banner .green-btn {
+  padding: 20px 0;
+  margin: 0 auto;
   width: 570px;
   background: #34c176;
   font-size: 13px;
   border: 0;
   text-decoration: none;
   text-align: center;
-  padding: 20px 0;
   text-transform: uppercase;
   color: #fff;
-  margin: 0 auto;
   border-radius: 5px;
   display: block;
 }
@@ -233,13 +233,12 @@ body {
   background-color: none;
   margin-bottom: 64px;
   margin-top: 24px;
+  padding: 20px 0;
   border: 1px solid #fff;
   text-decoration: none;
   text-align: center;
-  padding: 20px 0;
   text-transform: uppercase;
   color: #fff;
-  margin: 0 auto;
   border-radius: 5px;
   display: block;
 }
@@ -253,6 +252,74 @@ body {
   text-align: center;
   margin: 0;
   padding-top: 40px;
+}
+
+.big-container .news-section {
+  padding-top: 100px;
+}
+
+.big-container .news-section .news-header {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.big-container .news-section .news-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 65px;
+}
+
+.big-container .news-section .news-item .news-text-side .news-body h3 {
+  font-size: 30px;
+  line-height: 45px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.big-container .news-section .news-item .news-text-side .news-body p {
+  font-size: 16px;
+}
+
+.big-container .news-section .news-item .news-text-side .news-footer .news-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 35px;
+}
+
+.big-container .news-section .news-item .news-text-side .news-footer .news-author .avatar {
+  height: 16px;
+  width: 16px;
+  margin-right: 16px;
+}
+
+.big-container .news-section .news-item .news-text-side .news-footer .news-author .orange-p {
+  color: #f89202;
+  margin-right: 16px;
+}
+
+.big-container .news-section .news-item .news-text-side .news-footer a {
+  margin: 0;
+  border: 1px solid #fff;
+  padding: 16px 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  display: block;
 }
 
 .bg-free::before {
@@ -301,6 +368,10 @@ body {
   right: 0;
   background-image: url("../images/subscribe_3.png");
   border-radius: 1rem;
+}
+
+.mr50 {
+  margin-right: 50px;
 }
 
 .submit-style {
@@ -417,6 +488,7 @@ body {
     margin-right: 0;
   }
   .big-container .main-section .banner .green-btn {
+    padding: 20px 0;
     width: 100%;
   }
   .pricing-section {
