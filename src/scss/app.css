@@ -492,7 +492,7 @@ body {
     padding: 20px 0;
     width: 100%;
   }
-  .pricing-section {
+  .big-container .pricing-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -501,7 +501,7 @@ body {
     height: 100%;
     margin: 0 auto;
   }
-  .pricing-section .item-h2 {
+  .big-container .pricing-section .item-h2 {
     width: 100%;
     font-size: 18px;
     line-height: 27px;
@@ -510,7 +510,7 @@ body {
     text-align: center;
     margin: 0 auto;
   }
-  .pricing-section .pricing-items-row {
+  .big-container .pricing-section .pricing-items-row {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -519,18 +519,18 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .pricing-section .pricing-items-row .pricing-item {
+  .big-container .pricing-section .pricing-items-row .pricing-item {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .news-section .news-header {
+  .big-container .news-section .news-header {
     font-size: 18px;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
   }
-  .news-section .ozzy-item {
+  .big-container .news-section .ozzy-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -539,7 +539,7 @@ body {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .news-section .eminem-item {
+  .big-container .news-section .eminem-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -548,12 +548,31 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .news-section .news-item img {
+  .big-container .news-section .news-item img {
     width: 100%;
+    height: auto;
     margin-bottom: 50px;
   }
-  .news-section .news-item .news-text-side .news-footer .news-author {
+  .big-container .news-section .news-item .news-text-side .news-body h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .big-container .news-section .news-item .news-text-side .news-footer .news-author {
+    font-size: 12px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .big-container .news-section .news-item .news-text-side .news-footer .news-author img {
     margin-bottom: 0;
+  }
+  .big-container .news-section .news-item .news-text-side .news-footer .news-author p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .big-container .news-section .news-item .news-text-side .news-footer a {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=app.css.map */
