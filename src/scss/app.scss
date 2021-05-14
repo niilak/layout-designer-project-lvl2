@@ -9,6 +9,7 @@
   src: url(src/fonts/Roboto-Bold.ttf);
   font-weight: bold;
 }
+
 @import "variables";
 @import "general";
 
@@ -25,271 +26,331 @@ body {
   margin: 0;
 }
 
-.big-container {
-  width: 1200px;
-  margin: 0 auto;
-  height: 100%;
+// .big-container {
+// width: 1200px;
+// margin: 0 auto;
+// height: 100%;
 
-  .wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-section {
+  position: relative;
+  &:before {
+    height: 751px;
+    background-image: url("../images/banner.png");
+
+    @include bg-before;
   }
 
-  .main-section {
-    // position: relative;
-    &:before {
-      height: 751px;
-      background-image: url("../images/banner.png");
-      @include bg-before;
+  nav {
+    position: absolute;
+    top: 25px;
+    padding: 0 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+
+    .nav-div {
+      display: flex;
+      align-items: center;
     }
 
-    nav {
-      position: absolute;
-      top: 25px;
-      padding: 0 120px;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
+    .logo {
+      @include mr(90px);
 
-      .nav-div {
-        display: flex;
-        align-items: center;
+      img {
+        width: 24px;
+        height: 24px;
+        color: $white;
+        @include mr(16px);
+      }
+    }
+
+    a {
+      font-size: 11px;
+      font-weight: bold;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $dark-gray;
+      display: flex;
+      align-items: center;
+      @include mr(24px);
+    }
+
+    .search-input {
+      display: inline;
+      width: 248px;
+      height: 25px;
+      border-radius: 50px;
+      background: $dark;
+      border: 0;
+      text-transform: uppercase;
+      padding-left: 10px;
+      @include mr(24px);
+    }
+  }
+
+  .banner {
+    padding: 200px 0;
+
+    .item-h1 {
+      @include desktop-h1;
+      color: $white;
+    }
+
+    .item-h2 {
+      @include desktop-h2;
+      color: $white;
+    }
+
+    .item-p {
+      font-size: 16px;
+      margin-top: 32px;
+      margin-bottom: 16px;
+      color: $white;
+    }
+
+    .green-btn {
+      padding: 20px 0;
+      margin: 0 auto;
+      width: 570px;
+      background: $green;
+      font-size: 13px;
+      border: 0;
+      border-radius: 5px;
+      @extend %pointer;
+      @include btn;
+    }
+  }
+}
+
+.pricing-section {
+  padding-top: 100px;
+
+  .item-h2 {
+    @include desktop-h2;
+    text-align: center;
+    margin: 0;
+  }
+
+  .pricing-items-row {
+    display: flex;
+    justify-content: space-between;
+
+    .pricing-item {
+      padding: 0 1.5rem;
+      border-radius: 1rem;
+      width: 367px;
+      height: 619px;
+      position: relative;
+      margin-top: 50px;
+
+      h3 {
+        padding: 21px 0 200px 0;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 400;
+        margin: 0;
+        font-size: 24px;
       }
 
-      .logo {
-        @include mr(90px);
+      .price-row {
+        display: flex;
+        align-items: end;
+        justify-content: center;
 
-        img {
-          width: 24px;
-          height: 24px;
-          color: $white;
-          @include mr(16px);
+        .pricing-value {
+          line-height: 1em;
+          font-size: 68px;
+          text-align: center;
+          margin: 0;
+        }
+
+        .pricing-currency {
+          font-size: 32px;
         }
       }
 
-      a {
-        font-size: 11px;
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: $dark-gray;
-        display: flex;
-        align-items: center;
-        @include mr(24px);
-      }
-
-      .search-input {
-        display: inline;
-        width: 248px;
-        height: 25px;
-        border-radius: 50px;
-        background: $dark;
-        border: 0;
-        text-transform: uppercase;
-        padding-left: 10px;
-        @include mr(24px);
-      }
-    }
-
-    .banner {
-      padding: 200px 0;
-
-      .item-h1 {
-        @include desktop-h1;
-        color: $white;
-      }
-
-      .item-h2 {
-        @include desktop-h2;
-        color: $white;
-      }
-
-      .item-p {
-        font-size: 16px;
-        margin-top: 32px;
-        margin-bottom: 16px;
-        color: $white;
-      }
-
-      .green-btn {
+      .checkout-btn {
+        background-color: none;
+        margin-bottom: 64px;
+        margin-top: 24px;
         padding: 20px 0;
-        margin: 0 auto;
-        width: 570px;
-        background: $green;
-        font-size: 13px;
-        border: 0;
+        border: 1px solid $white;
         border-radius: 5px;
         @extend %pointer;
         @include btn;
       }
+
+      .pricing-footer {
+        font-size: 12.5px;
+        text-align: center;
+      }
     }
   }
 
-  .pricing-section {
-    padding-top: 100px;
+  p {
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    font-size: 16px;
+  }
+}
 
-    .item-h2 {
-      @include desktop-h2;
-      text-align: center;
-      margin: 0;
-    }
+.news-section {
+  padding-top: 100px;
 
-    .pricing-items-row {
-      display: flex;
-      justify-content: space-between;
+  .news-header {
+    @include desktop-h2;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .ozzy-item {
+    margin-top: 65px;
+  }
+  .news-item {
+    display: flex;
 
-      .pricing-item {
-        padding: 0 1.5rem;
-        border-radius: 1rem;
-        width: 367px;
-        height: 619px;
-        position: relative;
-        margin-top: 50px;
-
+    .news-text-area {
+      .news-body {
         h3 {
-          padding: 21px 0 200px 0;
-          text-transform: uppercase;
-          text-align: center;
-          font-weight: 400;
+          font-size: 30px;
+          line-height: 45px;
           margin: 0;
-          font-size: 24px;
+          font-weight: 400;
         }
-
-        .price-row {
+        p {
+          font-size: 16px;
+        }
+      }
+      .news-footer {
+        .news-author {
           display: flex;
-          align-items: end;
-          justify-content: center;
+          align-items: baseline;
+          margin-bottom: 35px;
 
-          .pricing-value {
-            line-height: 1em;
-            font-size: 68px;
-            text-align: center;
-            margin: 0;
+          .avatar {
+            height: 19px;
+            width: 19px;
+            @include mr(16px);
           }
 
-          .pricing-currency {
-            font-size: 32px;
-          }
-        }
-
-        .checkout-btn {
-          background-color: none;
-          margin-bottom: 64px;
-          margin-top: 24px;
-          padding: 20px 0;
-          border: 1px solid $white;
-          border-radius: 5px;
-          @extend %pointer;
-          @include btn;
-        }
-
-        .pricing-footer {
-          font-size: 12.5px;
-          text-align: center;
-        }
-      }
-    }
-
-    p {
-      text-align: center;
-      margin: 0;
-      padding-top: 40px;
-      font-size: 16px;
-    }
-  }
-
-  .news-section {
-    padding-top: 100px;
-
-    .news-header {
-      @include desktop-h2;
-      text-align: center;
-      margin: 0;
-      margin-bottom: 50px;
-    }
-    .ozzy-item {
-      margin-top: 65px;
-    }
-    .news-item {
-      display: flex;
-
-      .news-text-area {
-        .news-body {
-          h3 {
-            font-size: 30px;
-            line-height: 45px;
-            margin: 0;
-            font-weight: 400;
-          }
-          p {
-            font-size: 16px;
+          .orange-p {
+            color: $orange;
+            @include mr(16px);
           }
         }
-        .news-footer {
-          .news-author {
-            display: flex;
-            align-items: baseline;
-            margin-bottom: 35px;
-
-            .avatar {
-              height: 19px;
-              width: 19px;
-              @include mr(16px);
-            }
-
-            .orange-p {
-              color: $orange;
-              @include mr(16px);
-            }
-          }
-          a {
-            margin: 0;
-            border: 1px solid $white;
-            padding: 16px 30px;
-            width: fit-content;
-            border-radius: 5px;
-            @include btn;
-          }
-        }
-      }
-    }
-  }
-
-  .app-section {
-    padding-top: 100px;
-    margin-bottom: 100px;
-    h2 {
-      @include desktop-h2;
-      text-align: center;
-      margin-top: 0;
-      margin-bottom: 50px;
-    }
-
-    .app-item {
-      display: flex;
-      flex-direction: row;
-      .app-text-area {
         a {
-          font-size: 12.8px;
-          background-color: $red;
+          margin: 0;
+          border: 1px solid $white;
+          padding: 16px 30px;
           width: fit-content;
-          padding: 16px 40px;
-          border-radius: 32px;
+          border-radius: 5px;
           @include btn;
-          @extend %pointer;
         }
       }
-      img {
-        padding: 0 150px;
+    }
+  }
+}
+
+.app-section {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  h2 {
+    @include desktop-h2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .app-item {
+    display: flex;
+    flex-direction: row;
+    .app-text-area {
+      p {
+        font-size: 16px;
+      }
+
+      a {
+        font-size: 12.8px;
+        background-color: $red;
+        width: fit-content;
+        padding: 16px 40px;
+        border-radius: 32px;
+        @include btn;
+        @extend %pointer;
+      }
+    }
+
+    img {
+      padding: 0 150px;
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  // padding: 3rem 0 2rem 0;
+  @extend %bg-gradient;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 74px;
+    padding-top: 3rem;
+    padding-right: 150px;
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        @include footer-h2;
+        margin-bottom: 16px;
+      }
+
+      a {
+        @include footer-links;
+      }
+
+      p {
+        margin: 0;
+        @include footer-links;
       }
     }
   }
 
-  .footer {
-    padding: 3rem 0 2rem 0;
+  .line {
+    position: absolute;
+    border-top: 1px solid $gray;
+    width: 100%;
+    left: 0;
   }
+
+  .footer-bottom {
+    padding-top: 2rem;
+    padding-bottom: 48px;
+
+    a {
+      @include footer-links;
+      margin-right: 15px;
+    }
+  }
+}
+
+.content {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .bg-free::before {
@@ -343,6 +404,10 @@ body {
 
 .no-margin {
   margin: 0;
+}
+
+.mr24 {
+  margin-right: 24px;
 }
 
 @media screen and (max-width: 600px) {
