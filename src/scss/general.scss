@@ -11,6 +11,7 @@
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
+  color: $white;
 }
 
 @mixin desktop-h2 {
@@ -18,6 +19,7 @@
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
+  color: $white;
 }
 
 @mixin mob-h1 {
@@ -25,6 +27,7 @@
   line-height: 45px;
   font-weight: bold;
   text-transform: uppercase;
+  color: $white;
 }
 
 @mixin mob-h2 {
@@ -32,6 +35,7 @@
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
+  color: $white;
 }
 
 @mixin footer-h2 {
@@ -39,6 +43,7 @@
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
+  color: $gray;
 }
 
 @mixin footer-links {
@@ -66,10 +71,6 @@
   margin-right: $mr;
 }
 
-%pointer {
-  cursor: pointer;
-}
-
 @mixin btn {
   text-decoration: none;
   text-align: center;
@@ -82,5 +83,12 @@
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
+%no-margin {
+  margin: 0;
+}
+
+%pointer {
+  cursor: pointer;
+}
 //   @include nameofmixin
-// @extend %no-margin
+// @extend %no-margin;

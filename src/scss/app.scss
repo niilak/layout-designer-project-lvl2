@@ -23,13 +23,18 @@ html {
 
 body {
   width: 100%;
-  margin: 0;
+  @extend %no-margin;
 }
 
-// .big-container {
-// width: 1200px;
-// margin: 0 auto;
-// height: 100%;
+h1 {
+  @include desktop-h1;
+  color: $white;
+}
+
+h2 {
+  @include desktop-h2;
+  color: $white;
+}
 
 .wrapper {
   display: flex;
@@ -43,7 +48,6 @@ body {
   &:before {
     height: 751px;
     background-image: url("../images/banner.png");
-
     @include bg-before;
   }
 
@@ -99,18 +103,17 @@ body {
   .banner {
     padding: 200px 0;
 
-    .item-h1 {
-      @include desktop-h1;
-      color: $white;
+    h1 {
+      @extend %no-margin;
     }
 
-    .item-h2 {
-      @include desktop-h2;
-      color: $white;
+    h2 {
+      @extend %no-margin;
     }
 
-    .item-p {
+    p {
       font-size: 16px;
+      @extend %no-margin;
       margin-top: 32px;
       margin-bottom: 16px;
       color: $white;
@@ -133,10 +136,8 @@ body {
 .pricing-section {
   padding-top: 100px;
 
-  .item-h2 {
-    @include desktop-h2;
+  h2 {
     text-align: center;
-    margin: 0;
   }
 
   .pricing-items-row {
@@ -156,8 +157,9 @@ body {
         text-transform: uppercase;
         text-align: center;
         font-weight: 400;
-        margin: 0;
+        @extend %no-margin;
         font-size: 24px;
+        line-height: 45px;
       }
 
       .price-row {
@@ -167,9 +169,9 @@ body {
 
         .pricing-value {
           line-height: 1em;
-          font-size: 68px;
+          font-size: 64px;
           text-align: center;
-          margin: 0;
+          @extend %no-margin;
         }
 
         .pricing-currency {
@@ -189,7 +191,7 @@ body {
       }
 
       .pricing-footer {
-        font-size: 12.5px;
+        font-size: 12.8px;
         text-align: center;
       }
     }
@@ -197,7 +199,7 @@ body {
 
   p {
     text-align: center;
-    margin: 0;
+    @extend %no-margin;
     padding-top: 40px;
     font-size: 16px;
   }
@@ -207,9 +209,8 @@ body {
   padding-top: 100px;
 
   .news-header {
-    @include desktop-h2;
     text-align: center;
-    margin: 0;
+    @extend %no-margin;
     margin-bottom: 50px;
   }
   .ozzy-item {
@@ -223,7 +224,7 @@ body {
         h3 {
           font-size: 30px;
           line-height: 45px;
-          margin: 0;
+          @extend %no-margin;
           font-weight: 400;
         }
         p {
@@ -248,7 +249,7 @@ body {
           }
         }
         a {
-          margin: 0;
+          @extend %no-margin;
           border: 1px solid $white;
           padding: 16px 30px;
           width: fit-content;
@@ -264,7 +265,7 @@ body {
   padding-top: 100px;
   margin-bottom: 100px;
   h2 {
-    @include desktop-h2;
+    // @include desktop-h2;
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
@@ -310,9 +311,11 @@ body {
     margin-bottom: 74px;
     padding-top: 3rem;
     padding-right: 150px;
+
     .footer-links {
       display: flex;
       flex-direction: column;
+
       h2 {
         @include footer-h2;
         margin-bottom: 16px;
@@ -323,7 +326,7 @@ body {
       }
 
       p {
-        margin: 0;
+        @extend %no-margin;
         @include footer-links;
       }
     }
@@ -402,15 +405,23 @@ body {
   text-align: center;
 }
 
-.no-margin {
-  margin: 0;
-}
+// .no-margin {
+//   @extend %no-margin;
+// }
 
 .mr24 {
   margin-right: 24px;
 }
 
 @media screen and (max-width: 600px) {
+  h1 {
+    @include mob-h1;
+  }
+
+  h2 {
+    @include mob-h2;
+  }
+
   .main-section {
     padding: 0px 20px;
     height: 751px;
@@ -445,15 +456,7 @@ body {
       .banner {
         padding: 250px 20px 0 20px;
 
-        .item-h1 {
-          @include mob-h1;
-        }
-
-        .item-h2 {
-          @include mob-h2;
-        }
-
-        .item-p {
+        p {
           margin: 16px 0;
         }
 
@@ -480,14 +483,14 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    // margin: 0 auto;
+
     .content {
       width: 100%;
-      .item-h2 {
+
+      h2 {
         width: 100%;
-        @include mob-h2;
         text-align: center;
-        margin: 0 auto;
+        margin: 0;
       }
 
       .pricing-items-row {
@@ -496,6 +499,12 @@ body {
 
         .pricing-item {
           justify-content: center;
+
+          h3 {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+          }
         }
       }
     }
@@ -504,16 +513,13 @@ body {
   .news-section {
     padding: 0px 20px;
     padding-top: 100px;
+
     .content {
       width: 100%;
-      .news-header {
-        @include mob-h2;
-      }
 
       .ozzy-item {
         display: flex;
         flex-direction: column-reverse;
-        // margin-bottom: 0;
       }
 
       .eminem-item {
@@ -539,7 +545,6 @@ body {
 
           .news-footer {
             .news-author {
-              // margin-bottom: 0;
               font-size: 12px;
               align-items: center;
 
@@ -568,7 +573,6 @@ body {
     .content {
       width: 100%;
       h2 {
-        @include mob-h2;
         margin-bottom: 50px;
       }
       .app-item {
@@ -585,11 +589,14 @@ body {
 
   .footer {
     padding: 0 20px;
+
     .content {
       width: 100%;
+
       .footer-top {
         display: flex;
         flex-direction: column;
+
         .footer-links {
           padding-bottom: 30px;
         }
@@ -597,6 +604,7 @@ body {
       .footer-bottom {
         display: flex;
         flex-direction: column;
+
         a {
           padding-bottom: 16px;
         }

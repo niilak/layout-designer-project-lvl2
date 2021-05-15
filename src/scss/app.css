@@ -10,12 +10,12 @@
   font-weight: bold;
 }
 
-.main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .checkout-btn, .app-section .app-item .app-text-area a {
-  cursor: pointer;
-}
-
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .checkout-btn, .app-section .app-item .app-text-area a {
+  cursor: pointer;
 }
 
 * {
@@ -34,6 +34,24 @@ html {
 body {
   width: 100%;
   margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  color: #fff;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  color: #fff;
 }
 
 .wrapper {
@@ -131,24 +149,17 @@ body {
   padding: 200px 0;
 }
 
-.main-section .banner .item-h1 {
-  font-size: 60px;
-  line-height: 90px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
+.main-section .banner h1 {
+  margin: 0;
 }
 
-.main-section .banner .item-h2 {
-  font-size: 38px;
-  line-height: 57px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
+.main-section .banner h2 {
+  margin: 0;
 }
 
-.main-section .banner .item-p {
+.main-section .banner p {
   font-size: 16px;
+  margin: 0;
   margin-top: 32px;
   margin-bottom: 16px;
   color: #fff;
@@ -173,13 +184,8 @@ body {
   padding-top: 100px;
 }
 
-.pricing-section .item-h2 {
-  font-size: 38px;
-  line-height: 57px;
-  font-weight: bold;
-  text-transform: uppercase;
+.pricing-section h2 {
   text-align: center;
-  margin: 0;
 }
 
 .pricing-section .pricing-items-row {
@@ -207,6 +213,7 @@ body {
   font-weight: 400;
   margin: 0;
   font-size: 24px;
+  line-height: 45px;
 }
 
 .pricing-section .pricing-items-row .pricing-item .price-row {
@@ -223,7 +230,7 @@ body {
 
 .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value {
   line-height: 1em;
-  font-size: 68px;
+  font-size: 64px;
   text-align: center;
   margin: 0;
 }
@@ -247,7 +254,7 @@ body {
 }
 
 .pricing-section .pricing-items-row .pricing-item .pricing-footer {
-  font-size: 12.5px;
+  font-size: 12.8px;
   text-align: center;
 }
 
@@ -263,10 +270,6 @@ body {
 }
 
 .news-section .news-header {
-  font-size: 38px;
-  line-height: 57px;
-  font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
   margin: 0;
   margin-bottom: 50px;
@@ -335,10 +338,6 @@ body {
 }
 
 .app-section h2 {
-  font-size: 38px;
-  line-height: 57px;
-  font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
@@ -420,6 +419,7 @@ body {
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #e0e0e0;
   margin-bottom: 16px;
 }
 
@@ -562,15 +562,25 @@ body {
   text-align: center;
 }
 
-.no-margin {
-  margin: 0;
-}
-
 .mr24 {
   margin-right: 24px;
 }
 
 @media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
   .main-section {
     padding: 0px 20px;
     height: 751px;
@@ -611,19 +621,7 @@ body {
   .main-section .content .banner {
     padding: 250px 20px 0 20px;
   }
-  .main-section .content .banner .item-h1 {
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  .main-section .content .banner .item-h2 {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  .main-section .content .banner .item-p {
+  .main-section .content .banner p {
     margin: 16px 0;
   }
   .main-section .content .banner .submit-style {
@@ -656,14 +654,10 @@ body {
   .pricing-section .content {
     width: 100%;
   }
-  .pricing-section .content .item-h2 {
+  .pricing-section .content h2 {
     width: 100%;
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
-    text-transform: uppercase;
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
   }
   .pricing-section .content .pricing-items-row {
     -webkit-box-align: center;
@@ -679,18 +673,17 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .pricing-section .content .pricing-items-row .pricing-item h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
   .news-section {
     padding: 0px 20px;
     padding-top: 100px;
   }
   .news-section .content {
     width: 100%;
-  }
-  .news-section .content .news-header {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
-    text-transform: uppercase;
   }
   .news-section .content .ozzy-item {
     display: -webkit-box;
@@ -744,10 +737,6 @@ body {
     width: 100%;
   }
   .app-section .content h2 {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
-    text-transform: uppercase;
     margin-bottom: 50px;
   }
   .app-section .content .app-item {
