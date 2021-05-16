@@ -6,6 +6,12 @@
   background-color: $black;
 }
 
+@mixin content-container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
 @mixin desktop-h1 {
   font-size: 60px;
   line-height: 90px;
@@ -77,6 +83,83 @@
   text-transform: uppercase;
   color: $white;
   display: block;
+}
+
+@mixin main-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin nav-bar {
+  position: absolute;
+  top: 25px;
+  padding: 0 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+}
+
+@mixin logo-img-style {
+  width: 24px;
+  height: 24px;
+  color: $white;
+}
+
+@mixin nav-bar-links {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $dark-gray;
+  display: flex;
+  align-items: center;
+}
+
+@mixin search-input {
+  display: inline;
+  width: 248px;
+  height: 25px;
+  border-radius: 50px;
+  background: $dark;
+  border: 0;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+@mixin footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@mixin footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 74px;
+  padding-top: 3rem;
+  padding-right: 150px;
+}
+
+@mixin footer-bottom {
+  padding-top: 2rem;
+  padding-bottom: 48px;
+}
+
+// @mixin flex-column {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+@mixin line {
+  position: absolute;
+  border-top: 1px solid $gray;
+  width: 100%;
+  left: 0;
 }
 
 %bg-gradient {
