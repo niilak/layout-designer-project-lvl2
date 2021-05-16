@@ -36,6 +36,13 @@ h2 {
   color: $white;
 }
 
+h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .wrapper {
   @include main-wrapper;
 }
@@ -46,6 +53,7 @@ h2 {
 
 .artist-main-section {
   position: relative;
+  height: 750px;
 
   &:before {
     height: 751px;
@@ -104,9 +112,11 @@ h2 {
         display: flex;
         align-items: center;
 
-        img {
+        svg {
           margin-right: 16px;
-          color: $white;
+          fill: $white;
+          width: 25px;
+          height: 25px;
         }
       }
       .red-btn {
@@ -119,9 +129,54 @@ h2 {
         display: flex;
         align-items: center;
 
-        img {
+        svg {
           margin-right: 16px;
-          color: $white;
+          fill: $white;
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+
+.popular-track-section {
+  padding: 0 120px;
+  padding-top: 100px;
+
+  h2 {
+    margin: 0;
+  }
+
+  .track-list {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+    .rows {
+      width: 50%;
+
+      .popular-track {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 50px;
+        padding-bottom: 25px;
+
+        .track-album-info {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 55px;
+            height: 55px;
+            margin-right: 15px;
+          }
+          .track-info {
+            h3,
+            p {
+              margin: 0;
+            }
+          }
         }
       }
     }
@@ -176,6 +231,29 @@ h2 {
 
           .purple-btn {
             margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .popular-track-section {
+    padding: 0 20px;
+    padding-top: 100px;
+    .track-list {
+      display: flex;
+      flex-direction: column;
+      .rows {
+        width: 100%;
+        .popular-track {
+          padding-right: 0;
+          .track-album-info {
+            .track-info {
+              p {
+                font-size: 12.8px;
+                line-height: 19.2px;
+              }
+            }
           }
         }
       }
