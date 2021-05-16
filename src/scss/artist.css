@@ -1,0 +1,282 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(src/fonts/Roboto-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(src/fonts/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #e0e0e0;
+  background-color: #08020d;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  color: #fff;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  color: #fff;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.artist-main-section {
+  position: relative;
+}
+
+.artist-main-section:before {
+  height: 751px;
+  background-image: url("../images/Morten Harket.png");
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.artist-main-section nav {
+  position: absolute;
+  top: 25px;
+  padding: 0 120px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 0;
+}
+
+.artist-main-section nav .nav-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.artist-main-section nav .logo {
+  margin-right: 90px;
+}
+
+.artist-main-section nav .logo img {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  margin-right: 16px;
+}
+
+.artist-main-section nav a {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cacaca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 24px;
+}
+
+.artist-main-section nav .search-input {
+  display: inline;
+  width: 248px;
+  height: 25px;
+  border-radius: 50px;
+  background: #3c3b3d;
+  border: 0;
+  text-transform: uppercase;
+  padding-left: 10px;
+  margin-right: 24px;
+}
+
+.artist-main-section .central {
+  padding: 200px 0;
+}
+
+.artist-main-section .central h1 {
+  margin: 0;
+}
+
+.artist-main-section .central p {
+  margin-bottom: 50px;
+  margin-top: 16px;
+}
+
+.artist-main-section .central .list-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.artist-main-section .central .list-btn .purple-btn {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  width: 200px;
+  padding: 20px 30px;
+  background-color: #5328a1;
+  font-size: 12.8px;
+  border-radius: 5px;
+  margin-right: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.artist-main-section .central .list-btn .purple-btn img {
+  margin-right: 16px;
+  color: #fff;
+}
+
+.artist-main-section .central .list-btn .red-btn {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  width: 200px;
+  padding: 20px 30px;
+  background-color: #95390c;
+  font-size: 12.8px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.artist-main-section .central .list-btn .red-btn img {
+  margin-right: 16px;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .artist-main-section {
+    padding: 0 20px;
+  }
+  .artist-main-section .content {
+    width: 100%;
+  }
+  .artist-main-section .content nav {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px 20px;
+  }
+  .artist-main-section .content nav .logo {
+    margin-bottom: 16px;
+  }
+  .artist-main-section .content nav .nav-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
+    margin-bottom: 23px;
+  }
+  .artist-main-section .content nav .nav-div a {
+    text-align: start;
+  }
+  .artist-main-section .content nav .search-input {
+    width: 100%;
+  }
+  .artist-main-section .content .central h1 {
+    margin-top: 55px;
+  }
+  .artist-main-section .content .central .list-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .artist-main-section .content .central .list-btn .purple-btn {
+    margin-bottom: 24px;
+  }
+}
+/*# sourceMappingURL=artist.css.map */

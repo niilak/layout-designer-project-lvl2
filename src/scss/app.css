@@ -14,6 +14,10 @@
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
+body, .main-section .banner h1, .main-section .banner h2, .main-section .banner p, .pricing-section .pricing-items-row .pricing-item h3, .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value, .pricing-section p, .news-section .news-header, .news-section .news-item .news-text-area .news-body h3, .news-section .news-item .news-text-area .news-footer a, .footer .footer-top .footer-links p {
+  margin: 0;
+}
+
 .main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .checkout-btn, .app-section .app-item .app-text-area a {
   cursor: pointer;
 }
@@ -33,7 +37,6 @@ html {
 
 body {
   width: 100%;
-  margin: 0;
 }
 
 h1 {
@@ -149,17 +152,8 @@ h2 {
   padding: 200px 0;
 }
 
-.main-section .banner h1 {
-  margin: 0;
-}
-
-.main-section .banner h2 {
-  margin: 0;
-}
-
 .main-section .banner p {
   font-size: 16px;
-  margin: 0;
   margin-top: 32px;
   margin-bottom: 16px;
   color: #fff;
@@ -211,7 +205,6 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
-  margin: 0;
   font-size: 24px;
   line-height: 45px;
 }
@@ -232,7 +225,6 @@ h2 {
   line-height: 1em;
   font-size: 64px;
   text-align: center;
-  margin: 0;
 }
 
 .pricing-section .pricing-items-row .pricing-item .price-row .pricing-currency {
@@ -260,7 +252,6 @@ h2 {
 
 .pricing-section p {
   text-align: center;
-  margin: 0;
   padding-top: 40px;
   font-size: 16px;
 }
@@ -271,7 +262,6 @@ h2 {
 
 .news-section .news-header {
   text-align: center;
-  margin: 0;
   margin-bottom: 50px;
 }
 
@@ -288,7 +278,6 @@ h2 {
 .news-section .news-item .news-text-area .news-body h3 {
   font-size: 30px;
   line-height: 45px;
-  margin: 0;
   font-weight: 400;
 }
 
@@ -318,7 +307,6 @@ h2 {
 }
 
 .news-section .news-item .news-text-area .news-footer a {
-  margin: 0;
   border: 1px solid #fff;
   padding: 16px 30px;
   width: -webkit-fit-content;
@@ -405,9 +393,6 @@ h2 {
 }
 
 .footer .footer-top .footer-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -432,7 +417,6 @@ h2 {
 }
 
 .footer .footer-top .footer-links p {
-  margin: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -582,7 +566,6 @@ h2 {
     color: #fff;
   }
   .main-section {
-    padding: 0px 20px;
     height: 751px;
   }
   .main-section .content {
