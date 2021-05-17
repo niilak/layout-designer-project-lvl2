@@ -200,7 +200,7 @@ h2 {
   padding: 21px 0 200px 0;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 24px;
   line-height: 45px;
 }
@@ -274,7 +274,8 @@ h2 {
 .news-section .news-item .news-text-area .news-body h3 {
   font-size: 30px;
   line-height: 45px;
-  font-weight: 400;
+  font-weight: normal;
+  text-transform: capitalize;
 }
 
 .news-section .news-item .news-text-area .news-body p {

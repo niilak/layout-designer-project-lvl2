@@ -345,6 +345,7 @@ h2 {
   line-height: 27px;
   margin-top: 18px;
   margin-bottom: 0;
+  text-transform: capitalize;
 }
 
 .discography-section .discography-list .discography-item .discography-info p,

@@ -132,7 +132,7 @@ h2 {
         padding: 21px 0 200px 0;
         text-transform: uppercase;
         text-align: center;
-        font-weight: 400;
+        font-weight: normal;
         font-size: 24px;
         line-height: 45px;
         @extend %no-margin;
@@ -202,7 +202,8 @@ h2 {
           font-size: 30px;
           line-height: 45px;
           @extend %no-margin;
-          font-weight: 400;
+          font-weight: normal;
+          text-transform: capitalize;
         }
         p {
           font-size: 16px;
@@ -280,7 +281,6 @@ h2 {
     @include footer-top;
 
     .footer-links {
-      // @include flex-column;
       flex-direction: column;
       display: flex;
 
