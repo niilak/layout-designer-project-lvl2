@@ -278,55 +278,21 @@ h2 {
   margin: 0;
 }
 
-.discography-section {
-  padding: 0 120px;
-  padding-top: 100px;
-}
-
-.discography-section h2 {
-  margin-top: 0;
-  margin-bottom: 50px;
-}
-
-.discography-section .discography-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.discography-section .discography-list .discography-item {
-  margin-right: 50px;
-  margin-bottom: 25px;
-}
-
-.discography-section .discography-list .discography-item img {
-  width: 250px;
-  height: 250px;
-}
-
-.discography-section .discography-list .discography-item .discography-info h3 {
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 18px;
-  margin-bottom: 0;
-}
-
-.discography-section .discography-list .discography-item .discography-info p {
-  margin: 0;
-}
-
+.discography-section,
 .similar-artist-section {
   padding: 0 120px;
   padding-top: 100px;
 }
 
+.discography-section h2,
 .similar-artist-section h2 {
   margin-top: 0;
   margin-bottom: 50px;
 }
 
+.discography-section .discography-list,
+.discography-section .similar-artist-list,
+.similar-artist-section .discography-list,
 .similar-artist-section .similar-artist-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,20 +301,45 @@ h2 {
       flex-wrap: wrap;
 }
 
+.discography-section .discography-list .discography-item,
+.discography-section .discography-list .similar-item,
+.discography-section .similar-artist-list .discography-item,
+.discography-section .similar-artist-list .similar-item,
+.similar-artist-section .discography-list .discography-item,
+.similar-artist-section .discography-list .similar-item,
+.similar-artist-section .similar-artist-list .discography-item,
 .similar-artist-section .similar-artist-list .similar-item {
   margin-right: 50px;
   margin-bottom: 25px;
 }
 
+.discography-section .discography-list .discography-item img,
+.discography-section .discography-list .similar-item img,
+.discography-section .similar-artist-list .discography-item img,
+.discography-section .similar-artist-list .similar-item img,
+.similar-artist-section .discography-list .discography-item img,
+.similar-artist-section .discography-list .similar-item img,
+.similar-artist-section .similar-artist-list .discography-item img,
 .similar-artist-section .similar-artist-list .similar-item img {
   width: 250px;
   height: 250px;
 }
 
-.similar-artist-section .similar-artist-list .similar-item .similar-info {
-  text-align: center;
-}
-
+.discography-section .discography-list .discography-item .discography-info h3,
+.discography-section .discography-list .discography-item .similar-info h3,
+.discography-section .discography-list .similar-item .discography-info h3,
+.discography-section .discography-list .similar-item .similar-info h3,
+.discography-section .similar-artist-list .discography-item .discography-info h3,
+.discography-section .similar-artist-list .discography-item .similar-info h3,
+.discography-section .similar-artist-list .similar-item .discography-info h3,
+.discography-section .similar-artist-list .similar-item .similar-info h3,
+.similar-artist-section .discography-list .discography-item .discography-info h3,
+.similar-artist-section .discography-list .discography-item .similar-info h3,
+.similar-artist-section .discography-list .similar-item .discography-info h3,
+.similar-artist-section .discography-list .similar-item .similar-info h3,
+.similar-artist-section .similar-artist-list .discography-item .discography-info h3,
+.similar-artist-section .similar-artist-list .discography-item .similar-info h3,
+.similar-artist-section .similar-artist-list .similar-item .discography-info h3,
 .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
   font-size: 18px;
   line-height: 27px;
@@ -356,6 +347,21 @@ h2 {
   margin-bottom: 0;
 }
 
+.discography-section .discography-list .discography-item .discography-info p,
+.discography-section .discography-list .discography-item .similar-info p,
+.discography-section .discography-list .similar-item .discography-info p,
+.discography-section .discography-list .similar-item .similar-info p,
+.discography-section .similar-artist-list .discography-item .discography-info p,
+.discography-section .similar-artist-list .discography-item .similar-info p,
+.discography-section .similar-artist-list .similar-item .discography-info p,
+.discography-section .similar-artist-list .similar-item .similar-info p,
+.similar-artist-section .discography-list .discography-item .discography-info p,
+.similar-artist-section .discography-list .discography-item .similar-info p,
+.similar-artist-section .discography-list .similar-item .discography-info p,
+.similar-artist-section .discography-list .similar-item .similar-info p,
+.similar-artist-section .similar-artist-list .discography-item .discography-info p,
+.similar-artist-section .similar-artist-list .discography-item .similar-info p,
+.similar-artist-section .similar-artist-list .similar-item .discography-info p,
 .similar-artist-section .similar-artist-list .similar-item .similar-info p {
   margin: 0;
 }
