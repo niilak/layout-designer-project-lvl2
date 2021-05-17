@@ -40,7 +40,6 @@ h2 {
   @include main-wrapper;
   height: 100%;
   width: 100%;
-  z-index: -1;
   background-image: url("../images/banner.png");
   @include img-bg;
 
@@ -94,6 +93,11 @@ h2 {
       margin-top: 32px;
       margin-bottom: 16px;
       color: $white;
+    }
+
+    form {
+      max-width: 570px;
+      margin: 0 auto;
     }
 
     .green-btn {

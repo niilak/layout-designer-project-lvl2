@@ -64,11 +64,9 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
   padding: 200px 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,6 +163,11 @@ h2 {
   margin-top: 32px;
   margin-bottom: 16px;
   color: #fff;
+}
+
+.main-section .banner form {
+  max-width: 570px;
+  margin: 0 auto;
 }
 
 .main-section .banner .green-btn {
