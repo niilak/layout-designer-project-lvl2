@@ -38,14 +38,11 @@ h2 {
 
 .main-section {
   @include main-wrapper;
-  position: relative;
-
-  &:before {
-    height: 751px;
-    background-image: url("../images/banner.png");
-    @include bg-before;
-    @include img-bg;
-  }
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url("../images/banner.png");
+  @include img-bg;
 
   nav {
     @include nav-bar;
@@ -56,11 +53,18 @@ h2 {
     }
 
     .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
       @include mr(90px);
 
       img {
         @include logo-img-style;
         @include mr(16px);
+      }
+
+      p {
+        @include nav-bar-links;
       }
     }
 
@@ -76,8 +80,6 @@ h2 {
   }
 
   .banner {
-    padding: 200px 0;
-
     h1 {
       @extend %no-margin;
     }
@@ -318,24 +320,26 @@ h2 {
   @include content-container;
 }
 
-.bg-free::before {
-  @include bg-before;
+.bg-free {
+  // @include bg-before;
+  // z-index: -1;
   @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_1.png");
   border-radius: 1rem;
 }
 
-.bg-standard::before {
-  @include bg-before;
+.bg-standard {
+  // @include bg-before;
   @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_2.png");
   border-radius: 1rem;
 }
 
-.bg-premium::before {
-  @include bg-before;
+.bg-premium {
+  // @include bg-before;
+
   @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_3.png");

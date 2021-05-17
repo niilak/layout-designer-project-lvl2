@@ -65,19 +65,11 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  position: relative;
-}
-
-.main-section:before {
-  height: 751px;
-  background-image: url("../images/banner.png");
-  content: "";
+  padding: 200px 0;
+  height: 100%;
   width: 100%;
-  display: block;
   z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
+  background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -107,6 +99,16 @@ h2 {
 }
 
 .main-section nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 90px;
 }
 
@@ -115,6 +117,20 @@ h2 {
   height: 24px;
   color: #fff;
   margin-right: 16px;
+}
+
+.main-section nav .logo p {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cacaca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-section nav a {
@@ -142,10 +158,6 @@ h2 {
   text-transform: uppercase;
   padding-left: 10px;
   margin-right: 24px;
-}
-
-.main-section .banner {
-  padding: 200px 0;
 }
 
 .main-section .banner p {
@@ -449,14 +461,7 @@ h2 {
   margin: 0 auto;
 }
 
-.bg-free::before {
-  content: "";
-  width: 100%;
-  display: block;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
+.bg-free {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -465,14 +470,7 @@ h2 {
   border-radius: 1rem;
 }
 
-.bg-standard::before {
-  content: "";
-  width: 100%;
-  display: block;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
+.bg-standard {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -481,14 +479,7 @@ h2 {
   border-radius: 1rem;
 }
 
-.bg-premium::before {
-  content: "";
-  width: 100%;
-  display: block;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
+.bg-premium {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

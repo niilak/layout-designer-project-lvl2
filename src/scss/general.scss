@@ -70,7 +70,6 @@
   content: "";
   width: 100%;
   display: block;
-  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
@@ -91,6 +90,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  padding: 200px 0;
 }
 
 @mixin nav-bar {
