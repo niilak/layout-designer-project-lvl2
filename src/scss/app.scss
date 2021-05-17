@@ -36,10 +36,6 @@ h2 {
   color: $white;
 }
 
-// .wrapper {
-//   @include main-wrapper;
-// }
-
 .main-section {
   @include main-wrapper;
   position: relative;
@@ -246,7 +242,6 @@ h2 {
   padding-top: 100px;
   margin-bottom: 100px;
   h2 {
-    // @include desktop-h2;
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
@@ -367,10 +362,6 @@ h2 {
   }
 }
 
-.submit-name {
-  @include mr(24px);
-}
-
 .text-center {
   text-align: center;
 }
@@ -429,9 +420,6 @@ h2 {
           display: flex;
           flex-direction: row;
           width: 100%;
-        }
-        .submit-name {
-          @include mr(0);
         }
 
         .green-btn {
@@ -535,11 +523,14 @@ h2 {
   .app-section {
     padding: 0px 20px;
     padding-top: 100px;
+
     .content {
       width: 100%;
+
       h2 {
         margin-bottom: 50px;
       }
+
       .app-item {
         flex-direction: column-reverse;
 
