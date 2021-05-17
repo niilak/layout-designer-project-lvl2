@@ -321,8 +321,6 @@ h2 {
 }
 
 .bg-free {
-  // @include bg-before;
-  // z-index: -1;
   @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_1.png");
@@ -330,7 +328,6 @@ h2 {
 }
 
 .bg-standard {
-  // @include bg-before;
   @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_2.png");
@@ -338,8 +335,6 @@ h2 {
 }
 
 .bg-premium {
-  // @include bg-before;
-
   @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_3.png");

@@ -66,15 +66,6 @@
   background-position: center;
 }
 
-@mixin bg-before {
-  content: "";
-  width: 100%;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 @mixin mr($mr) {
   margin-right: $mr;
 }

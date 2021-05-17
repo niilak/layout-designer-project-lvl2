@@ -68,19 +68,8 @@ h2 {
           justify-content: center;
   width: 100%;
   padding: 200px 0;
-  position: relative;
-  height: 750px;
-}
-
-.artist-main-section:before {
   height: 751px;
   background-image: url("../images/MortenHarket.png");
-  content: "";
-  width: 100%;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -110,6 +99,16 @@ h2 {
 }
 
 .artist-main-section nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 90px;
 }
 
@@ -118,6 +117,20 @@ h2 {
   height: 24px;
   color: #fff;
   margin-right: 16px;
+}
+
+.artist-main-section nav .logo p {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cacaca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .artist-main-section nav a {
@@ -145,10 +158,6 @@ h2 {
   text-transform: uppercase;
   padding-left: 10px;
   margin-right: 24px;
-}
-
-.artist-main-section .central {
-  padding: 200px 0;
 }
 
 .artist-main-section .central h1 {

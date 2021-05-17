@@ -58,15 +58,9 @@ h2 {
 
 .artist-main-section {
   @include main-wrapper;
-  position: relative;
-  height: 750px;
-
-  &:before {
-    height: 751px;
-    background-image: url("../images/MortenHarket.png");
-    @include bg-before;
-    @include img-bg;
-  }
+  height: 751px;
+  background-image: url("../images/MortenHarket.png");
+  @include img-bg;
 
   nav {
     @include nav-bar;
@@ -77,11 +71,18 @@ h2 {
     }
 
     .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
       @include mr(90px);
 
       img {
         @include logo-img-style;
         @include mr(16px);
+      }
+
+      p {
+        @include nav-bar-links;
       }
     }
 
@@ -97,8 +98,6 @@ h2 {
   }
 
   .central {
-    padding: 200px 0;
-
     h1 {
       margin: 0;
     }
