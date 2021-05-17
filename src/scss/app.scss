@@ -114,6 +114,7 @@ h2 {
 
   h2 {
     text-align: center;
+    @extend %no-margin;
   }
 
   .pricing-items-row {
@@ -129,13 +130,12 @@ h2 {
       margin-top: 50px;
 
       h3 {
-        padding: 21px 0 200px 0;
+        margin-bottom: 200px;
         text-transform: uppercase;
         text-align: center;
         font-weight: normal;
         font-size: 24px;
         line-height: 45px;
-        @extend %no-margin;
       }
 
       .price-row {
