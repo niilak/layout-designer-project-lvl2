@@ -52,22 +52,24 @@ h2 {
   color: $white;
 }
 
-.wrapper {
-  @include main-wrapper;
-}
+// .wrapper {
+//   @include main-wrapper;
+// }
 
 .content {
   @include content-container;
 }
 
 .artist-main-section {
+  @include main-wrapper;
   position: relative;
   height: 750px;
 
   &:before {
     height: 751px;
-    background-image: url("../images/Morten\ Harket.png");
+    background-image: url("../images/MortenHarket.png");
     @include bg-before;
+    @include img-bg;
   }
 
   nav {
@@ -224,36 +226,52 @@ h2 {
     }
   }
 }
-// {
-//   padding: 0 120px;
-//   padding-top: 100px;
-//   h2 {
-//     margin-top: 0;
-//     margin-bottom: 50px;
-//   }
-//   {
-//     display: flex;
-//     flex-wrap: wrap;
-//      {
-//       margin-right: 50px;
-//       margin-bottom: 25px;
-//       img {
-//         width: 250px;
-//         height: 250px;
-//       }
-//         text-align: center;
-//         h3 {
-//           font-size: 18px;
-//           line-height: 27px;
-//           margin-top: 18px;
-//           margin-bottom: 0;
-//         }
-//         p {
-//           margin: 0;
-//         }
-//       }
-//     }
-//   }
+
+.footer {
+  @include footer;
+  @extend %bg-gradient;
+
+  .footer-top {
+    @include footer-top;
+
+    .footer-links {
+      // @include flex-column;
+      flex-direction: column;
+      display: flex;
+
+      h2 {
+        @include footer-h2;
+        margin-bottom: 16px;
+      }
+
+      a {
+        @include footer-links;
+      }
+
+      p {
+        @extend %no-margin;
+        @include footer-links;
+      }
+    }
+  }
+
+  .line {
+    @include line;
+  }
+
+  .footer-bottom {
+    @include footer-bottom;
+
+    a {
+      @include footer-links;
+      margin-right: 15px;
+    }
+  }
+}
+
+.mr24 {
+  margin-right: 24px;
+}
 
 @media screen and (max-width: 600px) {
   h1 {

@@ -57,7 +57,7 @@ h2 {
   color: #fff;
 }
 
-.wrapper {
+.main-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,9 +66,6 @@ h2 {
           justify-content: center;
   width: 100%;
   height: 100%;
-}
-
-.main-section {
   position: relative;
 }
 
@@ -76,15 +73,15 @@ h2 {
   height: 751px;
   background-image: url("../images/banner.png");
   content: "";
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   width: 100%;
   display: block;
   z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-section nav {
@@ -160,6 +157,7 @@ h2 {
 }
 
 .main-section .banner .green-btn {
+  display: block;
   padding: 20px 0;
   margin: 0 auto;
   width: 570px;
@@ -171,7 +169,6 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  display: block;
 }
 
 .pricing-section {
@@ -232,6 +229,7 @@ h2 {
 }
 
 .pricing-section .pricing-items-row .pricing-item .checkout-btn {
+  display: block;
   background-color: none;
   margin-bottom: 64px;
   margin-top: 24px;
@@ -242,7 +240,6 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  display: block;
 }
 
 .pricing-section .pricing-items-row .pricing-item .pricing-footer {
@@ -317,7 +314,6 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  display: block;
 }
 
 .app-section {
@@ -357,7 +353,6 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  display: block;
 }
 
 .app-section .app-item img {
@@ -397,6 +392,9 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer .footer-top .footer-links h2 {
@@ -453,15 +451,15 @@ h2 {
 
 .bg-free::before {
   content: "";
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   width: 100%;
   display: block;
   z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100%;
   background-image: url("../images/subscribe_1.png");
   border-radius: 1rem;
@@ -469,15 +467,15 @@ h2 {
 
 .bg-standard::before {
   content: "";
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   width: 100%;
   display: block;
   z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100%;
   background-image: url("../images/subscribe_2.png");
   border-radius: 1rem;
@@ -485,15 +483,15 @@ h2 {
 
 .bg-premium::before {
   content: "";
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   width: 100%;
   display: block;
   z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100%;
   background-image: url("../images/subscribe_3.png");
   border-radius: 1rem;

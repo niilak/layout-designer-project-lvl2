@@ -10,7 +10,11 @@
   font-weight: bold;
 }
 
-body {
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+body, .footer .footer-top .footer-links p {
   margin: 0;
 }
 
@@ -49,17 +53,6 @@ h2 {
   color: #fff;
 }
 
-.wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
 .content {
   width: 1200px;
   height: 100%;
@@ -67,23 +60,30 @@ h2 {
 }
 
 .artist-main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
   position: relative;
   height: 750px;
 }
 
 .artist-main-section:before {
   height: 751px;
-  background-image: url("../images/Morten Harket.png");
+  background-image: url("../images/MortenHarket.png");
   content: "";
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   width: 100%;
   display: block;
   z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .artist-main-section nav {
@@ -364,6 +364,94 @@ h2 {
 .similar-artist-section .similar-artist-list .similar-item .discography-info p,
 .similar-artist-section .similar-artist-list .similar-item .similar-info p {
   margin: 0;
+}
+
+.footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.footer .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 74px;
+  padding-top: 3rem;
+  padding-right: 150px;
+}
+
+.footer .footer-top .footer-links {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-top .footer-links h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e0e0e0;
+  margin-bottom: 16px;
+}
+
+.footer .footer-top .footer-links a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+.footer .footer-top .footer-links p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+.footer .line {
+  position: absolute;
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+  left: 0;
+}
+
+.footer .footer-bottom {
+  padding-top: 2rem;
+  padding-bottom: 48px;
+}
+
+.footer .footer-bottom a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #e0e0e0;
+  margin-right: 15px;
+}
+
+.mr24 {
+  margin-right: 24px;
 }
 
 @media screen and (max-width: 600px) {

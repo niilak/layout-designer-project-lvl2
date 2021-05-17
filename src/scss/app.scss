@@ -36,16 +36,19 @@ h2 {
   color: $white;
 }
 
-.wrapper {
-  @include main-wrapper;
-}
+// .wrapper {
+//   @include main-wrapper;
+// }
 
 .main-section {
+  @include main-wrapper;
   position: relative;
+
   &:before {
     height: 751px;
     background-image: url("../images/banner.png");
     @include bg-before;
+    @include img-bg;
   }
 
   nav {
@@ -96,6 +99,7 @@ h2 {
     }
 
     .green-btn {
+      display: block;
       padding: 20px 0;
       margin: 0 auto;
       width: 570px;
@@ -156,6 +160,7 @@ h2 {
       }
 
       .checkout-btn {
+        display: block;
         background-color: none;
         margin-bottom: 64px;
         margin-top: 24px;
@@ -282,6 +287,7 @@ h2 {
     .footer-links {
       // @include flex-column;
       flex-direction: column;
+      display: flex;
 
       h2 {
         @include footer-h2;
@@ -319,6 +325,7 @@ h2 {
 
 .bg-free::before {
   @include bg-before;
+  @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_1.png");
   border-radius: 1rem;
@@ -326,6 +333,7 @@ h2 {
 
 .bg-standard::before {
   @include bg-before;
+  @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_2.png");
   border-radius: 1rem;
@@ -333,6 +341,7 @@ h2 {
 
 .bg-premium::before {
   @include bg-before;
+  @include img-bg;
   height: 100%;
   background-image: url("../images/subscribe_3.png");
   border-radius: 1rem;
