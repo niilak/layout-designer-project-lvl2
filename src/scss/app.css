@@ -229,10 +229,9 @@ h2 {
 .pricing-section .pricing-items-row .pricing-item h3 {
   margin-bottom: 200px;
   text-align: center;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 45px;
+  line-height: 36px;
   text-transform: uppercase;
 }
 
@@ -708,9 +707,9 @@ h2 {
             justify-content: center;
   }
   .pricing-section .content .pricing-items-row .pricing-item h3 {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 45px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
     text-transform: uppercase;
   }
   .news-section {
