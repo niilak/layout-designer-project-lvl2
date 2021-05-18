@@ -251,6 +251,7 @@ h2 {
   line-height: 1em;
   font-size: 64px;
   text-align: center;
+  margin-right: 16px;
 }
 
 .pricing-section .pricing-items-row .pricing-item .price-row .pricing-currency {
@@ -258,7 +259,6 @@ h2 {
 }
 
 .pricing-section .pricing-items-row .pricing-item .checkout-btn {
-  width: 100%;
   display: block;
   background: none;
   margin-bottom: 64px;

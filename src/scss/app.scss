@@ -159,6 +159,7 @@ h2 {
           font-size: 64px;
           text-align: center;
           @extend %no-margin;
+          margin-right: 16px;
         }
 
         .pricing-currency {
@@ -167,7 +168,6 @@ h2 {
       }
 
       .checkout-btn {
-        width: 100%;
         display: block;
         background: none;
         margin-bottom: 64px;
