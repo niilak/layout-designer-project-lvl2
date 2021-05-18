@@ -85,6 +85,9 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-section nav .nav-div {
@@ -131,7 +134,18 @@ h2 {
           align-items: center;
 }
 
-.main-section nav a {
+.main-section nav .nav-list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section nav .nav-list ul {
+  padding-left: 0;
+}
+
+.main-section nav .nav-list ul a {
   font-size: 11px;
   font-weight: bold;
   text-decoration: none;
@@ -569,9 +583,6 @@ h2 {
         -ms-flex-align: start;
             align-items: flex-start;
     padding: 0px 20px;
-  }
-  .main-section .content nav .logo {
-    margin-bottom: 16px;
   }
   .main-section .content nav .nav-div {
     -webkit-box-orient: vertical;
