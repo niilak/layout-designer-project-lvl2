@@ -28,12 +28,10 @@ body {
 
 h1 {
   @include desktop-h1;
-  color: $white;
 }
 
 h2 {
   @include desktop-h2;
-  color: $white;
 }
 
 .main-section {
@@ -113,10 +111,12 @@ h2 {
       padding: 20px 0;
       margin: 0 auto;
       width: 570px;
-      background: $green;
-      font-size: 13px;
+      font-size: 13.3px;
+      line-height: 15px;
       border: 0;
       border-radius: 5px;
+      color: $white;
+      background: $green;
       @extend %pointer;
       @include btn;
     }
@@ -168,7 +168,7 @@ h2 {
 
       .checkout-btn {
         display: block;
-        background-color: none;
+        background: none;
         margin-bottom: 64px;
         margin-top: 24px;
         padding: 20px 0;
@@ -176,10 +176,11 @@ h2 {
         border-radius: 5px;
         @extend %pointer;
         @include btn;
+        @include medium-text;
       }
 
       .pricing-footer {
-        font-size: 12.8px;
+        @include small-text;
         text-align: center;
       }
     }
@@ -189,7 +190,7 @@ h2 {
     text-align: center;
     @extend %no-margin;
     padding-top: 40px;
-    font-size: 16px;
+    @include medium-text;
   }
 }
 
@@ -241,13 +242,15 @@ h2 {
 
         button {
           @extend %no-margin;
-          border: 1px solid $white;
+          border: 1px solid $gray;
           padding: 16px 30px;
           width: fit-content;
           border-radius: 5px;
           background: none;
+          color: $gray;
           @include btn;
           @include small-text;
+          @extend %pointer;
         }
       }
     }
@@ -268,17 +271,19 @@ h2 {
     flex-direction: row;
     .app-text-area {
       p {
-        font-size: 16px;
+        @include medium-text;
       }
 
-      a {
-        font-size: 12.8px;
+      button {
         background-color: $red;
         width: fit-content;
         padding: 16px 40px;
         border-radius: 32px;
+        border: 0;
+        color: $white;
         @include btn;
         @extend %pointer;
+        @include small-text;
       }
     }
 

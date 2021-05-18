@@ -194,7 +194,6 @@ h2 {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
   margin-right: 1.5rem;
   background-color: #5328a1;
   width: 200px;
@@ -220,7 +219,6 @@ h2 {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
   width: 200px;
   padding: 20px 30px;
   font-size: 12.8px;
@@ -302,14 +300,12 @@ h2 {
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
-  color: #e0e0e0;
 }
 
 .popular-track-section .track-list .rows .popular-track p {
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
-  color: #e0e0e0;
 }
 
 .discography-section,
@@ -401,7 +397,6 @@ h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  color: #e0e0e0;
   margin: 0;
 }
 
