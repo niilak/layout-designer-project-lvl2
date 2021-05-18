@@ -130,6 +130,7 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  line-height: 13px;
 }
 
 .artist-main-section nav a {
@@ -144,6 +145,7 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  line-height: 13px;
   margin-right: 24px;
 }
 
@@ -585,6 +587,36 @@ h2 {
   .similar-artist-section .similar-artist-list .similar-item img {
     width: 137px;
     height: 137px;
+  }
+  .footer {
+    padding: 0 20px;
+  }
+  .footer .content {
+    width: 100%;
+  }
+  .footer .content .footer-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .content .footer-top .footer-links {
+    padding-bottom: 30px;
+  }
+  .footer .content .footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .content .footer-bottom a {
+    padding-bottom: 16px;
   }
 }
 /*# sourceMappingURL=artist.css.map */

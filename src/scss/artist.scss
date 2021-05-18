@@ -364,4 +364,29 @@ h2 {
       }
     }
   }
+
+  .footer {
+    padding: 0 20px;
+
+    .content {
+      width: 100%;
+
+      .footer-top {
+        display: flex;
+        flex-direction: column;
+
+        .footer-links {
+          padding-bottom: 30px;
+        }
+      }
+      .footer-bottom {
+        display: flex;
+        flex-direction: column;
+
+        a {
+          padding-bottom: 16px;
+        }
+      }
+    }
+  }
 }

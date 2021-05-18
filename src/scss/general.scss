@@ -112,6 +112,7 @@
   color: $dark-gray;
   display: flex;
   align-items: center;
+  line-height: 13px;
 }
 
 @mixin search-input {
