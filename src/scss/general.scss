@@ -66,6 +66,11 @@
   background-position: center;
 }
 
+@mixin pricing-img-bg {
+  border-radius: 1rem;
+  height: 100%;
+}
+
 @mixin mr($mr) {
   margin-right: $mr;
 }
