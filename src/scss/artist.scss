@@ -245,16 +245,17 @@ h2 {
     .footer-links {
       flex-direction: column;
       display: flex;
+      width: 100%;
       h2 {
         @include footer-h2;
         margin-bottom: 16px;
       }
       a {
-        @include footer-links;
+        @include footer-link;
       }
       p {
         @extend %no-margin;
-        @include footer-links;
+        @include footer-link;
       }
 
       li {
@@ -275,7 +276,7 @@ h2 {
     @include footer-bottom;
 
     a {
-      @include footer-links;
+      @include footer-link;
       margin-right: 15px;
     }
   }
