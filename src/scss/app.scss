@@ -301,19 +301,19 @@ h2 {
         @include footer-h2;
         margin-bottom: 16px;
       }
+      a {
+        @include footer-links;
+      }
+      p {
+        @extend %no-margin;
+        @include footer-links;
+      }
 
       li {
         list-style-type: none;
-        f ul {
+        ul {
           padding: 0;
           margin: 0;
-          a {
-            @include footer-links;
-          }
-          p {
-            @extend %no-margin;
-            @include footer-links;
-          }
         }
       }
     }
@@ -577,6 +577,7 @@ h2 {
       .footer-top {
         display: flex;
         flex-direction: column;
+        padding-right: 0;
 
         .footer-links {
           padding-bottom: 30px;
