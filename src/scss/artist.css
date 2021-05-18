@@ -488,6 +488,10 @@ h2 {
   margin-right: 24px;
 }
 
+.ml24 {
+  margin-left: 24px;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 30px;
