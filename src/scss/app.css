@@ -14,7 +14,7 @@
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
-body, .main-section .banner h1, .main-section .banner h2, .main-section .banner p, .pricing-section h2, .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value, .pricing-section p, .news-section .news-header, .news-section .news-item .news-text-area .news-body h3, .news-section .news-item .news-text-area .news-footer a, .footer .footer-top .footer-links p {
+body, .main-section .banner h1, .main-section .banner h2, .main-section .banner p, .pricing-section h2, .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value, .pricing-section p, .news-section .news-header, .news-section .news-item .news-text-area .news-body h3, .news-section .news-item .news-text-area .news-footer a, .footer .footer-top .footer-links li f ul p {
   margin: 0;
 }
 
@@ -437,7 +437,16 @@ h2 {
   margin-bottom: 16px;
 }
 
-.footer .footer-top .footer-links a {
+.footer .footer-top .footer-links li {
+  list-style-type: none;
+}
+
+.footer .footer-top .footer-links li f ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-top .footer-links li f ul a {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -445,7 +454,7 @@ h2 {
   color: #e0e0e0;
 }
 
-.footer .footer-top .footer-links p {
+.footer .footer-top .footer-links li f ul p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;

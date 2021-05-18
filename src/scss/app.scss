@@ -297,19 +297,24 @@ h2 {
     .footer-links {
       flex-direction: column;
       display: flex;
-
       h2 {
         @include footer-h2;
         margin-bottom: 16px;
       }
 
-      a {
-        @include footer-links;
-      }
-
-      p {
-        @extend %no-margin;
-        @include footer-links;
+      li {
+        list-style-type: none;
+        f ul {
+          padding: 0;
+          margin: 0;
+          a {
+            @include footer-links;
+          }
+          p {
+            @extend %no-margin;
+            @include footer-links;
+          }
+        }
       }
     }
   }

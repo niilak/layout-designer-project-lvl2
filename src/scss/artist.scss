@@ -90,8 +90,10 @@ h2 {
     .nav-list {
       list-style-type: none;
       display: flex;
+
       ul {
         padding-left: 0;
+
         a {
           @include nav-bar-links;
           @include mr(24px);
@@ -241,22 +243,26 @@ h2 {
     @include footer-top;
 
     .footer-links {
-      // @include flex-column;
       flex-direction: column;
       display: flex;
-
       h2 {
         @include footer-h2;
         margin-bottom: 16px;
       }
-
       a {
         @include footer-links;
       }
-
       p {
         @extend %no-margin;
         @include footer-links;
+      }
+
+      li {
+        list-style-type: none;
+        ul {
+          padding: 0;
+          margin: 0;
+        }
       }
     }
   }
@@ -402,6 +408,7 @@ h2 {
       .footer-top {
         display: flex;
         flex-direction: column;
+        padding-right: 0;
 
         .footer-links {
           padding-bottom: 30px;

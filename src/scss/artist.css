@@ -454,6 +454,15 @@ h2 {
   color: #e0e0e0;
 }
 
+.footer .footer-top .footer-links li {
+  list-style-type: none;
+}
+
+.footer .footer-top .footer-links li ul {
+  padding: 0;
+  margin: 0;
+}
+
 .footer .line {
   position: absolute;
   border-top: 1px solid #e0e0e0;
@@ -634,6 +643,7 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-right: 0;
   }
   .footer .content .footer-top .footer-links {
     padding-bottom: 30px;
