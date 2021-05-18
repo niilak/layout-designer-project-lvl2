@@ -273,7 +273,6 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 50px;
-  padding-bottom: 25px;
 }
 
 .popular-track-section .track-list .rows .popular-track .track-album-info {
@@ -300,6 +299,17 @@ h2 {
 
 .popular-track-section .track-list .rows .popular-track .track-album-info .track-info p {
   margin: 0;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%;
+  color: #e0e0e0;
+}
+
+.popular-track-section .track-list .rows .popular-track p {
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%;
+  color: #e0e0e0;
 }
 
 .discography-section,
@@ -388,7 +398,22 @@ h2 {
 .similar-artist-section .similar-artist-list .discography-item .similar-info p,
 .similar-artist-section .similar-artist-list .similar-item .discography-info p,
 .similar-artist-section .similar-artist-list .similar-item .similar-info p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #e0e0e0;
   margin: 0;
+}
+
+.discography-section .discography-list .discography-item .similar-info,
+.discography-section .discography-list .similar-item .similar-info,
+.discography-section .similar-artist-list .discography-item .similar-info,
+.discography-section .similar-artist-list .similar-item .similar-info,
+.similar-artist-section .discography-list .discography-item .similar-info,
+.similar-artist-section .discography-list .similar-item .similar-info,
+.similar-artist-section .similar-artist-list .discography-item .similar-info,
+.similar-artist-section .similar-artist-list .similar-item .similar-info {
+  text-align: center;
 }
 
 .footer {
@@ -426,7 +451,6 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
 }
 
 .footer .footer-top .footer-links h2 {
@@ -456,6 +480,7 @@ h2 {
 
 .footer .footer-top .footer-links li {
   list-style-type: none;
+  width: 100%;
 }
 
 .footer .footer-top .footer-links li ul {
@@ -490,6 +515,10 @@ h2 {
 
 .ml24 {
   margin-left: 24px;
+}
+
+.mb25 {
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 600px) {

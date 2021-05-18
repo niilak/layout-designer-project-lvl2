@@ -60,6 +60,20 @@
   color: $gray;
 }
 
+@mixin small-text {
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%;
+  color: $gray;
+}
+
+@mixin medium-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: $gray;
+}
+
 @mixin img-bg {
   background-repeat: no-repeat;
   background-size: cover;

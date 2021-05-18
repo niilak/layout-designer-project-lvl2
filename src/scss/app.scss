@@ -297,7 +297,6 @@ h2 {
     .footer-links {
       flex-direction: column;
       display: flex;
-      width: 100%;
       h2 {
         @include footer-h2;
         margin-bottom: 16px;
@@ -311,6 +310,7 @@ h2 {
       }
 
       li {
+        width: 100%;
         list-style-type: none;
         ul {
           padding: 0;
