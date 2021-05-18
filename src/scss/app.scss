@@ -380,7 +380,6 @@ h2 {
   }
 
   .main-section {
-    padding: 250px 20px 200px 20px;
     height: 853px;
 
     .content {
@@ -412,6 +411,8 @@ h2 {
       }
 
       .banner {
+        padding: 0 20px;
+        padding-top: 50px;
         p {
           margin: 16px 0;
         }

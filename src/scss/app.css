@@ -554,7 +554,6 @@ h2 {
     color: #fff;
   }
   .main-section {
-    padding: 250px 20px 200px 20px;
     height: 853px;
   }
   .main-section .content {
@@ -589,6 +588,10 @@ h2 {
   }
   .main-section .content nav .search-input {
     width: 100%;
+  }
+  .main-section .content .banner {
+    padding: 0 20px;
+    padding-top: 50px;
   }
   .main-section .content .banner p {
     margin: 16px 0;
