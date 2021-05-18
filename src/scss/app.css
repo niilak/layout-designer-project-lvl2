@@ -110,7 +110,6 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 17px;
   margin-right: 90px;
 }
 
@@ -597,6 +596,9 @@ h2 {
             align-items: inherit;
     margin-bottom: 15px;
   }
+  .main-section .content nav .nav-div .logo {
+    margin-bottom: 17px;
+  }
   .main-section .content nav .nav-div .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -671,9 +673,10 @@ h2 {
             justify-content: center;
   }
   .pricing-section .content .pricing-items-row .pricing-item h3 {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    text-transform: uppercase;
   }
   .news-section {
     padding: 0px 20px;

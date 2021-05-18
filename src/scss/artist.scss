@@ -64,6 +64,7 @@ h2 {
 
   nav {
     @include nav-bar;
+    align-items: center;
 
     .nav-div {
       display: flex;
@@ -86,9 +87,16 @@ h2 {
       }
     }
 
-    a {
-      @include nav-bar-links;
-      @include mr(24px);
+    .nav-list {
+      list-style-type: none;
+      display: flex;
+      ul {
+        padding-left: 0;
+        a {
+          @include nav-bar-links;
+          @include mr(24px);
+        }
+      }
     }
 
     .search-input {
@@ -108,25 +116,27 @@ h2 {
     }
 
     .list-btn {
-      display: flex;
+      form {
+        display: flex;
 
-      .purple-btn {
-        @include btn;
-        margin-right: 1.5rem;
-        background-color: $purple;
-        @include artist-page-btn;
+        .purple-btn {
+          @include btn;
+          margin-right: 1.5rem;
+          background-color: $purple;
+          @include artist-page-btn;
 
-        svg {
-          @include svg-icon-style;
+          svg {
+            @include svg-icon-style;
+          }
         }
-      }
-      .red-btn {
-        @include btn;
-        @include artist-page-btn;
-        background-color: $red;
+        .red-btn {
+          @include btn;
+          @include artist-page-btn;
+          background-color: $red;
 
-        svg {
-          @include svg-icon-style;
+          svg {
+            @include svg-icon-style;
+          }
         }
       }
     }
@@ -279,7 +289,7 @@ h2 {
   }
 
   .artist-main-section {
-    padding: 0 20px;
+    padding: 200px 20px;
     .content {
       width: 100%;
 
@@ -289,17 +299,28 @@ h2 {
         align-items: flex-start;
         padding: 0px 20px;
 
-        .logo {
-          margin-bottom: 16px;
-        }
-
         .nav-div {
           flex-direction: column;
           align-items: inherit;
-          margin-bottom: 23px;
+          margin-bottom: 15px;
 
-          a {
-            text-align: start;
+          .logo {
+            margin-bottom: 17px;
+          }
+
+          .nav-list {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+              margin: 0;
+
+              a {
+                text-align: start;
+                margin-bottom: 1px;
+                margin-right: 0;
+              }
+            }
           }
         }
 
@@ -311,12 +332,19 @@ h2 {
         h1 {
           margin-top: 55px;
         }
-        .list-btn {
-          display: flex;
-          flex-direction: column;
 
-          .purple-btn {
-            margin-bottom: 24px;
+        p {
+          color: $white;
+          font-size: 16px;
+        }
+
+        .list-btn {
+          form {
+            display: flex;
+            flex-direction: column;
+            .purple-btn {
+              margin-bottom: 24px;
+            }
           }
         }
       }
