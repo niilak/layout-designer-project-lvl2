@@ -458,17 +458,17 @@ h2 {
 }
 
 .footer .footer-top .footer-links a {
+  font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  line-height: 150%;
   text-decoration: none;
   color: #e0e0e0;
 }
 
 .footer .footer-top .footer-links p {
+  font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  line-height: 150%;
   text-decoration: none;
   color: #e0e0e0;
 }
@@ -496,9 +496,9 @@ h2 {
 }
 
 .footer .footer-bottom a {
+  font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  line-height: 150%;
   text-decoration: none;
   color: #e0e0e0;
   margin-right: 15px;

@@ -167,6 +167,7 @@ h2 {
       }
 
       .checkout-btn {
+        width: 100%;
         display: block;
         background: none;
         margin-bottom: 64px;
@@ -174,6 +175,7 @@ h2 {
         padding: 20px 0;
         border: 1px solid $white;
         border-radius: 5px;
+        color: $white;
         @extend %pointer;
         @include btn;
         @include medium-text;
@@ -303,13 +305,16 @@ h2 {
     .footer-links {
       flex-direction: column;
       display: flex;
+
       h2 {
         @include footer-h2;
         margin-bottom: 16px;
       }
+
       a {
         @include footer-link;
       }
+
       p {
         @extend %no-margin;
         @include footer-link;
