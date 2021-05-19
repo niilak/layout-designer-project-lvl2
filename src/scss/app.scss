@@ -192,7 +192,7 @@ h2 {
   p {
     text-align: center;
     @extend %no-margin;
-    padding-top: 40px;
+    margin-top: 40px;
     @include medium-text;
   }
 }
@@ -203,7 +203,7 @@ h2 {
   .news-header {
     text-align: center;
     @extend %no-margin;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
   .ozzy-item {
     margin-top: 65px;
@@ -222,6 +222,7 @@ h2 {
         }
         p {
           @include medium-text;
+          margin-top: 30px;
         }
       }
       .news-footer {
@@ -229,11 +230,13 @@ h2 {
           display: flex;
           align-items: center;
           margin-bottom: 35px;
+          margin-top: 30px;
           @include small-text;
 
           .avatar {
             height: 19px;
             width: 19px;
+            @extend %no-margin;
             @include mr(16px);
           }
 
@@ -241,15 +244,19 @@ h2 {
             color: $orange;
             @include mr(16px);
           }
+
+          p {
+            @extend %no-margin;
+          }
         }
 
         a {
-          @extend %no-margin;
+          // @extend %no-margin;
           border: 1px solid $gray;
           padding: 16px 30px;
-          width: fit-content;
+          // width: fit-content;
           border-radius: 5px;
-          background: none;
+          // background: none;
           color: $gray;
           @include btn;
           @include small-text;
