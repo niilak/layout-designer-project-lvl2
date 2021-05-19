@@ -492,7 +492,6 @@ h2 {
 
 .footer .footer-top .footer-links ul li {
   height: 24px;
-  margin: 0;
 }
 
 .footer .line {
@@ -832,6 +831,7 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-bottom: 32px;
   }
   .footer .content .footer-bottom a {
     margin-bottom: 16px;
