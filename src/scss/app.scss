@@ -317,7 +317,7 @@ h2 {
 
       .footer-icons {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
       }
 
       h2 {
@@ -343,7 +343,10 @@ h2 {
         margin: 0;
 
         li {
-          height: 24px;
+          display: flex;
+          height: 16px;
+          margin: 4px 0;
+          align-items: center;
         }
       }
     }
