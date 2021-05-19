@@ -441,8 +441,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 74px;
-  padding-top: 61px;
+  padding: 61px 0 71px 0;
 }
 
 .footer .footer-top .footer-links {

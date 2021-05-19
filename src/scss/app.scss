@@ -328,6 +328,9 @@ h2 {
 
       a {
         @include footer-link;
+        height: 16px;
+        display: flex;
+        align-items: center;
       }
 
       p {
@@ -344,8 +347,8 @@ h2 {
 
         li {
           display: flex;
-          height: 16px;
-          margin: 4px 0;
+          height: 24px;
+          padding: 4px 0;
           align-items: center;
         }
       }
