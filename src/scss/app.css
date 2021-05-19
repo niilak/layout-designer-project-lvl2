@@ -450,9 +450,9 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .footer .footer-top .footer-links h2 {
@@ -481,6 +481,7 @@ h2 {
   display: inline-block;
   text-decoration: none;
   color: #e0e0e0;
+  width: 100%;
 }
 
 .footer .footer-top .footer-links ul {

@@ -317,7 +317,7 @@ h2 {
 
       .footer-icons {
         display: flex;
-        align-items: baseline;
+        align-items: flex-end;
       }
 
       h2 {
@@ -333,6 +333,7 @@ h2 {
       p {
         @extend %no-margin;
         @include footer-link;
+        width: 100%;
       }
 
       ul {
