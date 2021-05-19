@@ -432,8 +432,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 74px;
-  padding-top: 61px;
+  padding: 61px 0 71px 0;
 }
 
 .footer .footer-top .footer-links {
@@ -818,11 +817,12 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-right: 0;
-    margin-bottom: 44px;
+    padding-bottom: 44px;
   }
   .footer .content .footer-top .footer-links {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     margin-left: 0%;
+    width: 100%;
   }
   .footer .content .footer-bottom {
     display: -webkit-box;
