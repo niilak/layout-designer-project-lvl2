@@ -14,19 +14,20 @@
 @import "general";
 
 @mixin artist-page-btn {
+  color: $white;
   width: 200px;
   padding: 20px 30px;
-  font-size: 12.8px;
   border-radius: 5px;
   display: flex;
   align-items: center;
+  border: 0;
+  @include small-text;
 }
 
 @mixin svg-icon-style {
   margin-right: 16px;
-  fill: $white;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
 * {
@@ -44,12 +45,10 @@ body {
 
 h1 {
   @include desktop-h1;
-  color: $white;
 }
 
 h2 {
   @include desktop-h2;
-  color: $white;
 }
 
 .content {
@@ -113,6 +112,7 @@ h2 {
     }
 
     p {
+      @include medium-text;
       margin-bottom: 50px;
       margin-top: 16px;
     }
@@ -127,7 +127,7 @@ h2 {
           background-color: $purple;
           @include artist-page-btn;
 
-          svg {
+          img {
             @include svg-icon-style;
           }
         }
@@ -136,7 +136,7 @@ h2 {
           @include artist-page-btn;
           background-color: $red;
 
-          svg {
+          img {
             @include svg-icon-style;
           }
         }
