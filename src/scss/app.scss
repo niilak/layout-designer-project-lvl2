@@ -227,7 +227,7 @@ h2 {
       .news-footer {
         .news-author {
           display: flex;
-          align-items: baseline;
+          align-items: center;
           margin-bottom: 35px;
           @include small-text;
 
@@ -243,7 +243,7 @@ h2 {
           }
         }
 
-        button {
+        a {
           @extend %no-margin;
           border: 1px solid $gray;
           padding: 16px 30px;

@@ -14,11 +14,11 @@
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
-body, .main-section .banner h1, .main-section .banner h2, .main-section .banner p, .pricing-section h2, .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value, .pricing-section p, .news-section .news-header, .news-section .news-item .news-text-area .news-body h3, .news-section .news-item .news-text-area .news-footer button, .footer .footer-top .footer-links p {
+body, .main-section .banner h1, .main-section .banner h2, .main-section .banner p, .pricing-section h2, .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value, .pricing-section p, .news-section .news-header, .news-section .news-item .news-text-area .news-body h3, .news-section .news-item .news-text-area .news-footer a, .footer .footer-top .footer-links p {
   margin: 0;
 }
 
-.main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .checkout-btn, .news-section .news-item .news-text-area .news-footer button, .app-section .app-item .app-text-area button {
+.main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .checkout-btn, .news-section .news-item .news-text-area .news-footer a, .app-section .app-item .app-text-area button {
   cursor: pointer;
 }
 
@@ -326,9 +326,9 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 35px;
   font-weight: normal;
   font-size: 12.8px;
@@ -346,7 +346,7 @@ h2 {
   margin-right: 16px;
 }
 
-.news-section .news-item .news-text-area .news-footer button {
+.news-section .news-item .news-text-area .news-footer a {
   border: 1px solid #e0e0e0;
   padding: 16px 30px;
   width: -webkit-fit-content;
