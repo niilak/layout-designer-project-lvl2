@@ -484,13 +484,14 @@ h2 {
   color: #e0e0e0;
 }
 
-.footer .footer-top .footer-links li {
+.footer .footer-top .footer-links ul {
   width: 100%;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.footer .footer-top .footer-links li ul {
-  padding: 0;
+.footer .footer-top .footer-links ul li {
   margin: 0;
 }
 
