@@ -311,6 +311,7 @@ h2 {
     @include footer-top;
 
     .footer-links {
+      width: 250px;
       flex-direction: column;
       display: flex;
 
