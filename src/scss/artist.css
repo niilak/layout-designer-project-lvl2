@@ -441,8 +441,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 74px;
-  padding-top: 61px;
+  padding: 3rem 0;
 }
 
 .footer .footer-top .footer-links {
@@ -460,7 +459,7 @@ h2 {
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #e0e0e0;
+  color: #fff;
   margin-bottom: 16px;
 }
 
@@ -494,14 +493,13 @@ h2 {
 
 .footer .line {
   position: absolute;
-  border-top: 1px solid #e0e0e0;
+  border: 1px solid #e0e0e0;
   width: 100%;
   left: 0;
 }
 
 .footer .footer-bottom {
-  padding-top: 40px;
-  padding-bottom: 48px;
+  padding: 2rem 0;
 }
 
 .footer .footer-bottom a {
