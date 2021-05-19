@@ -467,18 +467,30 @@ h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  display: inline-block;
   text-decoration: none;
   color: #e0e0e0;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer .footer-top .footer-links p {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  display: inline-block;
   text-decoration: none;
   color: #e0e0e0;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer .footer-top .footer-links li {
@@ -506,9 +518,15 @@ h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  display: inline-block;
   text-decoration: none;
   color: #e0e0e0;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 15px;
 }
 

@@ -328,13 +328,11 @@ h2 {
 
       a {
         @include footer-link;
-        height: 16px;
-        display: flex;
-        align-items: center;
       }
 
       p {
-        @extend %no-margin;
+        // @extend %no-margin;
+        margin: 2px 0;
         @include footer-link;
         width: 100%;
       }
@@ -347,8 +345,8 @@ h2 {
 
         li {
           display: flex;
-          height: 24px;
-          padding: 4px 0;
+          height: 20px;
+          padding: 2px 0;
           align-items: center;
         }
       }
@@ -360,6 +358,7 @@ h2 {
   }
 
   .footer-bottom {
+    display: flex;
     @include footer-bottom;
 
     a {
