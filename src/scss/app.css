@@ -437,7 +437,7 @@ h2 {
 }
 
 .footer .footer-top .footer-links {
-  width: 250px;
+  width: 270px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -445,6 +445,15 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.footer .footer-top .footer-links .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .footer .footer-top .footer-links h2 {
@@ -505,6 +514,12 @@ h2 {
   text-decoration: none;
   color: #e0e0e0;
   margin-right: 15px;
+}
+
+.fit-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .content {

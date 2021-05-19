@@ -311,9 +311,14 @@ h2 {
     @include footer-top;
 
     .footer-links {
-      width: 250px;
+      width: 270px;
       flex-direction: column;
       display: flex;
+
+      .footer-icons {
+        display: flex;
+        align-items: baseline;
+      }
 
       h2 {
         @include footer-h2;
@@ -353,6 +358,10 @@ h2 {
       margin-right: 15px;
     }
   }
+}
+
+.fit-content {
+  width: fit-content;
 }
 
 .content {
