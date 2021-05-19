@@ -442,7 +442,7 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 74px;
-  padding-top: 3rem;
+  padding-top: 61px;
 }
 
 .footer .footer-top .footer-links {
@@ -500,7 +500,7 @@ h2 {
 }
 
 .footer .footer-bottom {
-  padding-top: 2rem;
+  padding-top: 40px;
   padding-bottom: 48px;
 }
 
