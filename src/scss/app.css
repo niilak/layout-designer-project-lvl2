@@ -453,6 +453,7 @@ h2 {
   text-transform: uppercase;
   color: #e0e0e0;
   margin-bottom: 16px;
+  margin-top: 0;
 }
 
 .footer .footer-top .footer-links a {
@@ -797,9 +798,11 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-right: 0;
+    margin-bottom: 44px;
   }
   .footer .content .footer-top .footer-links {
     padding-bottom: 30px;
+    margin-left: 0%;
   }
   .footer .content .footer-bottom {
     display: -webkit-box;
@@ -811,7 +814,7 @@ h2 {
             flex-direction: column;
   }
   .footer .content .footer-bottom a {
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 }
 /*# sourceMappingURL=app.css.map */
