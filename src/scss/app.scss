@@ -136,6 +136,7 @@ h2 {
   .pricing-items-row {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 39px;
 
     .pricing-item {
       padding: 0 1.5rem;
@@ -195,7 +196,6 @@ h2 {
   p {
     text-align: center;
     @extend %no-margin;
-    margin-top: 40px;
     @include medium-text;
   }
 }

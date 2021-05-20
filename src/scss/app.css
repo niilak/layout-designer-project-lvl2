@@ -217,6 +217,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 39px;
 }
 
 .pricing-section .pricing-items-row .pricing-item {
@@ -286,7 +287,6 @@ h2 {
 
 .pricing-section p {
   text-align: center;
-  margin-top: 40px;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
