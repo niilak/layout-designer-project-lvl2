@@ -524,8 +524,6 @@ h2 {
         .pricing-item {
           justify-content: center;
           // height: 609px;
-          margin-top: 30px;
-
           h3 {
             @include pricing-mob-h3;
           }
