@@ -69,7 +69,8 @@ h2 {
     .nav-list {
       list-style-type: none;
       display: flex;
-      ul {
+
+      li {
         padding-left: 0;
         a {
           @include nav-bar-links;
@@ -463,7 +464,8 @@ h2 {
           .nav-list {
             display: flex;
             flex-direction: column;
-            ul {
+            padding: 0;
+            li {
               margin: 0;
 
               a {

@@ -140,11 +140,11 @@ h2 {
   display: flex;
 }
 
-.main-section nav .nav-list ul {
+.main-section nav .nav-list li {
   padding-left: 0;
 }
 
-.main-section nav .nav-list ul a {
+.main-section nav .nav-list li a {
   font-size: 11px;
   font-weight: bold;
   text-decoration: none;
@@ -696,11 +696,12 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0;
   }
-  .main-section .content nav .nav-div .nav-list ul {
+  .main-section .content nav .nav-div .nav-list li {
     margin: 0;
   }
-  .main-section .content nav .nav-div .nav-list ul a {
+  .main-section .content nav .nav-div .nav-list li a {
     text-align: start;
     margin-bottom: 1px;
     margin-right: 0;
