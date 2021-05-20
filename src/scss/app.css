@@ -471,7 +471,6 @@ h2 {
   line-height: 150%;
   text-decoration: none;
   color: #e0e0e0;
-  height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -487,7 +486,6 @@ h2 {
   line-height: 150%;
   text-decoration: none;
   color: #e0e0e0;
-  height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -505,14 +503,8 @@ h2 {
 }
 
 .footer .footer-top .footer-links ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 20px;
   padding: 2px 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .footer .line {
@@ -535,7 +527,6 @@ h2 {
   line-height: 150%;
   text-decoration: none;
   color: #e0e0e0;
-  height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
