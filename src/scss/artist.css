@@ -64,7 +64,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 250px;
+  padding: 200px 0;
   height: 751px;
   background-image: url("../images/MortenHarket.png");
   background-repeat: no-repeat;
@@ -171,6 +171,10 @@ h2 {
   text-transform: uppercase;
   padding-left: 10px;
   margin-right: 24px;
+}
+
+.artist-main-section .central {
+  padding-top: 50px;
 }
 
 .artist-main-section .central h1 {
@@ -593,9 +597,6 @@ h2 {
             align-items: inherit;
     margin-bottom: 15px;
   }
-  .artist-main-section .content nav .nav-div .logo {
-    margin-bottom: 17px;
-  }
   .artist-main-section .content nav .nav-div .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -604,20 +605,15 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0;
   }
-  .artist-main-section .content nav .nav-div .nav-list ul {
-    margin: 0;
-  }
-  .artist-main-section .content nav .nav-div .nav-list ul a {
+  .artist-main-section .content nav .nav-div .nav-list a {
     text-align: start;
     margin-bottom: 1px;
     margin-right: 0;
   }
   .artist-main-section .content nav .search-input {
     width: 100%;
-  }
-  .artist-main-section .content .central h1 {
-    margin-top: 55px;
   }
   .artist-main-section .content .central p {
     color: #fff;
