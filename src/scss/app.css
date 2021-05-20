@@ -683,10 +683,6 @@ h2 {
     -webkit-box-align: inherit;
         -ms-flex-align: inherit;
             align-items: inherit;
-    margin-bottom: 15px;
-  }
-  .main-section .content nav .nav-div .logo {
-    margin-bottom: 17px;
   }
   .main-section .content nav .nav-div .nav-list {
     display: -webkit-box;
@@ -697,14 +693,18 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 0;
+    margin: 17px 0;
   }
   .main-section .content nav .nav-div .nav-list li {
-    margin: 0;
+    margin-right: 0;
   }
   .main-section .content nav .nav-div .nav-list li a {
     text-align: start;
     margin-bottom: 1px;
     margin-right: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .main-section .content nav .search-input {
     width: 100%;

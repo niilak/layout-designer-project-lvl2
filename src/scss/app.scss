@@ -455,23 +455,20 @@ h2 {
         .nav-div {
           flex-direction: column;
           align-items: inherit;
-          margin-bottom: 15px;
-
-          .logo {
-            margin-bottom: 17px;
-          }
 
           .nav-list {
             display: flex;
             flex-direction: column;
             padding: 0;
-            li {
-              margin: 0;
+            margin: 17px 0;
 
+            li {
+              margin-right: 0;
               a {
                 text-align: start;
                 margin-bottom: 1px;
                 margin-right: 0;
+                width: fit-content;
               }
             }
           }

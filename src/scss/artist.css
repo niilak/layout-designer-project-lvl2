@@ -143,7 +143,6 @@ h2 {
 
 .artist-main-section nav .nav-list li {
   padding-left: 0;
-  margin-right: 24px;
 }
 
 .artist-main-section nav .nav-list li a {
@@ -159,6 +158,7 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   line-height: 13px;
+  margin-right: 24px;
 }
 
 .artist-main-section nav .search-input {

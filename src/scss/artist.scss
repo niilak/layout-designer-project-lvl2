@@ -92,11 +92,9 @@ h2 {
 
       li {
         padding-left: 0;
-        @include mr(24px);
-
         a {
           @include nav-bar-links;
-          // @include mr(24px);
+          @include mr(24px);
         }
       }
     }
