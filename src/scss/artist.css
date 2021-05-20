@@ -64,7 +64,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 200px 0;
+  padding-top: 250px;
   height: 751px;
   background-image: url("../images/MortenHarket.png");
   background-repeat: no-repeat;
@@ -141,11 +141,11 @@ h2 {
   display: flex;
 }
 
-.artist-main-section nav .nav-list ul {
+.artist-main-section nav .nav-list li {
   padding-left: 0;
 }
 
-.artist-main-section nav .nav-list ul a {
+.artist-main-section nav .nav-list li a {
   font-size: 11px;
   font-weight: bold;
   text-decoration: none;

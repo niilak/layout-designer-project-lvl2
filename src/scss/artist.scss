@@ -56,7 +56,10 @@ h2 {
 }
 
 .artist-main-section {
-  @include main-wrapper;
+  // @include main-wrapper;
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
   height: 751px;
   background-image: url("../images/MortenHarket.png");
   @include img-bg;
@@ -90,7 +93,7 @@ h2 {
       list-style-type: none;
       display: flex;
 
-      ul {
+      li {
         padding-left: 0;
 
         a {
