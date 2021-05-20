@@ -248,7 +248,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value {
