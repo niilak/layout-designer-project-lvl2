@@ -202,9 +202,7 @@ h2 {
 
 .pricing-section {
   padding-top: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 1280px;
+  width: 1240px;
   margin: 0 auto;
 }
 
@@ -224,7 +222,7 @@ h2 {
 .pricing-section .pricing-items-row .pricing-item {
   padding: 0 1.5rem;
   border-radius: 1rem;
-  width: 367px;
+  width: 371px;
   height: 619px;
   position: relative;
   margin-top: 50px;
