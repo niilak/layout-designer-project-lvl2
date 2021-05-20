@@ -762,12 +762,14 @@ h2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 590px;
   }
   .pricing-section .content .pricing-items-row .pricing-item h3 {
     font-size: 16px;
     line-height: 24px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 195px;
   }
   .news-section {
     padding: 0px 20px;
