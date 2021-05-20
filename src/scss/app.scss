@@ -171,7 +171,7 @@ h2 {
         }
       }
 
-      .checkout-btn {
+      .arrange-button {
         // width: 100%;
         display: block;
         background: none;
@@ -189,6 +189,7 @@ h2 {
       .pricing-footer {
         @include small-text;
         text-align: center;
+        height: fit-content;
       }
     }
   }
