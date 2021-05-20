@@ -283,9 +283,7 @@ h2 {
   font-size: 12.8px;
   line-height: 150%;
   text-align: center;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 57px;
 }
 
 .pricing-section p {
