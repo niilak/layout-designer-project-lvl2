@@ -74,7 +74,7 @@ h2 {
 
 .artist-main-section nav {
   position: absolute;
-  top: 25px;
+  top: 15px;
   padding: 0 120px;
   width: 100%;
   display: -webkit-box;
@@ -595,7 +595,6 @@ h2 {
     -webkit-box-align: inherit;
         -ms-flex-align: inherit;
             align-items: inherit;
-    margin-bottom: 15px;
   }
   .artist-main-section .content nav .nav-div .nav-list {
     display: -webkit-box;
@@ -607,10 +606,16 @@ h2 {
             flex-direction: column;
     padding: 0;
   }
-  .artist-main-section .content nav .nav-div .nav-list a {
+  .artist-main-section .content nav .nav-div .nav-list li {
+    margin-right: 0;
+  }
+  .artist-main-section .content nav .nav-div .nav-list li a {
     text-align: start;
     margin-bottom: 1px;
     margin-right: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .artist-main-section .content nav .search-input {
     width: 100%;

@@ -110,10 +110,8 @@
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  // color: $white;
 }
 
-// ovaj mixin samo za main pag
 @mixin main-wrapper {
   display: flex;
   justify-content: center;
@@ -122,7 +120,7 @@
 
 @mixin nav-bar {
   position: absolute;
-  top: 25px;
+  top: 15px;
   padding: 0 120px;
   width: 100%;
   display: flex;
