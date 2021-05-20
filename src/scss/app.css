@@ -674,6 +674,7 @@ h2 {
         -ms-flex-align: start;
             align-items: flex-start;
     padding: 0px 20px;
+    top: 16px;
   }
   .main-section .content nav .nav-div {
     -webkit-box-orient: vertical;
