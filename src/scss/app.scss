@@ -34,6 +34,10 @@ h2 {
   @include desktop-h2;
 }
 
+.btn {
+  @include btn;
+}
+
 .main-section {
   @include main-wrapper;
   height: 100%;
@@ -172,7 +176,7 @@ h2 {
         }
       }
 
-      .arrange-button {
+      .checkout-btn {
         // width: 100%;
         display: block;
         background: none;
@@ -183,7 +187,6 @@ h2 {
         border-radius: 5px;
         color: $white;
         @extend %pointer;
-        @include btn;
         @include medium-text;
       }
 

@@ -18,7 +18,7 @@ body, .main-section .banner h1, .main-section .banner h2, .main-section .banner 
   margin: 0;
 }
 
-.main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .arrange-button, .news-section .news-item .news-text-area .news-footer a, .app-section .app-item .app-text-area button {
+.main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .checkout-btn, .news-section .news-item .news-text-area .news-footer a, .app-section .app-item .app-text-area button {
   cursor: pointer;
 }
 
@@ -53,6 +53,12 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .main-section {
@@ -262,7 +268,7 @@ h2 {
   font-size: 32px;
 }
 
-.pricing-section .pricing-items-row .pricing-item .arrange-button {
+.pricing-section .pricing-items-row .pricing-item .checkout-btn {
   display: block;
   background: none;
   margin-bottom: 64px;
@@ -270,9 +276,6 @@ h2 {
   border: 1px solid #fff;
   border-radius: 5px;
   color: #fff;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
