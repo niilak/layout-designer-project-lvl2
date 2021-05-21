@@ -168,7 +168,6 @@ h2 {
         display: flex;
         justify-content: space-between;
         padding-right: 50px;
-        // padding-bottom: 25px;
 
         .track-album-info {
           display: flex;
@@ -257,13 +256,16 @@ h2 {
     .footer-links {
       flex-direction: column;
       display: flex;
+
       h2 {
         @include footer-h2;
         margin-bottom: 16px;
       }
+
       a {
         @include footer-link;
       }
+
       p {
         @extend %no-margin;
         @include footer-link;
@@ -272,6 +274,7 @@ h2 {
       li {
         list-style-type: none;
         width: 100%;
+
         ul {
           padding: 0;
           margin: 0;
@@ -320,7 +323,8 @@ h2 {
   }
 
   .artist-main-section {
-    padding: 200px 20px 0 20px;
+    padding: 200px 20px;
+
     .content {
       width: 100%;
 
@@ -342,6 +346,7 @@ h2 {
 
             li {
               margin-right: 0;
+
               a {
                 text-align: start;
                 margin-bottom: 1px;
@@ -358,6 +363,7 @@ h2 {
       }
       .central {
         padding-top: 20px;
+
         p {
           color: $white;
           font-size: 16px;
@@ -367,6 +373,7 @@ h2 {
           form {
             display: flex;
             flex-direction: column;
+
             .purple-btn {
               margin-bottom: 24px;
             }
@@ -383,10 +390,13 @@ h2 {
     .track-list {
       display: flex;
       flex-direction: column;
+
       .rows {
         width: 100%;
+
         .popular-track {
           padding-right: 0;
+
           .track-album-info {
             .track-info {
               p {
@@ -408,9 +418,11 @@ h2 {
     .discography-list,
     .similar-artist-list {
       justify-content: space-between;
+
       .discography-item,
       .similar-item {
         width: 137px;
+
         img {
           width: 137px;
           height: 137px;

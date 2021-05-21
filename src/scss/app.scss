@@ -92,10 +92,12 @@ h2 {
   .banner {
     h1 {
       @extend %no-margin;
+      text-align: center;
     }
 
     h2 {
       @extend %no-margin;
+      text-align: center;
     }
 
     p {
@@ -104,6 +106,7 @@ h2 {
       margin-top: 32px;
       margin-bottom: 16px;
       color: $white;
+      text-align: center;
     }
 
     form {
@@ -368,9 +371,9 @@ h2 {
   }
 }
 
-.fit-content {
-  width: fit-content;
-}
+// .fit-content {
+//   width: fit-content;
+// }
 
 .content {
   @include content-container;

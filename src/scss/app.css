@@ -178,11 +178,20 @@ h2 {
   margin-right: 24px;
 }
 
+.main-section .banner h1 {
+  text-align: center;
+}
+
+.main-section .banner h2 {
+  text-align: center;
+}
+
 .main-section .banner p {
   font-size: 16px;
   margin-top: 32px;
   margin-bottom: 16px;
   color: #fff;
+  text-align: center;
 }
 
 .main-section .banner form {
@@ -545,12 +554,6 @@ h2 {
   width: -moz-fit-content;
   width: fit-content;
   margin-right: 15px;
-}
-
-.fit-content {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .content {
