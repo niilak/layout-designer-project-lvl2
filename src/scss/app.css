@@ -304,6 +304,8 @@ h2 {
 
 .news-section {
   padding-top: 100px;
+  width: 1240px;
+  margin: 0 auto;
 }
 
 .news-section .news-header {
@@ -373,6 +375,8 @@ h2 {
 .app-section {
   padding-top: 100px;
   margin-bottom: 100px;
+  width: 1240px;
+  margin: 0 auto;
 }
 
 .app-section h2 {
@@ -727,6 +731,7 @@ h2 {
   .main-section .content .banner .green-btn {
     padding: 20px 0;
     width: 100%;
+    text-align: center;
   }
   .pricing-section {
     padding: 0px 20px;

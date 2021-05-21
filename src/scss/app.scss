@@ -207,6 +207,8 @@ h2 {
 
 .news-section {
   padding-top: 100px;
+  width: 1240px;
+  margin: 0 auto;
 
   .news-header {
     text-align: center;
@@ -274,6 +276,8 @@ h2 {
 .app-section {
   padding-top: 100px;
   margin-bottom: 100px;
+  width: 1240px;
+  margin: 0 auto;
   h2 {
     text-align: center;
     margin-top: 0;
@@ -370,10 +374,6 @@ h2 {
     }
   }
 }
-
-// .fit-content {
-//   width: fit-content;
-// }
 
 .content {
   @include content-container;
@@ -494,6 +494,7 @@ h2 {
         .green-btn {
           padding: 20px 0;
           width: 100%;
+          text-align: center;
         }
       }
     }

@@ -149,6 +149,8 @@ h2 {
 }
 
 .popular-track-section {
+  width: 1240px;
+  margin: 0 auto;
   padding: 0 120px;
   padding-top: 100px;
 
@@ -202,6 +204,8 @@ h2 {
 
 .discography-section,
 .similar-artist-section {
+  width: 1240px;
+  margin: 0 auto;
   padding: 0 120px;
   padding-top: 100px;
   h2 {
@@ -254,12 +258,19 @@ h2 {
     @include footer-top;
 
     .footer-links {
+      width: 270px;
       flex-direction: column;
       display: flex;
+
+      .footer-icons {
+        display: flex;
+        align-items: center;
+      }
 
       h2 {
         @include footer-h2;
         margin-bottom: 16px;
+        margin-top: 0;
       }
 
       a {
@@ -267,17 +278,23 @@ h2 {
       }
 
       p {
-        @extend %no-margin;
+        // @extend %no-margin;
+        margin: 2px 0;
         @include footer-link;
+        width: 100%;
       }
 
-      li {
-        list-style-type: none;
+      ul {
         width: 100%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
 
-        ul {
-          padding: 0;
-          margin: 0;
+        li {
+          display: flex;
+          // height: 20px;
+          padding: 2px 0;
+          align-items: center;
         }
       }
     }
@@ -288,6 +305,7 @@ h2 {
   }
 
   .footer-bottom {
+    display: flex;
     @include footer-bottom;
 
     a {
@@ -441,17 +459,20 @@ h2 {
         display: flex;
         flex-direction: column;
         padding-right: 0;
-
+        padding-bottom: 44px;
         .footer-links {
-          padding-bottom: 30px;
+          margin-bottom: 30px;
+          margin-left: 0%;
+          width: 100%;
         }
       }
       .footer-bottom {
         display: flex;
         flex-direction: column;
+        padding-bottom: 32px;
 
         a {
-          padding-bottom: 16px;
+          margin-bottom: 16px;
         }
       }
     }
