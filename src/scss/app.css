@@ -775,6 +775,7 @@ h2 {
   .news-section {
     padding: 0px 20px;
     padding-top: 100px;
+    width: 100%;
   }
   .news-section .content {
     width: 100%;
@@ -823,6 +824,7 @@ h2 {
   .app-section {
     padding: 0px 20px;
     padding-top: 100px;
+    width: 100%;
   }
   .app-section .content {
     width: 100%;

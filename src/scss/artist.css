@@ -671,6 +671,7 @@ h2 {
   .popular-track-section {
     padding: 0 20px;
     padding-top: 100px;
+    width: 100%;
   }
   .popular-track-section .track-list {
     display: -webkit-box;
@@ -695,6 +696,7 @@ h2 {
   .similar-artist-section {
     padding: 0 20px;
     padding-top: 100px;
+    width: 100%;
   }
   .discography-section .discography-list,
   .discography-section .similar-artist-list,
