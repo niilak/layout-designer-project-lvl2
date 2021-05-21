@@ -18,7 +18,7 @@ body, .main-section .banner h1, .main-section .banner h2, .main-section .banner 
   margin: 0;
 }
 
-.main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .checkout-btn, .news-section .news-item .news-text-area .news-footer a, .app-section .app-item .app-text-area button {
+.main-section .banner .green-btn, .pricing-section .pricing-items-row .pricing-item .checkout-btn, .news-section .news-item .news-text-area .news-footer .to-album-btn, .app-section .app-item .app-text-area .download-btn {
   cursor: pointer;
 }
 
@@ -351,14 +351,11 @@ h2 {
   margin-right: 16px;
 }
 
-.news-section .news-item .news-text-area .news-footer a {
+.news-section .news-item .news-text-area .news-footer .to-album-btn {
   border: 1px solid #e0e0e0;
   padding: 16px 30px;
   border-radius: 5px;
   color: #e0e0e0;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
@@ -391,7 +388,7 @@ h2 {
   line-height: 150%;
 }
 
-.app-section .app-item .app-text-area button {
+.app-section .app-item .app-text-area .download-btn {
   background-color: #95390c;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -400,9 +397,6 @@ h2 {
   border-radius: 32px;
   border: 0;
   color: #fff;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
@@ -817,9 +811,6 @@ h2 {
   .news-section .content .news-item .news-text-area .news-footer .news-author p {
     margin-bottom: 0;
     margin-top: 0;
-  }
-  .news-section .content .news-item .news-text-area .news-footer a {
-    font-size: 12px;
   }
   .app-section {
     padding: 0px 20px;

@@ -255,15 +255,11 @@ h2 {
           }
         }
 
-        a {
-          // @extend %no-margin;
+        .to-album-btn {
           border: 1px solid $gray;
           padding: 16px 30px;
-          // width: fit-content;
           border-radius: 5px;
-          // background: none;
           color: $gray;
-          @include btn;
           @include small-text;
           @extend %pointer;
         }
@@ -289,14 +285,13 @@ h2 {
         @include medium-text;
       }
 
-      button {
+      .download-btn {
         background-color: $red;
         width: fit-content;
         padding: 16px 40px;
         border-radius: 32px;
         border: 0;
         color: $white;
-        @include btn;
         @extend %pointer;
         @include small-text;
       }
@@ -579,10 +574,6 @@ h2 {
                 margin-bottom: 0;
                 margin-top: 0;
               }
-            }
-
-            a {
-              font-size: 12px;
             }
           }
         }

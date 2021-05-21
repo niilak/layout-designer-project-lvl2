@@ -136,7 +136,6 @@ h2 {
           }
         }
         .red-btn {
-          @include btn;
           @include artist-page-btn;
           background-color: $red;
 
