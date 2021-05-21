@@ -32,13 +32,13 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
-  text-transform: 400;
+  text-transform: uppercase;
 }
 
 @mixin pricing-mob-h3 {
   font-size: 16px;
   line-height: 24px;
-  font-weight: bold;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
