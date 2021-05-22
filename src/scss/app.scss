@@ -553,13 +553,6 @@ h2 {
       .eminem-item {
         display: flex;
         flex-direction: column;
-        .news-text-area {
-          .news-footer {
-            .news-author-e {
-              margin-top: 30px;
-            }
-          }
-        }
       }
 
       .news-item {
@@ -590,7 +583,14 @@ h2 {
             .news-author {
               font-size: 12px;
               margin-bottom: 48px;
-              // margin-top: 16px;
+            }
+
+            .mt-mob-item1 {
+              margin-top: 30px;
+            }
+
+            .mt-mob-item2 {
+              margin-top: 16px;
             }
           }
         }
