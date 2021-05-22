@@ -793,7 +793,7 @@ h2 {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-top: 81px;
+    margin-top: 64px;
   }
   .news-section .content .eminem-item {
     display: -webkit-box;
@@ -825,6 +825,7 @@ h2 {
   .news-section .content .news-item .news-text-area .news-footer .news-author {
     font-size: 12px;
     margin-bottom: 48px;
+    margin-top: 20px;
   }
   .app-section {
     padding: 0px 20px;
