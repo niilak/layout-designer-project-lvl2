@@ -407,6 +407,7 @@ h2 {
 }
 
 .app-section .app-item .app-text-area .download-btn {
+  display: block;
   background-color: #95390c;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -804,6 +805,9 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .news-section .content .eminem-item .news-text-area .news-footer .news-author {
+    margin-top: 23px;
+  }
   .news-section .content .news-item img {
     width: 100%;
     height: auto;
@@ -820,7 +824,7 @@ h2 {
   }
   .news-section .content .news-item .news-text-area .news-body p {
     margin-bottom: 0;
-    margin-top: 15px;
+    margin-top: 16px;
   }
   .news-section .content .news-item .news-text-area .news-footer .news-author {
     font-size: 12px;
@@ -828,8 +832,7 @@ h2 {
     margin-top: 20px;
   }
   .app-section {
-    padding: 0px 20px;
-    padding-top: 100px;
+    padding: 100px 20px;
     width: 100%;
   }
   .app-section .content {

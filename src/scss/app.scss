@@ -296,6 +296,7 @@ h2 {
       }
 
       .download-btn {
+        display: block;
         background-color: $red;
         width: fit-content;
         padding: 16px 40px;
@@ -552,6 +553,13 @@ h2 {
       .eminem-item {
         display: flex;
         flex-direction: column;
+        .news-text-area {
+          .news-footer {
+            .news-author {
+              margin-top: 23px;
+            }
+          }
+        }
       }
 
       .news-item {
@@ -574,7 +582,7 @@ h2 {
 
             p {
               margin-bottom: 0;
-              margin-top: 15px;
+              margin-top: 16px;
             }
           }
 
@@ -591,8 +599,7 @@ h2 {
   }
 
   .app-section {
-    padding: 0px 20px;
-    padding-top: 100px;
+    padding: 100px 20px;
     width: 100%;
 
     .content {
