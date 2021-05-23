@@ -400,7 +400,14 @@ h2 {
 }
 
 .app-section .app-item .app-text-area p {
+  font-weight: normal;
   font-size: 16px;
+  line-height: 150%;
+  height: 96px;
+}
+
+.app-section .app-item .app-text-area p:nth-child(2) {
+  height: 72px;
 }
 
 .app-section .app-item .app-text-area .download-btn {

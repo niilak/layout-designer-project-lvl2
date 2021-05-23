@@ -291,7 +291,12 @@ h2 {
     flex-direction: row;
     .app-text-area {
       p {
-        font-size: 16px;
+        @include medium-text;
+        height: 96px;
+      }
+
+      p:nth-child(2) {
+        height: 72px;
       }
 
       .download-btn {
