@@ -424,7 +424,8 @@ h2 {
 .app-section .app-item img {
   width: 333px;
   height: 278px;
-  margin: 0 150px;
+  margin-left: 160px;
+  margin-right: 150px;
 }
 
 .footer {
