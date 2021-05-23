@@ -452,8 +452,8 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 61px;
-  padding-bottom: 72px;
+  padding-top: 62px;
+  padding-bottom: 70px;
 }
 
 .footer .footer-top .footer-links {
@@ -501,7 +501,7 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: 21px;
+  height: 20px;
 }
 
 .footer .footer-top .footer-links p {
