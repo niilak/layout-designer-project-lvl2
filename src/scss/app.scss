@@ -290,9 +290,9 @@ h2 {
     display: flex;
     flex-direction: row;
     .app-text-area {
-      // p {
-      //   @include medium-text;
-      // }
+      p {
+        font-size: 16px;
+      }
 
       .download-btn {
         display: block;
