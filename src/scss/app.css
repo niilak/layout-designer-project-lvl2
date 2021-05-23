@@ -399,12 +399,6 @@ h2 {
           flex-direction: row;
 }
 
-.app-section .app-item .app-text-area p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-}
-
 .app-section .app-item .app-text-area .download-btn {
   display: block;
   background-color: #95390c;
