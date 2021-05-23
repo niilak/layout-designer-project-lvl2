@@ -650,7 +650,7 @@ h2 {
   margin-left: 24px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
