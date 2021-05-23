@@ -378,7 +378,7 @@ h2 {
 }
 
 .app-section {
-  padding: 100px 0;
+  padding-top: 100px;
   width: 1240px;
   margin: 0 auto;
 }
@@ -403,11 +403,6 @@ h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  height: 96px;
-}
-
-.app-section .app-item .app-text-area p:nth-child(2) {
-  height: 72px;
 }
 
 .app-section .app-item .app-text-area .download-btn {
@@ -427,10 +422,11 @@ h2 {
 }
 
 .app-section .app-item img {
-  padding: 0 150px;
+  margin: 0 150px;
 }
 
 .footer {
+  margin-top: 100px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -853,12 +849,17 @@ h2 {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .app-section .content .app-item .app-text-area p {
+    height: 96px;
+  }
+  .app-section .content .app-item .app-text-area p:nth-child(2) {
+    height: 72px;
+  }
   .app-section .content .app-item img {
     padding: 0;
     margin: 0 20px;
   }
   .footer {
-    margin-top: 100px;
     padding: 0 20px;
   }
   .footer .content {

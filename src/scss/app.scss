@@ -277,7 +277,7 @@ h2 {
 }
 
 .app-section {
-  padding: 100px 0;
+  padding-top: 100px;
   width: 1240px;
   margin: 0 auto;
   h2 {
@@ -292,11 +292,6 @@ h2 {
     .app-text-area {
       p {
         @include medium-text;
-        height: 96px;
-      }
-
-      p:nth-child(2) {
-        height: 72px;
       }
 
       .download-btn {
@@ -314,12 +309,13 @@ h2 {
     }
 
     img {
-      padding: 0 150px;
+      margin: 0 150px;
     }
   }
 }
 
 .footer {
+  margin-top: 100px;
   @include footer;
   @extend %bg-gradient;
 
@@ -618,10 +614,16 @@ h2 {
 
       .app-item {
         flex-direction: column-reverse;
+        .app-text-area {
+          p {
+            height: 96px;
+          }
 
+          p:nth-child(2) {
+            height: 72px;
+          }
+        }
         img {
-          // width: 100%;
-          // height: auto;
           padding: 0;
           margin: 0 20px;
         }
@@ -630,7 +632,7 @@ h2 {
   }
 
   .footer {
-    margin-top: 100px;
+    // margin-top: 100px;
     padding: 0 20px;
 
     .content {
