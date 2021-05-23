@@ -851,6 +851,7 @@ h2 {
   .app-section .content .app-item img {
     width: 100%;
     height: auto;
+    padding: 0 20px;
   }
   .footer {
     padding: 0 20px;
