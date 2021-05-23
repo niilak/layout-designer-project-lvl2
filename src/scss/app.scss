@@ -277,8 +277,7 @@ h2 {
 }
 
 .app-section {
-  padding-top: 100px;
-  margin-bottom: 100px;
+  padding: 100px 0;
   width: 1240px;
   margin: 0 auto;
   h2 {
@@ -483,8 +482,8 @@ h2 {
       }
 
       .banner {
-        padding: 0 20px;
-        padding-top: 50px;
+        padding: 50px 20px 0 20px;
+
         p {
           margin: 16px 0;
         }
@@ -505,8 +504,8 @@ h2 {
   }
 
   .pricing-section {
-    padding: 0px 20px;
-    padding-top: 100px;
+    padding: 100px 20px 0px 20px;
+    // padding-top: 100px;
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -537,8 +536,8 @@ h2 {
   }
 
   .news-section {
-    padding: 0px 20px;
-    padding-top: 100px;
+    padding: 100px 20px 0px 20px;
+
     width: 100%;
 
     .content {
@@ -599,7 +598,8 @@ h2 {
   }
 
   .app-section {
-    padding: 100px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
 
     .content {
@@ -613,9 +613,9 @@ h2 {
         flex-direction: column-reverse;
 
         img {
-          padding: 0 20px;
           width: 100%;
           height: auto;
+          padding: 0;
         }
       }
     }
