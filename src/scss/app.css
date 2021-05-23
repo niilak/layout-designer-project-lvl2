@@ -386,7 +386,7 @@ h2 {
 .app-section h2 {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .app-section .app-item {
@@ -424,8 +424,7 @@ h2 {
 .app-section .app-item img {
   width: 333px;
   height: 278px;
-  margin-left: 160px;
-  margin-right: 140px;
+  margin-left: 164px;
 }
 
 .footer {
