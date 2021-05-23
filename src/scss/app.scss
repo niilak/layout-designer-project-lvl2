@@ -292,6 +292,13 @@ h2 {
     .app-text-area {
       p {
         @include medium-text;
+        margin: 0;
+        height: 96px;
+      }
+
+      p:nth-child(2) {
+        margin: 20px 0;
+        height: 72px;
       }
 
       .download-btn {
@@ -433,7 +440,7 @@ h2 {
   margin-left: 24px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
   h1 {
     @include mob-h1;
   }
