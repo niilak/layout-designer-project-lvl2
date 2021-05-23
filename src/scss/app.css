@@ -422,6 +422,8 @@ h2 {
 }
 
 .app-section .app-item img {
+  width: 333px;
+  height: 278px;
   margin: 0 150px;
 }
 
