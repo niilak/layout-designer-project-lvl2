@@ -292,11 +292,6 @@ h2 {
     .app-text-area {
       p {
         @include medium-text;
-        height: 96px;
-      }
-
-      p:nth-child(2) {
-        height: 72px;
       }
 
       .download-btn {
