@@ -300,6 +300,7 @@ h2 {
         width: fit-content;
         padding: 16px 40px;
         border-radius: 32px;
+        text-transform: capitalize;
         border: 0;
         color: $white;
         @extend %pointer;
