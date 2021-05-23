@@ -403,12 +403,12 @@ h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  margin: 20px 0 0 0;
+  margin: 1rem 0 0 0;
   height: 96px;
 }
 
 .app-section .app-item .app-text-area p:nth-child(2) {
-  margin: 20px 0;
+  margin: 1rem 0;
   height: 72px;
 }
 
