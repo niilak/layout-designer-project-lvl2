@@ -644,6 +644,11 @@ h2 {
         flex-direction: column;
         padding-right: 0;
         padding-bottom: 44px;
+
+        .footer-links:nth-child(4) {
+          margin-top: 10px;
+        }
+
         .footer-links {
           margin-bottom: 30px;
           margin-left: 0%;
@@ -657,6 +662,7 @@ h2 {
 
         a {
           margin-bottom: 16px;
+          width: 100%;
         }
       }
     }

@@ -882,6 +882,9 @@ h2 {
     padding-right: 0;
     padding-bottom: 44px;
   }
+  .footer .content .footer-top .footer-links:nth-child(4) {
+    margin-top: 10px;
+  }
   .footer .content .footer-top .footer-links {
     margin-bottom: 30px;
     margin-left: 0%;
@@ -899,6 +902,7 @@ h2 {
   }
   .footer .content .footer-bottom a {
     margin-bottom: 16px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=app.css.map */
