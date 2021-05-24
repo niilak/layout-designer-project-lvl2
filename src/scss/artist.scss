@@ -447,6 +447,13 @@ h2 {
           width: 137px;
           height: 137px;
         }
+        .discography-info,
+        .similar-info {
+          h3 {
+            @include medium-text;
+            font-weight: bold;
+          }
+        }
       }
     }
   }
