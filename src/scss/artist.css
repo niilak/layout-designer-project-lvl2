@@ -716,6 +716,7 @@ h2 {
   .similar-artist-section .discography-list .similar-item,
   .similar-artist-section .similar-artist-list .discography-item,
   .similar-artist-section .similar-artist-list .similar-item {
+    margin-bottom: 20px;
     width: 137px;
   }
   .discography-section .discography-list .discography-item img,
@@ -749,6 +750,12 @@ h2 {
     font-size: 16px;
     line-height: 150%;
     font-weight: bold;
+  }
+  .discography-section .discography-list .discography-item:nth-child(5),
+  .discography-section .discography-item:nth-child(6),
+  .similar-artist-section .discography-list .discography-item:nth-child(5),
+  .similar-artist-section .discography-item:nth-child(6) {
+    margin-bottom: 0;
   }
   .footer {
     padding: 0 20px;

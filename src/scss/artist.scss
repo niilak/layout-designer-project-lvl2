@@ -441,6 +441,7 @@ h2 {
 
       .discography-item,
       .similar-item {
+        margin-bottom: 20px;
         width: 137px;
 
         img {
@@ -455,6 +456,11 @@ h2 {
           }
         }
       }
+    }
+
+    .discography-list .discography-item:nth-child(5),
+    .discography-item:nth-child(6) {
+      margin-bottom: 0;
     }
   }
 
