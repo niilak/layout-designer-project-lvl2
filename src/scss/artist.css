@@ -667,21 +667,13 @@ h2 {
     padding: 0;
     margin: 16px 0;
   }
-  .artist-main-section .content nav .nav-div .nav-list li {
-    margin-right: 0;
-    height: 13px;
-  }
   .artist-main-section .content nav .nav-div .nav-list li a {
     text-align: start;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
     margin-right: 0;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    margin: 1.5px 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .artist-main-section .content nav .search-input {
     width: 100%;
