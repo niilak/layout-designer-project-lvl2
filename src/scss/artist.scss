@@ -456,8 +456,7 @@ h2 {
         .similar-info {
           h3 {
             @include font18;
-            white-space: nowrap;
-            overflow: hidden;
+            letter-spacing: -0.9px;
           }
         }
       }

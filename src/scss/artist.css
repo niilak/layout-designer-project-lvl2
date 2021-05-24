@@ -769,8 +769,7 @@ h2 {
     line-height: 27px;
     text-transform: capitalize;
     font-weight: 700;
-    white-space: nowrap;
-    overflow: hidden;
+    letter-spacing: -0.9px;
   }
   .footer {
     padding: 0 20px;
