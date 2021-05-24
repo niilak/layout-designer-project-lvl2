@@ -394,21 +394,37 @@ h2 {
 }
 
 .discography-section .discography-list .discography-item .discography-info h4,
+.discography-section .discography-list .discography-item .discography-info h3,
 .discography-section .discography-list .discography-item .similar-info h4,
+.discography-section .discography-list .discography-item .similar-info h3,
 .discography-section .discography-list .similar-item .discography-info h4,
+.discography-section .discography-list .similar-item .discography-info h3,
 .discography-section .discography-list .similar-item .similar-info h4,
+.discography-section .discography-list .similar-item .similar-info h3,
 .discography-section .similar-artist-list .discography-item .discography-info h4,
+.discography-section .similar-artist-list .discography-item .discography-info h3,
 .discography-section .similar-artist-list .discography-item .similar-info h4,
+.discography-section .similar-artist-list .discography-item .similar-info h3,
 .discography-section .similar-artist-list .similar-item .discography-info h4,
+.discography-section .similar-artist-list .similar-item .discography-info h3,
 .discography-section .similar-artist-list .similar-item .similar-info h4,
+.discography-section .similar-artist-list .similar-item .similar-info h3,
 .similar-artist-section .discography-list .discography-item .discography-info h4,
+.similar-artist-section .discography-list .discography-item .discography-info h3,
 .similar-artist-section .discography-list .discography-item .similar-info h4,
+.similar-artist-section .discography-list .discography-item .similar-info h3,
 .similar-artist-section .discography-list .similar-item .discography-info h4,
+.similar-artist-section .discography-list .similar-item .discography-info h3,
 .similar-artist-section .discography-list .similar-item .similar-info h4,
+.similar-artist-section .discography-list .similar-item .similar-info h3,
 .similar-artist-section .similar-artist-list .discography-item .discography-info h4,
+.similar-artist-section .similar-artist-list .discography-item .discography-info h3,
 .similar-artist-section .similar-artist-list .discography-item .similar-info h4,
+.similar-artist-section .similar-artist-list .discography-item .similar-info h3,
 .similar-artist-section .similar-artist-list .similar-item .discography-info h4,
-.similar-artist-section .similar-artist-list .similar-item .similar-info h4 {
+.similar-artist-section .similar-artist-list .similar-item .discography-info h3,
+.similar-artist-section .similar-artist-list .similar-item .similar-info h4,
+.similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
   margin: 0;
 }
 
@@ -755,21 +771,37 @@ h2 {
     height: 137px;
   }
   .discography-section .discography-list .discography-item .discography-info h4,
+  .discography-section .discography-list .discography-item .discography-info h3,
   .discography-section .discography-list .discography-item .similar-info h4,
+  .discography-section .discography-list .discography-item .similar-info h3,
   .discography-section .discography-list .similar-item .discography-info h4,
+  .discography-section .discography-list .similar-item .discography-info h3,
   .discography-section .discography-list .similar-item .similar-info h4,
+  .discography-section .discography-list .similar-item .similar-info h3,
   .discography-section .similar-artist-list .discography-item .discography-info h4,
+  .discography-section .similar-artist-list .discography-item .discography-info h3,
   .discography-section .similar-artist-list .discography-item .similar-info h4,
+  .discography-section .similar-artist-list .discography-item .similar-info h3,
   .discography-section .similar-artist-list .similar-item .discography-info h4,
+  .discography-section .similar-artist-list .similar-item .discography-info h3,
   .discography-section .similar-artist-list .similar-item .similar-info h4,
+  .discography-section .similar-artist-list .similar-item .similar-info h3,
   .similar-artist-section .discography-list .discography-item .discography-info h4,
+  .similar-artist-section .discography-list .discography-item .discography-info h3,
   .similar-artist-section .discography-list .discography-item .similar-info h4,
+  .similar-artist-section .discography-list .discography-item .similar-info h3,
   .similar-artist-section .discography-list .similar-item .discography-info h4,
+  .similar-artist-section .discography-list .similar-item .discography-info h3,
   .similar-artist-section .discography-list .similar-item .similar-info h4,
+  .similar-artist-section .discography-list .similar-item .similar-info h3,
   .similar-artist-section .similar-artist-list .discography-item .discography-info h4,
+  .similar-artist-section .similar-artist-list .discography-item .discography-info h3,
   .similar-artist-section .similar-artist-list .discography-item .similar-info h4,
+  .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
   .similar-artist-section .similar-artist-list .similar-item .discography-info h4,
-  .similar-artist-section .similar-artist-list .similar-item .similar-info h4 {
+  .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
+  .similar-artist-section .similar-artist-list .similar-item .similar-info h4,
+  .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
     font-weight: bold;
     font-size: 16px;
     line-height: 27px;
