@@ -65,6 +65,21 @@
   text-transform: uppercase;
 }
 
+@mixin mob-h4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin desktop-h4 {
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+}
+
+@mixin desktop-h4 {
+}
+
 @mixin footer-h2 {
   font-size: 18px;
   line-height: 27px;

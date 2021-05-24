@@ -212,7 +212,7 @@ h2 {
 
   h2 {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
 
   .discography-list,
@@ -235,11 +235,9 @@ h2 {
         margin-top: 10px;
         margin-bottom: 0;
 
-        h3 {
-          font-size: 18px;
-          line-height: 27px;
+        h4 {
+          @include desktop-h4;
           margin: 0;
-          text-transform: capitalize;
         }
 
         p {
@@ -460,9 +458,8 @@ h2 {
         }
         .discography-info,
         .similar-info {
-          h3 {
-            @include medium-text;
-            font-weight: bold;
+          h4 {
+            @include mob-h4;
           }
         }
       }
