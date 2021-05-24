@@ -408,7 +408,7 @@ h2 {
 .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
 .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
 .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 27px;
   text-transform: capitalize;
   font-weight: 700;
@@ -765,10 +765,12 @@ h2 {
   .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
   .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
   .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 27px;
     text-transform: capitalize;
     font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
   }
   .footer {
     padding: 0 20px;
