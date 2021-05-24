@@ -236,7 +236,7 @@ h2 {
         margin-bottom: 0;
 
         h3 {
-          @include desktop-h4;
+          @include font18;
           margin: 0;
         }
 
@@ -458,7 +458,7 @@ h2 {
         .discography-info,
         .similar-info {
           h3 {
-            @include mob-h4;
+            @include font18;
           }
         }
       }
