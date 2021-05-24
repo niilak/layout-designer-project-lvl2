@@ -716,6 +716,7 @@ h2 {
   }
   .popular-track-section .track-list .rows .popular-track {
     padding-right: 0;
+    margin-bottom: 25px;
   }
   .popular-track-section .track-list .rows .popular-track .track-album-info .track-info p {
     font-size: 12.8px;
