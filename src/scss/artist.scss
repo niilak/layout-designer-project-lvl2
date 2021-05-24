@@ -151,7 +151,6 @@ h2 {
 .popular-track-section {
   width: 1240px;
   margin: 0 auto;
-  // padding: 0 120px;
   padding-top: 100px;
 
   h2 {
@@ -162,41 +161,39 @@ h2 {
     padding-top: 50px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
-    .rows {
+    .popular-track {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 50px;
       width: 50%;
 
-      .popular-track {
+      .track-album-info {
         display: flex;
-        justify-content: space-between;
-        padding-right: 50px;
+        align-items: center;
 
-        .track-album-info {
-          display: flex;
-          align-items: center;
+        img {
+          width: 55px;
+          height: 55px;
+          margin-right: 15px;
+        }
 
-          img {
-            width: 55px;
-            height: 55px;
-            margin-right: 15px;
+        .track-info {
+          h3 {
+            font-size: 12.8px;
+            line-height: 19.2px;
+            text-transform: uppercase;
+            margin: 0;
           }
-
-          .track-info {
-            h3 {
-              font-size: 12.8px;
-              line-height: 19.2px;
-              text-transform: uppercase;
-              margin: 0;
-            }
-            p {
-              margin: 0;
-              @include small-text;
-            }
+          p {
+            margin: 0;
+            @include small-text;
           }
         }
-        p {
-          @include small-text;
-        }
+      }
+      p {
+        @include small-text;
       }
     }
   }
@@ -418,82 +415,77 @@ h2 {
     width: 100%;
 
     .track-list {
-      display: flex;
-      flex-direction: column;
-
-      .rows {
+      .popular-track {
+        margin-bottom: 25px;
+        padding-right: 0;
         width: 100%;
 
-        .popular-track {
-          padding-right: 0;
-          margin-bottom: 25px;
-
-          .track-album-info {
-            .track-info {
-              p {
-                font-size: 12.8px;
-                line-height: 19.2px;
-              }
+        .track-album-info {
+          .track-info {
+            p {
+              // font-size: 12.8px;
+              // line-height: 19.2px;
+              @include small-text;
             }
           }
         }
       }
     }
-  }
 
-  .discography-section,
-  .similar-artist-section {
-    padding: 0 20px;
-    padding-top: 100px;
-    width: 100%;
+    .discography-section,
+    .similar-artist-section {
+      padding: 0 20px;
+      padding-top: 100px;
+      width: 100%;
 
-    .discography-list,
-    .similar-artist-list {
-      justify-content: space-between;
+      .discography-list,
+      .similar-artist-list {
+        justify-content: space-between;
 
-      .discography-item,
-      .similar-item {
-        width: 137px;
-
-        img {
+        .discography-item,
+        .similar-item {
           width: 137px;
-          height: 137px;
-        }
-        .discography-info,
-        .similar-info {
-          h3 {
-            @include font18;
+
+          img {
+            width: 137px;
+            height: 137px;
+          }
+          .discography-info,
+          .similar-info {
+            h3 {
+              @include font18;
+            }
           }
         }
       }
     }
-  }
 
-  .footer {
-    padding: 0 20px;
-    margin-top: 100px;
+    .footer {
+      padding: 0 20px;
+      margin-top: 100px;
 
-    .content {
-      width: 100%;
+      .content {
+        width: 100%;
 
-      .footer-top {
-        display: flex;
-        flex-direction: column;
-        padding-right: 0;
-        padding-bottom: 44px;
-        .footer-links {
-          margin-bottom: 30px;
-          margin-left: 0%;
-          width: 100%;
+        .footer-top {
+          display: flex;
+          flex-direction: column;
+          padding-right: 0;
+          padding-bottom: 44px;
+          .footer-links {
+            margin-bottom: 30px;
+            margin-left: 0%;
+            width: 100%;
+          }
         }
-      }
-      .footer-bottom {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 32px;
+        .footer-bottom {
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 32px;
 
-        a {
-          margin-bottom: 16px;
+          a {
+            margin-bottom: 16px;
+          }
         }
       }
     }

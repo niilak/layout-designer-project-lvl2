@@ -272,13 +272,11 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.popular-track-section .track-list .rows {
-  width: 50%;
-}
-
-.popular-track-section .track-list .rows .popular-track {
+.popular-track-section .track-list .popular-track {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,9 +284,10 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 50px;
+  width: 50%;
 }
 
-.popular-track-section .track-list .rows .popular-track .track-album-info {
+.popular-track-section .track-list .popular-track .track-album-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,27 +296,27 @@ h2 {
           align-items: center;
 }
 
-.popular-track-section .track-list .rows .popular-track .track-album-info img {
+.popular-track-section .track-list .popular-track .track-album-info img {
   width: 55px;
   height: 55px;
   margin-right: 15px;
 }
 
-.popular-track-section .track-list .rows .popular-track .track-album-info .track-info h3 {
+.popular-track-section .track-list .popular-track .track-album-info .track-info h3 {
   font-size: 12.8px;
   line-height: 19.2px;
   text-transform: uppercase;
   margin: 0;
 }
 
-.popular-track-section .track-list .rows .popular-track .track-album-info .track-info p {
+.popular-track-section .track-list .popular-track .track-album-info .track-info p {
   margin: 0;
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
 }
 
-.popular-track-section .track-list .rows .popular-track p {
+.popular-track-section .track-list .popular-track p {
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
@@ -702,90 +701,80 @@ h2 {
     padding-top: 100px;
     width: 100%;
   }
-  .popular-track-section .track-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .popular-track-section .track-list .rows {
+  .popular-track-section .track-list .popular-track {
+    margin-bottom: 25px;
+    padding-right: 0;
     width: 100%;
   }
-  .popular-track-section .track-list .rows .popular-track {
-    padding-right: 0;
-    margin-bottom: 25px;
-  }
-  .popular-track-section .track-list .rows .popular-track .track-album-info .track-info p {
+  .popular-track-section .track-list .popular-track .track-album-info .track-info p {
+    font-weight: normal;
     font-size: 12.8px;
-    line-height: 19.2px;
+    line-height: 150%;
   }
-  .discography-section,
-  .similar-artist-section {
+  .popular-track-section .discography-section,
+  .popular-track-section .similar-artist-section {
     padding: 0 20px;
     padding-top: 100px;
     width: 100%;
   }
-  .discography-section .discography-list,
-  .discography-section .similar-artist-list,
-  .similar-artist-section .discography-list,
-  .similar-artist-section .similar-artist-list {
+  .popular-track-section .discography-section .discography-list,
+  .popular-track-section .discography-section .similar-artist-list,
+  .popular-track-section .similar-artist-section .discography-list,
+  .popular-track-section .similar-artist-section .similar-artist-list {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .discography-section .discography-list .discography-item,
-  .discography-section .discography-list .similar-item,
-  .discography-section .similar-artist-list .discography-item,
-  .discography-section .similar-artist-list .similar-item,
-  .similar-artist-section .discography-list .discography-item,
-  .similar-artist-section .discography-list .similar-item,
-  .similar-artist-section .similar-artist-list .discography-item,
-  .similar-artist-section .similar-artist-list .similar-item {
+  .popular-track-section .discography-section .discography-list .discography-item,
+  .popular-track-section .discography-section .discography-list .similar-item,
+  .popular-track-section .discography-section .similar-artist-list .discography-item,
+  .popular-track-section .discography-section .similar-artist-list .similar-item,
+  .popular-track-section .similar-artist-section .discography-list .discography-item,
+  .popular-track-section .similar-artist-section .discography-list .similar-item,
+  .popular-track-section .similar-artist-section .similar-artist-list .discography-item,
+  .popular-track-section .similar-artist-section .similar-artist-list .similar-item {
     width: 137px;
   }
-  .discography-section .discography-list .discography-item img,
-  .discography-section .discography-list .similar-item img,
-  .discography-section .similar-artist-list .discography-item img,
-  .discography-section .similar-artist-list .similar-item img,
-  .similar-artist-section .discography-list .discography-item img,
-  .similar-artist-section .discography-list .similar-item img,
-  .similar-artist-section .similar-artist-list .discography-item img,
-  .similar-artist-section .similar-artist-list .similar-item img {
+  .popular-track-section .discography-section .discography-list .discography-item img,
+  .popular-track-section .discography-section .discography-list .similar-item img,
+  .popular-track-section .discography-section .similar-artist-list .discography-item img,
+  .popular-track-section .discography-section .similar-artist-list .similar-item img,
+  .popular-track-section .similar-artist-section .discography-list .discography-item img,
+  .popular-track-section .similar-artist-section .discography-list .similar-item img,
+  .popular-track-section .similar-artist-section .similar-artist-list .discography-item img,
+  .popular-track-section .similar-artist-section .similar-artist-list .similar-item img {
     width: 137px;
     height: 137px;
   }
-  .discography-section .discography-list .discography-item .discography-info h3,
-  .discography-section .discography-list .discography-item .similar-info h3,
-  .discography-section .discography-list .similar-item .discography-info h3,
-  .discography-section .discography-list .similar-item .similar-info h3,
-  .discography-section .similar-artist-list .discography-item .discography-info h3,
-  .discography-section .similar-artist-list .discography-item .similar-info h3,
-  .discography-section .similar-artist-list .similar-item .discography-info h3,
-  .discography-section .similar-artist-list .similar-item .similar-info h3,
-  .similar-artist-section .discography-list .discography-item .discography-info h3,
-  .similar-artist-section .discography-list .discography-item .similar-info h3,
-  .similar-artist-section .discography-list .similar-item .discography-info h3,
-  .similar-artist-section .discography-list .similar-item .similar-info h3,
-  .similar-artist-section .similar-artist-list .discography-item .discography-info h3,
-  .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
-  .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
-  .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
+  .popular-track-section .discography-section .discography-list .discography-item .discography-info h3,
+  .popular-track-section .discography-section .discography-list .discography-item .similar-info h3,
+  .popular-track-section .discography-section .discography-list .similar-item .discography-info h3,
+  .popular-track-section .discography-section .discography-list .similar-item .similar-info h3,
+  .popular-track-section .discography-section .similar-artist-list .discography-item .discography-info h3,
+  .popular-track-section .discography-section .similar-artist-list .discography-item .similar-info h3,
+  .popular-track-section .discography-section .similar-artist-list .similar-item .discography-info h3,
+  .popular-track-section .discography-section .similar-artist-list .similar-item .similar-info h3,
+  .popular-track-section .similar-artist-section .discography-list .discography-item .discography-info h3,
+  .popular-track-section .similar-artist-section .discography-list .discography-item .similar-info h3,
+  .popular-track-section .similar-artist-section .discography-list .similar-item .discography-info h3,
+  .popular-track-section .similar-artist-section .discography-list .similar-item .similar-info h3,
+  .popular-track-section .similar-artist-section .similar-artist-list .discography-item .discography-info h3,
+  .popular-track-section .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
+  .popular-track-section .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
+  .popular-track-section .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
     font-size: 18px;
     line-height: 27px;
     text-transform: capitalize;
     font-weight: 700;
   }
-  .footer {
+  .popular-track-section .footer {
     padding: 0 20px;
     margin-top: 100px;
   }
-  .footer .content {
+  .popular-track-section .footer .content {
     width: 100%;
   }
-  .footer .content .footer-top {
+  .popular-track-section .footer .content .footer-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -796,12 +785,12 @@ h2 {
     padding-right: 0;
     padding-bottom: 44px;
   }
-  .footer .content .footer-top .footer-links {
+  .popular-track-section .footer .content .footer-top .footer-links {
     margin-bottom: 30px;
     margin-left: 0%;
     width: 100%;
   }
-  .footer .content .footer-bottom {
+  .popular-track-section .footer .content .footer-bottom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -811,7 +800,7 @@ h2 {
             flex-direction: column;
     padding-bottom: 32px;
   }
-  .footer .content .footer-bottom a {
+  .popular-track-section .footer .content .footer-bottom a {
     margin-bottom: 16px;
   }
 }
