@@ -206,12 +206,15 @@ h2 {
 .similar-artist-section {
   width: 1240px;
   margin: 0 auto;
-  // padding: 0 120px;
   padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+
   h2 {
     margin-top: 0;
     margin-bottom: 50px;
   }
+
   .discography-list,
   .similar-artist-list {
     display: flex;
@@ -229,11 +232,12 @@ h2 {
 
       .discography-info,
       .similar-info {
+        margin-top: 18px;
+        margin-bottom: 0;
         h3 {
           font-size: 18px;
           line-height: 27px;
-          margin-top: 18px;
-          margin-bottom: 0;
+          margin: 0;
           text-transform: capitalize;
         }
 
@@ -247,6 +251,11 @@ h2 {
         text-align: center;
       }
     }
+  }
+
+  .discography-list .discography-item:nth-child(5),
+  .discography-item:nth-child(6) {
+    margin-bottom: 0;
   }
 }
 
@@ -458,10 +467,10 @@ h2 {
       }
     }
 
-    .discography-list .discography-item:nth-child(5),
-    .discography-item:nth-child(6) {
-      margin-bottom: 0;
-    }
+    // .discography-list .discography-item:nth-child(5),
+    // .discography-item:nth-child(6) {
+    //   margin-bottom: 0;
+    // }
   }
 
   .footer {
