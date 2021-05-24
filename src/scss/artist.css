@@ -665,10 +665,11 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 0;
-    margin: 15px 0;
+    margin: 16px 0;
   }
   .artist-main-section .content nav .nav-div .nav-list li {
     margin-right: 0;
+    height: 13px;
   }
   .artist-main-section .content nav .nav-div .nav-list li a {
     text-align: start;
@@ -677,6 +678,10 @@ h2 {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    padding: 1.5px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .artist-main-section .content nav .search-input {
     width: 100%;
