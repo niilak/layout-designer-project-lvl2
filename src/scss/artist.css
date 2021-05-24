@@ -645,6 +645,7 @@ h2 {
         -ms-flex-align: start;
             align-items: flex-start;
     padding: 0px 20px;
+    top: 10px;
   }
   .artist-main-section .content nav .nav-div {
     -webkit-box-orient: vertical;
@@ -664,7 +665,7 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 0;
-    margin: 17px 0;
+    margin: 15px 0;
   }
   .artist-main-section .content nav .nav-div .nav-list li {
     margin-right: 0;
@@ -681,7 +682,7 @@ h2 {
     width: 100%;
   }
   .artist-main-section .content .central {
-    padding-top: 20px;
+    padding-top: 30px;
   }
   .artist-main-section .content .central p {
     color: #fff;
