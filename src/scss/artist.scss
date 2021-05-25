@@ -59,92 +59,68 @@ h2 {
   @include content-container;
 }
 
-.artist-main-section {
-  @include main-wrapper;
-  height: 751px;
-  background-image: url("../images/MortenHarket.png");
-  @include img-bg;
+.footer-bottom {
+  display: flex;
+  @include footer-bottom;
 
-  nav {
-    @include nav-bar;
-    align-items: center;
+  a {
+    @include footer-link;
+    margin-right: 15px;
+  }
+}
 
-    .nav-div {
+.footer {
+  @include footer;
+  @extend %bg-gradient;
+
+  .footer-top {
+    @include footer-top;
+
+    .footer-links {
+      width: 270px;
+      flex-direction: column;
       display: flex;
-      align-items: center;
-    }
 
-    .logo {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      @include mr(90px);
+      .footer-icons {
+        display: flex;
+        align-items: center;
+      }
 
-      img {
-        @include logo-img-style;
-        @include mr(16px);
+      h2 {
+        @include footer-h2;
+        margin-bottom: 16px;
+        margin-top: 0;
+      }
+
+      a {
+        @include footer-link;
       }
 
       p {
-        @include nav-bar-links;
+        // @extend %no-margin;
+        margin: 2px 0;
+        @include footer-link;
+        width: 100%;
       }
-    }
 
-    .nav-list {
-      list-style-type: none;
-      display: flex;
+      ul {
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
 
-      li {
-        padding-left: 0;
-        a {
-          @include nav-bar-links;
-          @include mr(24px);
+        li {
+          display: flex;
+          // height: 20px;
+          padding: 2px 0;
+          align-items: center;
         }
       }
-    }
-
-    .search-input {
-      @include search-input;
-      @include mr(24px);
     }
   }
 
-  .central {
-    padding-top: 50px;
-    h1 {
-      margin: 0;
-    }
-
-    p {
-      @include medium-text;
-      margin-bottom: 48px;
-      margin-top: 16px;
-    }
-
-    .list-btn {
-      form {
-        display: flex;
-
-        .purple-btn {
-          @include btn;
-          margin-right: 1.5rem;
-          background-color: $purple;
-          @include artist-page-btn;
-
-          img {
-            @include svg-icon-style;
-          }
-        }
-        .red-btn {
-          @include artist-page-btn;
-          background-color: $red;
-
-          img {
-            @include svg-icon-style;
-          }
-        }
-      }
-    }
+  .line {
+    @include line;
   }
 }
 
@@ -256,67 +232,91 @@ h2 {
   }
 }
 
-.footer {
-  @include footer;
-  @extend %bg-gradient;
+.artist-main-section {
+  @include main-wrapper;
+  height: 751px;
+  background-image: url("../images/MortenHarket.png");
+  @include img-bg;
 
-  .footer-top {
-    @include footer-top;
+  nav {
+    @include nav-bar;
+    align-items: center;
 
-    .footer-links {
-      width: 270px;
-      flex-direction: column;
+    .nav-div {
       display: flex;
+      align-items: center;
+    }
 
-      .footer-icons {
-        display: flex;
-        align-items: center;
-      }
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      @include mr(90px);
 
-      h2 {
-        @include footer-h2;
-        margin-bottom: 16px;
-        margin-top: 0;
-      }
-
-      a {
-        @include footer-link;
+      img {
+        @include logo-img-style;
+        @include mr(16px);
       }
 
       p {
-        // @extend %no-margin;
-        margin: 2px 0;
-        @include footer-link;
-        width: 100%;
+        @include nav-bar-links;
       }
+    }
 
-      ul {
-        width: 100%;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+    .nav-list {
+      list-style-type: none;
+      display: flex;
 
-        li {
-          display: flex;
-          // height: 20px;
-          padding: 2px 0;
-          align-items: center;
+      li {
+        padding-left: 0;
+        a {
+          @include nav-bar-links;
+          @include mr(24px);
         }
       }
     }
+
+    .search-input {
+      @include search-input;
+      @include mr(24px);
+    }
   }
 
-  .line {
-    @include line;
-  }
+  .central {
+    padding-top: 50px;
+    h1 {
+      margin: 0;
+    }
 
-  .footer-bottom {
-    display: flex;
-    @include footer-bottom;
+    p {
+      @include medium-text;
+      margin-bottom: 48px;
+      margin-top: 16px;
+    }
 
-    a {
-      @include footer-link;
-      margin-right: 15px;
+    .list-btn {
+      form {
+        display: flex;
+
+        .purple-btn {
+          @include btn;
+          margin-right: 1.5rem;
+          background-color: $purple;
+          @include artist-page-btn;
+
+          img {
+            @include svg-icon-style;
+          }
+        }
+        .red-btn {
+          @include artist-page-btn;
+          background-color: $red;
+
+          img {
+            @include svg-icon-style;
+          }
+        }
+      }
     }
   }
 }
