@@ -63,48 +63,45 @@ h2 {
   margin: 0 auto;
 }
 
-.artist-main-section {
+.footer-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 200px 0;
-  height: 751px;
-  background-image: url("../images/MortenHarket.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 47px;
 }
 
-.artist-main-section nav {
-  position: absolute;
-  top: 25px;
-  padding: 0 120px;
+.footer-bottom a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 15px;
+}
+
+.footer {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  left: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
 }
 
-.artist-main-section nav .nav-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.artist-main-section nav .logo {
+.footer .footer-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,145 +109,102 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 62px;
+  padding-bottom: 70px;
+}
+
+.footer .footer-top .footer-links {
+  width: 270px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-top .footer-links .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 90px;
 }
 
-.artist-main-section nav .logo img {
-  width: 24px;
-  height: 24px;
+.footer .footer-top .footer-links h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
   color: #fff;
-  margin-right: 16px;
+  margin-bottom: 16px;
+  margin-top: 0;
 }
 
-.artist-main-section nav .logo p {
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #cacaca;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  line-height: 13px;
-}
-
-.artist-main-section nav .nav-list {
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.artist-main-section nav .nav-list li {
-  padding-left: 0;
-}
-
-.artist-main-section nav .nav-list li a {
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #cacaca;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  line-height: 13px;
-  margin-right: 24px;
-}
-
-.artist-main-section nav .search-input {
-  display: inline;
-  width: 248px;
-  height: 25px;
-  border-radius: 50px;
-  background: #3c3b3d;
-  border: 0;
-  text-transform: uppercase;
-  padding-left: 10px;
-  margin-right: 24px;
-}
-
-.artist-main-section .central {
-  padding-top: 50px;
-}
-
-.artist-main-section .central h1 {
-  margin: 0;
-}
-
-.artist-main-section .central p {
+.footer .footer-top .footer-links a {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  margin-bottom: 48px;
-  margin-top: 16px;
-}
-
-.artist-main-section .central .list-btn form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.artist-main-section .central .list-btn form .purple-btn {
   text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  margin-right: 1.5rem;
-  background-color: #5328a1;
-  color: #fff;
-  width: 200px;
-  padding: 20px 30px;
-  border-radius: 5px;
+  color: #e0e0e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer .footer-top .footer-links p {
+  margin: 2px 0;
   font-weight: normal;
-  font-size: 12.8px;
+  font-size: 16px;
   line-height: 150%;
-}
-
-.artist-main-section .central .list-btn form .purple-btn img {
-  margin-right: 16px;
-  width: 20px;
-  height: 20px;
-}
-
-.artist-main-section .central .list-btn form .red-btn {
-  color: #fff;
-  width: 200px;
-  padding: 20px 30px;
-  border-radius: 5px;
+  text-decoration: none;
+  color: #e0e0e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 0;
-  font-weight: normal;
-  font-size: 12.8px;
-  line-height: 150%;
-  background-color: #95390c;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 100%;
 }
 
-.artist-main-section .central .list-btn form .red-btn img {
-  margin-right: 16px;
-  width: 20px;
-  height: 20px;
+.footer .footer-top .footer-links ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-top .footer-links ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .line {
+  position: absolute;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  left: 0;
+  background-color: #e0e0e0;
 }
 
 .popular-track-section {
@@ -458,19 +412,48 @@ h2 {
   margin-bottom: 0;
 }
 
-.footer {
+.artist-main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 200px 0;
+  height: 751px;
+  background-image: url("../images/MortenHarket.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.artist-main-section nav {
+  position: absolute;
+  top: 25px;
+  padding: 0 120px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.footer .footer-top {
+.artist-main-section nav .nav-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.artist-main-section nav .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -478,127 +461,145 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 62px;
-  padding-bottom: 70px;
-}
-
-.footer .footer-top .footer-links {
-  width: 270px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer .footer-top .footer-links .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 90px;
 }
 
-.footer .footer-top .footer-links h2 {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: bold;
-  text-transform: uppercase;
+.artist-main-section nav .logo img {
+  width: 24px;
+  height: 24px;
   color: #fff;
-  margin-bottom: 16px;
-  margin-top: 0;
+  margin-right: 16px;
 }
 
-.footer .footer-top .footer-links a {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
+.artist-main-section nav .logo p {
+  font-size: 11px;
+  font-weight: bold;
   text-decoration: none;
-  color: #e0e0e0;
+  text-transform: uppercase;
+  color: #cacaca;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  line-height: 13px;
 }
 
-.footer .footer-top .footer-links p {
-  margin: 2px 0;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  text-decoration: none;
-  color: #e0e0e0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  width: 100%;
-}
-
-.footer .footer-top .footer-links ul {
-  width: 100%;
+.artist-main-section nav .nav-list {
   list-style-type: none;
-  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.artist-main-section nav .nav-list li {
+  padding-left: 0;
+}
+
+.artist-main-section nav .nav-list li a {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cacaca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 13px;
+  margin-right: 24px;
+}
+
+.artist-main-section nav .search-input {
+  display: inline;
+  width: 248px;
+  height: 25px;
+  border-radius: 50px;
+  background: #3c3b3d;
+  border: 0;
+  text-transform: uppercase;
+  padding-left: 10px;
+  margin-right: 24px;
+}
+
+.artist-main-section .central {
+  padding-top: 50px;
+}
+
+.artist-main-section .central h1 {
   margin: 0;
 }
 
-.footer .footer-top .footer-links ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 2px 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer .line {
-  position: absolute;
-  border: 1px solid #e0e0e0;
-  width: 100%;
-  left: 0;
-}
-
-.footer .footer-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 40px;
-  padding-bottom: 47px;
-}
-
-.footer .footer-bottom a {
+.artist-main-section .central p {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
+  margin-bottom: 48px;
+  margin-top: 16px;
+}
+
+.artist-main-section .central .list-btn form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.artist-main-section .central .list-btn form .purple-btn {
   text-decoration: none;
-  color: #e0e0e0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+  background-color: #5328a1;
+  color: #fff;
+  width: 200px;
+  padding: 20px 30px;
+  border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin-right: 15px;
+  border: 0;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
+.artist-main-section .central .list-btn form .purple-btn img {
+  margin-right: 16px;
+  width: 20px;
+  height: 20px;
+}
+
+.artist-main-section .central .list-btn form .red-btn {
+  color: #fff;
+  width: 200px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%;
+  background-color: #95390c;
+}
+
+.artist-main-section .central .list-btn form .red-btn img {
+  margin-right: 16px;
+  width: 20px;
+  height: 20px;
 }
 
 .mr24 {

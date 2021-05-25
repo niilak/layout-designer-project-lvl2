@@ -23,6 +23,7 @@ html {
 
 body {
   width: 100%;
+
   @extend %no-margin;
 }
 
@@ -280,6 +281,7 @@ h2 {
   padding-top: 100px;
   width: 1240px;
   margin: 0 auto;
+
   h2 {
     text-align: center;
     margin-top: 0;
