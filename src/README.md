@@ -4,4 +4,4 @@ This repository is created and maintained by the team and the community of Hexle
 
 ## Surge
 
-layoutproject2nila.surge.sh
+layoutproject2music-box.surge.sh
