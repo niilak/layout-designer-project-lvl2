@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url(src/fonts/Roboto-Regular.ttf);
   font-weight: normal;
+  font-family: "Roboto-Regular";
+  src: url("src/fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url(src/fonts/Roboto-Bold.ttf);
   font-weight: bold;
+  font-family: "Roboto-Bold";
+  src: url("src/fonts/Roboto-Bold.ttf");
 }
 
 .footer {
@@ -24,10 +24,10 @@ body {
 }
 
 html {
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
   color: #e0e0e0;
+  font-size: 18px;
+  font-family: "Roboto-Regular", sans-serif;
+  line-height: 1.5;
   background-color: #08020d;
 }
 
@@ -36,25 +36,25 @@ body {
 }
 
 h1 {
+  color: #fff;
+  font-weight: bold;
   font-size: 60px;
   line-height: 90px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
 }
 
 h2 {
+  color: #fff;
+  font-weight: bold;
   font-size: 38px;
   line-height: 57px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
 }
 
 .btn {
-  text-decoration: none;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .content {
@@ -64,7 +64,7 @@ h2 {
 }
 
 .footer {
-  width: 100%;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,7 +72,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: relative;
+  width: 100%;
 }
 
 .footer .footer-top {
@@ -91,14 +91,14 @@ h2 {
 }
 
 .footer .footer-top .footer-links {
-  width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 270px;
 }
 
 .footer .footer-top .footer-links .footer-icons {
@@ -111,21 +111,19 @@ h2 {
 }
 
 .footer .footer-top .footer-links h2 {
+  color: #fff;
+  font-weight: bold;
   font-size: 18px;
   line-height: 27px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
-  margin-bottom: 16px;
   margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .footer .footer-top .footer-links a {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  text-decoration: none;
-  color: #e0e0e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,15 +133,16 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: #e0e0e0;
+  text-decoration: none;
 }
 
 .footer .footer-top .footer-links p {
+  width: 100%;
   margin: 2px 0;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  text-decoration: none;
-  color: #e0e0e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -153,32 +152,33 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  width: 100%;
+  color: #e0e0e0;
+  text-decoration: none;
 }
 
 .footer .footer-top .footer-links ul {
   width: 100%;
-  list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer .footer-top .footer-links ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2px 0;
 }
 
 .footer .line {
   position: absolute;
-  border: 1px solid #e0e0e0;
-  width: 100%;
   left: 0;
+  width: 100%;
   background-color: #e0e0e0;
+  border: 1px solid #e0e0e0;
 }
 
 .footer .footer-bottom {
@@ -193,8 +193,6 @@ h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  text-decoration: none;
-  color: #e0e0e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,6 +202,8 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: #e0e0e0;
+  text-decoration: none;
   margin-right: 15px;
 }
 
@@ -218,7 +218,6 @@ h2 {
 }
 
 .popular-track-section .track-list {
-  padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,6 +227,7 @@ h2 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-top: 50px;
 }
 
 .popular-track-section .track-list .popular-track {
@@ -237,8 +237,8 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-right: 50px;
   width: 50%;
+  padding-right: 50px;
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
@@ -260,10 +260,10 @@ h2 {
 }
 
 .popular-track-section .track-list .popular-track .track-album-info .track-info h3 {
+  margin: 0;
   font-size: 12.8px;
   line-height: 19.2px;
   text-transform: uppercase;
-  margin: 0;
 }
 
 .popular-track-section .track-list .popular-track .track-album-info .track-info p {
@@ -284,8 +284,8 @@ h2 {
   width: 1240px;
   margin: 0 auto;
   padding-top: 100px;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .discography-section h2,
@@ -365,10 +365,10 @@ h2 {
 .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
 .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
 .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
+  font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   text-transform: capitalize;
-  font-weight: 700;
   margin: 0;
 }
 
@@ -423,22 +423,22 @@ h2 {
   height: 751px;
   background-image: url("../images/MortenHarket.png");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .artist-main-section nav {
   position: absolute;
   top: 25px;
-  padding: 0 120px;
-  width: 100%;
+  left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  left: 0;
+  width: 100%;
+  padding: 0 120px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -475,25 +475,25 @@ h2 {
 }
 
 .artist-main-section nav .logo p {
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #cacaca;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #cacaca;
+  font-weight: bold;
+  font-size: 11px;
   line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .artist-main-section nav .nav-list {
-  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style-type: none;
 }
 
 .artist-main-section nav .nav-list li {
@@ -501,18 +501,18 @@ h2 {
 }
 
 .artist-main-section nav .nav-list li a {
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #cacaca;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #cacaca;
+  font-weight: bold;
+  font-size: 11px;
   line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
   margin-right: 24px;
 }
 
@@ -520,11 +520,11 @@ h2 {
   display: inline;
   width: 248px;
   height: 25px;
-  border-radius: 50px;
+  padding-left: 10px;
+  text-transform: uppercase;
   background: #3c3b3d;
   border: 0;
-  text-transform: uppercase;
-  padding-left: 10px;
+  border-radius: 50px;
   margin-right: 24px;
 }
 
@@ -540,8 +540,8 @@ h2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  margin-bottom: 48px;
   margin-top: 16px;
+  margin-bottom: 48px;
 }
 
 .artist-main-section .central .list-btn form {
@@ -551,45 +551,45 @@ h2 {
 }
 
 .artist-main-section .central .list-btn form .purple-btn {
-  text-decoration: none;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   margin-right: 1.5rem;
   background-color: #5328a1;
-  color: #fff;
-  width: 200px;
-  padding: 20px 30px;
-  border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 200px;
+  padding: 20px 30px;
+  color: #fff;
   border: 0;
+  border-radius: 5px;
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
 }
 
 .artist-main-section .central .list-btn form .purple-btn img {
-  margin-right: 16px;
   width: 20px;
   height: 20px;
+  margin-right: 16px;
 }
 
 .artist-main-section .central .list-btn form .red-btn {
-  color: #fff;
-  width: 200px;
-  padding: 20px 30px;
-  border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 200px;
+  padding: 20px 30px;
+  color: #fff;
   border: 0;
+  border-radius: 5px;
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
@@ -597,9 +597,9 @@ h2 {
 }
 
 .artist-main-section .central .list-btn form .red-btn img {
-  margin-right: 16px;
   width: 20px;
   height: 20px;
+  margin-right: 16px;
 }
 
 .mr24 {
@@ -616,18 +616,18 @@ h2 {
 
 @media screen and (max-width: 600px) {
   h1 {
+    color: #fff;
+    font-weight: bold;
     font-size: 30px;
     line-height: 45px;
-    font-weight: bold;
     text-transform: uppercase;
-    color: #fff;
   }
   h2 {
+    color: #fff;
+    font-weight: bold;
     font-size: 18px;
     line-height: 27px;
-    font-weight: bold;
     text-transform: uppercase;
-    color: #fff;
   }
   .content {
     width: 100%;
@@ -639,7 +639,7 @@ h2 {
     width: 100%;
   }
   .artist-main-section .content nav {
-    width: 100%;
+    top: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -647,8 +647,8 @@ h2 {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding: 0px 20px;
-    top: 20px;
+    width: 100%;
+    padding: 0 20px;
   }
   .artist-main-section .content nav .nav-div {
     -webkit-box-orient: vertical;
@@ -667,16 +667,16 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0;
     margin: 16px 0;
+    padding: 0;
   }
   .artist-main-section .content nav .nav-div .nav-list li a {
-    text-align: start;
-    margin-bottom: 2px;
-    margin-right: 0;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    margin-right: 0;
+    margin-bottom: 2px;
+    text-align: start;
   }
   .artist-main-section .content nav .search-input {
     width: 100%;
@@ -701,17 +701,17 @@ h2 {
     margin-bottom: 24px;
   }
   .popular-track-section {
+    width: 100%;
     padding: 0 20px;
     padding-top: 100px;
-    width: 100%;
   }
   .popular-track-section .track-list {
     padding-top: 48px;
   }
   .popular-track-section .track-list .popular-track {
+    width: 100%;
     margin-bottom: 25px;
     padding-right: 0;
-    width: 100%;
     font-weight: normal;
     font-size: 12.8px;
     line-height: 150%;
@@ -721,9 +721,9 @@ h2 {
   }
   .discography-section,
   .similar-artist-section {
+    width: 100%;
     padding: 0 20px;
     padding-top: 100px;
-    width: 100%;
   }
   .discography-section .discography-list,
   .discography-section .similar-artist-list,
@@ -770,15 +770,15 @@ h2 {
   .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
   .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
   .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
+    font-weight: 700;
     font-size: 18px;
     line-height: 27px;
     text-transform: capitalize;
-    font-weight: 700;
     letter-spacing: -0.9px;
   }
   .footer {
-    padding: 0 20px;
     margin-top: 100px;
+    padding: 0 20px;
   }
   .footer .content {
     width: 100%;
@@ -795,9 +795,9 @@ h2 {
     padding-bottom: 44px;
   }
   .footer .content .footer-top .footer-links {
+    width: 100%;
     margin-bottom: 30px;
     margin-left: 0%;
-    width: 100%;
   }
   .footer .content .footer-bottom {
     display: -webkit-box;

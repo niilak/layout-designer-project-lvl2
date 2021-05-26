@@ -1,8 +1,8 @@
 @mixin general-project-style {
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
   color: $gray;
+  font-size: 18px;
+  font-family: "Roboto-Regular", sans-serif;
+  line-height: 1.5;
   background-color: $black;
 }
 
@@ -13,19 +13,19 @@
 }
 
 @mixin desktop-h1 {
+  color: $white;
+  font-weight: bold;
   font-size: 60px;
   line-height: 90px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: $white;
 }
 
 @mixin desktop-h2 {
+  color: $white;
+  font-weight: bold;
   font-size: 38px;
   line-height: 57px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: $white;
 }
 
 @mixin pricing-h3 {
@@ -36,26 +36,26 @@
 }
 
 @mixin pricing-mob-h3 {
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
 @mixin mob-h1 {
+  color: $white;
+  font-weight: bold;
   font-size: 30px;
   line-height: 45px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: $white;
 }
 
 @mixin mob-h2 {
+  color: $white;
+  font-weight: bold;
   font-size: 18px;
   line-height: 27px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: $white;
 }
 
 @mixin mob-h3 {
@@ -66,27 +66,28 @@
 }
 
 @mixin font18 {
+  font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   text-transform: capitalize;
-  font-weight: 700;
 }
 
 @mixin footer-h2 {
+  color: $white;
+  font-weight: bold;
   font-size: 18px;
   line-height: 27px;
-  font-weight: bold;
   text-transform: uppercase;
-  color: $white;
 }
 
 @mixin footer-link {
   @include medium-text;
-  text-decoration: none;
-  color: $gray;
+
   display: flex;
   align-items: center;
   width: fit-content;
+  color: $gray;
+  text-decoration: none;
 }
 
 @mixin small-text {
@@ -103,13 +104,13 @@
 
 @mixin img-bg {
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 @mixin pricing-img-bg {
-  border-radius: 1rem;
   height: 100%;
+  border-radius: 1rem;
 }
 
 @mixin mr($mr) {
@@ -117,9 +118,9 @@
 }
 
 @mixin btn {
-  text-decoration: none;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 @mixin main-wrapper {
@@ -131,11 +132,11 @@
 @mixin nav-bar {
   position: absolute;
   top: 25px;
-  padding: 0 120px;
-  width: 100%;
+  left: 0;
   display: flex;
   justify-content: space-between;
-  left: 0;
+  width: 100%;
+  padding: 0 120px;
 }
 
 @mixin logo-img-style {
@@ -145,32 +146,32 @@
 }
 
 @mixin nav-bar-links {
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: $dark-gray;
   display: flex;
   align-items: center;
+  color: $dark-gray;
+  font-weight: bold;
+  font-size: 11px;
   line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 @mixin search-input {
   display: inline;
   width: 248px;
   height: 25px;
-  border-radius: 50px;
+  padding-left: 10px;
+  text-transform: uppercase;
   background: $dark;
   border: 0;
-  text-transform: uppercase;
-  padding-left: 10px;
+  border-radius: 50px;
 }
 
 @mixin footer {
-  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
-  position: relative;
+  width: 100%;
 }
 
 @mixin footer-top {
@@ -188,10 +189,10 @@
 
 @mixin line {
   position: absolute;
-  border: 1px solid $gray;
-  width: 100%;
   left: 0;
+  width: 100%;
   background-color: $gray;
+  border: 1px solid $gray;
 }
 
 %bg-gradient {

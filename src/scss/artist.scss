@@ -1,33 +1,34 @@
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url(src/fonts/Roboto-Regular.ttf);
   font-weight: normal;
+  font-family: "Roboto-Regular";
+  src: url("src/fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url(src/fonts/Roboto-Bold.ttf);
   font-weight: bold;
+  font-family: "Roboto-Bold";
+  src: url("src/fonts/Roboto-Bold.ttf");
 }
 
 @import "variables";
 @import "general";
 
 @mixin artist-page-btn {
-  color: $white;
-  width: 200px;
-  padding: 20px 30px;
-  border-radius: 5px;
   display: flex;
   align-items: center;
+  width: 200px;
+  padding: 20px 30px;
+  color: $white;
   border: 0;
+  border-radius: 5px;
+
   @include small-text;
 }
 
 @mixin svg-icon-style {
-  margin-right: 16px;
   width: 20px;
   height: 20px;
+  margin-right: 16px;
 }
 
 * {
@@ -40,6 +41,7 @@ html {
 
 body {
   width: 100%;
+
   @extend %no-margin;
 }
 
@@ -61,15 +63,16 @@ h2 {
 
 .footer {
   @include footer;
+
   @extend %bg-gradient;
 
   .footer-top {
     @include footer-top;
 
     .footer-links {
-      width: 270px;
-      flex-direction: column;
       display: flex;
+      flex-direction: column;
+      width: 270px;
 
       .footer-icons {
         display: flex;
@@ -78,8 +81,9 @@ h2 {
 
       h2 {
         @include footer-h2;
-        margin-bottom: 16px;
+
         margin-top: 0;
+        margin-bottom: 16px;
       }
 
       a {
@@ -87,23 +91,24 @@ h2 {
       }
 
       p {
+        width: 100%;
         // @extend %no-margin;
         margin: 2px 0;
+
         @include footer-link;
-        width: 100%;
       }
 
       ul {
         width: 100%;
-        list-style-type: none;
-        padding: 0;
         margin: 0;
+        padding: 0;
+        list-style-type: none;
 
         li {
           display: flex;
+          align-items: center;
           // height: 20px;
           padding: 2px 0;
-          align-items: center;
         }
       }
     }
@@ -115,10 +120,12 @@ h2 {
 
   .footer-bottom {
     display: flex;
+
     @include footer-bottom;
 
     a {
       @include footer-link;
+
       margin-right: 15px;
     }
   }
@@ -134,16 +141,17 @@ h2 {
   }
 
   .track-list {
-    padding-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 50px;
 
     .popular-track {
       display: flex;
       justify-content: space-between;
-      padding-right: 50px;
       width: 50%;
+      padding-right: 50px;
+
       @include small-text;
 
       .track-album-info {
@@ -158,17 +166,20 @@ h2 {
 
         .track-info {
           h3 {
+            margin: 0;
             font-size: 12.8px;
             line-height: 19.2px;
             text-transform: uppercase;
-            margin: 0;
           }
+
           p {
             margin: 0;
+
             @include small-text;
           }
         }
       }
+
       p {
         @include small-text;
       }
@@ -181,8 +192,8 @@ h2 {
   width: 1240px;
   margin: 0 auto;
   padding-top: 100px;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 
   h2 {
     margin-top: 0;
@@ -211,11 +222,13 @@ h2 {
 
         h3 {
           @include font18;
+
           margin: 0;
         }
 
         p {
           @include medium-text;
+
           margin: 0;
         }
       }
@@ -234,12 +247,15 @@ h2 {
 
 .artist-main-section {
   @include main-wrapper;
+
   height: 751px;
   background-image: url("../images/MortenHarket.png");
+
   @include img-bg;
 
   nav {
     @include nav-bar;
+
     align-items: center;
 
     .nav-div {
@@ -251,6 +267,7 @@ h2 {
       display: flex;
       flex-direction: row;
       align-items: center;
+
       @include mr(90px);
 
       img {
@@ -264,11 +281,12 @@ h2 {
     }
 
     .nav-list {
-      list-style-type: none;
       display: flex;
+      list-style-type: none;
 
       li {
         padding-left: 0;
+
         a {
           @include nav-bar-links;
           @include mr(24px);
@@ -284,14 +302,16 @@ h2 {
 
   .central {
     padding-top: 50px;
+
     h1 {
       margin: 0;
     }
 
     p {
       @include medium-text;
-      margin-bottom: 48px;
+
       margin-top: 16px;
+      margin-bottom: 48px;
     }
 
     .list-btn {
@@ -300,16 +320,20 @@ h2 {
 
         .purple-btn {
           @include btn;
+
           margin-right: 1.5rem;
           background-color: $purple;
+
           @include artist-page-btn;
 
           img {
             @include svg-icon-style;
           }
         }
+
         .red-btn {
           @include artist-page-btn;
+
           background-color: $red;
 
           img {
@@ -353,11 +377,11 @@ h2 {
       width: 100%;
 
       nav {
-        width: 100%;
+        top: 20px;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0px 20px;
-        top: 20px;
+        width: 100%;
+        padding: 0 20px;
 
         .nav-div {
           flex-direction: column;
@@ -366,17 +390,17 @@ h2 {
           .nav-list {
             display: flex;
             flex-direction: column;
-            padding: 0;
             margin: 16px 0;
+            padding: 0;
 
             li {
               // height: 13px;
 
               a {
-                text-align: start;
-                margin-bottom: 2px;
-                margin-right: 0;
                 width: fit-content;
+                margin-right: 0;
+                margin-bottom: 2px;
+                text-align: start;
                 // margin: 1.5px 0;
                 // align-items: center;
               }
@@ -388,6 +412,7 @@ h2 {
           width: 100%;
         }
       }
+
       .central {
         padding-top: 25px;
 
@@ -411,17 +436,18 @@ h2 {
   }
 
   .popular-track-section {
+    width: 100%;
     padding: 0 20px;
     padding-top: 100px;
-    width: 100%;
 
     .track-list {
       padding-top: 48px;
 
       .popular-track {
+        width: 100%;
         margin-bottom: 25px;
         padding-right: 0;
-        width: 100%;
+
         @include small-text;
 
         // .track-album-info {
@@ -441,9 +467,9 @@ h2 {
 
   .discography-section,
   .similar-artist-section {
+    width: 100%;
     padding: 0 20px;
     padding-top: 100px;
-    width: 100%;
 
     .discography-list,
     .similar-artist-list {
@@ -457,10 +483,12 @@ h2 {
           width: 137px;
           height: 137px;
         }
+
         .discography-info,
         .similar-info {
           h3 {
             @include font18;
+
             letter-spacing: -0.9px;
           }
         }
@@ -469,8 +497,8 @@ h2 {
   }
 
   .footer {
-    padding: 0 20px;
     margin-top: 100px;
+    padding: 0 20px;
 
     .content {
       width: 100%;
@@ -480,12 +508,14 @@ h2 {
         flex-direction: column;
         padding-right: 0;
         padding-bottom: 44px;
+
         .footer-links {
+          width: 100%;
           margin-bottom: 30px;
           margin-left: 0%;
-          width: 100%;
         }
       }
+
       .footer-bottom {
         display: flex;
         flex-direction: column;
