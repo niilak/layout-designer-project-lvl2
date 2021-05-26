@@ -62,8 +62,6 @@ h2 {
       margin-bottom: 16px;
       color: $white;
       font-size: 16px;
-
-      @extend %no-margin;
     }
 
     form {
@@ -136,10 +134,6 @@ h2 {
 }
 
 .pricing-section {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-
   h2 {
     @extend %no-margin;
   }
@@ -212,10 +206,6 @@ h2 {
 }
 
 .news-section {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-
   .news-header {
     margin-bottom: 48px;
 
@@ -295,10 +285,6 @@ h2 {
 }
 
 .app-section {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-
   h2 {
     margin-top: 0;
     margin-bottom: 48px;
@@ -408,6 +394,10 @@ h2 {
       margin-right: 16px;
     }
   }
+}
+
+.wrapper {
+  @include wrapper;
 }
 
 .content {

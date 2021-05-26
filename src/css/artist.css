@@ -253,12 +253,6 @@ h2 {
   margin-right: 16px;
 }
 
-.popular-track-section {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
 .popular-track-section h2 {
   margin: 0;
 }
@@ -327,9 +321,6 @@ h2 {
 
 .discography-section,
 .similar-artist-section {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -601,6 +592,12 @@ h2 {
   color: #e0e0e0;
   text-decoration: none;
   margin-right: 15px;
+}
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .mr24 {

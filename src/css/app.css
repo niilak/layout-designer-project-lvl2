@@ -14,7 +14,7 @@
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
-body, .main-section .banner h1, .main-section .banner h2, .main-section .banner p, .pricing-section h2, .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value, .pricing-section p, .news-section .news-header, .news-section .news-item .news-text-area .news-body h3, .news-section .news-item .news-text-area .news-footer .news-author .avatar, .news-section .news-item .news-text-area .news-footer .news-author p {
+body, .main-section .banner h1, .main-section .banner h2, .pricing-section h2, .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value, .pricing-section p, .news-section .news-header, .news-section .news-item .news-text-area .news-body h3, .news-section .news-item .news-text-area .news-footer .news-author .avatar, .news-section .news-item .news-text-area .news-footer .news-author p {
   margin: 0;
 }
 
@@ -203,12 +203,6 @@ h2 {
   margin-right: 24px;
 }
 
-.pricing-section {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
 .pricing-section .pricing-items-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -285,12 +279,6 @@ h2 {
   line-height: 150%;
 }
 
-.news-section {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
 .news-section .news-header {
   margin-bottom: 48px;
 }
@@ -357,12 +345,6 @@ h2 {
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
-}
-
-.app-section {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
 }
 
 .app-section h2 {
@@ -553,6 +535,12 @@ h2 {
   color: #e0e0e0;
   text-decoration: none;
   margin-right: 16px;
+}
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .content {
