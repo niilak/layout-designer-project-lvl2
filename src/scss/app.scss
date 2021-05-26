@@ -51,14 +51,10 @@ h2 {
   .banner {
     h1 {
       @extend %no-margin;
-
-      text-align: center;
     }
 
     h2 {
       @extend %no-margin;
-
-      text-align: center;
     }
 
     p {
@@ -66,7 +62,6 @@ h2 {
       margin-bottom: 16px;
       color: $white;
       font-size: 16px;
-      text-align: center;
 
       @extend %no-margin;
     }
@@ -146,8 +141,6 @@ h2 {
   padding-top: 100px;
 
   h2 {
-    text-align: center;
-
     @extend %no-margin;
   }
 
@@ -166,7 +159,6 @@ h2 {
 
       h3 {
         margin-bottom: 200px;
-        text-align: center;
 
         @include pricing-h3;
       }
@@ -181,7 +173,6 @@ h2 {
           margin-right: 16px;
           font-size: 64px;
           line-height: 1em;
-          text-align: center;
 
           @extend %no-margin;
         }
@@ -209,14 +200,11 @@ h2 {
         @include small-text;
 
         height: 57px;
-        text-align: center;
       }
     }
   }
 
   p {
-    text-align: center;
-
     @extend %no-margin;
 
     @include medium-text;
@@ -230,7 +218,6 @@ h2 {
 
   .news-header {
     margin-bottom: 48px;
-    text-align: center;
 
     @extend %no-margin;
   }
@@ -315,7 +302,6 @@ h2 {
   h2 {
     margin-top: 0;
     margin-bottom: 48px;
-    text-align: center;
   }
 
   .app-item {
