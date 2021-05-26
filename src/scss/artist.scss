@@ -59,16 +59,6 @@ h2 {
   @include content-container;
 }
 
-.footer-bottom {
-  display: flex;
-  @include footer-bottom;
-
-  a {
-    @include footer-link;
-    margin-right: 15px;
-  }
-}
-
 .footer {
   @include footer;
   @extend %bg-gradient;
@@ -121,6 +111,16 @@ h2 {
 
   .line {
     @include line;
+  }
+
+  .footer-bottom {
+    display: flex;
+    @include footer-bottom;
+
+    a {
+      @include footer-link;
+      margin-right: 15px;
+    }
   }
 }
 

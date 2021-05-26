@@ -63,32 +63,6 @@ h2 {
   margin: 0 auto;
 }
 
-.footer-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 40px;
-  padding-bottom: 47px;
-}
-
-.footer-bottom a {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  text-decoration: none;
-  color: #e0e0e0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin-right: 15px;
-}
-
 .footer {
   width: 100%;
   display: -webkit-box;
@@ -205,6 +179,32 @@ h2 {
   width: 100%;
   left: 0;
   background-color: #e0e0e0;
+}
+
+.footer .footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 47px;
+}
+
+.footer .footer-bottom a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 15px;
 }
 
 .popular-track-section {
