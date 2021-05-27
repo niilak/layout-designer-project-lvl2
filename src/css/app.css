@@ -798,7 +798,6 @@ h2 {
     margin-bottom: 0;
   }
   .news-section .content .news-item .news-text-area .news-footer .news-author {
-    margin-top: 12px;
     margin-bottom: 48px;
     font-size: 12px;
   }
@@ -806,10 +805,10 @@ h2 {
     margin-bottom: 0;
   }
   .news-section .content .news-item .news-text-area .news-footer .mt-mob-item1 {
-    margin-top: 0;
+    margin-top: 25px;
   }
   .news-section .content .news-item .news-text-area .news-footer .mt-mob-item2 {
-    margin-top: 0;
+    margin-top: 16px;
   }
   .app-section {
     width: 100%;
