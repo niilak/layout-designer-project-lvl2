@@ -806,7 +806,6 @@ h2 {
     margin-bottom: 0;
   }
   .news-section .content .news-item .news-text-area .news-footer .news-author {
-    margin-bottom: 35px;
     font-size: 12px;
   }
   .news-section .content .news-item .news-text-area .news-footer .news-author img {
@@ -814,9 +813,6 @@ h2 {
   }
   .news-section .content .news-item .news-text-area .news-footer .news-author:first-child {
     margin-top: 14px;
-  }
-  .news-section .content .news-item .news-text-area .news-footer .news-author:last-child {
-    margin-top: 8px;
   }
   .app-section {
     width: 100%;
