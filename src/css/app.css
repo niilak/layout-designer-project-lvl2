@@ -805,13 +805,10 @@ h2 {
     margin-top: 16px;
     margin-bottom: 0;
   }
-  .news-section .content .news-item .news-text-area .news-footer .news-author {
-    font-size: 12px;
-  }
   .news-section .content .news-item .news-text-area .news-footer .news-author img {
     margin-bottom: 0;
   }
-  .news-section .content .news-item .news-text-area .news-footer .news-author:first-child {
+  .news-section .content .news-item .news-text-area .news-footer .news-author:nth-last-child(2) {
     margin-top: 14px;
   }
   .app-section {

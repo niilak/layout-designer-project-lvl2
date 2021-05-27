@@ -592,20 +592,16 @@ h2 {
           .news-footer {
             .news-author {
               // margin-bottom: 48px;
-              font-size: 12px;
+              // font-size: 12px;
 
               img {
                 margin-bottom: 0;
               }
             }
 
-            .news-author:first-child {
+            .news-author:nth-last-child(2) {
               margin-top: 14px;
             }
-
-            // .news-author:last-child {
-            //   margin-top: 8px;
-            // }
           }
         }
       }
