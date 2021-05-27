@@ -222,8 +222,8 @@ h2 {
         .news-author {
           display: flex;
           align-items: center;
-          margin-top: 30px;
-          margin-bottom: 35px;
+          margin-top: 24px;
+          margin-bottom: 48px;
 
           @include small-text;
 
@@ -436,6 +436,14 @@ h2 {
   margin-left: 24px;
 }
 
+.mt14 {
+  margin-top: 14px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     @include mob-h1;
@@ -591,11 +599,11 @@ h2 {
               }
             }
 
-            .mt-mob-item1 {
+            .news-author:first-child {
               margin-top: 14px;
             }
 
-            .mt-mob-item2 {
+            .news-author:last-child {
               margin-top: 8px;
             }
           }
