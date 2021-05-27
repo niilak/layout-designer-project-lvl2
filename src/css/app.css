@@ -14,7 +14,7 @@
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
-body, .main-section .banner h1, .main-section .banner h2, .pricing-section h2, .pricing-section .pricing-items-row .pricing-item .price-row .pricing-value, .pricing-section p, .news-section .news-header, .news-section .news-item .news-text-area .news-body h3, .news-section .news-item .news-text-area .news-footer .news-author .avatar, .news-section .news-item .news-text-area .news-footer .news-author p {
+body, .no-margin {
   margin: 0;
 }
 
@@ -580,7 +580,7 @@ h2 {
   margin-right: 50px;
 }
 
-.submit-style {
+.submit-btn-style {
   min-width: 270px;
   min-height: 50px;
   margin-bottom: 1.3rem;
@@ -591,25 +591,25 @@ h2 {
   border-radius: 3px;
 }
 
-.submit-style::-webkit-input-placeholder {
+.submit-btn-style::-webkit-input-placeholder {
   color: #fff;
   font-weight: bold;
   font-size: 14px;
 }
 
-.submit-style:-ms-input-placeholder {
+.submit-btn-style:-ms-input-placeholder {
   color: #fff;
   font-weight: bold;
   font-size: 14px;
 }
 
-.submit-style::-ms-input-placeholder {
+.submit-btn-style::-ms-input-placeholder {
   color: #fff;
   font-weight: bold;
   font-size: 14px;
 }
 
-.submit-style::placeholder {
+.submit-btn-style::placeholder {
   color: #fff;
   font-weight: bold;
   font-size: 14px;
@@ -700,7 +700,7 @@ h2 {
   .main-section .content .banner p {
     margin: 16px 0;
   }
-  .main-section .content .banner .submit-style {
+  .main-section .content .banner .submit-btn-style {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

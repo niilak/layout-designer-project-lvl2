@@ -522,6 +522,7 @@ h2 {
   width: fit-content;
   color: #e0e0e0;
   text-decoration: none;
+  height: 20px;
 }
 
 .footer .footer-top .footer-links p {
@@ -591,7 +592,7 @@ h2 {
   width: fit-content;
   color: #e0e0e0;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 16px;
 }
 
 .wrapper {
@@ -775,7 +776,6 @@ h2 {
     letter-spacing: -0.9px;
   }
   .footer {
-    margin-top: 100px;
     padding: 0 20px;
   }
   .footer .content {
@@ -791,6 +791,9 @@ h2 {
             flex-direction: column;
     padding-right: 0;
     padding-bottom: 44px;
+  }
+  .footer .content .footer-top .footer-links:nth-child(4) {
+    margin-top: 7px;
   }
   .footer .content .footer-top .footer-links {
     width: 100%;
@@ -808,6 +811,8 @@ h2 {
     padding-bottom: 32px;
   }
   .footer .content .footer-bottom a {
+    width: 100%;
+    margin-right: 0;
     margin-bottom: 16px;
   }
 }

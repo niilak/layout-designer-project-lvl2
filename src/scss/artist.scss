@@ -297,11 +297,12 @@ h2 {
 
       a {
         @include footer-link;
+
+        height: 20px;
       }
 
       p {
         width: 100%;
-        // @extend %no-margin;
         margin: 2px 0;
 
         @include footer-link;
@@ -316,7 +317,6 @@ h2 {
         li {
           display: flex;
           align-items: center;
-          // height: 20px;
           padding: 2px 0;
         }
       }
@@ -335,7 +335,7 @@ h2 {
     a {
       @include footer-link;
 
-      margin-right: 15px;
+      margin-right: 16px;
     }
   }
 }
@@ -482,7 +482,6 @@ h2 {
   }
 
   .footer {
-    margin-top: 100px;
     padding: 0 20px;
 
     .content {
@@ -493,6 +492,10 @@ h2 {
         flex-direction: column;
         padding-right: 0;
         padding-bottom: 44px;
+
+        .footer-links:nth-child(4) {
+          margin-top: 7px;
+        }
 
         .footer-links {
           width: 100%;
@@ -507,6 +510,8 @@ h2 {
         padding-bottom: 32px;
 
         a {
+          width: 100%;
+          margin-right: 0;
           margin-bottom: 16px;
         }
       }

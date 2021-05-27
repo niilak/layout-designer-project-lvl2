@@ -561,7 +561,7 @@ h2 {
   margin-right: 50px;
 }
 
-.submit-style {
+.submit-btn-style {
   min-width: 270px;
   min-height: 50px;
   margin-bottom: 1.3rem;
@@ -574,7 +574,7 @@ h2 {
   border-radius: 3px;
 }
 
-.submit-style::placeholder {
+.submit-btn-style::placeholder {
   color: #fff;
   font-weight: bold;
   font-size: 14px;
@@ -662,7 +662,7 @@ h2 {
     margin: 16px 0;
   }
 
-  .main-section .content .banner .submit-style {
+  .main-section .content .banner .submit-btn-style {
     display: flex;
     flex-direction: row;
     width: 100%;

@@ -49,14 +49,6 @@ h2 {
   @include img-bg;
 
   .banner {
-    h1 {
-      @extend %no-margin;
-    }
-
-    h2 {
-      @extend %no-margin;
-    }
-
     p {
       margin-top: 32px;
       margin-bottom: 16px;
@@ -134,10 +126,6 @@ h2 {
 }
 
 .pricing-section {
-  h2 {
-    @extend %no-margin;
-  }
-
   .pricing-items-row {
     display: flex;
     justify-content: space-between;
@@ -167,8 +155,6 @@ h2 {
           margin-right: 16px;
           font-size: 64px;
           line-height: 1em;
-
-          @extend %no-margin;
         }
 
         .pricing-currency {
@@ -199,8 +185,6 @@ h2 {
   }
 
   p {
-    @extend %no-margin;
-
     @include medium-text;
   }
 }
@@ -208,8 +192,6 @@ h2 {
 .news-section {
   .news-header {
     margin-bottom: 48px;
-
-    @extend %no-margin;
   }
 
   .ozzy-item {
@@ -226,8 +208,6 @@ h2 {
           font-size: 30px;
           line-height: 45px;
           text-transform: capitalize;
-
-          @extend %no-margin;
         }
 
         p {
@@ -251,8 +231,6 @@ h2 {
             width: 19px;
             height: 19px;
 
-            @extend %no-margin;
-
             @include mr(16px);
           }
 
@@ -260,10 +238,6 @@ h2 {
             color: $orange;
 
             @include mr(16px);
-          }
-
-          p {
-            @extend %no-margin;
           }
         }
       }
@@ -404,6 +378,10 @@ h2 {
   @include content-container;
 }
 
+.no-margin {
+  @extend %no-margin;
+}
+
 .bg-free {
   @include img-bg;
   @include pricing-img-bg;
@@ -429,7 +407,7 @@ h2 {
   margin-right: 50px;
 }
 
-.submit-style {
+.submit-btn-style {
   min-width: 270px;
   min-height: 50px;
   margin-bottom: 1.3rem;
@@ -515,7 +493,7 @@ h2 {
           margin: 16px 0;
         }
 
-        .submit-style {
+        .submit-btn-style {
           display: flex;
           flex-direction: row;
           width: 100%;
