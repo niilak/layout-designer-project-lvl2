@@ -135,44 +135,6 @@
   padding: 200px 0;
 }
 
-@mixin nav-bar {
-  position: absolute;
-  top: 25px;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 120px;
-}
-
-@mixin logo-img-style {
-  width: 24px;
-  height: 24px;
-  color: $white;
-}
-
-@mixin nav-bar-links {
-  display: flex;
-  align-items: center;
-  color: $dark-gray;
-  font-weight: bold;
-  font-size: 11px;
-  line-height: 13px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-@mixin search-input {
-  display: inline;
-  width: 248px;
-  height: 25px;
-  padding-left: 10px;
-  text-transform: uppercase;
-  background: $dark;
-  border: 0;
-  border-radius: 50px;
-}
-
 @mixin footer {
   position: relative;
   display: flex;

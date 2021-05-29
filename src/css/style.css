@@ -154,7 +154,7 @@ h2 {
   text-decoration: none;
 }
 
-.main-section nav .search-input {
+.main-section nav .search-input-style {
   display: inline;
   width: 248px;
   height: 25px;
@@ -650,7 +650,7 @@ h2 {
     text-align: start;
   }
 
-  .main-section .content nav .search-input {
+  .main-section .content nav .search-input-style {
     width: 100%;
   }
 

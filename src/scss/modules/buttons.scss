@@ -1,0 +1,10 @@
+@mixin green-btn {
+  display: block;
+  width: 570px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: $green;
+  border: 0;
+  border-radius: 5px;
+  @extend %pointer;
+}

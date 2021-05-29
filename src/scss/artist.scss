@@ -87,7 +87,7 @@ h2 {
       @include mr(90px);
 
       img {
-        @include logo-img-style;
+        @include logo-style;
         @include mr(16px);
       }
 
@@ -110,8 +110,8 @@ h2 {
       }
     }
 
-    .search-input {
-      @include search-input;
+    .search-input-style {
+      @include search-input-style;
       @include mr(24px);
     }
   }
@@ -401,7 +401,7 @@ h2 {
           }
         }
 
-        .search-input {
+        .search-input-style {
           width: 100%;
         }
       }

@@ -20,7 +20,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -68,8 +68,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 200px 0;
   height: 751px;
   background-image: url("../images/MortenHarket.png");
@@ -86,13 +86,13 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 100%;
   padding: 0 120px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .artist-main-section nav .nav-div {
@@ -100,8 +100,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .artist-main-section nav .logo {
@@ -110,11 +110,11 @@ h2 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-right: 90px;
 }
 
@@ -130,8 +130,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #cacaca;
   font-weight: bold;
   font-size: 11px;
@@ -156,8 +156,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #cacaca;
   font-weight: bold;
   font-size: 11px;
@@ -167,7 +167,7 @@ h2 {
   margin-right: 24px;
 }
 
-.artist-main-section nav .search-input {
+.artist-main-section nav .search-input-style {
   display: inline;
   width: 248px;
   height: 25px;
@@ -211,8 +211,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 200px;
   padding: 20px 30px;
   color: #fff;
@@ -234,8 +234,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 200px;
   padding: 20px 30px;
   color: #fff;
@@ -263,10 +263,10 @@ h2 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding-top: 50px;
 }
 
@@ -275,8 +275,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 50%;
   padding-right: 50px;
   font-weight: normal;
@@ -289,8 +289,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .popular-track-section .track-list .popular-track .track-album-info img {
@@ -299,14 +299,24 @@ h2 {
   margin-right: 15px;
 }
 
-.popular-track-section .track-list .popular-track .track-album-info .track-info h3 {
+.popular-track-section
+  .track-list
+  .popular-track
+  .track-album-info
+  .track-info
+  h3 {
   margin: 0;
   font-size: 12.8px;
   line-height: 19.2px;
   text-transform: uppercase;
 }
 
-.popular-track-section .track-list .popular-track .track-album-info .track-info p {
+.popular-track-section
+  .track-list
+  .popular-track
+  .track-album-info
+  .track-info
+  p {
   margin: 0;
   font-weight: normal;
   font-size: 12.8px;
@@ -339,7 +349,7 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .discography-section .discography-list .discography-item,
@@ -378,7 +388,10 @@ h2 {
 .similar-artist-section .discography-list .discography-item .similar-info,
 .similar-artist-section .discography-list .similar-item .discography-info,
 .similar-artist-section .discography-list .similar-item .similar-info,
-.similar-artist-section .similar-artist-list .discography-item .discography-info,
+.similar-artist-section
+  .similar-artist-list
+  .discography-item
+  .discography-info,
 .similar-artist-section .similar-artist-list .discography-item .similar-info,
 .similar-artist-section .similar-artist-list .similar-item .discography-info,
 .similar-artist-section .similar-artist-list .similar-item .similar-info {
@@ -390,15 +403,27 @@ h2 {
 .discography-section .discography-list .discography-item .similar-info h3,
 .discography-section .discography-list .similar-item .discography-info h3,
 .discography-section .discography-list .similar-item .similar-info h3,
-.discography-section .similar-artist-list .discography-item .discography-info h3,
+.discography-section
+  .similar-artist-list
+  .discography-item
+  .discography-info
+  h3,
 .discography-section .similar-artist-list .discography-item .similar-info h3,
 .discography-section .similar-artist-list .similar-item .discography-info h3,
 .discography-section .similar-artist-list .similar-item .similar-info h3,
-.similar-artist-section .discography-list .discography-item .discography-info h3,
+.similar-artist-section
+  .discography-list
+  .discography-item
+  .discography-info
+  h3,
 .similar-artist-section .discography-list .discography-item .similar-info h3,
 .similar-artist-section .discography-list .similar-item .discography-info h3,
 .similar-artist-section .discography-list .similar-item .similar-info h3,
-.similar-artist-section .similar-artist-list .discography-item .discography-info h3,
+.similar-artist-section
+  .similar-artist-list
+  .discography-item
+  .discography-info
+  h3,
 .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
 .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
 .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
@@ -421,7 +446,11 @@ h2 {
 .similar-artist-section .discography-list .discography-item .similar-info p,
 .similar-artist-section .discography-list .similar-item .discography-info p,
 .similar-artist-section .discography-list .similar-item .similar-info p,
-.similar-artist-section .similar-artist-list .discography-item .discography-info p,
+.similar-artist-section
+  .similar-artist-list
+  .discography-item
+  .discography-info
+  p,
 .similar-artist-section .similar-artist-list .discography-item .similar-info p,
 .similar-artist-section .similar-artist-list .similar-item .discography-info p,
 .similar-artist-section .similar-artist-list .similar-item .similar-info p {
@@ -457,8 +486,8 @@ h2 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -468,11 +497,11 @@ h2 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 62px;
   padding-bottom: 70px;
 }
@@ -483,8 +512,8 @@ h2 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 270px;
 }
 
@@ -493,8 +522,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer .footer-top .footer-links h2 {
@@ -515,8 +544,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -535,8 +564,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -556,8 +585,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 2px 0;
 }
 
@@ -585,8 +614,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -641,22 +670,22 @@ h2 {
     top: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     width: 100%;
     padding: 0 20px;
   }
   .artist-main-section .content nav .nav-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: inherit;
-        -ms-flex-align: inherit;
-            align-items: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
   }
   .artist-main-section .content nav .nav-div .nav-list {
     display: -webkit-box;
@@ -664,8 +693,8 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin: 16px 0;
     padding: 0;
   }
@@ -677,7 +706,7 @@ h2 {
     margin-bottom: 2px;
     text-align: start;
   }
-  .artist-main-section .content nav .search-input {
+  .artist-main-section .content nav .search-input-style {
     width: 100%;
   }
   .artist-main-section .content .central {
@@ -693,8 +722,8 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .artist-main-section .content .central .list-btn form .purple-btn {
     margin-bottom: 24px;
@@ -729,8 +758,8 @@ h2 {
   .similar-artist-section .discography-list,
   .similar-artist-section .similar-artist-list {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .discography-section .discography-list .discography-item,
   .discography-section .discography-list .similar-item,
@@ -757,17 +786,37 @@ h2 {
   .discography-section .discography-list .discography-item .similar-info h3,
   .discography-section .discography-list .similar-item .discography-info h3,
   .discography-section .discography-list .similar-item .similar-info h3,
-  .discography-section .similar-artist-list .discography-item .discography-info h3,
+  .discography-section
+    .similar-artist-list
+    .discography-item
+    .discography-info
+    h3,
   .discography-section .similar-artist-list .discography-item .similar-info h3,
   .discography-section .similar-artist-list .similar-item .discography-info h3,
   .discography-section .similar-artist-list .similar-item .similar-info h3,
-  .similar-artist-section .discography-list .discography-item .discography-info h3,
+  .similar-artist-section
+    .discography-list
+    .discography-item
+    .discography-info
+    h3,
   .similar-artist-section .discography-list .discography-item .similar-info h3,
   .similar-artist-section .discography-list .similar-item .discography-info h3,
   .similar-artist-section .discography-list .similar-item .similar-info h3,
-  .similar-artist-section .similar-artist-list .discography-item .discography-info h3,
-  .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
-  .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
+  .similar-artist-section
+    .similar-artist-list
+    .discography-item
+    .discography-info
+    h3,
+  .similar-artist-section
+    .similar-artist-list
+    .discography-item
+    .similar-info
+    h3,
+  .similar-artist-section
+    .similar-artist-list
+    .similar-item
+    .discography-info
+    h3,
   .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
     font-weight: 700;
     font-size: 18px;
@@ -787,8 +836,8 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding-right: 0;
     padding-bottom: 44px;
   }
@@ -806,8 +855,8 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding-bottom: 32px;
   }
   .footer .content .footer-bottom a {
