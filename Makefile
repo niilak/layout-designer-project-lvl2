@@ -7,6 +7,8 @@ lint:
 
 sass:
 	npx stylelint --fix ./src/scss/*.scss
+	npx stylelint --fix ./src/scss/modules/*.scss
+
 
 deploy:
 	npx surge ./src/

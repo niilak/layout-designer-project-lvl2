@@ -25,6 +25,7 @@
 @mixin search-input {
   @include search-input-style;
   @include mr(24px);
+
   display: inline;
 }
 
