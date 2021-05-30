@@ -588,7 +588,7 @@ h2 {
     padding-bottom: 44px;
 
     .footer-links:nth-child(4) {
-      margin-top: 5px;
+      margin-top: 4px;
     }
 
     .footer-links {
@@ -608,5 +608,9 @@ h2 {
       margin-right: 0;
       margin-bottom: 16px;
     }
+  }
+
+  .footer-links:last-child h2 {
+    margin-bottom: 12px;
   }
 }
