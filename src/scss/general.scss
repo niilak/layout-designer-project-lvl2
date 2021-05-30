@@ -85,24 +85,6 @@
   text-transform: capitalize;
 }
 
-@mixin footer-h2 {
-  color: $white;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 27px;
-  text-transform: uppercase;
-}
-
-@mixin footer-link {
-  @include medium-text;
-
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  color: $gray;
-  text-decoration: none;
-}
-
 @mixin small-text {
   font-weight: normal;
   font-size: 12.8px;
@@ -134,38 +116,6 @@
   display: flex;
   justify-content: center;
   padding: 200px 0;
-}
-
-@mixin footer {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-@mixin footer-top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 62px;
-  padding-bottom: 70px;
-}
-
-@mixin footer-bottom {
-  padding-top: 40px;
-  padding-bottom: 47px;
-}
-
-@mixin line {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  background-color: $gray;
-  border: 1px solid $gray;
-}
-
-%bg-gradient {
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 %no-margin {
