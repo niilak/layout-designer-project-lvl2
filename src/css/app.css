@@ -644,12 +644,6 @@ h2 {
     line-height: 27px;
     text-transform: uppercase;
   }
-  h3 {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    text-transform: uppercase;
-  }
   .content {
     width: 100%;
   }
@@ -747,11 +741,20 @@ h2 {
             justify-content: center;
     height: 593px;
   }
+  .pricing-items-row .pricing-item h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  .pricing-footer {
+    height: 57px;
+  }
   .news-section {
     width: 100%;
     padding: 100px 20px 0 20px;
   }
-  .news-section .news-header .mt64 {
+  .mt64 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -761,7 +764,7 @@ h2 {
             flex-direction: column-reverse;
     margin-top: 64px;
   }
-  .news-section .news-header .eminem-item {
+  .eminem-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -783,6 +786,10 @@ h2 {
     margin-top: 16px;
     margin-bottom: 0;
   }
+  .news-text-area .news-author {
+    margin-bottom: 48px;
+    font-size: 12px;
+  }
   .news-text-area .news-author img {
     margin-bottom: 0;
   }
@@ -791,7 +798,9 @@ h2 {
   }
   .app-section {
     width: 100%;
+    padding-right: 20px;
     padding-bottom: 0;
+    padding-left: 20px;
   }
   .app-section h2 {
     margin-bottom: 50px;

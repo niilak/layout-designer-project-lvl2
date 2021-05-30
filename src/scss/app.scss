@@ -411,9 +411,9 @@ h2 {
     @include mob-h2;
   }
 
-  h3 {
-    @include mob-h3;
-  }
+  // h3 {
+  //   @include mob-h3;
+  // }
 
   .content {
     width: 100%;
@@ -498,29 +498,31 @@ h2 {
       justify-content: center;
       height: 593px;
 
-      // h3 {
-      //   @include font16;
-      // }
+      h3 {
+        @include font16;
+      }
     }
+  }
+
+  .pricing-footer {
+    height: 57px;
   }
 
   .news-section {
     width: 100%;
     padding: 100px 20px 0 20px;
     // padding-top: 100px;
+  }
 
-    .news-header {
-      .mt64 {
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: 64px;
-      }
+  .mt64 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 64px;
+  }
 
-      .eminem-item {
-        display: flex;
-        flex-direction: column;
-      }
-    }
+  .eminem-item {
+    display: flex;
+    flex-direction: column;
   }
 
   .news-item {
@@ -543,8 +545,8 @@ h2 {
     }
 
     .news-author {
-      // margin-bottom: 48px;
-      // font-size: 12px;
+      margin-bottom: 48px;
+      font-size: 12px;
 
       img {
         margin-bottom: 0;
@@ -558,9 +560,9 @@ h2 {
 
   .app-section {
     width: 100%;
-    // padding-right: 20px;
+    padding-right: 20px;
     padding-bottom: 0;
-    // padding-left: 20px;
+    padding-left: 20px;
 
     h2 {
       margin-bottom: 50px;
