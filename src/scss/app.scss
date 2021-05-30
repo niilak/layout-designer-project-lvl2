@@ -294,6 +294,10 @@ h2 {
 
 .footer-bottom {
   @include footer-bottom;
+
+  a {
+    padding: 2px 0;
+  }
 }
 
 .footer-h2 {
