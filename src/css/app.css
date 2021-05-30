@@ -278,7 +278,6 @@ h2 {
 
 .checkout-btn {
   display: block;
-  margin-bottom: 64px;
   padding: 20px 30px;
   color: #fff;
   background: none;
@@ -292,6 +291,10 @@ h2 {
 
 .mt64 {
   margin-top: 65px;
+}
+
+.mb64 {
+  margin-bottom: 64px;
 }
 
 .news-item {
@@ -649,9 +652,8 @@ h2 {
   }
   .content {
     width: 100%;
-    padding: 0 20px;
   }
-  nav {
+  .main-section nav {
     top: 16px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -663,7 +665,7 @@ h2 {
     width: 100%;
     padding: 0 20px;
   }
-  nav .nav-div {
+  .main-section nav .nav-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -672,7 +674,7 @@ h2 {
         -ms-flex-align: inherit;
             align-items: inherit;
   }
-  nav .nav-list {
+  .main-section nav .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -683,10 +685,10 @@ h2 {
     margin: 17px 0;
     padding: 0;
   }
-  nav .nav-list li {
+  .main-section nav .nav-list li {
     margin-right: 0;
   }
-  nav .nav-list li a {
+  .main-section nav .nav-list li a {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -694,7 +696,7 @@ h2 {
     margin-bottom: 1px;
     text-align: start;
   }
-  nav .search-input-style {
+  .main-section nav .search-input-style {
     width: 100%;
   }
   .banner {
@@ -723,7 +725,7 @@ h2 {
             flex-direction: column;
     width: 100%;
     height: 100%;
-    padding-top: 100px;
+    padding: 100px 20px 0 20px;
   }
   .pricing-section h2 {
     width: 100%;
@@ -747,7 +749,7 @@ h2 {
   }
   .news-section {
     width: 100%;
-    padding-top: 100px;
+    padding: 100px 20px 0 20px;
   }
   .news-section .news-header .mt64 {
     display: -webkit-box;

@@ -182,6 +182,10 @@ h2 {
   margin-top: 65px;
 }
 
+.mb64 {
+  margin-bottom: 64px;
+}
+
 .news-item {
   display: flex;
 
@@ -413,41 +417,43 @@ h2 {
 
   .content {
     width: 100%;
-    padding: 0 20px;
+    // padding: 0 20px;
   }
 
-  nav {
-    top: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    padding: 0 20px;
-
-    .nav-div {
+  .main-section {
+    nav {
+      top: 16px;
       flex-direction: column;
-      align-items: inherit;
-    }
+      align-items: flex-start;
+      width: 100%;
+      padding: 0 20px;
 
-    .nav-list {
-      display: flex;
-      flex-direction: column;
-      margin: 17px 0;
-      padding: 0;
+      .nav-div {
+        flex-direction: column;
+        align-items: inherit;
+      }
 
-      li {
-        margin-right: 0;
+      .nav-list {
+        display: flex;
+        flex-direction: column;
+        margin: 17px 0;
+        padding: 0;
 
-        a {
-          width: fit-content;
+        li {
           margin-right: 0;
-          margin-bottom: 1px;
-          text-align: start;
+
+          a {
+            width: fit-content;
+            margin-right: 0;
+            margin-bottom: 1px;
+            text-align: start;
+          }
         }
       }
-    }
 
-    .search-input-style {
-      width: 100%;
+      .search-input-style {
+        width: 100%;
+      }
     }
   }
 
@@ -474,8 +480,8 @@ h2 {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    // padding: 100px 20px 0 20px;
-    padding-top: 100px;
+    padding: 100px 20px 0 20px;
+    // padding-top: 100px;
 
     h2 {
       width: 100%;
@@ -500,8 +506,8 @@ h2 {
 
   .news-section {
     width: 100%;
-    // padding: 100px 20px 0 20px;
-    padding-top: 100px;
+    padding: 100px 20px 0 20px;
+    // padding-top: 100px;
 
     .news-header {
       .mt64 {
