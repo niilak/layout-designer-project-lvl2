@@ -276,6 +276,10 @@ h2 {
   line-height: 1em;
 }
 
+.pricing-footer {
+  height: 57px;
+}
+
 .checkout-btn {
   display: block;
   padding: 20px 30px;
@@ -320,7 +324,6 @@ h2 {
 }
 
 .news-item .news-footer .news-author .orange {
-  color: #f89202;
   margin-right: 16px;
 }
 
@@ -629,6 +632,10 @@ h2 {
   margin-top: 8px;
 }
 
+.orange {
+  color: #f89202;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     color: #fff;
@@ -747,9 +754,6 @@ h2 {
     line-height: 24px;
     text-transform: uppercase;
   }
-  .pricing-footer {
-    height: 57px;
-  }
   .news-section {
     width: 100%;
     padding: 100px 20px 0 20px;
@@ -781,6 +785,12 @@ h2 {
   }
   .news-text-area .news-body {
     margin-right: 0;
+  }
+  .news-text-area .news-body h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
   }
   .news-text-area .news-body p {
     margin-top: 16px;

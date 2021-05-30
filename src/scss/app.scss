@@ -166,6 +166,10 @@ h2 {
   line-height: 1em;
 }
 
+.pricing-footer {
+  height: 57px;
+}
+
 // .pricing-footer {
 //   height: 57px;
 // }
@@ -204,8 +208,6 @@ h2 {
       margin-bottom: 48px;
 
       .orange {
-        color: $orange;
-
         @include mr(16px);
       }
     }
@@ -402,6 +404,10 @@ h2 {
   margin-top: 8px;
 }
 
+.orange {
+  color: $orange;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     @include mob-h1;
@@ -504,10 +510,6 @@ h2 {
     }
   }
 
-  .pricing-footer {
-    height: 57px;
-  }
-
   .news-section {
     width: 100%;
     padding: 100px 20px 0 20px;
@@ -537,6 +539,13 @@ h2 {
   .news-text-area {
     .news-body {
       margin-right: 0;
+
+      h3 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: capitalize;
+      }
 
       p {
         margin-top: 16px;
