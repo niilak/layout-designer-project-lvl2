@@ -246,7 +246,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 
 .pricing-item {
@@ -278,7 +278,7 @@ h2 {
 }
 
 .pricing-footer {
-  line-height: 19px;
+  height: 57px;
 }
 
 .checkout-btn {
