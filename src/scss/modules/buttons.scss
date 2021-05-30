@@ -27,3 +27,25 @@
 
   @extend %pointer;
 }
+
+@mixin to-album-btn {
+  display: block;
+  width: fit-content;
+  padding: 16px 30px;
+  color: $gray;
+  border: 1px solid $gray;
+  border-radius: 5px;
+
+  @extend %pointer;
+}
+
+@mixin submit-btn-style {
+  min-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.3rem;
+  padding-left: 20px;
+  color: $white;
+  background: none;
+  border: 2px solid $gray;
+  border-radius: 3px;
+}

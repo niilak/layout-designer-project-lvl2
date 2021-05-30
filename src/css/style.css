@@ -304,7 +304,7 @@ h2 {
   text-align: center;
 }
 
-.news-section .mt65 {
+.news-section .mt64 {
   margin-top: 65px;
 }
 
@@ -345,7 +345,7 @@ h2 {
   margin-right: 16px;
 }
 
-.news-section .news-item .news-text-area .news-footer .news-author .orange-p {
+.news-section .news-item .news-text-area .news-footer .news-author .orange {
   margin-right: 16px;
 
   color: #f89202;
@@ -719,7 +719,7 @@ h2 {
     width: 100%;
   }
 
-  .news-section .content .mt65 {
+  .news-section .content .mt64 {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 64px;
