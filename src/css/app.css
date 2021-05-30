@@ -818,6 +818,9 @@ h2 {
     padding-right: 0;
     padding-bottom: 44px;
   }
+  .footer-top .footer-links:nth-child(4) {
+    margin-top: 5px;
+  }
   .footer-top .footer-links {
     width: 100%;
     margin-bottom: 30px;
