@@ -253,7 +253,7 @@ h2 {
   line-height: 1em;
 }
 
-.pricing-section .pricing-items-row .pricing-item .price-row .pricing-currency {
+.pricing-section .pricing-items-row .pricing-item .price-row .font32 {
   font-size: 32px;
 }
 
@@ -287,7 +287,7 @@ h2 {
   margin-bottom: 48px;
 }
 
-.news-section .ozzy-item {
+.news-section .mt65 {
   margin-top: 65px;
 }
 
@@ -772,7 +772,7 @@ h2 {
   .news-section .content {
     width: 100%;
   }
-  .news-section .content .ozzy-item {
+  .news-section .content .mt65 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

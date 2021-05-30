@@ -257,7 +257,7 @@ h2 {
   text-align: center;
 }
 
-.pricing-section .pricing-items-row .pricing-item .price-row .pricing-currency {
+.pricing-section .pricing-items-row .pricing-item .price-row .font32 {
   font-size: 32px;
 }
 
@@ -304,7 +304,7 @@ h2 {
   text-align: center;
 }
 
-.news-section .ozzy-item {
+.news-section .mt65 {
   margin-top: 65px;
 }
 
@@ -719,7 +719,7 @@ h2 {
     width: 100%;
   }
 
-  .news-section .content .ozzy-item {
+  .news-section .content .mt65 {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 64px;

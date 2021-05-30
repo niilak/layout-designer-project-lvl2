@@ -34,14 +34,14 @@
   text-transform: uppercase;
 }
 
-@mixin pricing-h3 {
+@mixin font24 {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   text-transform: uppercase;
 }
 
-@mixin pricing-mob-h3 {
+@mixin font16 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -121,12 +121,6 @@
 
 @mixin mr($mr) {
   margin-right: $mr;
-}
-
-@mixin btn {
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 @mixin main-wrapper {

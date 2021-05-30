@@ -1,3 +1,9 @@
+@mixin btn {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 @mixin green-btn {
   display: block;
   width: 570px;
@@ -5,6 +11,18 @@
   padding: 20px 0;
   background: $green;
   border: 0;
+  border-radius: 5px;
+
+  @extend %pointer;
+}
+
+@mixin checkout-btn {
+  display: block;
+  margin-bottom: 64px;
+  padding: 20px 30px;
+  color: $white;
+  background: none;
+  border: 1px solid $white;
   border-radius: 5px;
 
   @extend %pointer;
