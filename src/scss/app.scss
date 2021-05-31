@@ -271,8 +271,8 @@ h2 {
 
   p {
     width: 100%;
-    padding: 2px 0;
     margin: 2px 0;
+    padding: 2px 0;
   }
 
   ul {
@@ -305,9 +305,9 @@ h2 {
 .footer-bottom {
   @include footer-bottom;
 
-  a {
-    height: 24px;
-  }
+  // a {
+  //   height: 24px;
+  // }
 }
 
 .footer-h2 {
