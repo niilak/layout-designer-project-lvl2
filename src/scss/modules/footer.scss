@@ -13,10 +13,22 @@
 }
 
 @mixin footer-link {
-  display: flex;
-  align-items: center;
-  width: fit-content;
+  // display: flex;
+  // align-items: center;
+  // width: fit-content;
   height: 20px;
+  color: $gray;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+@mixin footer-link-bottom {
+  display: block;
+  // align-items: center;
+  // width: fit-content;
+  // height: 20px;
   color: $gray;
   font-weight: normal;
   font-size: 16px;

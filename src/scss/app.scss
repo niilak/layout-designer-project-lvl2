@@ -317,10 +317,10 @@ h2 {
 
 .footer-bottom {
   @include footer-bottom;
+}
 
-  // a {
-  //   height: 24px;
-  // }
+.footer-link-bottom {
+  @include footer-link-bottom;
 }
 
 .footer-h2 {
