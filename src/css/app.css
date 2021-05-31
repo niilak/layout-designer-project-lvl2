@@ -798,9 +798,6 @@ h2 {
     padding-bottom: 0;
     padding-left: 20px;
   }
-  .app-section h2 {
-    margin-bottom: 50px;
-  }
   .app-section .app-item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -809,7 +806,6 @@ h2 {
   }
   .app-section .app-item img {
     margin: 0 auto;
-    padding: 0;
   }
   .app-text-area p {
     height: 96px;
