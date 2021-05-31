@@ -784,7 +784,9 @@ h2 {
     margin-bottom: 48px;
     font-size: 12px;
   }
-  .news-author img {
+  .news-author .avatar {
+    width: 19px;
+    margin-right: 16px;
     margin-bottom: 0;
   }
   .news-author:nth-last-child(2) {
