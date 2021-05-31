@@ -293,6 +293,11 @@ h2 {
   }
 }
 
+.vertical-align-middle {
+  display: inline;
+  vertical-align: middle;
+}
+
 .line {
   @include line;
 }

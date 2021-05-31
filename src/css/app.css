@@ -454,6 +454,11 @@ h2 {
   padding: 2px 0;
 }
 
+.vertical-align-middle {
+  display: inline;
+  vertical-align: middle;
+}
+
 .line {
   position: absolute;
   left: 0;
