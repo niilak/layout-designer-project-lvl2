@@ -767,16 +767,16 @@ h2 {
     margin-right: 0;
     margin-bottom: 49px;
   }
-  .news-text-area .news-body {
+  .news-body {
     margin-right: 0;
   }
-  .news-text-area .news-body h3 {
+  .news-body h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
   }
-  .news-text-area .news-body p {
+  .news-body p {
     margin-top: 16px;
     margin-bottom: 0;
   }
