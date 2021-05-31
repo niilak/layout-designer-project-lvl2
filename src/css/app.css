@@ -507,6 +507,9 @@ h2 {
 }
 
 .footer-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   height: 20px;
   color: #e0e0e0;
   font-weight: normal;
