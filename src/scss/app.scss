@@ -293,6 +293,17 @@ h2 {
   }
 }
 
+.footer-links:last-child .footer-h2 {
+  margin-bottom: 11px;
+}
+
+.footer-links:nth-child(3) {
+  .footer-link:nth-child(3) {
+    height: auto;
+    padding: 0;
+  }
+}
+
 .vertical-align-middle {
   display: inline;
   vertical-align: middle;
