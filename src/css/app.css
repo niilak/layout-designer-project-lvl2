@@ -661,7 +661,7 @@ h2 {
     width: 100%;
     padding: 0 20px;
   }
-  .main-section nav .nav-div {
+  .nav-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -670,7 +670,7 @@ h2 {
         -ms-flex-align: inherit;
             align-items: inherit;
   }
-  .main-section nav .nav-list {
+  .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -681,10 +681,10 @@ h2 {
     margin: 17px 0;
     padding: 0;
   }
-  .main-section nav .nav-list li {
+  .nav-list li {
     margin-right: 0;
   }
-  .main-section nav .nav-list li a {
+  .nav-list li a {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -692,7 +692,7 @@ h2 {
     margin-bottom: 1px;
     text-align: start;
   }
-  .main-section nav .search-input-style {
+  .search-input-style {
     width: 100%;
   }
   .banner {
@@ -701,7 +701,7 @@ h2 {
   .banner p {
     margin: 16px 0;
   }
-  .banner .submit-btn-style {
+  .submit-btn-style {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -711,7 +711,7 @@ h2 {
             flex-direction: row;
     width: 100%;
   }
-  .banner .green-btn {
+  .green-btn {
     width: 100%;
   }
   .pricing-section {
@@ -791,14 +791,14 @@ h2 {
     margin-top: 16px;
     margin-bottom: 0;
   }
-  .news-text-area .news-author {
+  .news-author {
     margin-bottom: 48px;
     font-size: 12px;
   }
-  .news-text-area .news-author img {
+  .news-author img {
     margin-bottom: 0;
   }
-  .news-text-area .news-author:nth-last-child(2) {
+  .news-author:nth-last-child(2) {
     margin-top: 14px;
   }
   .app-section {
@@ -816,15 +816,15 @@ h2 {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .app-section .app-item .app-text-area p {
-    height: 96px;
-  }
-  .app-section .app-item .app-text-area p:nth-child(2) {
-    height: 72px;
-  }
   .app-section .app-item img {
     margin: 0 auto;
     padding: 0;
+  }
+  .app-text-area p {
+    height: 96px;
+  }
+  .app-text-area p:nth-child(2) {
+    height: 72px;
   }
   .footer {
     padding: 0 20px;
@@ -843,7 +843,7 @@ h2 {
   .footer-top .footer-links:nth-child(4) {
     margin-top: 4px;
   }
-  .footer-top .footer-links {
+  .footer-links {
     width: 100%;
     margin-bottom: 30px;
     margin-left: 0%;
