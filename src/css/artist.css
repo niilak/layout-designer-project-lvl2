@@ -10,17 +10,17 @@
   src: url("src/fonts/Roboto-Bold.ttf");
 }
 
-.footer {
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-}
-
 body {
   margin: 0;
 }
 
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -68,8 +68,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 200px 0;
   height: 751px;
   background-image: url("../images/MortenHarket.png");
@@ -78,60 +78,53 @@ h2 {
   background-size: cover;
 }
 
-.artist-main-section nav {
+.nav-style {
   position: absolute;
   top: 25px;
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   padding: 0 120px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
-.artist-main-section nav .nav-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.artist-main-section nav .logo {
+.logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 90px;
 }
 
-.artist-main-section nav .logo img {
-  width: 24px;
-  height: 24px;
-  color: #fff;
-  margin-right: 16px;
-}
-
-.artist-main-section nav .logo p {
+.nav-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #cacaca;
   font-weight: bold;
   font-size: 11px;
@@ -140,24 +133,24 @@ h2 {
   text-decoration: none;
 }
 
-.artist-main-section nav .nav-list {
+.nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
 }
 
-.artist-main-section nav .nav-list li {
+.nav-list li {
   padding-left: 0;
 }
 
-.artist-main-section nav .nav-list li a {
+.nav-list li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #cacaca;
   font-weight: bold;
   font-size: 11px;
@@ -167,8 +160,7 @@ h2 {
   margin-right: 24px;
 }
 
-.artist-main-section nav .search-input-style {
-  display: inline;
+.search-input-style {
   width: 248px;
   height: 25px;
   padding-left: 10px;
@@ -179,15 +171,15 @@ h2 {
   margin-right: 24px;
 }
 
-.artist-main-section .central {
+.central {
   padding-top: 50px;
 }
 
-.artist-main-section .central h1 {
+.central h1 {
   margin: 0;
 }
 
-.artist-main-section .central p {
+.central p {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
@@ -195,13 +187,13 @@ h2 {
   margin-bottom: 48px;
 }
 
-.artist-main-section .central .list-btn form {
+.central .list-btn form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.artist-main-section .central .list-btn form .purple-btn {
+.central .list-btn form .purple-btn {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -211,8 +203,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 200px;
   padding: 20px 30px;
   color: #fff;
@@ -223,19 +215,19 @@ h2 {
   line-height: 150%;
 }
 
-.artist-main-section .central .list-btn form .purple-btn img {
+.central .list-btn form .purple-btn img {
   width: 20px;
   height: 20px;
   margin-right: 16px;
 }
 
-.artist-main-section .central .list-btn form .red-btn {
+.central .list-btn form .red-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 200px;
   padding: 20px 30px;
   color: #fff;
@@ -247,7 +239,7 @@ h2 {
   background-color: #95390c;
 }
 
-.artist-main-section .central .list-btn form .red-btn img {
+.central .list-btn form .red-btn img {
   width: 20px;
   height: 20px;
   margin-right: 16px;
@@ -263,10 +255,10 @@ h2 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-top: 50px;
 }
 
@@ -275,8 +267,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 50%;
   padding-right: 50px;
   font-weight: normal;
@@ -289,8 +281,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .popular-track-section .track-list .popular-track .track-album-info img {
@@ -299,24 +291,14 @@ h2 {
   margin-right: 15px;
 }
 
-.popular-track-section
-  .track-list
-  .popular-track
-  .track-album-info
-  .track-info
-  h3 {
+.popular-track-section .track-list .popular-track .track-album-info .track-info h3 {
   margin: 0;
   font-size: 12.8px;
   line-height: 19.2px;
   text-transform: uppercase;
 }
 
-.popular-track-section
-  .track-list
-  .popular-track
-  .track-album-info
-  .track-info
-  p {
+.popular-track-section .track-list .popular-track .track-album-info .track-info p {
   margin: 0;
   font-weight: normal;
   font-size: 12.8px;
@@ -349,7 +331,7 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .discography-section .discography-list .discography-item,
@@ -388,10 +370,7 @@ h2 {
 .similar-artist-section .discography-list .discography-item .similar-info,
 .similar-artist-section .discography-list .similar-item .discography-info,
 .similar-artist-section .discography-list .similar-item .similar-info,
-.similar-artist-section
-  .similar-artist-list
-  .discography-item
-  .discography-info,
+.similar-artist-section .similar-artist-list .discography-item .discography-info,
 .similar-artist-section .similar-artist-list .discography-item .similar-info,
 .similar-artist-section .similar-artist-list .similar-item .discography-info,
 .similar-artist-section .similar-artist-list .similar-item .similar-info {
@@ -403,27 +382,15 @@ h2 {
 .discography-section .discography-list .discography-item .similar-info h3,
 .discography-section .discography-list .similar-item .discography-info h3,
 .discography-section .discography-list .similar-item .similar-info h3,
-.discography-section
-  .similar-artist-list
-  .discography-item
-  .discography-info
-  h3,
+.discography-section .similar-artist-list .discography-item .discography-info h3,
 .discography-section .similar-artist-list .discography-item .similar-info h3,
 .discography-section .similar-artist-list .similar-item .discography-info h3,
 .discography-section .similar-artist-list .similar-item .similar-info h3,
-.similar-artist-section
-  .discography-list
-  .discography-item
-  .discography-info
-  h3,
+.similar-artist-section .discography-list .discography-item .discography-info h3,
 .similar-artist-section .discography-list .discography-item .similar-info h3,
 .similar-artist-section .discography-list .similar-item .discography-info h3,
 .similar-artist-section .discography-list .similar-item .similar-info h3,
-.similar-artist-section
-  .similar-artist-list
-  .discography-item
-  .discography-info
-  h3,
+.similar-artist-section .similar-artist-list .discography-item .discography-info h3,
 .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
 .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
 .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
@@ -446,11 +413,7 @@ h2 {
 .similar-artist-section .discography-list .discography-item .similar-info p,
 .similar-artist-section .discography-list .similar-item .discography-info p,
 .similar-artist-section .discography-list .similar-item .similar-info p,
-.similar-artist-section
-  .similar-artist-list
-  .discography-item
-  .discography-info
-  p,
+.similar-artist-section .similar-artist-list .discography-item .discography-info p,
 .similar-artist-section .similar-artist-list .discography-item .similar-info p,
 .similar-artist-section .similar-artist-list .similar-item .discography-info p,
 .similar-artist-section .similar-artist-list .similar-item .similar-info p {
@@ -486,9 +449,10 @@ h2 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
+  margin-top: 100px;
 }
 
 .footer .footer-top {
@@ -497,13 +461,13 @@ h2 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 62px;
-  padding-bottom: 70px;
+  padding-bottom: 74px;
 }
 
 .footer .footer-top .footer-links {
@@ -512,8 +476,8 @@ h2 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 270px;
 }
 
@@ -522,8 +486,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer .footer-top .footer-links h2 {
@@ -537,19 +501,14 @@ h2 {
 }
 
 .footer .footer-top .footer-links a {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  height: 20px;
   color: #e0e0e0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
   text-decoration: none;
   height: 20px;
 }
@@ -557,19 +516,14 @@ h2 {
 .footer .footer-top .footer-links p {
   width: 100%;
   margin: 2px 0;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  height: 20px;
   color: #e0e0e0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
   text-decoration: none;
 }
 
@@ -585,8 +539,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 2px 0;
 }
 
@@ -602,24 +556,23 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 40px;
-  padding-bottom: 47px;
+  padding-bottom: 48px;
 }
 
 .footer .footer-bottom a {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  height: 20px;
   color: #e0e0e0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
   text-decoration: none;
   margin-right: 16px;
 }
@@ -640,6 +593,10 @@ h2 {
 
 .mb25 {
   margin-bottom: 25px;
+}
+
+.mr16 {
+  margin-right: 16px;
 }
 
 @media screen and (max-width: 600px) {
@@ -670,22 +627,22 @@ h2 {
     top: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 100%;
     padding: 0 20px;
   }
   .artist-main-section .content nav .nav-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    align-items: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
   }
   .artist-main-section .content nav .nav-div .nav-list {
     display: -webkit-box;
@@ -693,8 +650,8 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 16px 0;
     padding: 0;
   }
@@ -722,8 +679,8 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .artist-main-section .content .central .list-btn form .purple-btn {
     margin-bottom: 24px;
@@ -758,8 +715,8 @@ h2 {
   .similar-artist-section .discography-list,
   .similar-artist-section .similar-artist-list {
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .discography-section .discography-list .discography-item,
   .discography-section .discography-list .similar-item,
@@ -786,37 +743,17 @@ h2 {
   .discography-section .discography-list .discography-item .similar-info h3,
   .discography-section .discography-list .similar-item .discography-info h3,
   .discography-section .discography-list .similar-item .similar-info h3,
-  .discography-section
-    .similar-artist-list
-    .discography-item
-    .discography-info
-    h3,
+  .discography-section .similar-artist-list .discography-item .discography-info h3,
   .discography-section .similar-artist-list .discography-item .similar-info h3,
   .discography-section .similar-artist-list .similar-item .discography-info h3,
   .discography-section .similar-artist-list .similar-item .similar-info h3,
-  .similar-artist-section
-    .discography-list
-    .discography-item
-    .discography-info
-    h3,
+  .similar-artist-section .discography-list .discography-item .discography-info h3,
   .similar-artist-section .discography-list .discography-item .similar-info h3,
   .similar-artist-section .discography-list .similar-item .discography-info h3,
   .similar-artist-section .discography-list .similar-item .similar-info h3,
-  .similar-artist-section
-    .similar-artist-list
-    .discography-item
-    .discography-info
-    h3,
-  .similar-artist-section
-    .similar-artist-list
-    .discography-item
-    .similar-info
-    h3,
-  .similar-artist-section
-    .similar-artist-list
-    .similar-item
-    .discography-info
-    h3,
+  .similar-artist-section .similar-artist-list .discography-item .discography-info h3,
+  .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
+  .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
   .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
     font-weight: 700;
     font-size: 18px;
@@ -836,8 +773,8 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-right: 0;
     padding-bottom: 44px;
   }
@@ -855,8 +792,8 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-bottom: 32px;
   }
   .footer .content .footer-bottom a {

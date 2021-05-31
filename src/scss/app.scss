@@ -66,21 +66,14 @@ h2 {
 
 .main-section {
   @include main-section-style;
-
-  nav {
-    @include nav-bar;
-
-    align-items: center;
-
-    img {
-      @include logo-style;
-      @include mr(16px);
-    }
-  }
 }
 
 .logo {
   @include logo;
+}
+
+.nav-style {
+  @include nav-bar-style;
 }
 
 .nav-div {
@@ -197,30 +190,26 @@ h2 {
       margin-bottom: 0;
     }
   }
+}
 
-  .news-footer {
-    .news-author {
-      display: flex;
-      align-items: center;
-      margin-top: 24px;
-      margin-bottom: 48px;
-
-      .orange {
-        @include mr(16px);
-      }
-    }
+.news-footer {
+  .news-author {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
   }
+}
 
-  .avatar {
-    width: 19px;
-    height: 19px;
+.avatar {
+  width: 19px;
+  height: 19px;
 
-    @include mr(16px);
-  }
+  @include mr(16px);
+}
 
-  .to-album-btn {
-    @include to-album-btn;
-  }
+.to-album-btn {
+  @include to-album-btn;
 }
 
 .app-section {

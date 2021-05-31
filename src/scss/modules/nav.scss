@@ -16,12 +16,6 @@
   @include mr(90px);
 }
 
-@mixin logo-style {
-  width: 24px;
-  height: 24px;
-  color: $white;
-}
-
 @mixin search-input {
   @include search-input-style;
   @include mr(24px);
@@ -39,11 +33,12 @@
   border-radius: 50px;
 }
 
-@mixin nav-bar {
+@mixin nav-bar-style {
   position: absolute;
   top: 25px;
   left: 0;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
   padding: 0 120px;

@@ -10,8 +10,11 @@
   src: url("src/fonts/Roboto-Bold.ttf");
 }
 
-@import "variables";
-@import "general";
+@import "variables.scss";
+@import "general.scss";
+@import "modules/nav.scss";
+@import "modules/buttons.scss";
+@import "modules/footer.scss";
 
 @mixin artist-page-btn {
   display: flex;
@@ -68,93 +71,82 @@ h2 {
   background-image: url("../images/MortenHarket.png");
 
   @include img-bg;
+}
 
-  nav {
-    @include nav-bar;
+.nav-style {
+  @include nav-bar-style;
+}
 
-    align-items: center;
+.logo {
+  @include logo;
+}
 
-    .nav-div {
-      display: flex;
-      align-items: center;
-    }
+.nav-div {
+  display: flex;
+  align-items: center;
+}
 
-    .logo {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+.nav-links {
+  @include nav-bar-links;
+}
 
-      @include mr(90px);
+.nav-list {
+  display: flex;
+  list-style-type: none;
 
-      img {
-        @include logo-style;
-        @include mr(16px);
-      }
+  li {
+    padding-left: 0;
 
-      p {
-        @include nav-bar-links;
-      }
-    }
-
-    .nav-list {
-      display: flex;
-      list-style-type: none;
-
-      li {
-        padding-left: 0;
-
-        a {
-          @include nav-bar-links;
-          @include mr(24px);
-        }
-      }
-    }
-
-    .search-input-style {
-      @include search-input-style;
+    a {
+      @include nav-bar-links;
       @include mr(24px);
     }
   }
+}
 
-  .central {
-    padding-top: 50px;
+.search-input-style {
+  @include search-input-style;
+  @include mr(24px);
+}
 
-    h1 {
-      margin: 0;
-    }
+.central {
+  padding-top: 50px;
 
-    p {
-      @include medium-text;
+  h1 {
+    margin: 0;
+  }
 
-      margin-top: 16px;
-      margin-bottom: 48px;
-    }
+  p {
+    @include medium-text;
 
-    .list-btn {
-      form {
-        display: flex;
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
 
-        .purple-btn {
-          @include btn;
+  .list-btn {
+    form {
+      display: flex;
 
-          margin-right: 1.5rem;
-          background-color: $purple;
+      .purple-btn {
+        @include btn;
 
-          @include artist-page-btn;
+        margin-right: 1.5rem;
+        background-color: $purple;
 
-          img {
-            @include svg-icon-style;
-          }
+        @include artist-page-btn;
+
+        img {
+          @include svg-icon-style;
         }
+      }
 
-        .red-btn {
-          @include artist-page-btn;
+      .red-btn {
+        @include artist-page-btn;
 
-          background-color: $red;
+        background-color: $red;
 
-          img {
-            @include svg-icon-style;
-          }
+        img {
+          @include svg-icon-style;
         }
       }
     }
@@ -354,6 +346,10 @@ h2 {
 
 .mb25 {
   margin-bottom: 25px;
+}
+
+.mr16 {
+  margin-right: 16px;
 }
 
 @media screen and (max-width: 600px) {

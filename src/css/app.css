@@ -14,7 +14,7 @@ body, .no-margin {
   margin: 0;
 }
 
-.green-btn, .checkout-btn, .news-item .to-album-btn, .download-btn {
+.green-btn, .checkout-btn, .to-album-btn, .download-btn {
   cursor: pointer;
 }
 
@@ -109,30 +109,6 @@ h2 {
   background-size: cover;
 }
 
-.main-section nav {
-  position: absolute;
-  top: 25px;
-  left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  padding: 0 120px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main-section nav img {
-  width: 24px;
-  height: 24px;
-  color: #fff;
-  margin-right: 16px;
-}
-
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,6 +121,23 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 90px;
+}
+
+.nav-style {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0 120px;
 }
 
 .nav-div {
@@ -313,7 +306,7 @@ h2 {
   margin-bottom: 0;
 }
 
-.news-item .news-footer .news-author {
+.news-footer .news-author {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,17 +317,13 @@ h2 {
   margin-bottom: 48px;
 }
 
-.news-item .news-footer .news-author .orange {
-  margin-right: 16px;
-}
-
-.news-item .avatar {
+.avatar {
   width: 19px;
   height: 19px;
   margin-right: 16px;
 }
 
-.news-item .to-album-btn {
+.to-album-btn {
   display: block;
   width: -webkit-fit-content;
   width: -moz-fit-content;
