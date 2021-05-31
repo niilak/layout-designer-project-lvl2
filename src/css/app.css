@@ -486,7 +486,7 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 40px;
-  padding-bottom: 47px;
+  padding-bottom: 48px;
 }
 
 .footer-h2 {
@@ -850,7 +850,9 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-bottom: 32px;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
   }
   .footer-bottom a {
     width: 100%;
