@@ -265,14 +265,14 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 50%;
   padding-right: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .track-album-info {
@@ -342,7 +342,6 @@ h2 {
 }
 
 .footer {
-  margin-top: 100px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,7 +354,7 @@ h2 {
   margin-top: 100px;
 }
 
-.footer .footer-top {
+.footer-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,7 +369,7 @@ h2 {
   padding-bottom: 74px;
 }
 
-.footer .footer-top .footer-links {
+.footer-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,7 +380,7 @@ h2 {
   width: 270px;
 }
 
-.footer .footer-top .footer-links .footer-icons {
+.footer-links .footer-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,51 +389,25 @@ h2 {
           align-items: center;
 }
 
-.footer .footer-top .footer-links h2 {
-  color: #fff;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 27px;
-  text-transform: uppercase;
+.footer-links h2 {
   margin-top: 0;
   margin-bottom: 16px;
 }
 
-.footer .footer-top .footer-links a {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 20px;
-  color: #e0e0e0;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-  height: 20px;
-}
-
-.footer .footer-top .footer-links p {
+.footer-links p {
   width: 100%;
   margin: 2px 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 20px;
-  color: #e0e0e0;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
+  padding: 2px 0;
 }
 
-.footer .footer-top .footer-links ul {
+.footer-links ul {
   width: 100%;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.footer .footer-top .footer-links ul li {
+.footer-links ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -444,7 +417,23 @@ h2 {
   padding: 2px 0;
 }
 
-.footer .line {
+.footer-links:last-child .footer-h2 {
+  margin-bottom: 11px;
+}
+
+.footer-links:nth-child(3) .footer-link:nth-child(3) {
+  height: auto;
+  padding: 0;
+}
+
+.vertical-align-middle {
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.line {
   position: absolute;
   left: 0;
   width: 100%;
@@ -452,10 +441,9 @@ h2 {
   border: 1px solid #e0e0e0;
 }
 
-.footer .footer-bottom {
+.footer-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -464,7 +452,27 @@ h2 {
   padding-bottom: 48px;
 }
 
-.footer .footer-bottom a {
+.footer-link-bottom {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #e0e0e0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.footer-h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.footer-link {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -474,7 +482,6 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  margin-right: 16px;
 }
 
 .wrapper {
@@ -528,10 +535,7 @@ h2 {
   .artist-main-section {
     padding: 200px 20px;
   }
-  .artist-main-section .content {
-    width: 100%;
-  }
-  .artist-main-section .content nav {
+  .artist-main-section nav {
     top: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -543,7 +547,7 @@ h2 {
     width: 100%;
     padding: 0 20px;
   }
-  .artist-main-section .content nav .nav-div {
+  .nav-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -552,7 +556,7 @@ h2 {
         -ms-flex-align: inherit;
             align-items: inherit;
   }
-  .artist-main-section .content nav .nav-div .nav-list {
+  .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -560,28 +564,31 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 16px 0;
+    margin: 17px 0;
     padding: 0;
   }
-  .artist-main-section .content nav .nav-div .nav-list a {
+  .nav-list li {
+    margin-right: 0;
+  }
+  .nav-list li a {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     margin-right: 0;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     text-align: start;
   }
-  .artist-main-section .content nav .search-input-style {
+  .search-input-style {
     width: 100%;
   }
-  .artist-main-section .content .central {
+  .central {
     padding-top: 25px;
   }
-  .artist-main-section .content .central p {
+  .central p {
     color: #fff;
     font-size: 16px;
   }
-  .artist-main-section .content .central .list-btn form {
+  .central .list-btn form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -590,7 +597,7 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .artist-main-section .content .central .list-btn form .purple-btn {
+  .central .list-btn form .purple-btn {
     margin-bottom: 24px;
   }
   .popular-track-section {
@@ -618,60 +625,29 @@ h2 {
     padding: 0 20px;
     padding-top: 100px;
   }
-  .discography-section .discography-list,
-  .discography-section .similar-artist-list,
-  .similar-artist-section .discography-list,
-  .similar-artist-section .similar-artist-list {
+  .discography-list,
+  .similar-artist-list {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .discography-section .discography-list .discography-item,
-  .discography-section .discography-list .similar-item,
-  .discography-section .similar-artist-list .discography-item,
-  .discography-section .similar-artist-list .similar-item,
-  .similar-artist-section .discography-list .discography-item,
-  .similar-artist-section .discography-list .similar-item,
-  .similar-artist-section .similar-artist-list .discography-item,
-  .similar-artist-section .similar-artist-list .similar-item {
+  .discography-item,
+  .similar-item {
     width: 137px;
   }
-  .discography-section .discography-list .discography-item img,
-  .discography-section .discography-list .similar-item img,
-  .discography-section .similar-artist-list .discography-item img,
-  .discography-section .similar-artist-list .similar-item img,
-  .similar-artist-section .discography-list .discography-item img,
-  .similar-artist-section .discography-list .similar-item img,
-  .similar-artist-section .similar-artist-list .discography-item img,
-  .similar-artist-section .similar-artist-list .similar-item img {
+  .discography-item img,
+  .similar-item img {
     width: 137px;
     height: 137px;
   }
-  .discography-section .discography-list .discography-item .discography-info h3,
-  .discography-section .discography-list .discography-item .similar-info h3,
-  .discography-section .discography-list .similar-item .discography-info h3,
-  .discography-section .discography-list .similar-item .similar-info h3,
-  .discography-section .similar-artist-list .discography-item .discography-info h3,
-  .discography-section .similar-artist-list .discography-item .similar-info h3,
-  .discography-section .similar-artist-list .similar-item .discography-info h3,
-  .discography-section .similar-artist-list .similar-item .similar-info h3,
-  .similar-artist-section .discography-list .discography-item .discography-info h3,
-  .similar-artist-section .discography-list .discography-item .similar-info h3,
-  .similar-artist-section .discography-list .similar-item .discography-info h3,
-  .similar-artist-section .discography-list .similar-item .similar-info h3,
-  .similar-artist-section .similar-artist-list .discography-item .discography-info h3,
-  .similar-artist-section .similar-artist-list .discography-item .similar-info h3,
-  .similar-artist-section .similar-artist-list .similar-item .discography-info h3,
-  .similar-artist-section .similar-artist-list .similar-item .similar-info h3 {
+  .discography-info h3,
+  .similar-info h3 {
     letter-spacing: -0.9px;
   }
   .footer {
     padding: 0 20px;
   }
-  .footer .content {
-    width: 100%;
-  }
-  .footer .content .footer-top {
+  .footer-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -682,15 +658,15 @@ h2 {
     padding-right: 0;
     padding-bottom: 44px;
   }
-  .footer .content .footer-top .footer-links:nth-child(4) {
-    margin-top: 7px;
+  .footer-top .footer-links:nth-child(4) {
+    margin-top: 4px;
   }
-  .footer .content .footer-top .footer-links {
+  .footer-links {
     width: 100%;
     margin-bottom: 30px;
     margin-left: 0%;
   }
-  .footer .content .footer-bottom {
+  .footer-bottom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -698,9 +674,11 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-bottom: 32px;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
   }
-  .footer .content .footer-bottom a {
+  .footer-bottom a {
     width: 100%;
     margin-right: 0;
     margin-bottom: 16px;

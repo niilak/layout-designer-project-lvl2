@@ -284,6 +284,7 @@ h2 {
 }
 
 .news-header {
+  margin-top: 0;
   margin-bottom: 48px;
 }
 
@@ -767,16 +768,16 @@ h2 {
     margin-right: 0;
     margin-bottom: 49px;
   }
-  .news-body {
+  .news-text-area .news-body {
     margin-right: 0;
   }
-  .news-body h3 {
+  .news-text-area .news-body h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
   }
-  .news-body p {
+  .news-text-area .news-body p {
     margin-top: 16px;
     margin-bottom: 0;
   }
