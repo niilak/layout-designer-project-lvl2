@@ -75,10 +75,10 @@ h2 {
   @include logo;
 }
 
-.nav-div {
-  display: flex;
-  align-items: center;
-}
+// .align-item-center {
+//   display: flex;
+//   align-items: center;
+// }
 
 .nav-links {
   @include nav-bar-links;
@@ -152,21 +152,13 @@ h2 {
   padding-right: 50px;
 }
 
-.track-album-info {
+.align-item-center {
   display: flex;
   align-items: center;
+}
 
-  img {
-    width: 55px;
-    height: 55px;
-    margin-right: 15px;
-  }
-
-  // p {
-  //   margin: 0;
-
-  //   @include small-text;
-  // }
+.mr15 {
+  margin-right: 15px;
 }
 
 .track-info {
@@ -366,9 +358,11 @@ h2 {
     }
   }
 
-  .nav-div {
-    flex-direction: column;
-    align-items: inherit;
+  .nav-style {
+    .align-item-center {
+      flex-direction: column;
+      align-items: inherit;
+    }
   }
 
   .nav-list {

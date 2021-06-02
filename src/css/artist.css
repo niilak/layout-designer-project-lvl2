@@ -128,15 +128,6 @@ h2 {
   margin-right: 90px;
 }
 
-.nav-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,7 +253,7 @@ h2 {
   padding-right: 50px;
 }
 
-.track-album-info {
+.align-item-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -271,9 +262,7 @@ h2 {
           align-items: center;
 }
 
-.track-album-info img {
-  width: 55px;
-  height: 55px;
+.mr15 {
   margin-right: 15px;
 }
 
@@ -534,7 +523,7 @@ h2 {
     width: 100%;
     padding: 0 20px;
   }
-  .nav-div {
+  .nav-style .align-item-center {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
