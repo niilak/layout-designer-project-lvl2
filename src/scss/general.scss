@@ -97,13 +97,13 @@
   line-height: 150%;
 }
 
-@mixin img-bg {
+@mixin bg-img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-@mixin pricing-img-bg {
+@mixin bg-img-style {
   height: 100%;
   border-radius: 1rem;
 }

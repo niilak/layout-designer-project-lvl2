@@ -175,6 +175,10 @@ h2 {
   padding-left: 0;
 }
 
+.nav-list li a:hover {
+  color: #fff;
+}
+
 .search-input-style {
   width: 248px;
   height: 25px;
@@ -264,6 +268,26 @@ h2 {
   background: none;
   border: 1px solid #fff;
   border-radius: 5px;
+}
+
+.bg-img-style {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.bg-free {
+  background-image: url("../images/subscribe_1.png");
+}
+
+.bg-standard {
+  background-image: url("../images/subscribe_2.png");
+}
+
+.bg-premium {
+  background-image: url("../images/subscribe_3.png");
 }
 
 .news-header {
@@ -506,33 +530,6 @@ h2 {
   margin: 0 auto;
 }
 
-.bg-free {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  border-radius: 1rem;
-  background-image: url("../images/subscribe_1.png");
-}
-
-.bg-standard {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  border-radius: 1rem;
-  background-image: url("../images/subscribe_2.png");
-}
-
-.bg-premium {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  border-radius: 1rem;
-  background-image: url("../images/subscribe_3.png");
-}
-
 .mr50 {
   margin-right: 50px;
 }
@@ -767,6 +764,11 @@ h2 {
   .news-author {
     margin-bottom: 48px;
     font-size: 12px;
+  }
+  .news-author .avatar {
+    width: 19px;
+    margin-right: 16px;
+    margin-bottom: 0;
   }
   .news-author:nth-last-child(2) {
     margin-top: 14px;

@@ -163,6 +163,10 @@ h2 {
   padding-left: 0;
 }
 
+.nav-list li a:hover {
+  color: #fff;
+}
+
 .search-input-style {
   width: 248px;
   height: 25px;

@@ -64,7 +64,7 @@ h2 {
   height: 751px;
   background-image: url("../images/MortenHarket.png");
 
-  @include img-bg;
+  @include bg-img;
 }
 
 .nav-style {
@@ -91,10 +91,10 @@ h2 {
   li {
     padding-left: 0;
 
-    // a {
-    //   @include nav-bar-links;
-    //   @include mr(24px);
-    // }
+    a:hover {
+      color: $white;
+      // font-size: 11.2px;
+    }
   }
 }
 
