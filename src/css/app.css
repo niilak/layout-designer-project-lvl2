@@ -231,7 +231,6 @@ h2 {
 .pricing-item {
   position: relative;
   width: 371px;
-  height: 619px;
   margin-top: 50px;
   padding: 0 1.5rem;
   border-radius: 1rem;
@@ -689,7 +688,6 @@ h2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 593px;
   }
   .pricing-items-row .pricing-item h3 {
     font-weight: 400;

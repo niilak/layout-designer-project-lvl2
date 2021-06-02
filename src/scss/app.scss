@@ -142,7 +142,7 @@ h2 {
 .pricing-item {
   position: relative;
   width: 371px;
-  height: 619px;
+  // height: 619px;
   margin-top: 50px;
   padding: 0 1.5rem;
   border-radius: 1rem;
@@ -164,6 +164,9 @@ h2 {
 .pricing-footer {
   height: 57px;
 }
+
+// I try to remove height and add lint-height, and thats look nice at 1 price-item, but at other 2 items, i don't know why..
+// schreenshots are in src/schreenshot/..
 
 .checkout-btn {
   @include checkout-btn;
@@ -483,7 +486,7 @@ h2 {
 
     .pricing-item {
       justify-content: center;
-      height: 593px;
+      // height: 593px;
 
       h3 {
         @include font16;
