@@ -435,11 +435,6 @@ h2 {
   width: 270px;
 }
 
-.footer .footer-top .footer-links .footer-icons {
-  display: flex;
-  align-items: center;
-}
-
 .footer .footer-top .footer-links h2 {
   margin-top: 0;
   margin-bottom: 16px;
