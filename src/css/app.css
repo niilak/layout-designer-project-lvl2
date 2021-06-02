@@ -764,12 +764,6 @@ h2 {
   .app-section .app-item img {
     margin: 0 auto;
   }
-  .app-text-area p {
-    height: 96px;
-  }
-  .app-text-area p:nth-child(2) {
-    height: 72px;
-  }
   .footer {
     padding: 0 20px;
   }
