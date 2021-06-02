@@ -240,11 +240,6 @@ h2 {
 .footer-links {
   @include footer-links;
 
-  .footer-icons {
-    display: flex;
-    align-items: center;
-  }
-
   h2 {
     margin-top: 0;
     margin-bottom: 16px;

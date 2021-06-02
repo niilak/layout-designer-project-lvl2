@@ -101,7 +101,6 @@ h2 {
 
 .search-input-style {
   @include search-input-style;
-  // @include mr(24px);
 }
 
 .banner {
@@ -161,9 +160,9 @@ h2 {
   line-height: 1em;
 }
 
-.pricing-footer {
-  height: 57px;
-}
+// .pricing-footer {
+//   line-height: 19px;
+// }
 
 .checkout-btn {
   @include checkout-btn;
@@ -212,8 +211,6 @@ h2 {
 
 .news-footer {
   .news-author {
-    display: flex;
-    align-items: center;
     margin-top: 24px;
     margin-bottom: 48px;
   }
@@ -261,11 +258,6 @@ h2 {
 
 .footer-links {
   @include footer-links;
-
-  .footer-icons {
-    display: flex;
-    align-items: center;
-  }
 
   h2 {
     margin-top: 0;
