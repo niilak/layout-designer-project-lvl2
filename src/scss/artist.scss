@@ -289,11 +289,8 @@ h2 {
   }
 }
 
-.vertical-align-middle {
-  display: inline;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+.footer-icon-style {
+  @include footer-icon-style;
 }
 
 .line {

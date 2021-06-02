@@ -272,10 +272,6 @@ h2 {
     margin-bottom: 16px;
   }
 
-  // a {
-  //   height: 20px;
-  // }
-
   p {
     width: 100%;
     margin: 2px 0;
@@ -292,10 +288,6 @@ h2 {
       display: flex;
       align-items: center;
       padding: 2px 0;
-
-      // a {
-      //   margin: 2px 0;
-      // }
     }
   }
 }
@@ -311,11 +303,8 @@ h2 {
   }
 }
 
-.vertical-align-middle {
-  display: inline;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+.footer-icon-style {
+  @include footer-icon-style;
 }
 
 .line {
