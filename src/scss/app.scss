@@ -212,8 +212,8 @@ h2 {
 
 .news-footer {
   .news-author {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     margin-top: 24px;
     margin-bottom: 48px;
   }
@@ -235,15 +235,15 @@ h2 {
     margin-top: 0;
     margin-bottom: 48px;
   }
+}
 
-  .app-item {
-    display: flex;
-    flex-direction: row;
+.app-item {
+  display: flex;
+  flex-direction: row;
 
-    img {
-      margin-right: 136px;
-      margin-left: 164px;
-    }
+  img {
+    margin-right: 136px;
+    margin-left: 164px;
   }
 }
 
@@ -262,10 +262,10 @@ h2 {
 .footer-links {
   @include footer-links;
 
-  .footer-icons {
-    display: flex;
-    align-items: center;
-  }
+  // .footer-icons {
+  //   display: flex;
+  //   align-items: center;
+  // }
 
   h2 {
     margin-top: 0;
@@ -353,6 +353,14 @@ h2 {
   }
 }
 
+.d-block {
+  display: block;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
 .text-center {
   text-align: center;
 }
@@ -416,7 +424,7 @@ h2 {
   }
 
   .nav-list {
-    display: flex;
+    // display: flex;
     flex-direction: column;
     margin: 17px 0;
     padding: 0;

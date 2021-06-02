@@ -186,12 +186,6 @@ h2 {
 .purple-btn {
   margin-right: 1.5rem;
   background-color: #5328a1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 200px;
   padding: 20px 30px;
   color: #fff;
@@ -203,12 +197,6 @@ h2 {
 }
 
 .red-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 200px;
   padding: 20px 30px;
   color: #fff;
@@ -356,15 +344,6 @@ h2 {
   width: 270px;
 }
 
-.footer-links .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .footer-links h2 {
   margin-top: 0;
   margin-bottom: 16px;
@@ -429,10 +408,6 @@ h2 {
 }
 
 .footer-link-bottom {
-  display: block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   color: #e0e0e0;
   font-weight: normal;
   font-size: 16px;
@@ -490,6 +465,12 @@ h2 {
   text-align: center;
 }
 
+.fit-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     color: #fff;
@@ -533,9 +514,6 @@ h2 {
             align-items: inherit;
   }
   .nav-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

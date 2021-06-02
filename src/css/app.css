@@ -202,7 +202,6 @@ h2 {
 }
 
 .green-btn {
-  display: block;
   width: 570px;
   margin: 0 auto;
   padding: 20px 0;
@@ -262,7 +261,6 @@ h2 {
 }
 
 .checkout-btn {
-  display: block;
   padding: 20px 30px;
   color: #fff;
   background: none;
@@ -315,12 +313,6 @@ h2 {
 }
 
 .news-footer .news-author {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 24px;
   margin-bottom: 48px;
 }
@@ -332,10 +324,6 @@ h2 {
 }
 
 .to-album-btn {
-  display: block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   padding: 16px 30px;
   color: #e0e0e0;
   border: 1px solid #e0e0e0;
@@ -347,7 +335,7 @@ h2 {
   margin-bottom: 48px;
 }
 
-.app-section .app-item {
+.app-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,16 +345,12 @@ h2 {
           flex-direction: row;
 }
 
-.app-section .app-item img {
+.app-item img {
   margin-right: 136px;
   margin-left: 164px;
 }
 
 .download-btn {
-  display: block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   padding: 16px 40px;
   color: #fff;
   text-transform: capitalize;
@@ -412,15 +396,6 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 270px;
-}
-
-.footer-links .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .footer-links h2 {
@@ -487,10 +462,6 @@ h2 {
 }
 
 .footer-link-bottom {
-  display: block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   color: #e0e0e0;
   font-weight: normal;
   font-size: 16px;
@@ -569,6 +540,16 @@ h2 {
   font-size: 14px;
 }
 
+.d-block {
+  display: block;
+}
+
+.fit-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .text-center {
   text-align: center;
 }
@@ -641,9 +622,6 @@ h2 {
             align-items: inherit;
   }
   .nav-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

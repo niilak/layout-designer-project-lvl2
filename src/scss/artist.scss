@@ -232,10 +232,10 @@ h2 {
 .footer-links {
   @include footer-links;
 
-  .footer-icons {
-    display: flex;
-    align-items: center;
-  }
+  // .footer-icons {
+  //   display: flex;
+  //   align-items: center;
+  // }
 
   h2 {
     margin-top: 0;
@@ -333,6 +333,10 @@ h2 {
   text-align: center;
 }
 
+.fit-content {
+  width: fit-content;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     @include mob-h1;
@@ -366,7 +370,7 @@ h2 {
   }
 
   .nav-list {
-    display: flex;
+    // display: flex;
     flex-direction: column;
     margin: 17px 0;
     padding: 0;
@@ -454,8 +458,6 @@ h2 {
   .discography-info,
   .similar-info {
     h3 {
-      // @include font18;
-
       letter-spacing: -0.9px;
     }
   }
