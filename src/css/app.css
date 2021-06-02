@@ -764,7 +764,7 @@ h2 {
   .app-section .app-item img {
     margin: 0 auto;
   }
-  .app-text-area p {
+  .app-text-area p:nth-child(1) {
     height: 96px;
   }
   .footer {

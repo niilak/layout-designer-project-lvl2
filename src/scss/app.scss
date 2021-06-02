@@ -569,7 +569,7 @@ h2 {
   }
 
   .app-text-area {
-    p {
+    p:nth-child(1) {
       height: 96px;
     }
 
