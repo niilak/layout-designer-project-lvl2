@@ -92,16 +92,16 @@ h2 {
   li {
     padding-left: 0;
 
-    a {
-      @include nav-bar-links;
-      @include mr(24px);
-    }
+    // a {
+    //   @include nav-bar-links;
+    //   @include mr(24px);
+    // }
   }
 }
 
 .search-input-style {
   @include search-input-style;
-  @include mr(24px);
+  // @include mr(24px);
 }
 
 .banner {
@@ -544,11 +544,11 @@ h2 {
     margin-bottom: 48px;
     font-size: 12px;
 
-    .avatar {
-      width: 19px;
-      margin-right: 16px;
-      margin-bottom: 0;
-    }
+    // .avatar {
+    //   // width: 19px;
+    //   // margin-right: 16px;
+    //   margin-bottom: 0;
+    // }
   }
 
   .news-author:nth-last-child(2) {
@@ -561,16 +561,11 @@ h2 {
     padding-bottom: 0;
     padding-left: 20px;
 
-    // h2 {
-    // margin-bottom: 50px;
-    // }
-
     .app-item {
       flex-direction: column-reverse;
 
       img {
         margin: 0 auto;
-        // padding: 0;
       }
     }
   }

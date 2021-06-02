@@ -175,22 +175,6 @@ h2 {
   padding-left: 0;
 }
 
-.nav-list li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #cacaca;
-  font-weight: bold;
-  font-size: 11px;
-  line-height: 13px;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-right: 24px;
-}
-
 .search-input-style {
   width: 248px;
   height: 25px;
@@ -199,7 +183,6 @@ h2 {
   background: #3c3b3d;
   border: 0;
   border-radius: 50px;
-  margin-right: 24px;
 }
 
 .banner p {
@@ -784,11 +767,6 @@ h2 {
   .news-author {
     margin-bottom: 48px;
     font-size: 12px;
-  }
-  .news-author .avatar {
-    width: 19px;
-    margin-right: 16px;
-    margin-bottom: 0;
   }
   .news-author:nth-last-child(2) {
     margin-top: 14px;
