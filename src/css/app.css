@@ -257,10 +257,6 @@ h2 {
   line-height: 1em;
 }
 
-.pricing-footer {
-  height: 57px;
-}
-
 .checkout-btn {
   display: block;
   padding: 20px 30px;
@@ -315,12 +311,6 @@ h2 {
 }
 
 .news-footer .news-author {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 24px;
   margin-bottom: 48px;
 }
@@ -412,15 +402,6 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 270px;
-}
-
-.footer-links .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .footer-links h2 {
@@ -761,16 +742,16 @@ h2 {
     margin-top: 16px;
     margin-bottom: 0;
   }
-  .news-author {
+  .align-items-center {
     margin-bottom: 48px;
     font-size: 12px;
   }
-  .news-author .avatar {
+  .align-items-center .avatar {
     width: 19px;
     margin-right: 16px;
     margin-bottom: 0;
   }
-  .news-author:nth-last-child(2) {
+  .align-items-center:nth-last-child(2) {
     margin-top: 14px;
   }
   .app-section {
