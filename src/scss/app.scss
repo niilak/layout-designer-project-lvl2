@@ -265,11 +265,6 @@ h2 {
 .footer-links {
   @include footer-links;
 
-  // .footer-icons {
-  //   display: flex;
-  //   align-items: center;
-  // }
-
   h2 {
     margin-top: 0;
     margin-bottom: 16px;
@@ -570,8 +565,8 @@ h2 {
 
   .app-text-area {
     p:nth-child(1) {
-      // height: 96px;
-      line-height: 19px;
+      height: 96px;
+      // line-height: 19px;
     }
 
     // p:nth-child(2) {
