@@ -408,6 +408,10 @@ h2 {
 }
 
 .footer-link-bottom {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: #e0e0e0;
   font-weight: normal;
   font-size: 16px;
@@ -424,6 +428,10 @@ h2 {
 }
 
 .footer-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 20px;
   color: #e0e0e0;
   font-size: 16px;
   line-height: 24px;
