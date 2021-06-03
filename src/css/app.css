@@ -404,8 +404,7 @@ h2 {
 
 .footer-links p {
   width: 100%;
-  margin: 2px 0;
-  padding: 2px 0;
+  margin: 0;
 }
 
 .footer-links ul {
@@ -416,13 +415,8 @@ h2 {
 }
 
 .footer-links ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 2px 0;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .footer-links:last-child .footer-h2 {
@@ -477,15 +471,9 @@ h2 {
 }
 
 .footer-link {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 20px;
   color: #e0e0e0;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  line-height: 19px;
   text-decoration: none;
 }
 
