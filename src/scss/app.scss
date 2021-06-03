@@ -297,16 +297,21 @@ h2 {
   margin-bottom: 11px;
 }
 
-.footer-links:nth-child(3) .footer-link {
-  // height: fit-content;
-  width: fit-content;
-}
+// .footer-links:nth-child(3) .footer-link {
+//   // height: fit-content;
+//   width: fit-content;
+// }
 
-.footer-links {
-  p {
-    margin: 2px 0;
-  }
-}
+// .footer-links {
+//   p {
+//     margin: 2px 0;
+//     padding: 2px 0;
+//   }
+
+//   a {
+//     padding: 2px 0;
+//   }
+// }
 
 .footer-icon-style {
   @include footer-icon-style;

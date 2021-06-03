@@ -423,16 +423,6 @@ h2 {
   margin-bottom: 11px;
 }
 
-.footer-links:nth-child(3) .footer-link {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.footer-links p {
-  margin: 2px 0;
-}
-
 .footer-icon-style {
   display: inline;
   max-width: 100%;
