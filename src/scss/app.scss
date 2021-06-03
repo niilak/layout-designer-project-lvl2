@@ -297,11 +297,10 @@ h2 {
   margin-bottom: 11px;
 }
 
-.footer-links:nth-child(3) {
-  .footer-link:nth-child(3) {
-    height: auto;
-    padding: 0;
-  }
+.footer-links:nth-child(3) .footer-link {
+  // height: fit-content;
+  width: fit-content;
+  padding: 0;
 }
 
 .footer-icon-style {

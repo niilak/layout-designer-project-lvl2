@@ -423,8 +423,10 @@ h2 {
   margin-bottom: 11px;
 }
 
-.footer-links:nth-child(3) .footer-link:nth-child(3) {
-  height: auto;
+.footer-links:nth-child(3) .footer-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 0;
 }
 
