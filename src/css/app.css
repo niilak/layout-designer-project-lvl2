@@ -480,11 +480,10 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: 20px;
   color: #e0e0e0;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 20px;
   text-decoration: none;
 }
 
@@ -765,7 +764,7 @@ h2 {
     margin: 0 auto;
   }
   .app-text-area p:nth-child(1) {
-    height: 96px;
+    line-height: 19px;
   }
   .footer {
     padding: 0 20px;
