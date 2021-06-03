@@ -300,7 +300,12 @@ h2 {
 .footer-links:nth-child(3) .footer-link {
   // height: fit-content;
   width: fit-content;
-  margin: 2px 0;
+}
+
+.footer-links {
+  p {
+    margin: 2px 0;
+  }
 }
 
 .footer-icon-style {

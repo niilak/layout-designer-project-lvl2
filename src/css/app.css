@@ -427,6 +427,9 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.footer-links p {
   margin: 2px 0;
 }
 
