@@ -5,7 +5,7 @@
 }
 
 @mixin green-btn {
-  display: block;
+  // display: block;
   width: 570px;
   margin: 0 auto;
   padding: 20px 0;
@@ -17,7 +17,7 @@
 }
 
 @mixin checkout-btn {
-  display: block;
+  // display: block;
   padding: 20px 30px;
   color: $white;
   background: none;
@@ -28,8 +28,8 @@
 }
 
 @mixin to-album-btn {
-  display: block;
-  width: fit-content;
+  // display: block;
+  // width: fit-content;
   padding: 16px 30px;
   color: $gray;
   border: 1px solid $gray;
@@ -50,8 +50,8 @@
 }
 
 @mixin download-btn {
-  display: block;
-  width: fit-content;
+  // display: block;
+  // width: fit-content;
   padding: 16px 40px;
   color: $white;
   text-transform: capitalize;
@@ -63,8 +63,8 @@
 }
 
 @mixin artist-page-btn {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
   width: 200px;
   padding: 20px 30px;
   color: $white;

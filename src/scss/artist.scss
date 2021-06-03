@@ -75,10 +75,10 @@ h2 {
   @include logo;
 }
 
-.nav-div {
-  display: flex;
-  align-items: center;
-}
+// .align-item-center {
+//   display: flex;
+//   align-items: center;
+// }
 
 .nav-links {
   @include nav-bar-links;
@@ -152,21 +152,13 @@ h2 {
   padding-right: 50px;
 }
 
-.track-album-info {
+.align-item-center {
   display: flex;
   align-items: center;
+}
 
-  img {
-    width: 55px;
-    height: 55px;
-    margin-right: 15px;
-  }
-
-  // p {
-  //   margin: 0;
-
-  //   @include small-text;
-  // }
+.mr15 {
+  margin-right: 15px;
 }
 
 .track-info {
@@ -240,6 +232,11 @@ h2 {
 .footer-links {
   @include footer-links;
 
+  // .footer-icons {
+  //   display: flex;
+  //   align-items: center;
+  // }
+
   h2 {
     margin-top: 0;
     margin-bottom: 16px;
@@ -284,11 +281,8 @@ h2 {
   }
 }
 
-.vertical-align-middle {
-  display: inline;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+.footer-icon-style {
+  @include footer-icon-style;
 }
 
 .line {
@@ -339,6 +333,10 @@ h2 {
   text-align: center;
 }
 
+.fit-content {
+  width: fit-content;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     @include mob-h1;
@@ -364,13 +362,15 @@ h2 {
     }
   }
 
-  .nav-div {
-    flex-direction: column;
-    align-items: inherit;
+  .nav-style {
+    .align-item-center {
+      flex-direction: column;
+      align-items: inherit;
+    }
   }
 
   .nav-list {
-    display: flex;
+    // display: flex;
     flex-direction: column;
     margin: 17px 0;
     padding: 0;
@@ -458,8 +458,6 @@ h2 {
   .discography-info,
   .similar-info {
     h3 {
-      // @include font18;
-
       letter-spacing: -0.9px;
     }
   }

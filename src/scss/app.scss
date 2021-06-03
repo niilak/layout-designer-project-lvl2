@@ -76,7 +76,7 @@ h2 {
   @include nav-bar-style;
 }
 
-.nav-div {
+.align-item-center {
   display: flex;
   align-items: center;
 }
@@ -101,6 +101,7 @@ h2 {
 
 .search-input-style {
   @include search-input-style;
+  // @include mr(24px);
 }
 
 .banner {
@@ -141,7 +142,7 @@ h2 {
 .pricing-item {
   position: relative;
   width: 371px;
-  height: 619px;
+  // height: 619px;
   margin-top: 50px;
   padding: 0 1.5rem;
   border-radius: 1rem;
@@ -160,9 +161,12 @@ h2 {
   line-height: 1em;
 }
 
-// .pricing-footer {
-//   line-height: 19px;
-// }
+.pricing-footer {
+  height: 57px;
+}
+
+// I try to remove height and add lint-height, and thats look nice at 1 price-item, but at other 2 items, i don't know why..
+// schreenshots are in src/schreenshot/..
 
 .checkout-btn {
   @include checkout-btn;
@@ -211,6 +215,8 @@ h2 {
 
 .news-footer {
   .news-author {
+    // display: flex;
+    // align-items: center;
     margin-top: 24px;
     margin-bottom: 48px;
   }
@@ -232,15 +238,15 @@ h2 {
     margin-top: 0;
     margin-bottom: 48px;
   }
+}
 
-  .app-item {
-    display: flex;
-    flex-direction: row;
+.app-item {
+  display: flex;
+  flex-direction: row;
 
-    img {
-      margin-right: 136px;
-      margin-left: 164px;
-    }
+  img {
+    margin-right: 136px;
+    margin-left: 164px;
   }
 }
 
@@ -258,6 +264,11 @@ h2 {
 
 .footer-links {
   @include footer-links;
+
+  // .footer-icons {
+  //   display: flex;
+  //   align-items: center;
+  // }
 
   h2 {
     margin-top: 0;
@@ -303,11 +314,8 @@ h2 {
   }
 }
 
-.vertical-align-middle {
-  display: inline;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+.footer-icon-style {
+  @include footer-icon-style;
 }
 
 .line {
@@ -354,6 +362,14 @@ h2 {
     font-weight: bold;
     font-size: 14px;
   }
+}
+
+.d-block {
+  display: block;
+}
+
+.fit-content {
+  width: fit-content;
 }
 
 .text-center {
@@ -411,13 +427,15 @@ h2 {
     }
   }
 
-  .nav-div {
-    flex-direction: column;
-    align-items: inherit;
+  .nav-style {
+    .align-item-center {
+      flex-direction: column;
+      align-items: inherit;
+    }
   }
 
   .nav-list {
-    display: flex;
+    // display: flex;
     flex-direction: column;
     margin: 17px 0;
     padding: 0;
@@ -476,7 +494,7 @@ h2 {
 
     .pricing-item {
       justify-content: center;
-      height: 593px;
+      // height: 593px;
 
       h3 {
         @include font16;
@@ -528,7 +546,7 @@ h2 {
     }
   }
 
-  .align-items-center {
+  .news-author {
     margin-bottom: 48px;
     font-size: 12px;
 
@@ -539,7 +557,7 @@ h2 {
     }
   }
 
-  .align-items-center:nth-last-child(2) {
+  .news-author:nth-last-child(2) {
     margin-top: 14px;
   }
 
@@ -559,13 +577,14 @@ h2 {
   }
 
   .app-text-area {
-    p {
+    p:nth-child(1) {
       height: 96px;
+      // line-height: 19px;
     }
 
-    p:nth-child(2) {
-      height: 72px;
-    }
+    // p:nth-child(2) {
+    //   height: 72px;
+    // }
   }
 
   .footer {
