@@ -404,7 +404,8 @@ h2 {
 
 .footer-links p {
   width: 100%;
-  margin: 0;
+  margin: 2px 0;
+  padding: 2px 0;
 }
 
 .footer-links ul {
@@ -415,26 +416,22 @@ h2 {
 }
 
 .footer-links ul li {
-  font-size: 16px;
-  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 0;
 }
 
 .footer-links:last-child .footer-h2 {
   margin-bottom: 11px;
 }
 
-.footer-links:nth-child(3) .footer-link {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.footer-links p {
-  margin: 2px 0;
-}
-
-.footer-links a {
-  line-height: 19px;
+.footer-links:nth-child(3) .footer-link:nth-child(3) {
+  height: auto;
+  padding: 0;
 }
 
 .footer-icon-style {
