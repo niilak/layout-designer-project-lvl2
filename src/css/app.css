@@ -427,7 +427,7 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 0;
+  margin: 2px 0;
 }
 
 .footer-icon-style {
