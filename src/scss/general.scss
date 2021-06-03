@@ -108,6 +108,11 @@
   border-radius: 1rem;
 }
 
+@mixin align-items-center {
+  display: flex;
+  align-items: center;
+}
+
 @mixin mr($mr) {
   margin-right: $mr;
 }

@@ -101,7 +101,6 @@ h2 {
 
 .search-input-style {
   @include search-input-style;
-  // @include mr(24px);
 }
 
 .banner {
@@ -161,9 +160,9 @@ h2 {
   line-height: 1em;
 }
 
-.pricing-footer {
-  height: 57px;
-}
+// .pricing-footer {
+//   line-height: 19px;
+// }
 
 // I try to remove height and add lint-height, and thats look nice at 1 price-item, but at other 2 items, i don't know why..
 // schreenshots are in src/schreenshot/..
@@ -265,11 +264,11 @@ h2 {
 .footer-links {
   @include footer-links;
 
+
   // .footer-icons {
   //   display: flex;
   //   align-items: center;
   // }
-
   h2 {
     margin-top: 0;
     margin-bottom: 16px;
@@ -546,7 +545,7 @@ h2 {
     }
   }
 
-  .news-author {
+  .align-items-center {
     margin-bottom: 48px;
     font-size: 12px;
 
@@ -557,7 +556,7 @@ h2 {
     }
   }
 
-  .news-author:nth-last-child(2) {
+  .align-items-center:nth-last-child(2) {
     margin-top: 14px;
   }
 
