@@ -306,14 +306,6 @@ h2 {
 }
 
 .footer {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   width: 100%;
   margin-top: 100px;
 }
@@ -408,10 +400,6 @@ h2 {
 }
 
 .footer-link-bottom {
-  display: block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   color: #e0e0e0;
   font-weight: normal;
   font-size: 16px;
@@ -556,6 +544,10 @@ h2 {
   }
   .central-banner .list-btn form .purple-btn {
     margin-bottom: 24px;
+  }
+  .central-banner .list-btn form .purple-btn,
+  .central-banner .list-btn form .red-btn {
+    max-width: 200px;
   }
   .popular-track-section {
     width: 100%;

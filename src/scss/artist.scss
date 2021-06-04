@@ -376,6 +376,11 @@ h2 {
         .purple-btn {
           margin-bottom: 24px;
         }
+
+        .purple-btn,
+        .red-btn {
+          max-width: 200px;
+        }
       }
     }
   }
