@@ -186,7 +186,7 @@ h2 {
 .purple-btn {
   margin-right: 1.5rem;
   background-color: #5328a1;
-  width: 200px;
+  max-width: 200px;
   padding: 20px 30px;
   color: #fff;
   border: 0;
@@ -197,7 +197,8 @@ h2 {
 }
 
 .red-btn {
-  width: 200px;
+  background-color: #95390c;
+  max-width: 200px;
   padding: 20px 30px;
   color: #fff;
   border: 0;
@@ -205,7 +206,6 @@ h2 {
   font-weight: normal;
   font-size: 12.8px;
   line-height: 150%;
-  background-color: #95390c;
 }
 
 .svg {
@@ -590,7 +590,7 @@ h2 {
   }
   .discography-item,
   .similar-item {
-    width: 137px;
+    max-width: 137px;
   }
   .discography-item img,
   .similar-item img {

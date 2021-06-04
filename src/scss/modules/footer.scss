@@ -13,7 +13,7 @@
 }
 
 @mixin footer-link {
-  width: fit-content;
+  min-width: fit-content;
   height: 20px;
   color: $gray;
   // font-weight: normal;

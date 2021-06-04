@@ -24,7 +24,7 @@
 }
 
 @mixin search-input-style {
-  width: 248px;
+  min-width: 248px;
   height: 25px;
   padding-left: 10px;
   text-transform: uppercase;

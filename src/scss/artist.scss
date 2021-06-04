@@ -121,9 +121,9 @@ h2 {
 }
 
 .red-btn {
-  @include artist-page-btn;
-
   background-color: $red;
+
+  @include artist-page-btn;
 }
 
 .svg {
@@ -416,7 +416,7 @@ h2 {
 
   .discography-item,
   .similar-item {
-    width: 137px;
+    max-width: 137px;
 
     img {
       width: 137px;
