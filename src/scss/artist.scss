@@ -75,11 +75,6 @@ h2 {
   @include logo;
 }
 
-// .align-item-center {
-//   display: flex;
-//   align-items: center;
-// }
-
 .nav-links {
   @include nav-bar-links;
 }
@@ -202,18 +197,6 @@ h2 {
 .similar-info {
   margin-top: 10px;
   margin-bottom: 0;
-
-  // h3 {
-  //   @include font18;
-
-  //   margin: 0;
-  // }
-
-  // p {
-  //   @include medium-text;
-
-  //   margin: 0;
-  // }
 }
 
 .discography-list .discography-item:nth-child(5),
@@ -232,19 +215,10 @@ h2 {
 .footer-links {
   @include footer-links;
 
-  // .footer-icons {
-  //   display: flex;
-  //   align-items: center;
-  // }
-
   h2 {
     margin-top: 0;
     margin-bottom: 16px;
   }
-
-  // a {
-  //   height: 20px;
-  // }
 
   p {
     width: 100%;
@@ -262,10 +236,6 @@ h2 {
       display: flex;
       align-items: center;
       padding: 2px 0;
-
-      // a {
-      //   margin: 2px 0;
-      // }
     }
   }
 }
@@ -370,7 +340,6 @@ h2 {
   }
 
   .nav-list {
-    // display: flex;
     flex-direction: column;
     margin: 17px 0;
     padding: 0;
