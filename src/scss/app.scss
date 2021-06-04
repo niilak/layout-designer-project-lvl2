@@ -215,6 +215,11 @@ h2 {
   .news-author {
     margin-top: 24px;
     margin-bottom: 48px;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -355,7 +360,7 @@ h2 {
   display: block;
 }
 
-.fit-content {
+.w-fit-content {
   width: fit-content;
 }
 

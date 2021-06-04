@@ -316,6 +316,11 @@ h2 {
   margin-bottom: 48px;
 }
 
+.news-footer .news-author p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .avatar {
   width: 19px;
   height: 19px;
@@ -481,9 +486,9 @@ h2 {
 }
 
 .footer-link {
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   height: 20px;
   color: #e0e0e0;
   font-size: 16px;
@@ -546,7 +551,7 @@ h2 {
   display: block;
 }
 
-.fit-content {
+.w-fit-content {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

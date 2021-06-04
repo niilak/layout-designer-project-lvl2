@@ -168,11 +168,11 @@ h2 {
   border-radius: 50px;
 }
 
-.central {
+.central-banner {
   padding-top: 50px;
 }
 
-.central p {
+.central-banner p {
   margin-top: 16px;
   margin-bottom: 48px;
 }
@@ -186,7 +186,7 @@ h2 {
 .purple-btn {
   margin-right: 1.5rem;
   background-color: #5328a1;
-  width: 200px;
+  min-width: 200px;
   padding: 20px 30px;
   color: #fff;
   border: 0;
@@ -198,7 +198,7 @@ h2 {
 
 .red-btn {
   background-color: #95390c;
-  width: 200px;
+  min-width: 200px;
   padding: 20px 30px;
   color: #fff;
   border: 0;
@@ -428,9 +428,9 @@ h2 {
 }
 
 .footer-link {
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   height: 20px;
   color: #e0e0e0;
   font-size: 16px;
@@ -468,7 +468,7 @@ h2 {
   text-align: center;
 }
 
-.fit-content {
+.w-fit-content {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -538,14 +538,14 @@ h2 {
   .search-input-style {
     width: 100%;
   }
-  .central {
+  .central-banner {
     padding-top: 25px;
   }
-  .central p {
+  .central-banner p {
     color: #fff;
     font-size: 16px;
   }
-  .central .list-btn form {
+  .central-banner .list-btn form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -554,7 +554,7 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .central .list-btn form .purple-btn {
+  .central-banner .list-btn form .purple-btn {
     margin-bottom: 24px;
   }
   .popular-track-section {
