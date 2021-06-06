@@ -95,7 +95,6 @@ h2 {
 
 .search-input-style {
   @include search-input-style;
-  // @include mr(24px);
 }
 
 .central-banner {
@@ -107,10 +106,8 @@ h2 {
   }
 }
 
-.list-btn {
-  form {
-    display: flex;
-  }
+.artisit-btns {
+  display: flex;
 }
 
 .purple-btn {
@@ -166,7 +163,7 @@ h2 {
 }
 
 .discography-section,
-.similar-artist-section {
+.similar-section {
   padding-right: 20px;
   padding-left: 20px;
 
@@ -368,19 +365,17 @@ h2 {
       font-size: 16px;
     }
 
-    .list-btn {
-      form {
-        display: flex;
-        flex-direction: column;
+    .artisit-btns {
+      display: flex;
+      flex-direction: column;
 
-        .purple-btn {
-          margin-bottom: 24px;
-        }
+      .purple-btn {
+        margin-bottom: 24px;
+      }
 
-        .purple-btn,
-        .red-btn {
-          max-width: 200px;
-        }
+      .purple-btn,
+      .red-btn {
+        max-width: 200px;
       }
     }
   }
@@ -408,7 +403,7 @@ h2 {
   }
 
   .discography-section,
-  .similar-artist-section {
+  .similar-section {
     width: 100%;
     padding: 0 20px;
     padding-top: 100px;

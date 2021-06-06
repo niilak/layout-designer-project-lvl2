@@ -1,13 +1,3 @@
-@mixin main-section-style {
-  @include main-wrapper;
-
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/banner.png");
-
-  @include bg-img;
-}
-
 @mixin logo {
   display: flex;
   flex-direction: row;

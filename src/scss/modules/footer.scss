@@ -16,16 +16,12 @@
   width: fit-content;
   height: 20px;
   color: $gray;
-  // font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  // line-height: 19px;
   text-decoration: none;
 }
 
 @mixin footer-link-bottom {
-  // display: block;
-  // width: fit-content;
   color: $gray;
   font-weight: normal;
   font-size: 16px;
@@ -34,9 +30,6 @@
 }
 
 @mixin footer {
-  // position: relative;
-  // display: flex;
-  // flex-direction: column;
   width: 100%;
   margin-top: 100px;
 

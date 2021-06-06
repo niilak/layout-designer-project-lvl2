@@ -213,7 +213,11 @@ h2 {
   line-height: 15px;
 }
 
-.pricing-section h3 {
+.title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
   margin-bottom: 200px;
   color: #fff;
 }
@@ -657,7 +661,7 @@ h2 {
   .green-btn {
     width: 100%;
   }
-  .pricing-section {
+  .wrapper:nth-child(2) {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -666,7 +670,7 @@ h2 {
     height: 100%;
     padding: 100px 20px 0 20px;
   }
-  .pricing-section h2 {
+  .wrapper:nth-child(2) h2 {
     width: 100%;
     margin: 0;
     text-align: center;
@@ -691,21 +695,11 @@ h2 {
     line-height: 24px;
     text-transform: uppercase;
   }
-  .news-section {
+  .wrapper:nth-child(3) {
     width: 100%;
     padding: 100px 20px 0 20px;
   }
-  .mt64 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    margin-top: 64px;
-  }
-  .eminem-item {
+  .news-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -720,16 +714,23 @@ h2 {
     margin-right: 0;
     margin-bottom: 49px;
   }
-  .news-text-area .news-body {
+  .news-item:last-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-top: 64px;
+  }
+  .news-body {
     margin-right: 0;
   }
-  .news-text-area .news-body h3 {
+  .news-body h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
   }
-  .news-text-area .news-body p {
+  .news-body p {
     margin-top: 16px;
     margin-bottom: 0;
   }

@@ -177,7 +177,7 @@ h2 {
   margin-bottom: 48px;
 }
 
-.list-btn form {
+.artisit-btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,13 +262,13 @@ h2 {
 }
 
 .discography-section,
-.similar-artist-section {
+.similar-section {
   padding-right: 20px;
   padding-left: 20px;
 }
 
 .discography-section h2,
-.similar-artist-section h2 {
+.similar-section h2 {
   margin-top: 0;
   margin-bottom: 48px;
 }
@@ -533,7 +533,7 @@ h2 {
     color: #fff;
     font-size: 16px;
   }
-  .central-banner .list-btn form {
+  .central-banner .artisit-btns {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -542,11 +542,11 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .central-banner .list-btn form .purple-btn {
+  .central-banner .artisit-btns .purple-btn {
     margin-bottom: 24px;
   }
-  .central-banner .list-btn form .purple-btn,
-  .central-banner .list-btn form .red-btn {
+  .central-banner .artisit-btns .purple-btn,
+  .central-banner .artisit-btns .red-btn {
     max-width: 200px;
   }
   .popular-track-section {
@@ -569,7 +569,7 @@ h2 {
     margin-bottom: 0;
   }
   .discography-section,
-  .similar-artist-section {
+  .similar-section {
     width: 100%;
     padding: 0 20px;
     padding-top: 100px;

@@ -65,7 +65,13 @@ h2 {
 }
 
 .main-section {
-  @include main-section-style;
+  @include main-wrapper;
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner.png");
+
+  @include bg-img;
 }
 
 .logo {
@@ -125,11 +131,17 @@ h2 {
   line-height: 15px;
 }
 
-.pricing-section {
-  h3 {
-    margin-bottom: 200px;
-    color: $white;
-  }
+// .pricing-section {
+//   h3 {
+
+//   }
+// }
+
+.title {
+  @include font24;
+
+  margin-bottom: 200px;
+  color: $white;
 }
 
 .pricing-items-row {
@@ -465,7 +477,7 @@ h2 {
     width: 100%;
   }
 
-  .pricing-section {
+  .wrapper:nth-child(2) {
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -491,23 +503,15 @@ h2 {
     }
   }
 
-  .news-section {
+  .wrapper:nth-child(3) {
     width: 100%;
     padding: 100px 20px 0 20px;
   }
 
-  .mt64 {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 64px;
-  }
-
-  .eminem-item {
+  .news-item {
     display: flex;
     flex-direction: column;
-  }
 
-  .news-item {
     img {
       width: 100%;
       height: auto;
@@ -516,21 +520,24 @@ h2 {
     }
   }
 
-  .news-text-area {
-    .news-body {
-      margin-right: 0;
+  .news-item:last-child {
+    flex-direction: column-reverse;
+    margin-top: 64px;
+  }
 
-      h3 {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        text-transform: capitalize;
-      }
+  .news-body {
+    margin-right: 0;
 
-      p {
-        margin-top: 16px;
-        margin-bottom: 0;
-      }
+    h3 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: capitalize;
+    }
+
+    p {
+      margin-top: 16px;
+      margin-bottom: 0;
     }
   }
 
