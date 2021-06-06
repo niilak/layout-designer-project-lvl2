@@ -216,13 +216,17 @@ h2 {
 
 .news-item {
   display: flex;
+}
 
-  .news-body {
-    p {
-      margin-top: 30px;
-      margin-bottom: 0;
-    }
+.news-body {
+  p {
+    margin-top: 30px;
+    margin-bottom: 0;
   }
+}
+
+.news-item:last-child {
+  margin-top: 64px;
 }
 
 .news-footer {
