@@ -155,14 +155,14 @@ h2 {
   margin-right: 15px;
 }
 
-.track-info {
-  h3 {
-    margin: 0;
-    font-size: 12.8px;
-    line-height: 19.2px;
-    text-transform: uppercase;
-  }
+// .track-info {
+.font-h3 {
+  margin: 0;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-transform: uppercase;
 }
+// }
 
 .discography-section,
 .similar-section {
@@ -364,42 +364,42 @@ h2 {
       color: $white;
       font-size: 16px;
     }
+  }
 
-    .artisit-btns {
-      display: flex;
-      flex-direction: column;
+  .artisit-btns {
+    display: flex;
+    flex-direction: column;
+  }
 
-      .purple-btn {
-        margin-bottom: 24px;
-      }
+  .purple-btn {
+    margin-bottom: 24px;
+  }
 
-      .purple-btn,
-      .red-btn {
-        max-width: 200px;
-      }
-    }
+  .purple-btn,
+  .red-btn {
+    max-width: 200px;
   }
 
   .popular-track-section {
     width: 100%;
     padding: 0 20px;
     padding-top: 100px;
+  }
 
-    .track-list {
-      padding-top: 48px;
+  .track-list {
+    padding-top: 48px;
+  }
 
-      .popular-track {
-        width: 100%;
-        margin-bottom: 25px;
-        padding-right: 0;
+  .track-list .popular-track:nth-child(6) {
+    margin-bottom: 0;
+  }
 
-        @include small-text;
-      }
-    }
+  .popular-track {
+    width: 100%;
+    margin-bottom: 25px;
+    padding-right: 0;
 
-    .track-list .popular-track:nth-child(6) {
-      margin-bottom: 0;
-    }
+    @include small-text;
   }
 
   .discography-section,

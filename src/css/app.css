@@ -731,6 +731,10 @@ h2 {
     line-height: 24px;
     text-transform: capitalize;
   }
+  .news-item div:nth-child(2) p {
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
   .news-author {
     margin-bottom: 48px;
     font-size: 12px;
