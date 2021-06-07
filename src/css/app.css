@@ -297,10 +297,6 @@ h2 {
   margin-bottom: 48px;
 }
 
-.mt64 {
-  margin-top: 65px;
-}
-
 .mb64 {
   margin-bottom: 64px;
 }
@@ -734,10 +730,6 @@ h2 {
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
-  }
-  .news-item div:nth-child(2) p {
-    margin-top: 16px;
-    margin-bottom: 0;
   }
   .news-author {
     margin-bottom: 48px;
