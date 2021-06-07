@@ -230,6 +230,11 @@ h2 {
   margin-top: 64px;
 }
 
+.news-sec-img {
+  width: 575px;
+  height: 286px;
+}
+
 .news-author {
   margin-top: 24px;
   margin-bottom: 48px;
@@ -519,26 +524,22 @@ h2 {
       text-transform: capitalize;
     }
 
-    img {
-      width: 100%;
-      height: auto;
-      margin-right: 0;
-      margin-bottom: 49px;
+    .medium-text {
+      margin-top: 16px;
+      margin-bottom: 0;
     }
+  }
+
+  .news-sec-img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 49px;
   }
 
   .news-item:last-child {
     flex-direction: column-reverse;
     margin-top: 64px;
-  }
-
-  .news-item {
-    // margin-right: 0;
-
-    .medium-text {
-      margin-top: 16px;
-      margin-bottom: 0;
-    }
   }
 
   .news-author {

@@ -319,6 +319,11 @@ h2 {
   margin-top: 64px;
 }
 
+.news-sec-img {
+  width: 575px;
+  height: 286px;
+}
+
 .news-author {
   margin-top: 24px;
   margin-bottom: 48px;
@@ -715,7 +720,11 @@ h2 {
     line-height: 24px;
     text-transform: capitalize;
   }
-  .news-item img {
+  .news-item .medium-text {
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  .news-sec-img {
     width: 100%;
     height: auto;
     margin-right: 0;
@@ -727,10 +736,6 @@ h2 {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     margin-top: 64px;
-  }
-  .news-item .medium-text {
-    margin-top: 16px;
-    margin-bottom: 0;
   }
   .news-author {
     font-size: 12px;
