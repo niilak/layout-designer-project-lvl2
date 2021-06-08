@@ -10,8 +10,8 @@
   src: url("src/fonts/Roboto-Bold.ttf");
 }
 
-@import "variables.scss";
-@import "general.scss";
+@import "general/variables.scss";
+@import "general/general.scss";
 @import "modules/nav.scss";
 @import "modules/buttons.scss";
 @import "modules/footer.scss";
@@ -103,7 +103,7 @@ h2 {
   padding-top: 50px;
 
   p {
-    margin-top: 16px;
+    // margin-top: 16px;
     margin-bottom: 48px;
   }
 }
@@ -155,14 +155,12 @@ h2 {
   margin-right: 15px;
 }
 
-// .track-info {
 .font-h3 {
   margin: 0;
   font-size: 12.8px;
   line-height: 19.2px;
   text-transform: uppercase;
 }
-// }
 
 .discography-section,
 .similar-section {

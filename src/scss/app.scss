@@ -10,8 +10,8 @@
   src: url("src/fonts/Roboto-Bold.ttf");
 }
 
-@import "variables.scss";
-@import "general.scss";
+@import "general/variables.scss";
+@import "general/general.scss";
 @import "modules/nav.scss";
 @import "modules/buttons.scss";
 @import "modules/footer.scss";
@@ -111,11 +111,9 @@ h2 {
   @include search-input-style;
 }
 
-.banner {
-  margin-bottom: 32px;
-
+.main-section .content div {
   p {
-    margin-bottom: 16px;
+    margin-top: 32px;
     color: $white;
     font-size: 16px;
   }
@@ -133,12 +131,6 @@ h2 {
   font-size: 13.3px;
   line-height: 15px;
 }
-
-// .pricing-section {
-//   h3 {
-
-//   }
-// }
 
 .title {
   @include font24;
@@ -466,7 +458,7 @@ h2 {
     width: 100%;
   }
 
-  .banner {
+  .main-section .content div {
     margin: 0;
     padding: 50px 20px 0 20px;
 
@@ -545,7 +537,6 @@ h2 {
   }
 
   .news-author {
-    // margin-bottom: 48px;
     font-size: 12px;
 
     .avatar {

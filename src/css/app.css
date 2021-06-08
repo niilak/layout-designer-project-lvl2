@@ -190,17 +190,13 @@ h2 {
   border-radius: 50px;
 }
 
-.banner {
-  margin-bottom: 32px;
-}
-
-.banner p {
-  margin-bottom: 16px;
+.main-section .content div p {
+  margin-top: 32px;
   color: #fff;
   font-size: 16px;
 }
 
-.banner form {
+.main-section .content div form {
   max-width: 570px;
   margin: 0 auto;
 }
@@ -652,11 +648,11 @@ h2 {
   .search-input-style {
     width: 100%;
   }
-  .banner {
+  .main-section .content div {
     margin: 0;
     padding: 50px 20px 0 20px;
   }
-  .banner p {
+  .main-section .content div p {
     margin: 16px 0;
   }
   .submit-btn-style {
