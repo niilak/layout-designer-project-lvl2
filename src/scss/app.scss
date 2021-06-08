@@ -112,8 +112,9 @@ h2 {
 }
 
 .banner {
+  margin-bottom: 32px;
+
   p {
-    margin-top: 32px;
     margin-bottom: 16px;
     color: $white;
     font-size: 16px;
@@ -177,7 +178,7 @@ h2 {
   height: 57px;
 }
 
-// I try to remove height and add lint-height, and thats look nice at 1 price-item, but at other 2 items, i don't know why..
+// I try to remove height and add lint-height, and thats look nice at 1 price-item, but at other 2 items..
 // schreenshots are in src/schreenshot/..
 
 .checkout-btn {
@@ -466,6 +467,7 @@ h2 {
   }
 
   .banner {
+    margin: 0;
     padding: 50px 20px 0 20px;
 
     p {

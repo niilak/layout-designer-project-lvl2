@@ -190,8 +190,11 @@ h2 {
   border-radius: 50px;
 }
 
+.banner {
+  margin-bottom: 32px;
+}
+
 .banner p {
-  margin-top: 32px;
   margin-bottom: 16px;
   color: #fff;
   font-size: 16px;
@@ -650,6 +653,7 @@ h2 {
     width: 100%;
   }
   .banner {
+    margin: 0;
     padding: 50px 20px 0 20px;
   }
   .banner p {
