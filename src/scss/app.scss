@@ -111,7 +111,7 @@ h2 {
   @include search-input-style;
 }
 
-.main-section .content div {
+.main-section .content > div {
   p {
     margin-top: 32px;
     color: $white;
@@ -430,7 +430,7 @@ h2 {
     }
   }
 
-  .nav-style {
+  nav {
     .align-item-center {
       flex-direction: column;
       align-items: inherit;
@@ -458,7 +458,7 @@ h2 {
     width: 100%;
   }
 
-  .main-section .content div {
+  .main-section .content > div {
     margin: 0;
     padding: 50px 20px 0 20px;
 
