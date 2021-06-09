@@ -173,10 +173,6 @@ h2 {
   padding-top: 50px;
 }
 
-.artist-main-section .content > div p {
-  margin-bottom: 48px;
-}
-
 .artisit-btns {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,35 +237,10 @@ h2 {
   padding-right: 50px;
 }
 
-.align-item-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.mr15 {
-  margin-right: 15px;
-}
-
-.font-h3 {
-  margin: 0;
-  font-size: 12.8px;
-  line-height: 19.2px;
-  text-transform: uppercase;
-}
-
 .discography-section,
 .similar-section {
   padding-right: 20px;
   padding-left: 20px;
-}
-
-.discography-section h2,
-.similar-section h2 {
-  margin-bottom: 48px;
 }
 
 .discography-list,
@@ -446,6 +417,10 @@ h2 {
   margin-right: 16px;
 }
 
+.mb48 {
+  margin-bottom: 48px;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -458,6 +433,26 @@ h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.align-item-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.font-h3 {
+  margin: 0;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {

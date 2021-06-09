@@ -101,11 +101,6 @@ h2 {
 
 .artist-main-section .content > div {
   padding-top: 50px;
-
-  p {
-    // margin-top: 16px;
-    margin-bottom: 48px;
-  }
 }
 
 .artisit-btns {
@@ -146,30 +141,10 @@ h2 {
   padding-right: 50px;
 }
 
-.align-item-center {
-  display: flex;
-  align-items: center;
-}
-
-.mr15 {
-  margin-right: 15px;
-}
-
-.font-h3 {
-  margin: 0;
-  font-size: 12.8px;
-  line-height: 19.2px;
-  text-transform: uppercase;
-}
-
 .discography-section,
 .similar-section {
   padding-right: 20px;
   padding-left: 20px;
-
-  h2 {
-    margin-bottom: 48px;
-  }
 }
 
 .discography-list,
@@ -290,6 +265,10 @@ h2 {
   margin-right: 16px;
 }
 
+.mb48 {
+  margin-bottom: 48px;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -300,6 +279,22 @@ h2 {
 
 .w-fit-content {
   width: fit-content;
+}
+
+.align-item-center {
+  display: flex;
+  align-items: center;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.font-h3 {
+  margin: 0;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {

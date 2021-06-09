@@ -26,11 +26,11 @@
 }
 
 @mixin to-album-btn {
+  width: fit-content;
   padding: 16px 30px;
   color: $gray;
   border: 1px solid $gray;
   border-radius: 5px;
-  width: fit-content;
 
   @extend %pointer;
 }
