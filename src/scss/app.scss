@@ -194,14 +194,14 @@ h2 {
   background-image: url("../images/subscribe_3.png");
 }
 
-.news-header {
-  margin-top: 0;
-  margin-bottom: 48px;
-}
-
-// .mt64 {
-//   margin-top: 65px;
+// .news-header {
+//   margin-top: 0;
+//   margin-bottom: 48px;
 // }
+
+.mt48 {
+  margin-top: 48px;
+}
 
 .mb64 {
   margin-bottom: 64px;
@@ -569,7 +569,7 @@ h2 {
     }
   }
 
-  .app-text-area {
+  .app-item > div {
     p:nth-child(1) {
       height: 96px;
       // line-height: 19px;

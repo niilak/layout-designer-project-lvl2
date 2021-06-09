@@ -291,9 +291,8 @@ h2 {
   background-image: url("../images/subscribe_3.png");
 }
 
-.news-header {
-  margin-top: 0;
-  margin-bottom: 48px;
+.mt48 {
+  margin-top: 48px;
 }
 
 .mb64 {
@@ -344,6 +343,9 @@ h2 {
   color: #e0e0e0;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .app-item {
@@ -763,7 +765,7 @@ h2 {
   .wrapper:nth-child(4) .app-item img {
     margin: 0 auto;
   }
-  .app-text-area p:nth-child(1) {
+  .app-item > div p:nth-child(1) {
     height: 96px;
   }
   .footer {

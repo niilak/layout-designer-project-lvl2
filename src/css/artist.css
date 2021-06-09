@@ -169,11 +169,11 @@ h2 {
   border-radius: 50px;
 }
 
-.central-banner {
+.artist-main-section .content > div {
   padding-top: 50px;
 }
 
-.central-banner p {
+.artist-main-section .content > div p {
   margin-bottom: 48px;
 }
 
@@ -524,10 +524,10 @@ h2 {
   .search-input-style {
     width: 100%;
   }
-  .central-banner {
+  .artist-main-section .content > div {
     padding-top: 25px;
   }
-  .central-banner p {
+  .artist-main-section .content > div p {
     color: #fff;
     font-size: 16px;
   }
@@ -547,7 +547,7 @@ h2 {
   .red-btn {
     max-width: 200px;
   }
-  .popular-track-section {
+  section:nth-child(2) {
     width: 100%;
     padding: 0 20px;
     padding-top: 100px;

@@ -99,7 +99,7 @@ h2 {
   @include search-input-style;
 }
 
-.central-banner {
+.artist-main-section .content > div {
   padding-top: 50px;
 
   p {
@@ -355,7 +355,7 @@ h2 {
     width: 100%;
   }
 
-  .central-banner {
+  .artist-main-section .content > div {
     padding-top: 25px;
 
     p {
@@ -378,7 +378,7 @@ h2 {
     max-width: 200px;
   }
 
-  .popular-track-section {
+  section:nth-child(2) {
     width: 100%;
     padding: 0 20px;
     padding-top: 100px;
