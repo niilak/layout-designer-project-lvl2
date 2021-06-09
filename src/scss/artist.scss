@@ -180,11 +180,6 @@ h2 {
   margin-bottom: 0;
 }
 
-.discography-list .discography-item:nth-child(5),
-.discography-item:nth-child(6) {
-  margin-bottom: 0;
-}
-
 .footer {
   @include footer;
 }
@@ -277,6 +272,10 @@ h2 {
 
 .mb48 {
   margin-bottom: 48px;
+}
+
+.mb0 {
+  margin-bottom: 0;
 }
 
 .no-margin {
