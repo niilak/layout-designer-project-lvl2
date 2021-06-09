@@ -339,13 +339,13 @@ h2 {
 }
 
 .to-album-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 16px 30px;
   color: #e0e0e0;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .app-item {
