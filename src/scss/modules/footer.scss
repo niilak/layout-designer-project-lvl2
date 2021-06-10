@@ -14,10 +14,11 @@
 
 @mixin footer-link {
   width: fit-content;
-  height: 20px;
+  // height: 20px;
   color: $gray;
   font-size: 16px;
-  line-height: 24px;
+  // line-height: 24px;
+  line-height: 20px;
   text-decoration: none;
 }
 
