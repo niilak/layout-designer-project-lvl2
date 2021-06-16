@@ -1,0 +1,30 @@
+.pricing-items-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.pricing-item {
+  position: relative;
+  width: 371px;
+  margin-top: 50px;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+}
+
+.price-row {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.pricing-value {
+  margin-right: 16px;
+  font-size: 64px;
+  line-height: 1em;
+}
+
+.pricing-footer {
+  height: 57px;
+}
