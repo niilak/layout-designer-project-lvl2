@@ -15,6 +15,8 @@
 @import "modules/nav.scss";
 @import "modules/buttons.scss";
 @import "modules/footer.scss";
+@import "utilities/utilities.scss";
+@import "frameworks/artist-main.scss";
 
 * {
   box-sizing: border-box;
@@ -52,81 +54,77 @@ h2 {
   @include font18;
 }
 
-.btn {
-  @include btn;
-}
-
 .content {
   @include content-container;
 }
 
-.artist-main-section {
-  @include main-wrapper;
+// .artist-main-section {
+//   @include main-wrapper;
 
-  // height: 751px;
+//   // height: 751px;
 
-  background-image: url("../images/MortenHarket.png");
+//   background-image: url("../images/MortenHarket.png");
 
-  @include bg-img;
-}
+//   @include bg-img;
+// }
 
-.nav-style {
-  @include nav-bar-style;
-}
+// .nav-style {
+//   @include nav-bar-style;
+// }
 
-.logo {
-  @include logo;
-}
+// .logo {
+//   @include logo;
+// }
 
-.nav-links {
-  @include nav-bar-links;
-}
+// .nav-links {
+//   @include nav-bar-links;
+// }
 
-.nav-list {
-  display: flex;
-  list-style-type: none;
+// .nav-list {
+//   display: flex;
+//   list-style-type: none;
 
-  li {
-    padding-left: 0;
+//   li {
+//     padding-left: 0;
 
-    a:hover {
-      color: $white;
-      // font-size: 11.2px;
-    }
-  }
-}
+//     a:hover {
+//       color: $white;
+//       // font-size: 11.2px;
+//     }
+//   }
+// }
 
-.search-input-style {
-  @include search-input-style;
-}
+// .search-input-style {
+//   @include search-input-style;
+// }
 
-.artist-main-section .content > div {
-  padding-top: 50px;
-  padding-bottom: 63px;
-}
+// .artist-main-section .content > div {
+//   padding-top: 50px;
+//   padding-bottom: 63px;
+// }
 
-.artisit-btns {
-  display: flex;
-}
+// .artisit-btns {
+//   display: flex;
+// }
 
-.purple-btn {
-  margin-right: 1.5rem;
-  background-color: $purple;
+// .purple-btn {
+//   margin-right: 1.5rem;
+//   background-color: $purple;
 
-  @include artist-page-btn;
-}
+//   @include artist-page-btn;
+// }
 
-.red-btn {
-  background-color: $red;
+// .red-btn {
+//   background-color: $red;
 
-  @include artist-page-btn;
-}
+//   @include artist-page-btn;
+// }
 
-.svg {
-  width: 20px;
-  height: 20px;
-  margin-right: 16px;
-}
+// .svg {
+//   width: 20px;
+//   height: 20px;
+//   margin-right: 16px;
+// }
 
 .track-list {
   display: flex;
@@ -143,13 +141,13 @@ h2 {
   padding-right: 50px;
 }
 
-.pr20 {
-  padding-right: 20px;
-}
+// .pr20 {
+//   padding-right: 20px;
+// }
 
-.pl20 {
-  padding-left: 20px;
-}
+// .pl20 {
+//   padding-left: 20px;
+// }
 
 .discography-list,
 .similar-artist-list {
@@ -248,50 +246,50 @@ h2 {
   @include wrapper;
 }
 
-.mr24 {
-  margin-right: 24px;
-}
+// .mr24 {
+//   margin-right: 24px;
+// }
 
-.ml24 {
-  margin-left: 24px;
-}
+// .ml24 {
+//   margin-left: 24px;
+// }
 
-.mb25 {
-  margin-bottom: 25px;
-}
+// .mb25 {
+//   margin-bottom: 25px;
+// }
 
-.mr16 {
-  margin-right: 16px;
-}
+// .mr16 {
+//   margin-right: 16px;
+// }
 
-.mb48 {
-  margin-bottom: 48px;
-}
+// .mb48 {
+//   margin-bottom: 48px;
+// }
 
-.mb0 {
-  margin-bottom: 0;
-}
+// .mb0 {
+//   margin-bottom: 0;
+// }
 
-.no-margin {
-  margin: 0;
-}
+// .no-margin {
+//   margin: 0;
+// }
 
-.text-center {
-  text-align: center;
-}
+// .text-center {
+//   text-align: center;
+// }
 
-.w-fit-content {
-  width: fit-content;
-}
+// .w-fit-content {
+//   width: fit-content;
+// }
 
 .align-item-center {
   display: flex;
   align-items: center;
 }
 
-.mr15 {
-  margin-right: 15px;
-}
+// .mr15 {
+//   margin-right: 15px;
+// }
 
 .font-h3 {
   margin: 0;
@@ -313,68 +311,68 @@ h2 {
     width: 100%;
   }
 
-  .artist-main-section {
-    padding: 200px 20px;
+  // .artist-main-section {
+  //   padding: 200px 20px;
 
-    nav {
-      top: 20px;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-      padding: 0 20px;
-    }
-  }
+  //   nav {
+  //     top: 20px;
+  //     flex-direction: column;
+  //     align-items: flex-start;
+  //     width: 100%;
+  //     padding: 0 20px;
+  //   }
+  // }
 
-  nav {
-    .align-item-center {
-      flex-direction: column;
-      align-items: inherit;
-    }
-  }
+  // nav {
+  //   .align-item-center {
+  //     flex-direction: column;
+  //     align-items: inherit;
+  //   }
+  // }
 
-  .nav-list {
-    flex-direction: column;
-    margin: 17px 0;
-    padding: 0;
+  // .nav-list {
+  //   flex-direction: column;
+  //   margin: 17px 0;
+  //   padding: 0;
 
-    li {
-      margin-right: 0;
+  //   li {
+  //     margin-right: 0;
 
-      a {
-        width: fit-content;
-        margin-right: 0;
-        margin-bottom: 1px;
-        text-align: start;
-      }
-    }
-  }
+  //     a {
+  //       width: fit-content;
+  //       margin-right: 0;
+  //       margin-bottom: 1px;
+  //       text-align: start;
+  //     }
+  //   }
+  // }
 
-  .search-input-style {
-    width: 100%;
-  }
+  // .search-input-style {
+  //   width: 100%;
+  // }
 
-  .artist-main-section .content > div {
-    padding-top: 25px;
+  // .artist-main-section .content > div {
+  //   padding-top: 25px;
 
-    p {
-      color: $white;
-      font-size: 16px;
-    }
-  }
+  //   p {
+  //     color: $white;
+  //     font-size: 16px;
+  //   }
+  // }
 
-  .artisit-btns {
-    display: flex;
-    flex-direction: column;
-  }
+  // .artisit-btns {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
 
-  .purple-btn {
-    margin-bottom: 24px;
-  }
+  // .purple-btn {
+  //   margin-bottom: 24px;
+  // }
 
-  .purple-btn,
-  .red-btn {
-    max-width: 200px;
-  }
+  // .purple-btn,
+  // .red-btn {
+  //   max-width: 200px;
+  // }
 
   section:nth-child(2) {
     width: 100%;

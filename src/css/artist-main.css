@@ -1,3 +1,9 @@
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,4 +75,60 @@
   color: #fff;
   font-size: 11.2px;
 }
-/*# sourceMappingURL=nav.css.map */
+
+.artist-main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 200px 0;
+  background-image: url("../images/MortenHarket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.artist-main-section .content > div {
+  padding-top: 50px;
+  padding-bottom: 63px;
+}
+
+.artisit-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.purple-btn {
+  margin-right: 1.5rem;
+  background-color: #5328a1;
+  min-width: 200px;
+  padding: 20px 30px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
+.red-btn {
+  background-color: #95390c;
+  min-width: 200px;
+  padding: 20px 30px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+/*# sourceMappingURL=artist-main.css.map */

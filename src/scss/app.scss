@@ -15,8 +15,9 @@
 @import "modules/nav.scss";
 @import "modules/buttons.scss";
 @import "modules/footer.scss";
-@import "modules/pricing.scss";
+@import "frameworks/pricing.scss";
 @import "utilities/utilities.scss";
+@import "frameworks/main.scss";
 
 * {
   box-sizing: border-box;
@@ -64,74 +65,9 @@ h2 {
   @include medium-text;
 }
 
-.btn {
-  @include btn;
-}
-
-.main-section {
-  @include main-wrapper;
-
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/banner.png");
-
-  @include bg-img;
-}
-
-.logo {
-  @include logo;
-}
-
-.nav-style {
-  @include nav-bar-style;
-}
-
 .align-item-center {
   display: flex;
   align-items: center;
-}
-
-.nav-links {
-  @include nav-bar-links;
-}
-
-.nav-list {
-  display: flex;
-  list-style-type: none;
-
-  li {
-    padding-left: 0;
-
-    a:hover {
-      color: $white;
-      font-size: 11.2px;
-    }
-  }
-}
-
-.search-input-style {
-  @include search-input-style;
-}
-
-.main-section .content > div {
-  p {
-    margin-top: 32px;
-    color: $white;
-    font-size: 16px;
-  }
-
-  form {
-    max-width: 570px;
-    margin: 0 auto;
-  }
-}
-
-.green-btn {
-  @include green-btn;
-
-  color: $white;
-  font-size: 13.3px;
-  line-height: 15px;
 }
 
 .title {
@@ -140,37 +76,6 @@ h2 {
   margin-bottom: 200px;
   color: $white;
 }
-
-// .pricing-items-row {
-//   display: flex;
-//   justify-content: space-between;
-//   margin-bottom: 36px;
-// }
-
-// .pricing-item {
-//   position: relative;
-//   width: 371px;
-//   margin-top: 50px;
-//   padding: 0 1.5rem;
-//   border-radius: 1rem;
-// }
-
-// .price-row {
-//   display: flex;
-//   align-items: end;
-//   justify-content: center;
-//   margin-bottom: 40px;
-// }
-
-// .pricing-value {
-//   margin-right: 16px;
-//   font-size: 64px;
-//   line-height: 1em;
-// }
-
-// .pricing-footer {
-//   height: 57px;
-// }
 
 .checkout-btn {
   @include checkout-btn;
@@ -193,25 +98,9 @@ h2 {
   background-image: url("../images/subscribe_3.png");
 }
 
-// .mt48 {
-//   margin-top: 48px;
-// }
-
-// .mb64 {
-//   margin-bottom: 64px;
-// }
-
 .news-item {
   display: flex;
 }
-
-// .mb0 {
-//   margin-bottom: 0;
-// }
-
-// .mt30 {
-//   margin-top: 30px;
-// }
 
 .news-item:last-child {
   margin-top: 64px;
@@ -339,10 +228,6 @@ h2 {
   @extend %no-margin;
 }
 
-// .mr50 {
-//   margin-right: 50px;
-// }
-
 .submit-btn-style {
   @include submit-btn-style;
 
@@ -352,50 +237,6 @@ h2 {
     font-size: 14px;
   }
 }
-
-// .d-block {
-//   display: block;
-// }
-
-// .w-fit-content {
-//   width: fit-content;
-// }
-
-// .text-center {
-//   text-align: center;
-// }
-
-// .mr24 {
-//   margin-right: 24px;
-// }
-
-// .ml24 {
-//   margin-left: 24px;
-// }
-
-// .mt14 {
-//   margin-top: 14px;
-// }
-
-// .mt8 {
-//   margin-top: 8px;
-// }
-
-// .mb16 {
-//   margin-bottom: 16px;
-// }
-
-// .mb48 {
-//   margin-bottom: 48px;
-// }
-
-// .mr16 {
-//   margin-right: 16px;
-// }
-
-// .orange {
-//   color: $orange;
-// }
 
 @media screen and (max-width: 600px) {
   h1 {
@@ -410,86 +251,61 @@ h2 {
     width: 100%;
   }
 
-  .main-section {
-    nav {
-      top: 16px;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-      padding: 0 20px;
-    }
-  }
-
-  nav {
-    .align-item-center {
-      flex-direction: column;
-      align-items: inherit;
-    }
-  }
-
-  .nav-list {
-    flex-direction: column;
-    margin: 17px 0;
-    padding: 0;
-
-    li {
-      margin-right: 0;
-
-      a {
-        width: fit-content;
-        margin-right: 0;
-        margin-bottom: 1px;
-        text-align: start;
-      }
-    }
-  }
-
-  .search-input-style {
-    width: 100%;
-  }
-
-  .main-section .content > div {
-    margin: 0;
-    padding: 50px 20px 0 20px;
-
-    p {
-      margin: 16px 0;
-    }
-  }
-
-  .submit-btn-style {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-
-  .green-btn {
-    width: 100%;
-  }
-
-  // .wrapper:nth-child(2) {
-  //   flex-direction: column;
-  //   width: 100%;
-  //   height: 100%;
-  //   padding: 100px 20px 0 20px;
-
-  //   h2 {
+  // .main-section {
+  //   nav {
+  //     top: 16px;
+  //     flex-direction: column;
+  //     align-items: flex-start;
   //     width: 100%;
-  //     text-align: center;
+  //     padding: 0 20px;
   //   }
   // }
 
-  // .pricing-items-row {
+  // nav {
+  //   .align-item-center {
+  //     flex-direction: column;
+  //     align-items: inherit;
+  //   }
+  // }
+
+  // .nav-list {
   //   flex-direction: column;
-  //   align-items: center;
+  //   margin: 17px 0;
+  //   padding: 0;
 
-  //   .pricing-item {
-  //     justify-content: center;
+  //   li {
+  //     margin-right: 0;
 
-  //     h3 {
-  //       @include font16;
+  //     a {
+  //       width: fit-content;
+  //       margin-right: 0;
+  //       margin-bottom: 1px;
+  //       text-align: start;
   //     }
   //   }
+  // }
+
+  // .search-input-style {
+  //   width: 100%;
+  // }
+
+  // .main-section .content > div {
+  //   margin: 0;
+  //   padding: 50px 20px 0 20px;
+
+  //   p {
+  //     margin: 16px 0;
+  //   }
+  // }
+
+  // .submit-btn-style {
+  //   display: flex;
+  //   flex-direction: row;
+  //   width: 100%;
+  // }
+
+  // .green-btn {
+  //   width: 100%;
   // }
 
   .wrapper:nth-child(3) {

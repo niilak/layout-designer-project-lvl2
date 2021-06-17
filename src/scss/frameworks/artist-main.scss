@@ -1,0 +1,84 @@
+@import "../general/general.scss";
+@import "../general/variables.scss";
+@import "../general/fonts.scss";
+@import "../modules/buttons.scss";
+@import "../modules/nav.scss";
+
+.artist-main-section {
+  @include main-wrapper;
+
+  // height: 751px;
+
+  background-image: url("../images/MortenHarket.png");
+
+  @include bg-img;
+}
+
+.artist-main-section .content > div {
+  padding-top: 50px;
+  padding-bottom: 63px;
+}
+
+.artisit-btns {
+  display: flex;
+}
+
+.purple-btn {
+  margin-right: 1.5rem;
+  background-color: $purple;
+
+  @include artist-page-btn;
+}
+
+.red-btn {
+  background-color: $red;
+
+  @include artist-page-btn;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .artist-main-section {
+    padding: 200px 20px;
+
+    nav {
+      top: 20px;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  .search-input-style {
+    width: 100%;
+  }
+
+  .artist-main-section .content > div {
+    padding-top: 25px;
+
+    p {
+      color: $white;
+      font-size: 16px;
+    }
+  }
+
+  .artisit-btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .purple-btn {
+    margin-bottom: 24px;
+  }
+
+  .purple-btn,
+  .red-btn {
+    max-width: 200px;
+  }
+}
