@@ -23,9 +23,9 @@
   box-sizing: border-box;
 }
 
-html {
-  @include general-project-style;
-}
+// html {
+//   @include general-project-style;
+// }
 
 body {
   width: 100%;
@@ -146,83 +146,83 @@ h2 {
   @include download-btn;
 }
 
-.footer {
-  @include footer;
-}
+// .footer {
+//   @include footer;
+// }
 
-.footer-top {
-  @include footer-top;
-}
+// .footer-top {
+//   @include footer-top;
+// }
 
-.footer-links {
-  @include footer-links;
+// .footer-links {
+//   // @include footer-links;
 
-  h2 {
-    margin-bottom: 16px;
-  }
+//   h2 {
+//     margin-bottom: 16px;
+//   }
 
-  p {
-    width: 100%;
-    margin: 2px 0;
-    padding: 2px 0;
-  }
+//   p {
+//     width: 100%;
+//     margin: 2px 0;
+//     padding: 2px 0;
+//   }
 
-  ul {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+//   ul {
+//     width: 100%;
+//     margin: 0;
+//     padding: 0;
+//     list-style-type: none;
 
-    li {
-      display: flex;
-      align-items: center;
-      padding: 2px 0;
-    }
-  }
-}
+//     li {
+//       display: flex;
+//       align-items: center;
+//       padding: 2px 0;
+//     }
+//   }
+// }
 
-.footer-links:last-child .footer-h2 {
-  margin-bottom: 11px;
-}
+// .footer-links:last-child .footer-h2 {
+//   margin-bottom: 11px;
+// }
 
-.footer-links:nth-child(3) {
-  .footer-link:nth-child(3) {
-    height: auto;
-    padding: 0;
-  }
-}
+// .footer-links:nth-child(3) {
+//   .footer-link:nth-child(3) {
+//     height: auto;
+//     padding: 0;
+//   }
+// }
 
-.footer-icon-style {
-  @include footer-icon-style;
-}
+// .footer-icon-style {
+//   @include footer-icon-style;
+// }
 
-.line {
-  @include line;
-}
+// .line {
+//   @include line;
+// }
 
-.footer-bottom {
-  @include footer-bottom;
-}
+// .footer-bottom {
+//   @include footer-bottom;
+// }
 
-.footer-link-bottom {
-  @include footer-link-bottom;
-}
+// .footer-link-bottom {
+//   @include footer-link-bottom;
+// }
 
-.footer-h2 {
-  @include footer-h2;
-}
+// .footer-h2 {
+//   @include footer-h2;
+// }
 
-.footer-link {
-  @include footer-link;
-}
+// .footer-link {
+//   @include footer-link;
+// }
 
-.wrapper {
-  @include wrapper;
-}
+// .wrapper {
+//   @include wrapper;
+// }
 
-.content {
-  @include content-container;
-}
+// .content {
+//   @include content-container;
+// }
 
 .no-margin {
   @extend %no-margin;
@@ -247,64 +247,7 @@ h2 {
     @include mob-h2;
   }
 
-  .content {
-    width: 100%;
-  }
-
-  // .main-section {
-  //   nav {
-  //     top: 16px;
-  //     flex-direction: column;
-  //     align-items: flex-start;
-  //     width: 100%;
-  //     padding: 0 20px;
-  //   }
-  // }
-
-  // nav {
-  //   .align-item-center {
-  //     flex-direction: column;
-  //     align-items: inherit;
-  //   }
-  // }
-
-  // .nav-list {
-  //   flex-direction: column;
-  //   margin: 17px 0;
-  //   padding: 0;
-
-  //   li {
-  //     margin-right: 0;
-
-  //     a {
-  //       width: fit-content;
-  //       margin-right: 0;
-  //       margin-bottom: 1px;
-  //       text-align: start;
-  //     }
-  //   }
-  // }
-
-  // .search-input-style {
-  //   width: 100%;
-  // }
-
-  // .main-section .content > div {
-  //   margin: 0;
-  //   padding: 50px 20px 0 20px;
-
-  //   p {
-  //     margin: 16px 0;
-  //   }
-  // }
-
-  // .submit-btn-style {
-  //   display: flex;
-  //   flex-direction: row;
-  //   width: 100%;
-  // }
-
-  // .green-btn {
+  // .content {
   //   width: 100%;
   // }
 
@@ -378,36 +321,36 @@ h2 {
     }
   }
 
-  .footer {
-    padding: 0 20px;
-  }
+  // .footer {
+  //   padding: 0 20px;
+  // }
 
-  .footer-top {
-    display: flex;
-    flex-direction: column;
-    padding-right: 0;
-    padding-bottom: 44px;
-  }
+  // .footer-top {
+  //   display: flex;
+  //   flex-direction: column;
+  //   padding-right: 0;
+  //   padding-bottom: 44px;
+  // }
 
-  .footer-links {
-    width: 100%;
-    margin-bottom: 30px;
-    margin-left: 0%;
-  }
+  // .footer-links {
+  //   width: 100%;
+  //   margin-bottom: 30px;
+  //   margin-left: 0%;
+  // }
 
-  .footer-links:nth-child(4) {
-    margin-top: 4px;
-  }
+  // .footer-links:nth-child(4) {
+  //   margin-top: 4px;
+  // }
 
-  .footer-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: unset;
+  // .footer-bottom {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: unset;
 
-    a {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 16px;
-    }
-  }
+  //   a {
+  //     width: 100%;
+  //     margin-right: 0;
+  //     margin-bottom: 16px;
+  //   }
+  // }
 }

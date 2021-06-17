@@ -1,4 +1,6 @@
-@mixin general-project-style {
+@import "variables.scss";
+
+html {
   color: $gray;
   font-size: 18px;
   font-family: "Roboto-Regular", sans-serif;
@@ -6,13 +8,13 @@
   background-color: $black;
 }
 
-@mixin content-container {
+.content {
   width: 1200px;
   height: 100%;
   margin: 0 auto;
 }
 
-@mixin wrapper {
+.wrapper {
   width: 1240px;
   margin: 0 auto;
   padding-top: 100px;
@@ -124,6 +126,12 @@
 
 %pointer {
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+  }
 }
 
 //   @include nameofmixin

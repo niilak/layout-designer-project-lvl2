@@ -22,9 +22,9 @@
   box-sizing: border-box;
 }
 
-html {
-  @include general-project-style;
-}
+// html {
+//   @include general-project-style;
+// }
 
 body {
   width: 100%;
@@ -54,76 +54,8 @@ h2 {
   @include font18;
 }
 
-.content {
-  @include content-container;
-}
-
-// .artist-main-section {
-//   @include main-wrapper;
-
-//   // height: 751px;
-
-//   background-image: url("../images/MortenHarket.png");
-
-//   @include bg-img;
-// }
-
-// .nav-style {
-//   @include nav-bar-style;
-// }
-
-// .logo {
-//   @include logo;
-// }
-
-// .nav-links {
-//   @include nav-bar-links;
-// }
-
-// .nav-list {
-//   display: flex;
-//   list-style-type: none;
-
-//   li {
-//     padding-left: 0;
-
-//     a:hover {
-//       color: $white;
-//       // font-size: 11.2px;
-//     }
-//   }
-// }
-
-// .search-input-style {
-//   @include search-input-style;
-// }
-
-// .artist-main-section .content > div {
-//   padding-top: 50px;
-//   padding-bottom: 63px;
-// }
-
-// .artisit-btns {
-//   display: flex;
-// }
-
-// .purple-btn {
-//   margin-right: 1.5rem;
-//   background-color: $purple;
-
-//   @include artist-page-btn;
-// }
-
-// .red-btn {
-//   background-color: $red;
-
-//   @include artist-page-btn;
-// }
-
-// .svg {
-//   width: 20px;
-//   height: 20px;
-//   margin-right: 16px;
+// .content {
+//   @include content-container;
 // }
 
 .track-list {
@@ -140,14 +72,6 @@ h2 {
   width: 50%;
   padding-right: 50px;
 }
-
-// .pr20 {
-//   padding-right: 20px;
-// }
-
-// .pl20 {
-//   padding-left: 20px;
-// }
 
 .discography-list,
 .similar-artist-list {
@@ -172,124 +96,84 @@ h2 {
   margin-bottom: 0;
 }
 
-.footer {
-  @include footer;
-}
-
-.footer-top {
-  @include footer-top;
-}
-
-.footer-links {
-  @include footer-links;
-
-  h2 {
-    margin-bottom: 16px;
-  }
-
-  p {
-    width: 100%;
-    margin: 2px 0;
-    padding: 2px 0;
-  }
-
-  ul {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-
-    li {
-      display: flex;
-      align-items: center;
-      padding: 2px 0;
-    }
-  }
-}
-
-.footer-links:last-child .footer-h2 {
-  margin-bottom: 11px;
-}
-
-.footer-links:nth-child(3) {
-  .footer-link:nth-child(3) {
-    height: auto;
-    padding: 0;
-  }
-}
-
-.footer-icon-style {
-  @include footer-icon-style;
-}
-
-.line {
-  @include line;
-}
-
-.footer-bottom {
-  @include footer-bottom;
-}
-
-.footer-link-bottom {
-  @include footer-link-bottom;
-}
-
-.footer-h2 {
-  @include footer-h2;
-}
-
-.footer-link {
-  @include footer-link;
-}
-
-.wrapper {
-  @include wrapper;
-}
-
-// .mr24 {
-//   margin-right: 24px;
+// .footer {
+//   @include footer;
 // }
 
-// .ml24 {
-//   margin-left: 24px;
+// .footer-top {
+//   @include footer-top;
 // }
 
-// .mb25 {
-//   margin-bottom: 25px;
+// .footer-links {
+//   @include footer-links;
+
+//   h2 {
+//     margin-bottom: 16px;
+//   }
+
+//   p {
+//     width: 100%;
+//     margin: 2px 0;
+//     padding: 2px 0;
+//   }
+
+//   ul {
+//     width: 100%;
+//     margin: 0;
+//     padding: 0;
+//     list-style-type: none;
+
+//     li {
+//       display: flex;
+//       align-items: center;
+//       padding: 2px 0;
+//     }
+//   }
 // }
 
-// .mr16 {
-//   margin-right: 16px;
+// .footer-links:last-child .footer-h2 {
+//   margin-bottom: 11px;
 // }
 
-// .mb48 {
-//   margin-bottom: 48px;
+// .footer-links:nth-child(3) {
+//   .footer-link:nth-child(3) {
+//     height: auto;
+//     padding: 0;
+//   }
 // }
 
-// .mb0 {
-//   margin-bottom: 0;
+// .footer-icon-style {
+//   @include footer-icon-style;
 // }
 
-// .no-margin {
-//   margin: 0;
+// .line {
+//   @include line;
 // }
 
-// .text-center {
-//   text-align: center;
+// .footer-bottom {
+//   @include footer-bottom;
 // }
 
-// .w-fit-content {
-//   width: fit-content;
+// .footer-link-bottom {
+//   @include footer-link-bottom;
+// }
+
+// .footer-h2 {
+//   @include footer-h2;
+// }
+
+// .footer-link {
+//   @include footer-link;
+// }
+
+// .wrapper {
+//   @include wrapper;
 // }
 
 .align-item-center {
   display: flex;
   align-items: center;
 }
-
-// .mr15 {
-//   margin-right: 15px;
-// }
 
 .font-h3 {
   margin: 0;
@@ -307,71 +191,8 @@ h2 {
     @include mob-h2;
   }
 
-  .content {
-    width: 100%;
-  }
-
-  // .artist-main-section {
-  //   padding: 200px 20px;
-
-  //   nav {
-  //     top: 20px;
-  //     flex-direction: column;
-  //     align-items: flex-start;
-  //     width: 100%;
-  //     padding: 0 20px;
-  //   }
-  // }
-
-  // nav {
-  //   .align-item-center {
-  //     flex-direction: column;
-  //     align-items: inherit;
-  //   }
-  // }
-
-  // .nav-list {
-  //   flex-direction: column;
-  //   margin: 17px 0;
-  //   padding: 0;
-
-  //   li {
-  //     margin-right: 0;
-
-  //     a {
-  //       width: fit-content;
-  //       margin-right: 0;
-  //       margin-bottom: 1px;
-  //       text-align: start;
-  //     }
-  //   }
-  // }
-
-  // .search-input-style {
+  // .content {
   //   width: 100%;
-  // }
-
-  // .artist-main-section .content > div {
-  //   padding-top: 25px;
-
-  //   p {
-  //     color: $white;
-  //     font-size: 16px;
-  //   }
-  // }
-
-  // .artisit-btns {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
-
-  // .purple-btn {
-  //   margin-bottom: 24px;
-  // }
-
-  // .purple-btn,
-  // .red-btn {
-  //   max-width: 200px;
   // }
 
   section:nth-child(2) {
@@ -422,36 +243,36 @@ h2 {
     letter-spacing: -0.9px;
   }
 
-  .footer {
-    padding: 0 20px;
-  }
+  // .footer {
+  //   padding: 0 20px;
+  // }
 
-  .footer-top {
-    display: flex;
-    flex-direction: column;
-    padding-right: 0;
-    padding-bottom: 44px;
+  // .footer-top {
+  //   display: flex;
+  //   flex-direction: column;
+  //   padding-right: 0;
+  //   padding-bottom: 44px;
 
-    .footer-links:nth-child(4) {
-      margin-top: 4px;
-    }
-  }
+  //   .footer-links:nth-child(4) {
+  //     margin-top: 4px;
+  //   }
+  // }
 
-  .footer-links {
-    width: 100%;
-    margin-bottom: 30px;
-    margin-left: 0%;
-  }
+  // .footer-links {
+  //   width: 100%;
+  //   margin-bottom: 30px;
+  //   margin-left: 0%;
+  // }
 
-  .footer-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: unset;
+  // .footer-bottom {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: unset;
 
-    a {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 16px;
-    }
-  }
+  //   a {
+  //     width: 100%;
+  //     margin-right: 0;
+  //     margin-bottom: 16px;
+  //   }
+  // }
 }
