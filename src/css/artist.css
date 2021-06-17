@@ -31,6 +31,10 @@ body {
   margin: 0;
 }
 
+.green-btn {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
   .content {
     width: 100%;
@@ -68,6 +72,10 @@ body {
 
 body {
   margin: 0;
+}
+
+.green-btn {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -183,6 +191,25 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.green-btn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #34c176;
+  border: 0;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .green-btn {
+    width: 100%;
+  }
+}
+
+.green-btn {
+  cursor: pointer;
 }
 
 .footer-h2 {
@@ -470,6 +497,10 @@ body {
   margin: 0;
 }
 
+.green-btn {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
   .content {
     width: 100%;
@@ -486,45 +517,6 @@ body {
   font-weight: bold;
   font-family: "Roboto-Bold";
   src: url("src/fonts/Roboto-Bold.ttf");
-}
-
-html {
-  color: #e0e0e0;
-  font-size: 18px;
-  font-family: "Roboto-Regular", sans-serif;
-  line-height: 1.5;
-  background-color: #08020d;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-}
-
-.content {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.wrapper {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-body {
-  margin: 0;
-}
-
-@media screen and (max-width: 600px) {
-  .content {
-    width: 100%;
-  }
 }
 
 h1 {
@@ -623,6 +615,25 @@ h2 {
   text-decoration: none;
 }
 
+.green-btn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #34c176;
+  border: 0;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .green-btn {
+    width: 100%;
+  }
+}
+
+.green-btn {
+  cursor: pointer;
+}
+
 html {
   color: #e0e0e0;
   font-size: 18px;
@@ -654,6 +665,10 @@ body {
 
 body {
   margin: 0;
+}
+
+.green-btn {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -798,9 +813,6 @@ body {
   color: #fff;
   border: 0;
   border-radius: 5px;
-  font-weight: normal;
-  font-size: 12.8px;
-  line-height: 150%;
 }
 
 .red-btn {
@@ -810,9 +822,6 @@ body {
   color: #fff;
   border: 0;
   border-radius: 5px;
-  font-weight: normal;
-  font-size: 12.8px;
-  line-height: 150%;
 }
 
 .svg {
@@ -875,45 +884,6 @@ body {
   font-weight: bold;
   font-family: "Roboto-Bold";
   src: url("src/fonts/Roboto-Bold.ttf");
-}
-
-html {
-  color: #e0e0e0;
-  font-size: 18px;
-  font-family: "Roboto-Regular", sans-serif;
-  line-height: 1.5;
-  background-color: #08020d;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-}
-
-.content {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.wrapper {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-body {
-  margin: 0;
-}
-
-@media screen and (max-width: 600px) {
-  .content {
-    width: 100%;
-  }
 }
 
 h1 {
@@ -1085,9 +1055,6 @@ h2 {
     width: 100%;
     margin-bottom: 25px;
     padding-right: 0;
-    font-weight: normal;
-    font-size: 12.8px;
-    line-height: 150%;
   }
   section:nth-child(3),
   section:nth-child(4) {

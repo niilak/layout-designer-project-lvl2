@@ -31,10 +31,6 @@ body {
   margin: 0;
 }
 
-.green-btn {
-  cursor: pointer;
-}
-
 @media screen and (max-width: 600px) {
   .content {
     width: 100%;
@@ -51,49 +47,6 @@ body {
   font-weight: bold;
   font-family: "Roboto-Bold";
   src: url("src/fonts/Roboto-Bold.ttf");
-}
-
-html {
-  color: #e0e0e0;
-  font-size: 18px;
-  font-family: "Roboto-Regular", sans-serif;
-  line-height: 1.5;
-  background-color: #08020d;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-}
-
-.content {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.wrapper {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-body {
-  margin: 0;
-}
-
-.green-btn {
-  cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-  .content {
-    width: 100%;
-  }
 }
 
 h1 {
@@ -192,6 +145,91 @@ h2 {
   text-decoration: none;
 }
 
+.green-btn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #34c176;
+  border: 0;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .green-btn {
+    width: 100%;
+  }
+}
+
+.checkout-btn {
+  padding: 20px 30px;
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.to-album-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 16px 30px;
+  color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.submit-btn-style {
+  min-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.3rem;
+  padding-left: 20px;
+  color: #fff;
+  background: none;
+  border: 2px solid #e0e0e0;
+  border-radius: 3px;
+}
+
+.submit-btn-style::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.submit-btn-style:-ms-input-placeholder {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.submit-btn-style::-ms-input-placeholder {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.submit-btn-style::placeholder {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .submit-btn-style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+}
+
+.green-btn, .checkout-btn, .to-album-btn {
+  cursor: pointer;
+}
+
 html {
   color: #e0e0e0;
   font-size: 18px;
@@ -223,10 +261,6 @@ body {
 
 body {
   margin: 0;
-}
-
-.green-btn {
-  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -350,12 +384,6 @@ body {
 }
 
 .green-btn {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px 0;
-  background: #34c176;
-  border: 0;
-  border-radius: 5px;
   color: #fff;
   font-size: 13.3px;
   line-height: 15px;
@@ -427,19 +455,6 @@ body {
   }
   .main-section .content > div p {
     margin: 16px 0;
-  }
-  .submit-btn-style {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 100%;
-  }
-  .green-btn {
-    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

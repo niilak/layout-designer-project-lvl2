@@ -68,15 +68,15 @@
 }
 
 .title {
-  @include font24;
+  // @include font24;
 
   margin-bottom: 200px;
   color: $white;
 }
 
-.checkout-btn {
-  @include checkout-btn;
-}
+// .checkout-btn {
+//   @include checkout-btn;
+// }
 
 .bg-img-style {
   @include bg-img;
@@ -125,9 +125,9 @@
   @include mr(16px);
 }
 
-.to-album-btn {
-  @include to-album-btn;
-}
+// .to-album-btn {
+//   @include to-album-btn;
+// }
 
 .app-item {
   display: flex;
@@ -139,23 +139,18 @@
   }
 }
 
-.download-btn {
-  @include download-btn;
-}
+// .download-btn {
+//   @include download-btn;
+// }
 
 .no-margin {
   @extend %no-margin;
 }
 
-.submit-btn-style {
-  @include submit-btn-style;
+// .submit-btn-style {
+//   @include submit-btn-style;
 
-  &::placeholder {
-    color: $white;
-    font-weight: bold;
-    font-size: 14px;
-  }
-}
+// }
 
 @media screen and (max-width: 600px) {
   // h1 {

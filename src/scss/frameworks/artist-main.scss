@@ -7,8 +7,6 @@
 .artist-main-section {
   @include main-wrapper;
 
-  // height: 751px;
-
   background-image: url("../images/MortenHarket.png");
 
   @include bg-img;

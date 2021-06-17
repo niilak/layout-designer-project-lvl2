@@ -10,45 +10,6 @@
   src: url("src/fonts/Roboto-Bold.ttf");
 }
 
-html {
-  color: #e0e0e0;
-  font-size: 18px;
-  font-family: "Roboto-Regular", sans-serif;
-  line-height: 1.5;
-  background-color: #08020d;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-}
-
-.content {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.wrapper {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-body {
-  margin: 0;
-}
-
-@media screen and (max-width: 600px) {
-  .content {
-    width: 100%;
-  }
-}
-
 h1 {
   color: #fff;
   font-weight: bold;

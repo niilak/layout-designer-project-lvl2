@@ -18,7 +18,7 @@
 }
 
 .green-btn {
-  @include green-btn;
+  // @include green-btn;
 
   color: $white;
   font-size: 13.3px;
@@ -83,13 +83,7 @@
     }
   }
 
-  .submit-btn-style {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-
-  .green-btn {
-    width: 100%;
-  }
+  // .green-btn {
+  //   width: 100%;
+  // }
 }
