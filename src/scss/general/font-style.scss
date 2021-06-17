@@ -10,47 +10,11 @@
   src: url("src/fonts/Roboto-Bold.ttf");
 }
 
-html {
-  color: #e0e0e0;
-  font-size: 18px;
-  font-family: "Roboto-Regular", sans-serif;
-  line-height: 1.5;
-  background-color: #08020d;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-}
-
-.content {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.wrapper {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-body {
-  margin: 0;
-}
-
-@media screen and (max-width: 600px) {
-  .content {
-    width: 100%;
-  }
-}
+@import "general.scss";
+@import "variables.scss";
 
 h1 {
-  color: #fff;
+  color: $white;
   font-weight: bold;
   font-size: 60px;
   line-height: 90px;
@@ -58,7 +22,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: $white;
   font-weight: bold;
   font-size: 38px;
   line-height: 57px;
@@ -121,21 +85,22 @@ h2 {
 
 @media screen and (max-width: 600px) {
   h1 {
-    color: #fff;
+    color: $white;
     font-weight: bold;
     font-size: 30px;
     line-height: 45px;
     text-transform: uppercase;
   }
+
   h2 {
-    color: #fff;
+    color: $white;
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase;
   }
+
   .font18 {
     letter-spacing: -0.9px;
   }
 }
-/*# sourceMappingURL=fonts.css.map */

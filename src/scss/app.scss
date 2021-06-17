@@ -1,14 +1,14 @@
-@font-face {
-  font-weight: normal;
-  font-family: "Roboto-Regular";
-  src: url("src/fonts/Roboto-Regular.ttf");
-}
+// @font-face {
+//   font-weight: normal;
+//   font-family: "Roboto-Regular";
+//   src: url("src/fonts/Roboto-Regular.ttf");
+// }
 
-@font-face {
-  font-weight: bold;
-  font-family: "Roboto-Bold";
-  src: url("src/fonts/Roboto-Bold.ttf");
-}
+// @font-face {
+//   font-weight: bold;
+//   font-family: "Roboto-Bold";
+//   src: url("src/fonts/Roboto-Bold.ttf");
+// }
 
 @import "general/variables.scss";
 @import "general/general.scss";
@@ -18,52 +18,49 @@
 @import "frameworks/pricing.scss";
 @import "utilities/utilities.scss";
 @import "frameworks/main.scss";
+@import "../scss/general/font-style.scss";
 
-* {
-  box-sizing: border-box;
-}
-
-// html {
-//   @include general-project-style;
+// * {
+//   box-sizing: border-box;
 // }
 
-body {
-  width: 100%;
+// body {
+//   width: 100%;
 
-  @extend %no-margin;
-}
+//   @extend %no-margin;
+// }
 
-h1 {
-  @include desktop-h1;
-}
+// h1 {
+//   @include desktop-h1;
+// }
 
-h2 {
-  @include desktop-h2;
+// h2 {
+//   @include desktop-h2;
 
-  margin-top: 0;
-}
+//   margin-top: 0;
+// }
 
-.font24 {
-  @include font24;
-}
+// .font24 {
+//   @include font24;
+// }
 
-.font32 {
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 150%;
-}
+// .font32 {
+//   font-weight: normal;
+//   font-size: 32px;
+//   line-height: 150%;
+// }
 
-.font30 {
-  @include font30;
-}
+// .font30 {
+//   @include font30;
+// }
 
-.small-text {
-  @include small-text;
-}
+// .small-text {
+//   @include small-text;
+// }
 
-.medium-text {
-  @include medium-text;
-}
+// .medium-text {
+//   @include medium-text;
+// }
 
 .align-item-center {
   display: flex;
@@ -146,84 +143,6 @@ h2 {
   @include download-btn;
 }
 
-// .footer {
-//   @include footer;
-// }
-
-// .footer-top {
-//   @include footer-top;
-// }
-
-// .footer-links {
-//   // @include footer-links;
-
-//   h2 {
-//     margin-bottom: 16px;
-//   }
-
-//   p {
-//     width: 100%;
-//     margin: 2px 0;
-//     padding: 2px 0;
-//   }
-
-//   ul {
-//     width: 100%;
-//     margin: 0;
-//     padding: 0;
-//     list-style-type: none;
-
-//     li {
-//       display: flex;
-//       align-items: center;
-//       padding: 2px 0;
-//     }
-//   }
-// }
-
-// .footer-links:last-child .footer-h2 {
-//   margin-bottom: 11px;
-// }
-
-// .footer-links:nth-child(3) {
-//   .footer-link:nth-child(3) {
-//     height: auto;
-//     padding: 0;
-//   }
-// }
-
-// .footer-icon-style {
-//   @include footer-icon-style;
-// }
-
-// .line {
-//   @include line;
-// }
-
-// .footer-bottom {
-//   @include footer-bottom;
-// }
-
-// .footer-link-bottom {
-//   @include footer-link-bottom;
-// }
-
-// .footer-h2 {
-//   @include footer-h2;
-// }
-
-// .footer-link {
-//   @include footer-link;
-// }
-
-// .wrapper {
-//   @include wrapper;
-// }
-
-// .content {
-//   @include content-container;
-// }
-
 .no-margin {
   @extend %no-margin;
 }
@@ -239,16 +158,12 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
-    @include mob-h1;
-  }
+  // h1 {
+  //   @include mob-h1;
+  // }
 
-  h2 {
-    @include mob-h2;
-  }
-
-  // .content {
-  //   width: 100%;
+  // h2 {
+  //   @include mob-h2;
   // }
 
   .wrapper:nth-child(3) {
@@ -320,37 +235,4 @@ h2 {
       // line-height: 19px;
     }
   }
-
-  // .footer {
-  //   padding: 0 20px;
-  // }
-
-  // .footer-top {
-  //   display: flex;
-  //   flex-direction: column;
-  //   padding-right: 0;
-  //   padding-bottom: 44px;
-  // }
-
-  // .footer-links {
-  //   width: 100%;
-  //   margin-bottom: 30px;
-  //   margin-left: 0%;
-  // }
-
-  // .footer-links:nth-child(4) {
-  //   margin-top: 4px;
-  // }
-
-  // .footer-bottom {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: unset;
-
-  //   a {
-  //     width: 100%;
-  //     margin-right: 0;
-  //     margin-bottom: 16px;
-  //   }
-  // }
 }

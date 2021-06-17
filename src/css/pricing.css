@@ -6,6 +6,15 @@ html {
   background-color: #08020d;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
 .content {
   width: 1200px;
   height: 100%;
@@ -16,6 +25,10 @@ html {
   width: 1240px;
   margin: 0 auto;
   padding-top: 100px;
+}
+
+body {
+  margin: 0;
 }
 
 @media screen and (max-width: 600px) {
