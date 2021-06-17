@@ -63,6 +63,42 @@ body, .no-margin {
   height: 57px;
 }
 
+@media screen and (max-width: 600px) {
+  .wrapper:nth-child(2) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 100px 20px 0 20px;
+  }
+  .wrapper:nth-child(2) h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .pricing-items-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pricing-items-row .pricing-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pricing-items-row .pricing-item h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -670,39 +706,6 @@ h2 {
   }
   .green-btn {
     width: 100%;
-  }
-  .wrapper:nth-child(2) {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-    height: 100%;
-    padding: 100px 20px 0 20px;
-  }
-  .wrapper:nth-child(2) h2 {
-    width: 100%;
-    text-align: center;
-  }
-  .pricing-items-row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .pricing-items-row .pricing-item {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .pricing-items-row .pricing-item h3 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-transform: uppercase;
   }
   .wrapper:nth-child(3) {
     width: 100%;

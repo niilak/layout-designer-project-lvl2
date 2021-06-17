@@ -28,3 +28,30 @@
 .pricing-footer {
   height: 57px;
 }
+
+@media screen and (max-width: 600px) {
+  .wrapper:nth-child(2) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 100px 20px 0 20px;
+
+    h2 {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .pricing-items-row {
+    flex-direction: column;
+    align-items: center;
+
+    .pricing-item {
+      justify-content: center;
+
+      h3 {
+        @include font16;
+      }
+    }
+  }
+}
