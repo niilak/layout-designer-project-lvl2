@@ -61,6 +61,12 @@ body {
   border-radius: 50px;
 }
 
+@media screen and (max-width: 600px) {
+  .search-input-style {
+    width: 100%;
+  }
+}
+
 .nav-style {
   position: absolute;
   top: 25px;

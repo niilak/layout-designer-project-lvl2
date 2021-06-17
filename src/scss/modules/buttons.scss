@@ -75,13 +75,13 @@
   @extend %pointer;
 }
 
-// @mixin artist-page-btn {
-//   min-width: 200px;
-//   padding: 20px 30px;
-//   color: $white;
-//   border: 0;
-//   border-radius: 5px;
-// }
+@mixin artist-page-btn {
+  min-width: 200px;
+  padding: 20px 30px;
+  color: $white;
+  border: 0;
+  border-radius: 5px;
+}
 
 %pointer {
   cursor: pointer;
