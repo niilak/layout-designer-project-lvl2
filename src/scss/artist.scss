@@ -70,17 +70,17 @@ h2 {
   @include bg-img;
 }
 
-.nav-style {
-  @include nav-bar-style;
-}
+// .nav-style {
+//   @include nav-bar-style;
+// }
 
-.logo {
-  @include logo;
-}
+// .logo {
+//   @include logo;
+// }
 
-.nav-links {
-  @include nav-bar-links;
-}
+// .nav-links {
+//   @include nav-bar-links;
+// }
 
 .nav-list {
   display: flex;
@@ -96,9 +96,9 @@ h2 {
   }
 }
 
-.search-input-style {
-  @include search-input-style;
-}
+// .search-input-style {
+//   @include search-input-style;
+// }
 
 .artist-main-section .content > div {
   padding-top: 50px;
@@ -322,42 +322,42 @@ h2 {
   .artist-main-section {
     padding: 200px 20px;
 
-    nav {
-      top: 20px;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-      padding: 0 20px;
-    }
+    // nav {
+    //   top: 20px;
+    //   flex-direction: column;
+    //   align-items: flex-start;
+    //   width: 100%;
+    //   padding: 0 20px;
+    // }
   }
 
-  nav {
-    .align-item-center {
-      flex-direction: column;
-      align-items: inherit;
-    }
-  }
+  // nav {
+  //   .align-item-center {
+  //     flex-direction: column;
+  //     align-items: inherit;
+  //   }
+  // }
 
-  .nav-list {
-    flex-direction: column;
-    margin: 17px 0;
-    padding: 0;
+  // .nav-list {
+  //   flex-direction: column;
+  //   margin: 17px 0;
+  //   padding: 0;
 
-    li {
-      margin-right: 0;
+  //   li {
+  //     margin-right: 0;
 
-      a {
-        width: fit-content;
-        margin-right: 0;
-        margin-bottom: 1px;
-        text-align: start;
-      }
-    }
-  }
+  //     a {
+  //       width: fit-content;
+  //       margin-right: 0;
+  //       margin-bottom: 1px;
+  //       text-align: start;
+  //     }
+  //   }
+  // }
 
-  .search-input-style {
-    width: 100%;
-  }
+  // .search-input-style {
+  //   width: 100%;
+  // }
 
   .artist-main-section .content > div {
     padding-top: 25px;
