@@ -18,84 +18,84 @@
   padding-top: 100px;
 }
 
-@mixin desktop-h1 {
-  color: $white;
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 90px;
-  text-transform: uppercase;
-}
+// @mixin desktop-h1 {
+//   color: $white;
+//   font-weight: bold;
+//   font-size: 60px;
+//   line-height: 90px;
+//   text-transform: uppercase;
+// }
 
-@mixin desktop-h2 {
-  color: $white;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 57px;
-  text-transform: uppercase;
-}
+// @mixin desktop-h2 {
+//   color: $white;
+//   font-weight: bold;
+//   font-size: 38px;
+//   line-height: 57px;
+//   text-transform: uppercase;
+// }
 
-@mixin font30 {
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 45px;
-  text-transform: capitalize;
-}
+// @mixin font30 {
+//   font-weight: normal;
+//   font-size: 30px;
+//   line-height: 45px;
+//   text-transform: capitalize;
+// }
 
-@mixin font24 {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: uppercase;
-}
+// @mixin font24 {
+//   font-weight: 400;
+//   font-size: 24px;
+//   line-height: 36px;
+//   text-transform: uppercase;
+// }
 
-@mixin font16 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: uppercase;
-}
+// @mixin font16 {
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 24px;
+//   text-transform: uppercase;
+// }
 
-@mixin mob-h1 {
-  color: $white;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 45px;
-  text-transform: uppercase;
-}
+// @mixin mob-h1 {
+//   color: $white;
+//   font-weight: bold;
+//   font-size: 30px;
+//   line-height: 45px;
+//   text-transform: uppercase;
+// }
 
-@mixin mob-h2 {
-  color: $white;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 27px;
-  text-transform: uppercase;
-}
+// @mixin mob-h2 {
+//   color: $white;
+//   font-weight: bold;
+//   font-size: 18px;
+//   line-height: 27px;
+//   text-transform: uppercase;
+// }
 
-@mixin mob-h3 {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: uppercase;
-}
+// @mixin mob-h3 {
+//   font-weight: bold;
+//   font-size: 16px;
+//   line-height: 24px;
+//   text-transform: uppercase;
+// }
 
-@mixin font18 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  text-transform: capitalize;
-}
+// @mixin font18 {
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 27px;
+//   text-transform: capitalize;
+// }
 
-@mixin small-text {
-  font-weight: normal;
-  font-size: 12.8px;
-  line-height: 150%;
-}
+// @mixin small-text {
+//   font-weight: normal;
+//   font-size: 12.8px;
+//   line-height: 150%;
+// }
 
-@mixin medium-text {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-}
+// @mixin medium-text {
+//   font-weight: normal;
+//   font-size: 16px;
+//   line-height: 150%;
+// }
 
 @mixin bg-img {
   background-repeat: no-repeat;
@@ -118,9 +118,9 @@
   padding: 200px 0;
 }
 
-%no-margin {
-  margin: 0;
-}
+// %no-margin {
+//   margin: 0;
+// }
 
 %pointer {
   cursor: pointer;
