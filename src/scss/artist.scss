@@ -11,8 +11,8 @@
 // }
 
 @import "general/variables.scss";
-@import "general/general.scss";
-@import "modules/nav.scss";
+// @import "general/general.scss";
+// @import "modules/nav.scss";
 @import "modules/buttons.scss";
 @import "modules/footer.scss";
 
@@ -20,15 +20,15 @@
   box-sizing: border-box;
 }
 
-html {
-  @include general-project-style;
-}
+// html {
+//   @include general-project-style;
+// }
 
-body {
-  width: 100%;
+// body {
+//   width: 100%;
 
-  @extend %no-margin;
-}
+//   @extend %no-margin;
+// }
 
 // h1 {
 //   @include desktop-h1;
@@ -56,12 +56,12 @@ body {
   @include btn;
 }
 
-.content {
-  @include content-container;
-}
+// .content {
+//   @include content-container;
+// }
 
 .artist-main-section {
-  @include main-wrapper;
+  // @include main-wrapper;
 
   // height: 751px;
 
@@ -250,9 +250,9 @@ body {
   @include footer-link;
 }
 
-.wrapper {
-  @include wrapper;
-}
+// .wrapper {
+//   @include wrapper;
+// }
 
 // .mr24 {
 //   margin-right: 24px;

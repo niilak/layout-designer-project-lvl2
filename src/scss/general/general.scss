@@ -1,4 +1,8 @@
-@mixin general-project-style {
+* {
+  box-sizing: border-box;
+}
+
+html {
   color: $gray;
   font-size: 18px;
   font-family: "Roboto-Regular", sans-serif;
@@ -6,13 +10,19 @@
   background-color: $black;
 }
 
-@mixin content-container {
+body {
+  width: 100%;
+
+  margin: 0;
+}
+
+.content {
   width: 1200px;
   height: 100%;
   margin: 0 auto;
 }
 
-@mixin wrapper {
+.wrapper {
   width: 1240px;
   margin: 0 auto;
   padding-top: 100px;
@@ -103,15 +113,17 @@
   background-size: cover;
 }
 
+// remove bg img style
 @mixin bg-img-style {
   height: 100%;
-  border-radius: 1rem;
+  // border-radius: 1rem;
 }
 
 @mixin mr($mr) {
   margin-right: $mr;
 }
 
+// ostavi mixin
 @mixin main-wrapper {
   display: flex;
   justify-content: center;
