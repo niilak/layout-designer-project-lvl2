@@ -10,12 +10,12 @@
 //   src: url("src/fonts/Roboto-Bold.ttf");
 // }
 
-@import "general/variables.scss";
-@import "general/general.scss";
-@import "modules/nav.scss";
-@import "modules/buttons.scss";
-@import "modules/footer.scss";
-@import "general/general.scss";
+// @import "general/variables.scss";
+// @import "general/general.scss";
+// @import "modules/nav.scss";
+// @import "modules/buttons.scss";
+// @import "modules/footer.scss";
+// @import "general/general.scss";
 
 // * {
 //   box-sizing: border-box;
@@ -126,7 +126,7 @@
 }
 
 .green-btn {
-  @include green-btn;
+  // @include green-btn;
 
   color: $white;
   font-size: 13.3px;
@@ -167,14 +167,15 @@
 
 .pricing-footer {
   height: 57px;
+  margin-top: 0;
 }
 
 // I try to remove height and add lint-height, and thats look nice at 1 price-item, but at other 2 items..
 // schreenshots are in src/schreenshot/..
 
-.checkout-btn {
-  @include checkout-btn;
-}
+// .checkout-btn {
+//   @include checkout-btn;
+// }
 
 // .  {
 //   @include bg-img;
@@ -244,9 +245,9 @@
   @include mr(16px);
 }
 
-.to-album-btn {
-  @include to-album-btn;
-}
+// .to-album-btn {
+//   @include to-album-btn;
+// }
 
 .app-item {
   display: flex;
@@ -258,9 +259,9 @@
   }
 }
 
-.download-btn {
-  @include download-btn;
-}
+// .download-btn {
+//   @include download-btn;
+// }
 
 .footer {
   @include footer;
@@ -352,15 +353,15 @@
 //   margin-right: 50px;
 // }
 
-.submit-btn-style {
-  @include submit-btn-style;
+// .submit-btn-style {
+//   @include submit-btn-style;
 
-  &::placeholder {
-    color: $white;
-    font-weight: bold;
-    font-size: 14px;
-  }
-}
+//   &::placeholder {
+//     color: $white;
+//     font-weight: bold;
+//     font-size: 14px;
+//   }
+// }
 
 // .d-block {
 //   display: block;
@@ -466,15 +467,15 @@
     }
   }
 
-  .submit-btn-style {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
+  // .submit-btn-style {
+  //   display: flex;
+  //   flex-direction: row;
+  //   width: 100%;
+  // }
 
-  .green-btn {
-    width: 100%;
-  }
+  // .green-btn {
+  //   width: 100%;
+  // }
 
   .wrapper:nth-child(2) {
     flex-direction: column;

@@ -6,7 +6,7 @@ lint:
 	npx htmlhint ./src/*.html
 
 sass:
-	sass ./src/scss/app.scss ./src/css/style.css
+	sass --watch ./src/scss/app.scss ./src/css/style.css
 	npx stylelint --fix ./src/css/style.css
 
 deploy:

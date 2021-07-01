@@ -1,4 +1,4 @@
-@import "../general/variables.scss";
+// @import "../general/variables.scss";
 
 .btn {
   text-align: center;
@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-@mixin green-btn {
+.green-btn {
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;
@@ -15,9 +15,13 @@
   border-radius: 5px;
 
   @extend %pointer;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 }
 
-@mixin checkout-btn {
+.checkout-btn {
   padding: 20px 30px;
   color: $white;
   background: none;
@@ -27,7 +31,7 @@
   @extend %pointer;
 }
 
-@mixin to-album-btn {
+.to-album-btn {
   width: fit-content;
   padding: 16px 30px;
   color: $gray;
@@ -37,7 +41,7 @@
   @extend %pointer;
 }
 
-@mixin submit-btn-style {
+.submit-btn-style {
   min-width: 270px;
   min-height: 50px;
   margin-bottom: 1.3rem;
@@ -46,9 +50,21 @@
   background: none;
   border: 2px solid $gray;
   border-radius: 3px;
+
+  &::placeholder {
+    color: $white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 }
 
-@mixin download-btn {
+.download-btn {
   padding: 16px 40px;
   color: $white;
   text-transform: capitalize;
