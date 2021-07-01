@@ -11,14 +11,14 @@
 // }
 
 @import "general/variables.scss";
-// @import "general/general.scss";
-// @import "modules/nav.scss";
+@import "general/general.scss";
+@import "modules/nav.scss";
 @import "modules/buttons.scss";
 @import "modules/footer.scss";
 
-* {
-  box-sizing: border-box;
-}
+// * {
+//   box-sizing: border-box;
+// }
 
 // html {
 //   @include general-project-style;
@@ -52,9 +52,9 @@
 //   @include font18;
 // }
 
-.btn {
-  @include btn;
-}
+// .btn {
+//   @include btn;
+// }
 
 // .content {
 //   @include content-container;
@@ -67,7 +67,7 @@
 
   background-image: url("../images/MortenHarket.png");
 
-  @include bg-img;
+  // @include bg-img;
 }
 
 // .nav-style {
@@ -401,7 +401,7 @@
     margin-bottom: 25px;
     padding-right: 0;
 
-    @include small-text;
+    // @include small-text;
   }
 
   section:nth-child(3),

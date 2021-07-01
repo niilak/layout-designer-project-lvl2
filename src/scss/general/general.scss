@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -107,24 +109,25 @@ body {
 //   line-height: 150%;
 // }
 
-@mixin bg-img {
+.bg-img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100%;
 }
 
-// remove bg img style
-@mixin bg-img-style {
-  height: 100%;
-  // border-radius: 1rem;
-}
+// // remove bg img style
+// @mixin   {
+//   height: 100%;
+//   // border-radius: 1rem;
+// }
 
 @mixin mr($mr) {
   margin-right: $mr;
 }
 
 // ostavi mixin
-@mixin main-wrapper {
+.main-wrapper {
   display: flex;
   justify-content: center;
   padding: 200px 0;

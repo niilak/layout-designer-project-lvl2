@@ -10,11 +10,12 @@
 //   src: url("src/fonts/Roboto-Bold.ttf");
 // }
 
-// @import "general/variables.scss";
-// @import "general/general.scss";
-// @import "modules/nav.scss";
+@import "general/variables.scss";
+@import "general/general.scss";
+@import "modules/nav.scss";
 @import "modules/buttons.scss";
 @import "modules/footer.scss";
+@import "general/general.scss";
 
 // * {
 //   box-sizing: border-box;
@@ -62,9 +63,9 @@
 //   @include medium-text;
 // }
 
-.btn {
-  @include btn;
-}
+// .btn {
+//   @include btn;
+// }
 
 .main-section {
   // @include main-wrapper;
@@ -73,7 +74,7 @@
   height: 100%;
   background-image: url("../images/banner.png");
 
-  @include bg-img;
+  // @include bg-img;
 }
 
 // .logo {
@@ -175,10 +176,10 @@
   @include checkout-btn;
 }
 
-.bg-img-style {
-  @include bg-img;
-  @include bg-img-style;
-}
+// .  {
+//   @include bg-img;
+//   height: 100%;
+// }
 
 .bg-free {
   background-image: url("../images/subscribe_1.png");
@@ -495,7 +496,10 @@
       justify-content: center;
 
       h3 {
-        @include font16;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
       }
     }
   }

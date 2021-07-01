@@ -1,7 +1,9 @@
-@import "app.scss";
-@import "artist.scss";
-@import "general/utilities.scss";
+@import "general/variables.scss";
 @import "general/fonts.scss";
 @import "general/general.scss";
-@import "general/variables.scss";
+@import "general/utilities.scss";
 @import "modules/nav.scss";
+@import "modules/buttons.scss";
+@import "modules/footer.scss";
+@import "artist.scss";
+@import "app.scss";

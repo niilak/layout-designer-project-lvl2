@@ -1,4 +1,6 @@
-@mixin btn {
+@import "../general/variables.scss";
+
+.btn {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -64,5 +66,5 @@
   border: 0;
   border-radius: 5px;
 
-  @include small-text;
+  // @include small-text;
 }

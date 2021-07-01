@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  color: #e0e0e0;
+  font-size: 18px;
+  font-family: "Roboto-Regular", sans-serif;
+  line-height: 1.5;
+  background-color: #08020d;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.content {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 200px 0;
+}

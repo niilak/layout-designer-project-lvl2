@@ -1,8 +1,10 @@
-@import "variables.scss";
-
 .align-item-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mt48 {
@@ -42,6 +44,8 @@
 }
 
 .w-fit-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -82,7 +86,7 @@
 }
 
 .orange {
-  color: $orange;
+  color: #f89202;
 }
 
 .mr15 {
