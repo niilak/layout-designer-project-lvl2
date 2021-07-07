@@ -14,7 +14,6 @@ html {
 
 body {
   width: 100%;
-
   margin: 0;
 }
 
@@ -110,10 +109,10 @@ body {
 // }
 
 .bg-img {
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100%;
 }
 
 // // remove bg img style
