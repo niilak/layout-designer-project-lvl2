@@ -1,132 +1,34 @@
-// @font-face {
-//   font-weight: normal;
-//   font-family: "Roboto-Regular";
-//   src: url("src/fonts/Roboto-Regular.ttf");
+// .artist-main-section {
+//   background-image: url("../images/MortenHarket.png");
 // }
 
-// @font-face {
-//   font-weight: bold;
-//   font-family: "Roboto-Bold";
-//   src: url("src/fonts/Roboto-Bold.ttf");
+// .artist-main-section .content > div {
+//   padding-top: 50px;
+//   padding-bottom: 63px;
 // }
 
-// @import "general/variables.scss";
-// @import "general/general.scss";
-// @import "modules/nav.scss";
-// @import "modules/buttons.scss";
-// @import "modules/footer.scss";
-
-// * {
-//   box-sizing: border-box;
-// }
-
-// html {
-//   @include general-project-style;
-// }
-
-// body {
-//   width: 100%;
-
-//   @extend %no-margin;
-// }
-
-// h1 {
-//   @include desktop-h1;
-// }
-
-// h2 {
-//   @include desktop-h2;
-
-//   margin-top: 0;
-// }
-
-// .small-text {
-//   @include small-text;
-// }
-
-// .medium-text {
-//   @include medium-text;
-// }
-
-// .font18 {
-//   @include font18;
-// }
-
-// .btn {
-//   @include btn;
-// }
-
-// .content {
-//   @include content-container;
-// }
-
-.artist-main-section {
-  // @include main-wrapper;
-
-  // height: 751px;
-
-  background-image: url("../images/MortenHarket.png");
-
-  // @include bg-img;
-}
-
-// .nav-style {
-//   @include nav-bar-style;
-// }
-
-// .logo {
-//   @include logo;
-// }
-
-// .nav-links {
-//   @include nav-bar-links;
-// }
-
-// .nav-list {
+// .artisit-btns {
 //   display: flex;
-//   list-style-type: none;
-
-//   li {
-//     padding-left: 0;
-
-//     a:hover {
-//       color: $white;
-//       // font-size: 11.2px;
-//     }
-//   }
 // }
 
-// .search-input-style {
-//   @include search-input-style;
+// .purple-btn {
+//   margin-right: 1.5rem;
+//   background-color: $purple;
+
+//   @include artist-page-btn;
 // }
 
-.artist-main-section .content > div {
-  padding-top: 50px;
-  padding-bottom: 63px;
-}
+// .red-btn {
+//   background-color: $red;
 
-.artisit-btns {
-  display: flex;
-}
+//   @include artist-page-btn;
+// }
 
-.purple-btn {
-  margin-right: 1.5rem;
-  background-color: $purple;
-
-  @include artist-page-btn;
-}
-
-.red-btn {
-  background-color: $red;
-
-  @include artist-page-btn;
-}
-
-.svg {
-  width: 20px;
-  height: 20px;
-  margin-right: 16px;
-}
+// .svg {
+//   width: 20px;
+//   height: 20px;
+//   margin-right: 16px;
+// }
 
 .track-list {
   display: flex;
@@ -142,20 +44,6 @@
   width: 50%;
   padding-right: 50px;
 }
-
-// .discography-section,
-// .similar-section {
-//   padding-right: 20px;
-//   padding-left: 20px;
-// }
-
-// .pr20 {
-//   padding-right: 20px;
-// }
-
-// .pl20 {
-//   padding-left: 20px;
-// }
 
 .discography-list,
 .similar-artist-list {
@@ -180,208 +68,38 @@
   margin-bottom: 0;
 }
 
-.footer {
-  @include footer;
-}
-
-.footer-top {
-  @include footer-top;
-}
-
-.footer-links {
-  @include footer-links;
-
-  h2 {
-    margin-bottom: 16px;
-  }
-
-  p {
-    width: 100%;
-    margin: 2px 0;
-    padding: 2px 0;
-  }
-
-  ul {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-
-    li {
-      display: flex;
-      align-items: center;
-      padding: 2px 0;
-    }
-  }
-}
-
-.footer-links:last-child .footer-h2 {
-  margin-bottom: 11px;
-}
-
-.footer-links:nth-child(3) {
-  .footer-link:nth-child(3) {
-    height: auto;
-    padding: 0;
-  }
-}
-
-.footer-icon-style {
-  @include footer-icon-style;
-}
-
-.line {
-  @include line;
-}
-
-.footer-bottom {
-  @include footer-bottom;
-}
-
-.footer-link-bottom {
-  @include footer-link-bottom;
-}
-
-.footer-h2 {
-  @include footer-h2;
-}
-
-.footer-link {
-  @include footer-link;
-}
-
-// .wrapper {
-//   @include wrapper;
-// }
-
-// .mr24 {
-//   margin-right: 24px;
-// }
-
-// .ml24 {
-//   margin-left: 24px;
-// }
-
-// .mb25 {
-//   margin-bottom: 25px;
-// }
-
-// .mr16 {
-//   margin-right: 16px;
-// }
-
-// .mb48 {
-//   margin-bottom: 48px;
-// }
-
-// .mb0 {
-//   margin-bottom: 0;
-// }
-
-// .no-margin {
-//   margin: 0;
-// }
-
-// .text-center {
-//   text-align: center;
-// }
-
-// .w-fit-content {
-//   width: fit-content;
-// }
-
-// .align-item-center {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .mr15 {
-//   margin-right: 15px;
-// }
-
-// .font-h3 {
-//   margin: 0;
-//   font-size: 12.8px;
-//   line-height: 19.2px;
-//   text-transform: uppercase;
-// }
-
 @media screen and (max-width: 600px) {
-  // h1 {
-  //   @include mob-h1;
-  // }
-
-  // h2 {
-  //   @include mob-h2;
-  // }
-
   .content {
     width: 100%;
   }
 
-  .artist-main-section {
-    padding: 200px 20px;
+  // .artist-main-section {
+  //   padding: 200px 20px;
+  // }
 
-    // nav {
-    //   top: 20px;
-    //   flex-direction: column;
-    //   align-items: flex-start;
-    //   width: 100%;
-    //   padding: 0 20px;
-    // }
-  }
+  // .artist-main-section .content > div {
+  //   padding-top: 25px;
+  //   padding-bottom: 30px;
 
-  // nav {
-  //   .align-item-center {
-  //     flex-direction: column;
-  //     align-items: inherit;
+  //   p {
+  //     color: $white;
+  //     font-size: 16px;
   //   }
   // }
 
-  // .nav-list {
+  // .artisit-btns {
+  //   display: flex;
   //   flex-direction: column;
-  //   margin: 17px 0;
-  //   padding: 0;
-
-  //   li {
-  //     margin-right: 0;
-
-  //     a {
-  //       width: fit-content;
-  //       margin-right: 0;
-  //       margin-bottom: 1px;
-  //       text-align: start;
-  //     }
-  //   }
   // }
 
-  // .search-input-style {
-  //   width: 100%;
+  // .purple-btn {
+  //   margin-bottom: 24px;
   // }
 
-  .artist-main-section .content > div {
-    padding-top: 25px;
-    padding-bottom: 30px;
-
-    p {
-      color: $white;
-      font-size: 16px;
-    }
-  }
-
-  .artisit-btns {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .purple-btn {
-    margin-bottom: 24px;
-  }
-
-  .purple-btn,
-  .red-btn {
-    max-width: 200px;
-  }
+  // .purple-btn,
+  // .red-btn {
+  //   max-width: 200px;
+  // }
 
   section:nth-child(2) {
     width: 100%;
@@ -401,8 +119,6 @@
     width: 100%;
     margin-bottom: 25px;
     padding-right: 0;
-
-    // @include small-text;
   }
 
   section:nth-child(3),
@@ -427,47 +143,7 @@
     }
   }
 
-  // .discography-info,
-  // .similar-info {
-  //   h3 {
-  //     letter-spacing: -0.9px;
-  //   }
-  // }
-
   .font18 {
     letter-spacing: -0.9px;
-  }
-
-  .footer {
-    padding: 0 20px;
-  }
-
-  .footer-top {
-    display: flex;
-    flex-direction: column;
-    padding-right: 0;
-    padding-bottom: 44px;
-
-    .footer-links:nth-child(4) {
-      margin-top: 4px;
-    }
-  }
-
-  .footer-links {
-    width: 100%;
-    margin-bottom: 30px;
-    margin-left: 0%;
-  }
-
-  .footer-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: unset;
-
-    a {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 16px;
-    }
   }
 }

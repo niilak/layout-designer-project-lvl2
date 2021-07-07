@@ -1,4 +1,4 @@
-@mixin footer-h2 {
+.footer-h2 {
   color: $white;
   font-weight: bold;
   font-size: 18px;
@@ -6,13 +6,13 @@
   text-transform: uppercase;
 }
 
-@mixin footer-links {
-  display: flex;
-  flex-direction: column;
-  width: 270px;
-}
+// .footer-links {
+//   display: flex;
+//   flex-direction: column;
+//   width: 270px;
+// }
 
-@mixin footer-link {
+.footer-link {
   width: fit-content;
   height: 20px;
   color: $gray;
@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 
-@mixin footer-link-bottom {
+.footer-link-bottom {
   color: $gray;
   font-weight: normal;
   font-size: 16px;
@@ -30,14 +30,14 @@
   text-decoration: none;
 }
 
-@mixin footer {
+.footer {
   width: 100%;
   margin-top: 100px;
 
   @extend %bg-gradient;
 }
 
-@mixin footer-top {
+.footer-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -45,21 +45,21 @@
   padding-bottom: 74px;
 }
 
-@mixin footer-bottom {
+.footer-bottom {
   display: flex;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 48px;
 }
 
-@mixin footer-icon-style {
+.footer-icon-style {
   display: inline;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-@mixin line {
+.line {
   position: absolute;
   left: 0;
   width: 100%;
@@ -69,4 +69,81 @@
 
 %bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.footer-links {
+  // .footer-links {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  // }
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  p {
+    width: 100%;
+    margin: 2px 0;
+    padding: 2px 0;
+  }
+
+  ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 2px 0;
+    }
+  }
+}
+
+.footer-links:last-child .footer-h2 {
+  margin-bottom: 11px;
+}
+
+.footer-links:nth-child(3) {
+  .footer-link:nth-child(3) {
+    height: auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 0 20px;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    padding-bottom: 44px;
+
+    .footer-links:nth-child(4) {
+      margin-top: 4px;
+    }
+  }
+
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0%;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+
+    a {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
 }
