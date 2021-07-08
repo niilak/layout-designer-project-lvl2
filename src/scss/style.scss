@@ -2,10 +2,15 @@
 @import "general/fonts.scss";
 @import "general/general.scss";
 @import "general/utilities.scss";
+@import "modules/buttons.scss";
 @import "modules/nav.scss";
 @import "modules/main-section";
+@import "modules/pricing-section";
+@import "modules/news-section";
+@import "modules/app-section";
 @import "modules/artist-main-section";
-@import "modules/buttons.scss";
+@import "modules/popular-track-section";
+@import "modules/discography&similar-section";
 @import "modules/footer.scss";
-@import "artist.scss";
-@import "app.scss";
+// @import "artist.scss";
+// @import "app.scss";

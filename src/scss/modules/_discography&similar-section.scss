@@ -1,0 +1,50 @@
+.discography-list,
+.similar-artist-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.discography-item,
+.similar-item {
+  margin-right: 48px;
+  margin-bottom: 25px;
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.discography-info,
+.similar-info {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  section:nth-child(3),
+  section:nth-child(4) {
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 100px;
+  }
+
+  .discography-list,
+  .similar-artist-list {
+    justify-content: space-between;
+  }
+
+  .discography-item,
+  .similar-item {
+    max-width: 137px;
+
+    img {
+      width: 137px;
+      height: 137px;
+    }
+  }
+
+  .font18 {
+    letter-spacing: -0.9px;
+  }
+}

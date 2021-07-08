@@ -1,0 +1,33 @@
+.app-item {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    margin-right: 136px;
+    margin-left: 164px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper:nth-child(4) {
+    width: 100%;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+
+    .app-item {
+      flex-direction: column-reverse;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .app-item > div {
+    p:nth-child(1) {
+      height: 96px;
+      // line-height: 19px;
+    }
+  }
+}

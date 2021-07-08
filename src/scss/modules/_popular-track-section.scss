@@ -1,0 +1,36 @@
+.track-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.popular-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  section:nth-child(2) {
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 100px;
+  }
+
+  .track-list {
+    padding-top: 48px;
+  }
+
+  .track-list .popular-track:nth-child(6) {
+    margin-bottom: 0;
+  }
+
+  .popular-track {
+    width: 100%;
+    margin-bottom: 25px;
+    padding-right: 0;
+  }
+}
