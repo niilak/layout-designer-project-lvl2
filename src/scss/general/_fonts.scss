@@ -1,13 +1,13 @@
 @font-face {
   font-weight: normal;
   font-family: "Roboto-Regular";
-  src: url("src/fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-weight: bold;
   font-family: "Roboto-Bold";
-  src: url("src/fonts/Roboto-Bold.ttf");
+  src: url("../fonts/Roboto-Bold.ttf");
 }
 
 h1 {
@@ -43,21 +43,21 @@ h2 {
   }
 }
 
-.font30 {
+.font-30 {
   font-weight: normal;
   font-size: 30px;
   line-height: 45px;
   text-transform: capitalize;
 }
 
-.font24 {
+.font-24 {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   text-transform: uppercase;
 }
 
-.font32 {
+.font-32 {
   font-weight: normal;
   font-size: 32px;
   line-height: 150%;
@@ -76,7 +76,7 @@ h2 {
   line-height: 15px;
 }
 
-.font18 {
+.font-18 {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -100,4 +100,8 @@ h2 {
   font-size: 12.8px;
   line-height: 19.2px;
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }

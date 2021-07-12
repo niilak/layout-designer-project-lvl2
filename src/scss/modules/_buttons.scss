@@ -11,8 +11,7 @@
   background: $green;
   border: 0;
   border-radius: 5px;
-
-  @extend %pointer;
+  cursor: pointer;
 
   @media screen and (max-width: 600px) {
     width: 100%;
@@ -25,8 +24,7 @@
   background: none;
   border: 1px solid $white;
   border-radius: 5px;
-
-  @extend %pointer;
+  cursor: pointer;
 }
 
 .to-album-btn {
@@ -35,8 +33,7 @@
   color: $gray;
   border: 1px solid $gray;
   border-radius: 5px;
-
-  @extend %pointer;
+  cursor: pointer;
 }
 
 .submit-btn-style {
@@ -69,14 +66,5 @@
   background-color: $red;
   border: 0;
   border-radius: 32px;
-
-  @extend %pointer;
+  cursor: pointer;
 }
-
-// @mixin artist-page-btn {
-//   min-width: 200px;
-//   padding: 20px 30px;
-//   color: $white;
-//   border: 0;
-//   border-radius: 5px;
-// }
