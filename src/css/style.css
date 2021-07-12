@@ -863,17 +863,25 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .discography-item,
   .similar-item {
     max-width: 137px;
   }
-  .discography-item img,
+  .similar-item:last-child, .similar-item:nth-child(7) {
+    margin-bottom: 0;
+  }
   .similar-item img {
     width: 137px;
     height: 137px;
   }
-  .font-18 {
-    letter-spacing: -0.9px;
+  .discography-item {
+    max-width: 137px;
+  }
+  .discography-item:last-child, .discography-item:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .discography-item img {
+    width: 137px;
+    height: 137px;
   }
 }
 
