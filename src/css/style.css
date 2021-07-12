@@ -122,7 +122,7 @@ body {
 }
 
 .content {
-  max-width: 1200px;
+  width: 1200px;
   height: 100%;
   margin: 0 auto;
 }
@@ -134,7 +134,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1240px;
+  width: 1240px;
   margin: 0 auto;
   padding-top: 100px;
 }
@@ -183,10 +183,6 @@ body {
 
 .mr50 {
   margin-right: 50px;
-}
-
-.ml120 {
-  margin-left: 120px;
 }
 
 .no-margin {
