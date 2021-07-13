@@ -20,6 +20,11 @@ body {
   height: 100%;
   margin: 0 auto;
 
+  @media screen and (max-width: 1250px) {
+    width: unset;
+    max-width: 1200px;
+  }
+
   @media screen and (max-width: 600px) {
     width: 100%;
   }
@@ -29,6 +34,11 @@ body {
   width: 1240px;
   margin: 0 auto;
   padding-top: 100px;
+
+  @media screen and (max-width: 1250px) {
+    width: unset;
+    max-width: 1240px;
+  }
 }
 
 .bg-img {

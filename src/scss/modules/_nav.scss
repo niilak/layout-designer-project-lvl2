@@ -51,6 +51,16 @@
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .nav-style {
+    flex-wrap: wrap;
+
+    & .align-item-center {
+      flex-wrap: wrap;
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .nav-style {
     top: 16px;

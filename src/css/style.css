@@ -127,6 +127,13 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1250px) {
+  .content {
+    width: unset;
+    max-width: 1200px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .content {
     width: 100%;
@@ -137,6 +144,13 @@ body {
   width: 1240px;
   margin: 0 auto;
   padding-top: 100px;
+}
+
+@media screen and (max-width: 1250px) {
+  .wrapper {
+    width: unset;
+    max-width: 1240px;
+  }
 }
 
 .bg-img {
@@ -420,6 +434,17 @@ body {
 
 .nav-list li a:hover {
   color: #fff;
+}
+
+@media screen and (max-width: 1250px) {
+  .nav-style {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nav-style .align-item-center {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 600px) {
