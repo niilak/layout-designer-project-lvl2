@@ -6,7 +6,7 @@
 
 .pricing-item {
   position: relative;
-  width: 371px;
+  max-width: 371px;
   margin-top: 50px;
   padding: 0 1.5rem;
   border-radius: 1rem;
@@ -26,7 +26,7 @@
 }
 
 .pricing-footer {
-  height: 57px;
+  min-height: 57px;
   margin-top: 0;
 }
 
