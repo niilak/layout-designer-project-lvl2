@@ -756,6 +756,8 @@ body {
             flex-direction: column-reverse;
   }
   .wrapper:nth-child(4) .app-item img {
+    width: unset;
+    height: unset;
     margin: 0 auto;
   }
   .app-item > div p:nth-child(1) {
@@ -1090,6 +1092,7 @@ body {
             flex-direction: column;
     padding-right: 0;
     padding-bottom: 44px;
+    padding-left: 0;
   }
   .footer-top .footer-links:nth-child(4) {
     margin-top: 4px;
@@ -1110,6 +1113,7 @@ body {
     -webkit-box-align: unset;
         -ms-flex-align: unset;
             align-items: unset;
+    padding-left: 0;
   }
   .footer-bottom a {
     width: 100%;
