@@ -150,6 +150,8 @@ body {
   .wrapper {
     width: unset;
     max-width: 1240px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
@@ -437,13 +439,20 @@ body {
 }
 
 @media screen and (max-width: 1250px) {
+  .logo {
+    margin-right: 24px;
+  }
   .nav-style {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding: 0 7%;
   }
   .nav-style .align-item-center {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .nav-list {
+    padding: 0;
   }
 }
 
@@ -592,7 +601,13 @@ body {
   background-image: url("../images/subscribe_3.png");
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1250px) {
+  .pricing-item {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .pricing-items-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -606,6 +621,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: unset;
   }
   .pricing-items-row .pricing-item h3 {
     font-weight: 400;
@@ -628,6 +644,13 @@ body {
 .news-sec-img {
   width: 575px;
   height: 286px;
+}
+
+@media screen and (max-width: 1250px) {
+  .news-sec-img {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 .news-author {
@@ -709,6 +732,14 @@ body {
 .app-item img {
   margin-right: 136px;
   margin-left: 164px;
+}
+
+@media screen and (max-width: 1250px) {
+  .app-item img {
+    width: 50%;
+    height: 50%;
+    margin: 0 40px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1036,6 +1067,13 @@ body {
 .footer-links:nth-child(3) .footer-link:nth-child(3) {
   height: auto;
   padding: 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .footer-bottom,
+  .footer-top {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 600px) {

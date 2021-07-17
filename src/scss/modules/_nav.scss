@@ -52,12 +52,21 @@
 }
 
 @media screen and (max-width: 1250px) {
+  .logo {
+    margin-right: 24px;
+  }
+
   .nav-style {
     flex-wrap: wrap;
+    padding: 0 7%;
 
     & .align-item-center {
       flex-wrap: wrap;
     }
+  }
+
+  .nav-list {
+    padding: 0;
   }
 }
 

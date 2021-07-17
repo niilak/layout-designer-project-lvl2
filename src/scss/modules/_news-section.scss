@@ -9,6 +9,11 @@
 .news-sec-img {
   width: 575px;
   height: 286px;
+
+  @media screen and (max-width: 1250px) {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 .news-author {

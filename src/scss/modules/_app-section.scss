@@ -8,6 +8,14 @@
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .app-item img {
+    width: 50%;
+    height: 50%;
+    margin: 0 40px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .wrapper:nth-child(4) {
     width: 100%;
