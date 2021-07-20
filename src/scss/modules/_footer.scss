@@ -6,19 +6,12 @@
   text-transform: uppercase;
 }
 
-// .footer-links {
-//   display: flex;
-//   flex-direction: column;
-//   width: 270px;
-// }
-
 .footer-link {
   width: fit-content;
-  height: 20px;
+  min-height: 20px;
   color: $gray;
   font-size: 16px;
   line-height: 24px;
-  // line-height: 20px;
   text-decoration: none;
 }
 
@@ -72,11 +65,9 @@
 }
 
 .footer-links {
-  // .footer-links {
   display: flex;
   flex-direction: column;
-  width: 270px;
-  // }
+  min-width: 270px;
 
   h2 {
     margin-bottom: 16px;

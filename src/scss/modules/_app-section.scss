@@ -36,8 +36,7 @@
 
   .app-item > div {
     p:nth-child(1) {
-      height: 96px;
-      // line-height: 19px;
+      min-height: 96px;
     }
   }
 }
