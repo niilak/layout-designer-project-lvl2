@@ -959,7 +959,7 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  min-height: 20px;
+  max-height: 20px;
   color: #e0e0e0;
   font-size: 16px;
   line-height: 24px;
@@ -1032,7 +1032,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-width: 270px;
+  width: 270px;
 }
 
 .footer-links h2 {
