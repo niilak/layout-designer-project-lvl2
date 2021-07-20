@@ -966,6 +966,10 @@ body {
   text-decoration: none;
 }
 
+p.footer-link {
+  max-height: 24px;
+}
+
 .footer-link-bottom {
   color: #e0e0e0;
   font-weight: normal;
