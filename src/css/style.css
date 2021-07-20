@@ -730,8 +730,7 @@ body {
 }
 
 .app-item img {
-  margin-right: 136px;
-  margin-left: 164px;
+  margin: 0 136px 0 164px;
 }
 
 @media screen and (max-width: 1250px) {
