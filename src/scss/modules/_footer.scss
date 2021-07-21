@@ -38,15 +38,17 @@ p.footer-link {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 62px;
-  padding-bottom: 74px;
+  padding: 62px 0 74px 0;
+  // padding-top: 62px;
+  // padding-bottom: 74px;
 }
 
 .footer-bottom {
   display: flex;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 48px;
+  padding: 40px 0 48px 0;
+  // padding-top: 40px;
+  // padding-bottom: 48px;
 }
 
 .footer-icon-style {
