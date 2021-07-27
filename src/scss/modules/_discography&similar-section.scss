@@ -7,7 +7,6 @@
 .discography-item,
 .similar-item {
   margin-right: 48px;
-  margin-bottom: 25px;
 
   img {
     width: 250px;
@@ -21,12 +20,16 @@
   margin-bottom: 0;
 }
 
+.similar-item {
+  margin-bottom: 25px;
+}
+
 @media screen and (max-width: 600px) {
   section:nth-child(3),
   section:nth-child(4) {
     width: 100%;
     padding: 0 20px;
-    padding-top: 75px;
+    padding-top: 100px;
   }
 
   .discography-list,
