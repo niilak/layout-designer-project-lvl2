@@ -760,9 +760,6 @@ body {
     height: unset;
     margin: 0 auto;
   }
-  .app-item > div p:nth-child(1) {
-    min-height: 96px;
-  }
 }
 
 .artist-main-section {
