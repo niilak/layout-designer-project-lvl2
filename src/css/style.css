@@ -730,7 +730,8 @@ body {
 }
 
 .app-item img {
-  margin: 0 136px 0 164px;
+  margin-right: 164px;
+  margin-left: 136px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -795,12 +796,6 @@ body {
   color: #fff;
   border: 0;
   border-radius: 5px;
-}
-
-.svg {
-  width: 20px;
-  height: 20px;
-  margin-right: 16px;
 }
 
 @media screen and (max-width: 600px) {
