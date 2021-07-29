@@ -37,13 +37,9 @@
     justify-content: space-between;
   }
 
-  .similar-item {
+  .similar-item,
+  .discography-item {
     max-width: 137px;
-
-    // &:last-child,
-    // &:nth-child(7) {
-    //   margin-bottom: 0;
-    // }
 
     img {
       width: 137px;
@@ -54,20 +50,5 @@
   .discography-info,
   .similar-info {
     margin-top: 11px;
-  }
-
-  .discography-item {
-    max-width: 137px;
-
-    // maknucemo
-    // &:last-child,
-    // &:nth-child(5) {
-    //   margin-bottom: 0;
-    // }
-
-    img {
-      width: 137px;
-      height: 137px;
-    }
   }
 }
