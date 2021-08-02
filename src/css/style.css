@@ -742,8 +742,7 @@ body {
 }
 
 .app-item img {
-  margin-right: 164px;
-  margin-left: 136px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1250px) {
@@ -914,35 +913,24 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  section:nth-child(3),
-  section:nth-child(4) {
-    width: 100%;
-    padding: 0 20px;
-    padding-top: 100px;
-  }
   .discography-list,
   .similar-artist-list {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .similar-item {
+  .similar-item,
+  .discography-item {
     max-width: 137px;
   }
-  .similar-item img {
+  .similar-item img,
+  .discography-item img {
     width: 137px;
     height: 137px;
   }
   .discography-info,
   .similar-info {
     margin-top: 11px;
-  }
-  .discography-item {
-    max-width: 137px;
-  }
-  .discography-item img {
-    width: 137px;
-    height: 137px;
   }
 }
 
